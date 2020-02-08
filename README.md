@@ -18,7 +18,8 @@ $ hugo server -D
 
 ## Sources
 
-[Perseus Project - Heath](http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0086%3Avolume%3D1)
+[Heath - Perseus Project](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0086)
+- Source of the XML files that contain the book.
 
 [David Joyce's Euclid's Elements](https://mathcs.clarku.edu/~djoyce/java/elements/toc.html)
 
@@ -35,3 +36,6 @@ $ hugo server -D
 [Jonathan Crabtree on Multiplication](http://www.jonathancrabtree.com/euclid/elements_book_VII_definitions-PML.html) 
 
 [MS D'Orville 301](http://www.claymath.org/library/historical/euclid/)
+
+[J. L. Heiberg - Persues Project (Greek)](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0085)
+
