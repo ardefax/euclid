@@ -1,4 +1,9 @@
 // build extracts content from the Heath version
+//
+// TODO:
+//	Mapping onto better data types?
+//	Rewriting this is a yaml or JSON doc...
+//	Differentiating Propositions from Proof steps beyond book 1
 package main
 
 import (
@@ -41,7 +46,16 @@ func main() {
 			fmt.Printf("%#v\n", d)
 		}
 		for _, d := range vol.Text.Body.Divs {
-			fmt.Printf("%#v\n", d)
+			fmt.Printf("%#v\n", d.div)
+			for _, d2 := range d.Divs {
+				fmt.Printf("  %#v\n", d2.div)
+				for _, d3 := range d2.Divs {
+					fmt.Printf("    %s %#v\n", d3.ID, d3.div)
+					for _, d4 := range d3.Divs {
+						fmt.Printf("      %#v\n", d4.div)
+					}
+				}
+			}
 		}
 	}
 }
@@ -64,11 +78,35 @@ type Body struct {
 	Divs []Div1 `xml:"div1"`
 }
 
-type Div1 struct {
+// div are common values across Div# elements.
+type div struct {
 	N      string `xml:"n,attr"`
 	Type   string `xml:"type,attr"`
 	Org    string `xml:"org,attr"`
 	Sample string `xml:"sample,attr"`
+
+	Heads []string `xml:"head"`
+}
+
+type Div1 struct {
+	div
+	Divs []Div2 `xml:"div2"`
+}
+type Div2 struct {
+	div
+	Divs []Div3 `xml:"div3"`
+}
+type Div3 struct {
+	ID string `xml:"id,attr"`
+	div
+	Divs []Div4 `xml:"div4"`
+}
+// Looks like only book 1 uses the div4 structure to differentate between
+// the Proposition statement (type="Enunc") and the Proof steps (type="Proof")
+// although some of the later books propositions that nest div4 with (type="porism")
+// and (type="lemma")
+type Div4 struct {
+	div
 }
 
 func debug(format string, head interface{}, tail ...interface{}) {
