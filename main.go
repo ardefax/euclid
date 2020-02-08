@@ -1,17 +1,31 @@
-// build extracts content from the Heath version
+// euclid extracts content from the Heath version
 //
 // TODO:
-//	Rewriting this is a yaml or JSON doc...
+//  Carry forward the IDs better for references
+//  Cleaning up generated text
+//	- removing <head>
+//	- unwrapping <p> to distinct claim/proof steps
 //	Differentiating Propositions from Proof steps beyond book 1
+//	HTML-transforms
+//		<term> => <dfn>
+//		<emph> => <var>
+//		not sure what <pb>, <lb> imply
+//		handle [<ref>...</ref>]
+//		handle <hi>...</hi>
+//		handle <note>
+//		handle <figure>
 package main
 
 import (
+	"encoding/json"
 	"encoding/xml"
 	"flag"
 	"fmt"
 	"io/ioutil"
 	"log"
 	"os"
+	"path/filepath"
+	"strconv"
 )
 
 var (
@@ -29,6 +43,7 @@ func main() {
 		os.Exit(2)
 	}
 
+	books := make([]*Book, 0)
 	for _, arg := range flag.Args() {
 		debug("reading: %s", arg)
 		buf, err := ioutil.ReadFile(arg)
@@ -36,168 +51,160 @@ func main() {
 			log.Fatal(err)
 		}
 
+		// Decode the raw XML structure
 		var vol Volume
 		err = xml.Unmarshal(buf, &vol)
 		if err != nil {
 			log.Fatal(err)
 		}
 
+		// Transfrom to the more strucuted Book type.
 		for _, d1 := range vol.Text.Body.Divs {
-			debug("%#v\n", d1.div)
-			if d1.Type != "book" {
-				log.Fatal("invalid d1.type: %q (book)", d1.Type)
+			book := new(Book)
+			if err := book.parse(d1); err != nil {
+				log.Fatal(err)
 			}
+			books = append(books, book)
+		}
+	}
 
-			var bk Book
-			for _, d2 := range d1.Divs {
-				fmt.Printf("  %#v\n", d2.div)
-				if d2.Type != "type" {
-					log.Fatal("invalid d2.type: %q (book)", d1.Type)
-				}
+	for _, b := range books {
+		path := fmt.Sprintf(filepath.Join(*dir, "book%02d.json"), b.Num)
+		f, err := os.Create(path)
+		if err != nil {
+			log.Fatal(err)
+		}
 
-				switch d2.Type {
-				case "type":
-					switch d2.N {
-						// TODO Book X interleaves definitions and propostions
-						// in sections as `Def #` or `Prop #`
-						case "Def":
-							bk.Definitions = defs(d2)
-						case "Post":
-							bk.Postulates = posts(d2)
-						case "CN":
-							bk.CommonNotions = cns(d2)
-						case "Prop":
-							bk.Propositions = props(d2)
-						default:
-							log.Fatalf("invalid d2.N: %q (Def|Post|CN|Prop)", d2.N)
-					}
-				default:
-					log.Fatalf("invalid type: %q (type)", d2.Type)
-				}
-
-			}
+		enc := json.NewEncoder(f)
+		enc.SetEscapeHTML(false)
+		enc.SetIndent("", "  ")
+		debug("writing %s", path)
+		if err := enc.Encode(b); err != nil {
+			log.Fatal(err)
 		}
 	}
 }
 
-type Volume struct {
-	XMLName xml.Name `xml:"TEI.2"`
-	Text Text `xml:"text"`
-}
-
-type Text struct {
-	Front Front `xml:"front"`
-	Body Body `xml:"body"`
-}
-type Front struct {
-	Divs []Div1 `xml:"div1"`
-}
-type Body struct {
-	Divs []Div1 `xml:"div1"`
-}
-
-// div are common values across Div# elements.
-type div struct {
-	N      string `xml:"n,attr"`
-	Type   string `xml:"type,attr"`
-	Org    string `xml:"org,attr"`
-	Sample string `xml:"sample,attr"`
-
-	Heads []string `xml:"head"`
-}
-// raw exposes unprocessed XML data
-type raw struct {
-    Content []byte     `xml:",innerxml"`
-    Nodes   []Node     `xml:",any"`
-}
-type Div1 struct {
-	Divs []Div2 `xml:"div2"`
-	div
-}
-type Div2 struct {
-	Divs []Div3 `xml:"div3"`
-	div
-}
-type Div3 struct {
-	ID string `xml:"id,attr"`
-	Divs []Div4 `xml:"div4"`
-	div
-	raw
-}
-// Looks like only book 1 uses the div4 structure to differentate between
-// the Proposition statement (type="Enunc", e.g. Enunciation) and the Proof steps (type="Proof")
-// although some of the later books propositions that nest div4 with (type="porism")
-// and (type="lemma")
-type Div4 struct {
-	div
-	raw
-}
-
-// TODO Later books (e.g. X) interleave definitions and propositions
+// Book TODO Later books (e.g. X) interleave definitions and propositions
 type Book struct {
-	Definitions []Definition
-	Postulates []Postulate
-	CommonNotions []CommonNotion
-	Propositions []Proposition
+	Num int `json:"num"`
+
+	Definitions []Definition `json:"definitions"`
+	Postulates []Postulate `json:"postulates"`
+	CommonNotions []CommonNotion `json:"common_notions"`
+	Propositions []Proposition `json:"propositions"`
 }
 
-type Definition string
+func (b *Book) parse(d1 Div1) error {
+	debug("book: %#v\n", d1.div)
+	if d1.Type != "book" {
+		return fmt.Errorf("invalid d1.type: %q (book)", d1.Type)
+	}
+
+	n, err := strconv.Atoi(d1.N)
+	if err != nil {
+		return fmt.Errorf("invalid d1.N: %s", err)
+	}
+	b.Num = n
+
+	for _, d2 := range d1.Divs {
+		debug("  %#v\n", d2.div)
+		if d2.Type != "type" {
+			return fmt.Errorf("invalid d2.type: %q (book)", d1.Type)
+		}
+
+		switch d2.Type {
+		case "type":
+			switch d2.N {
+				// TODO Book X interleaves definitions and propostions
+				// in sections as `Def #` or `Prop #`
+				case "Def":
+					b.Definitions = defs(d2)
+				case "Post":
+					b.Postulates = posts(d2)
+				case "CN":
+					b.CommonNotions = cns(d2)
+				case "Prop":
+					b.Propositions = props(d2)
+				default:
+					return fmt.Errorf("invalid d2.N: %q (Def|Post|CN|Prop)", d2.N)
+			}
+		default:
+			return fmt.Errorf("invalid type: %q (type)", d2.Type)
+		}
+	}
+	return nil
+}
+
+// Definition TODO
+type Definition struct {
+	ID string `json:"id"`
+	Text string `json:"text"`
+}
+
 func defs(d2 Div2) []Definition {
 	a := make([]Definition, len(d2.Divs))
 	for i, d3 := range d2.Divs {
 		if d3.Type != "number" {
 			log.Fatalf("invalid d3.type: %q (number:definition)", d3.Type)
 		}
-		a[i] = Definition(d3.Content)
-		fmt.Println("d3:%s %s", d3.ID, a[i])
+		a[i] = Definition{d3.ID, string(d3.Content)}
+		debug("d3:%s %s", d3.ID, a[i].Text)
 	}
 	return a
 }
 
-type Postulate string
+// Postulate TODO
+type Postulate struct {
+	ID string `json:"id"`
+	Text string `json:"text"`
+}
+
 func posts(d2 Div2) []Postulate {
 	a := make([]Postulate, len(d2.Divs))
 	for i, d3 := range d2.Divs {
 		if d3.Type != "number" {
 			log.Fatalf("invalid d3.type: %q (number:postulate)", d3.Type)
 		}
-		a[i] = Postulate(d3.Content)
-		debug("d3:%s: %s", d3.ID, a[i])
+		a[i] = Postulate{d3.ID, string(d3.Content)}
+		debug("d3:%s: %s", d3.ID, a[i].Text)
 	}
 	return a
 }
 
-type CommonNotion string
+// CommonNotion TODO
+type CommonNotion struct {
+	ID string `json:"id"`
+	Text string `json:"text"`
+}
 func cns(d2 Div2) []CommonNotion {
 	a := make([]CommonNotion, len(d2.Divs))
 	for i, d3 := range d2.Divs {
 		if d3.Type != "number" {
 			log.Fatalf("invalid d3.type: %q (number:common-notion)", d3.Type)
 		}
-		a[i] = CommonNotion(d3.Content)
-		debug("d3:%s: %s", d3.ID, a[i])
+		a[i] = CommonNotion{d3.ID, string(d3.Content)}
+		debug("d3:%s: %s", d3.ID, a[i].Text)
 	}
 	return a
 }
 
+// Proposition TODO
 type Proposition struct {
-	Claim string // TODO Enunciation?
-	// TODO Construction, etc.
-	Proof string // TODO Steps
-
-	// TODO For tne non-div4 cases can we use the p tags?
-	Raw string
+	ID string `json:"id"`
+	Claim string `json:"claim,omitempty"`// TODO Enunciation?
+	Proof string `json:"proof,omitempty"`// TODO Discrete Steps
+	Text string `json:"text,omitempty"`// TODO For tne non-div4 cases can we use the p tags?
 }
 func props(d2 Div2) []Proposition {
 	a := make([]Proposition, len(d2.Divs))
 	for i, d3 := range d2.Divs {
-		var prop Proposition
-
 		// TODO Book II also uses type="proposition"
 		if d3.Type != "number" && d3.Type != "proposition" {
 			log.Fatalf("invalid d3.type: %q (number:proposition)", d3.Type)
 		}
 
+		prop := Proposition{ID: d3.ID}
 		for _, d4 := range d3.Divs {
 			switch d4.Type {
 			case "Enunc":
@@ -213,8 +220,8 @@ func props(d2 Div2) []Proposition {
 
 		if prop.Proof == "" {
 			// TODO Can we assume d3.Nodes[0] as Claim and d3.Nodes[1:] as Proof?
-			prop.Raw = string(d3.Content)
-			debug("d3:%s:raw %s", d3.ID, prop.Raw)
+			prop.Text = string(d3.Content)
+			debug("d3:%s:raw %s", d3.ID, prop.Text)
 		} else {
 			debug("d3:%s:claim %s\n", d3.ID, prop.Claim)
 			debug("d3:%s:proof %s\n", d3.ID, prop.Proof)
