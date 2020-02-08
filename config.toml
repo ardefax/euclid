@@ -2,3 +2,6 @@ baseURL = "https://euclid.ardefax.org"
 languageCode = "en-us"
 title = "Euclid"
 disableKinds = ["taxonomyTerm"]
+
+[markup.goldmark.renderer]
+unsafe = true
