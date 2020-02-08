@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI.2><text>
+  <front><milestone n="1" unit="volume" />
+   <div1 n="1" type="chapter" org="uniform" sample="complete">
+    <pb n="1" />
+    <head>CHAPTER I.</head>
+    <head>EUCLID AND THE TRADITIONS ABOUT HIM.</head>
+    <p>As in the case of the other great mathematicians of Greece, so in Euclid's case, we have only the most meagre particulars of the life and personality of the man. </p>
+    <p>...</p>
+   </div1>
+   <div1 n="2" type="chapter" org="uniform" sample="complete">
+    <pb n="7" />
+    <head>CHAPTER II.</head>
+    <head>EUCLID'S OTHER WORKS.</head>
+    <p>In giving a list of the Euclidean treatises other than the <title>Elements</title>, I shall be brief: for fuller accounts of them, or speculations with regard to them, reference should be made to the standard histories of mathematics<note n="1" place="unspecified" anchored="yes">See, for example, Loria, <title>Le scienze esatte nell' antica Grecia</title>, 1914, pp. 245-268; 1. L. Heath, <title>History of Greek Mathematics</title>, 1921, I. pp. 421-446. Cf. Heiberg, <title>Litterargeschichtliche Studien über Euklid</title>, pp. 36-153; <title>Euclidis opera omnia</title>, ed. Heiberg and Menge, Vols. VI.—VIII.</note>.</p>
+    <p>...</p>
+   </div1>
+  </front>
+
+  <body>
+   <div1 n="1" type="book" org="uniform" sample="complete">
+    <pb n="153" />
+    <head>BOOK I.</head>
+
+    <div2 n="Def" type="type" org="uniform" sample="complete">
+     <head>DEFINITIONS.</head>
+     <div3 id="elem.1.def.1" n="1" type="number" org="uniform" sample="complete">
+      <head>1</head>
+      <p>A <term>point</term> is that which has no part.</p>
+     </div3>
+     <div3 id="elem.1.def.2" n="2" type="number" org="uniform" sample="complete">
+      <head>2</head>
+      <p>A <term>line</term> is breadthless length.</p>
+     </div3>
+     ...
+    </div2>
+
+    <div2 n="Post" type="type" org="uniform" sample="complete">
+     <head>POSTULATES.</head>
+     <div3 id="elem.1.post.1" n="1" type="number" org="uniform" sample="complete">
+      <head>1</head>
+      <p>Let the following be postulated:</p>
+      <p>To draw a straight line from any point to any point.</p>
+     </div3>
+     ...
+    </div2>
+
+    <div2 n="CN" type="type" org="uniform" sample="complete">
+     <head>COMMON NOTIONS.</head>
+     <div3 id="elem.1.c.n.1" n="1" type="number" org="uniform" sample="complete">
+      <head>1</head>
+      <p>Things which are equal to the same thing are also equal to one another.</p>
+     </div3>
+     ...
+    </div2>
+
+
+    <div2 n="Prop" type="type" org="uniform" sample="complete">
+     <pb n="241" />
+     <head>BOOK I. PROPOSITIONS.</head>
+     <div3 id="elem.1.1" n="1" type="number" org="uniform" sample="complete">
+      <head>Proposition 1.</head>
+      <div4 type="Enunc" org="uniform" sample="complete">
+       <p>On a given finite straight line to construct an equilateral triangle.</p>
+      </div4>
+      <div4 type="Proof" org="uniform" sample="complete">
+       <p>Let <emph>AB</emph> be the given finite straight line.</p>
+       <p>Thus it is required to construct<lb n="5" /> an equilateral triangle on the straight line <emph>AB</emph>. <figure /></p>
+       <p>With centre <emph>A</emph> and distance <emph>AB</emph> let the circle <emph>BCD</emph> be described; [<ref target="elem.1.post.3" targOrder="U">Post. 3</ref>] <lb n="10" />again, with centre <emph>B</emph> and distance <emph>BA</emph> let the circle <emph>ACE</emph> be described; [<ref target="elem.1.post.3" targOrder="U">Post. 3</ref>] and from the point <emph>C</emph>, in which the circles cut one another, to the points <emph>A</emph>, <emph>B</emph> let the straight lines <emph>CA</emph>, <emph>CB</emph> be joined. [<ref target="elem.1.post.1" targOrder="U">Post. 1</ref>] <lb n="15" /></p>
+       <p>Now, since the point <emph>A</emph> is the centre of the circle <emph>CDB</emph>, <hi rend="center"><emph>AC</emph> is equal to <emph>AB</emph>. [<ref target="elem.1.def.15" targOrder="U">Def. 15</ref>]</hi></p>
+       <p>Again, since the point <emph>B</emph> is the centre of the circle <emph>CAE</emph>, <hi rend="center"><emph>BC</emph> is equal to <emph>BA</emph>. [<ref target="elem.1.def.15" targOrder="U">Def. 15</ref>]</hi></p>
+       <p>But <emph>CA</emph> was also proved equal to <emph>AB</emph>; <lb n="20" />therefore each of the straight lines <emph>CA</emph>, <emph>CB</emph> is equal to <emph>AB</emph>.</p>
+       <p>And things which are equal to the same thing are also equal to one another; [<ref target="elem.1.c.n.1" targOrder="U">C.N. 1</ref>] <hi rend="center">therefore <emph>CA</emph> is also equal to <emph>CB</emph>.</hi></p>
+       <p>Therefore the three straight lines <emph>CA</emph>, <emph>AB</emph>, <emph>BC</emph> are <lb n="25" />equal to one another. <pb n="242" /></p>
+       <p>Therefore the triangle <emph>ABC</emph> is equilateral; and it has been constructed on the given finite straight line <emph>AB</emph>.</p>
+      </div4>
+      <div4 type="QED" org="uniform" sample="complete">
+       <p>(Being) what it was required to do.</p>
+      </div4>
+      <note n="1. On a given finite straight line." type="crit" place="unspecified" anchored="yes">
+       <p>The Greek usage differs from ours in that the definite article is employed in such a phrase as this where we have the indefinite. <foreign lang="greek">ἐπὶ τῆς δοθείσης εὐθείας πεπερασμένης</foreign>, <quote>on <emph>the</emph> given finite straight line,</quote>
+ i.e. the finite straight line which we choose to take.</p>
+      </note>
+      <note n="3. Let AB be the given finite straight line." type="crit" place="unspecified" anchored="yes">
+       <p>To be strictly literal we should have to translate in the reverse order <quote>let the given finite straight line be the (straight line) <emph>AB</emph></quote>
+; but this order is inconvenient in other cases where there is more than one datum, e.g. in the <emph>setting-out</emph> of <ref target="elem.1.2" targOrder="U">I. 2</ref>, <quote>let the given point be <emph>A</emph>, and the given straight line <emph>BC</emph>,</quote>
+ the awkwardness arising from the omission of the verb in the second clause. Hence I have, for clearness' sake, adopted the other order throughout the book.</p>
+      </note>
+      <note n="8. let the circle BCD be described." type="crit" place="unspecified" anchored="yes">
+       <p>Two things are here to be noted, (1) the elegant and practically universal use of the perfect passive imperative in constructions, <foreign lang="greek">γεγράφθω</foreign> meaning of course <quote>let it <emph>have been</emph> described</quote>
+ or <quote>suppose it described,</quote>
+ (2) the impossibility of expressing shortly in a translation the force of the words in their original order. <foreign lang="greek">κύκλος γεγράφθω ὸ ΒΓΔ</foreign> means literally <quote>let a circle have been described, the (circle, namely, which I denote by) <emph>BCD</emph>.</quote>
+ Similarly we have lower down <quote>let straight lines, (namely) the (straight lines) <emph>CA</emph>, <emph>CB</emph>, be joined,</quote>
+ <foreign lang="greek">ἐπεζεύχθωσαν εὐθεῖαι αί ΓΑ, ΓΒ</foreign>. There seems to be no practicable alternative, in English, but to translate as I have done in the text.</p>
+      </note>
+      <note n="13. from the point C...." type="crit" place="unspecified" anchored="yes">
+       <p>Euclid is careful to adhere to the phraseology of <ref target="elem.1.post.1" targOrder="U">Postulate 1</ref> except that he speaks of <quote>joining</quote>
+ (<foreign lang="greek">ἐπεζεύχθωσαν</foreign>) instead of <quote>drawing</quote>
+ (<foreign lang="greek">γράφειν</foreign>). He does not allow himself to use the shortened expression <quote>let the straight line <emph>FC</emph> be joined</quote>
+ (without mention of the points <emph>F</emph>, <emph>C</emph>) until <ref target="elem.1.5" targOrder="U">I. 5</ref>.</p>
+      </note>
+      <note n="20. each of the straight lines CA, CB" type="crit" place="unspecified" anchored="yes">
+       <p>, <foreign lang="greek">ἑκατέρα τῶν ΓΑ, ΓΒ</foreign> and <hi rend="bold">24. the three straight</hi> lines CA, AB, BC, <foreign lang="greek">αἱ τρεῖς αἱ ΓΑ, ΑΒ, ΒΓ</foreign>. I have, here and in all similar expressions, inserted the words <quote>straight lines</quote>
+ which are not in the Greek. The possession of the inflected definite article enables the Greek to omit the words, but this is not possible in English, and it would scarcely be English to write <quote>each of <emph>CA</emph>, <emph>CB</emph></quote>
+ or <quote>the three <emph>CA</emph>, <emph>AB</emph>, <emph>BC</emph>.</quote>
+</p>
+      </note>
+     </div3>
+     ...
+    </div2>
+    ...
+   </div1>
+  </body>
+</text></TEI.2>
