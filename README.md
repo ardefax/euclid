@@ -39,3 +39,6 @@ $ hugo server -D
 
 [J. L. Heiberg - Persues Project (Greek)](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0085)
 
+[Archimedes Project](http://archimedes.fas.harvard.edu/)
+
+[An Introduction to the Works of Euclid With an Emphasis on the Elements By Donald Lancon, Jr.](https://www.obkb.com/dcljr/euclid.html)
