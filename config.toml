@@ -1,3 +1,4 @@
-baseURL = "https://ardefax.org/euclid"
+baseURL = "https://euclid.ardefax.org"
 languageCode = "en-us"
-title = "Euclid?"
+title = "Euclid"
+disableKinds = ["taxonomyTerm"]
