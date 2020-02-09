@@ -68,6 +68,9 @@ func main() {
 		}
 	}
 
+	if err := os.MkdirAll(*dir, 0755); err != nil {
+		log.Fatal(err)
+	}
 	for _, b := range books {
 		path := fmt.Sprintf(filepath.Join(*dir, "book%02d.json"), b.Num)
 		f, err := os.Create(path)
