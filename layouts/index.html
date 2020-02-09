@@ -1,8 +1,8 @@
 {{ partial "header" . }}
-  {{ range $k, $v := .Site.Data }}
-    {{ $k }} ===== {{ $v }} <br/>
-  {{ end }}
   <main>
-      {{ .Content }}
+  {{ .Content }}
+
+  {{ range $k, $v := .Site.Data.heath }}
+  {{ end }}
   </main>
 {{ partial "footer" . }}

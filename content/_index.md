@@ -4,7 +4,7 @@ title: "Euclid: The Elements"
 
 *An Interactive Translation (w/ straight-edge and compass)?*
 
-- [Book I](book01)
+- [Book 1](book01)
 - [Book 2](book02)
 - [Book 3](book03)
 - [Book 4](book04)
@@ -18,21 +18,3 @@ title: "Euclid: The Elements"
 - [Book 12](book12)
 - [Book 13](book13)
 
-## On Planar Geometry?
-
-* Definitions [23]
-* Postulates (Axioms?) [5]
-* Common Notions [5] (9 in greek?)
-* Propositions (48)
-
-Joyce | Byrne | ...
-
-Context: Joyce | Heath | ...
-
-<a id="definitions"/>
-
-### Definition 1
-
-A point is that which has no part
-
-Joyce | Byrne | ...
