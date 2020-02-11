@@ -2,39 +2,62 @@
 
 {{ $data := index .Site.Data.heath .File.ContentBaseName }}
 <main>
-  TODO Navigation
   <h1>Book {{ $data.num }}</h1>
 
   {{ with $data.definitions }}
-    <!-- <h2>Definitions</h2> -->
+  <section class="definition-list">
+    <h2>Definitions</h2>
     {{ range $i, $v := . }}
+      <section id="{{ $v.id }}" class="definition">
         <h3 id="{{ $v.id }}">Definition {{ add $i 1 }}</h3>
-        {{ $v.text }}
+        <p>{{ $v.text }}</p>
+      <section id="{{ $v.id }}">
     {{ end }}
+  </section>
   {{ end }}
 
   {{ with $data.postulates }}
-    <!-- <h2>Postulates</h2> -->
+  <section class="postulate-list">
+    <h2>Postulates</h2>
+    <!-- XXX: Need a better systeme for these -->
+	<p>Let the following be postulated:</p>
     {{ range $i, $v := . }}
+      <section id="{{ $v.id }}" class="postulate">
         <h3 id="{{ $v.id }}">Postulate {{ add $i 1 }}</h3>
-        {{ $v.text }}
+        <p>{{ $v.text }}</p>
+      </section>
     {{ end }}
+  </section>
   {{ end }}
 
   {{ with $data.common_notions }}
-    <!-- <h2>Common Notions</h2> -->
+  <section class="common-notion-list">
+    <h2>Common Notions</h2>
     {{ range $i, $v := . }}
-        <h3 id="{{ $v.id }}">Common Notion {{ add $i 1 }}</h3>
-        {{ $v.text }}
+      <section id="{{ $v.id }}" class="common-notion">
+        <h3>Common Notion {{ add $i 1 }}</h3>
+        <p>{{ $v.text }}</p>
+      </section>
     {{ end }}
+  </section>
   {{ end }}
 
   {{ with $data.propositions }}
-    <!-- <h2>Propositions</h2> -->
+  <section class="proposition-list">
+    <h2>Propositions</h2>
     {{ range $i, $v := . }}
-        <h3 id="{{ $v.id }}">Proposition {{ add $i 1 }}</h3>
-        {{ $v.claim }}
+      <section id="{{ $v.id }}" class="proposition">
+        <h3>Proposition {{ add $i 1 }}</h3>
+        <p><i>{{ $v.claim }}</i></p>
+        <!-- TODO Should these be steps, e.g. in an ordered list? -->
+        <ol>
+        {{ range $j, $p := $v.proof }}
+          <li>{{ $p }}</li>
+        {{ end }}
+        </ol>
+      <section id="{{ $v.id }}">
     {{ end }}
+  </section>
   {{ end }}
 </main>
 

@@ -5,9 +5,10 @@
 //	HTML-transforms
 //		<term> => <dfn>
 //		<emph> => <var>
-//		not sure what <pb>, <lb> imply
+///		<pb> probably 'page break' and can ignore
+//		<lb> probably 'line break' and can ignore
 //		handle [<ref>...</ref>]
-//		handle <hi>...</hi>
+//		handle <hi>...</hi> (what does rend-center?)
 //		handle <note>
 //		handle <figure>
 package main
@@ -150,6 +151,7 @@ func defs(d2 Div2) []Definition {
 		if len(d3.Paras) != 1 {
 			log.Fatalf("%s: wrong # of d3.paras: %d (1:definition)", d3.ID, len(d3.Paras))
 		}
+		// TODO Need to check for <terms> in the list
 		a[i] = Definition{d3.ID, string(d3.Paras[0].Content)}
 		debug("d3:%s %s", d3.ID, a[i].Text)
 	}
@@ -170,10 +172,11 @@ func posts(d2 Div2) []Postulate {
 		}
 		content := string(d3.Paras[0].Content)
 		if len(d3.Paras) != 1 {
-			// TODO Book 1, Postulate 1 starts w/ "Let the following be postulated:"
+			// XXX: Book 1, Postulate 1 starts w/ "Let the following be postulated:"
+			// This was manually injected as part of the page layout for now :/
 			//log.Fatalf("%s: wrong # of d3.paras: %d (1:postulate)", d3.ID, len(d3.Paras))
 			fmt.Fprintf(os.Stderr, "warn: %s: wrong # of d3.paras: %d (1:postulate)\n", d3.ID, len(d3.Paras))
-			content += " " + string(d3.Paras[1].Content)
+			content = string(d3.Paras[1].Content)
 		}
 		a[i] = Postulate{d3.ID, content}
 		debug("d3:%s: %s", d3.ID, a[i].Text)
