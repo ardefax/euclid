@@ -2831,17 +2831,24 @@
       </note>
      </div3>
      <div3 id="elem.1.40" n="40" type="number" org="uniform" sample="complete">
-      <head>[Proposition 40.</head>
-      <p><emph>Equal triangles which are on equal bases and on the same side are also in the same parallels</emph>.</p>
-      <p>Let <emph>ABC</emph>, <emph>CDE</emph> be equal triangles on equal bases <emph>BC</emph>, <emph>CE</emph> and on the same side.</p>
-      <p>I say that they are also in the same parallels.</p>
-      <p>For let <emph>AD</emph> be joined; I say that <emph>AD</emph> is parallel to <emph>BE</emph>.</p>
-      <p>For, if not, let <emph>AF</emph> be drawn through <emph>A</emph> parallel to <emph>BE</emph> [<ref target="elem.1.31" targOrder="U">I. 31</ref>], and let <emph>FE</emph> be joined. <figure /></p>
-      <p>Therefore the triangle <emph>ABC</emph> is equal to the triangle <emph>FCE</emph>; for they are on equal bases <emph>BC</emph>, <emph>CE</emph> and in the same parallels <emph>BE</emph>, <emph>AF</emph>. [<ref target="elem.1.38" targOrder="U">I. 38</ref>]</p>
-      <p>But the triangle <emph>ABC</emph> is equal to the triangle <emph>DCE</emph>; <hi rend="center">therefore the triangle <emph>DCE</emph> is also equal to the triangle <emph>FCE</emph>, [<ref target="elem.1.c.n.1" targOrder="U">C.N. 1</ref>] the greater to the less: which is impossible. Therefore <emph>AF</emph> is not parallel to <emph>BE</emph>.</hi>
-       <pb n="338" /></p>
-      <p>Similarly we can prove that neither is any other straight line except <emph>AD</emph>; <hi rend="center">therefore <emph>AD</emph> is parallel to <emph>BE</emph>.</hi></p>
-      <p>Therefore etc. Q. E. D.]</p>
+      <head>Proposition 40.</head>
+      <div4 type="Enunc">
+       <p>Equal triangles which are on equal bases and on the same side are also in the same parallels.</p>
+      </div4>
+      <div4 type="Proof">
+       <p>Let <emph>ABC</emph>, <emph>CDE</emph> be equal triangles on equal bases <emph>BC</emph>, <emph>CE</emph> and on the same side.</p>
+       <p>I say that they are also in the same parallels.</p>
+       <p>For let <emph>AD</emph> be joined; I say that <emph>AD</emph> is parallel to <emph>BE</emph>.</p>
+       <p>For, if not, let <emph>AF</emph> be drawn through <emph>A</emph> parallel to <emph>BE</emph> [<ref target="elem.1.31" targOrder="U">I. 31</ref>], and let <emph>FE</emph> be joined. <figure /></p>
+       <p>Therefore the triangle <emph>ABC</emph> is equal to the triangle <emph>FCE</emph>; for they are on equal bases <emph>BC</emph>, <emph>CE</emph> and in the same parallels <emph>BE</emph>, <emph>AF</emph>. [<ref target="elem.1.38" targOrder="U">I. 38</ref>]</p>
+       <p>But the triangle <emph>ABC</emph> is equal to the triangle <emph>DCE</emph>; <hi rend="center">therefore the triangle <emph>DCE</emph> is also equal to the triangle <emph>FCE</emph>, [<ref target="elem.1.c.n.1" targOrder="U">C.N. 1</ref>] the greater to the less: which is impossible. Therefore <emph>AF</emph> is not parallel to <emph>BE</emph>.</hi>
+        <pb n="338" /></p>
+       <p>Similarly we can prove that neither is any other straight line except <emph>AD</emph>; <hi rend="center">therefore <emph>AD</emph> is parallel to <emph>BE</emph>.</hi></p>
+       <p>Therefore etc.</p>
+      </div4>
+      <div4 type="QED">
+       <p>Q. E. D.</p>
+      </div4>
      </div3>
      <div3 id="elem.1.41" n="41" type="number" org="uniform" sample="complete">
       <head>Proposition 41.</head>

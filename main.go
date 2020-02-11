@@ -1,10 +1,6 @@
 // euclid extracts content from the Heath version
 //
 // TODO:
-//  Carry forward the IDs better for references
-//  Cleaning up generated text
-//	- removing <head>
-//	- unwrapping <p> to distinct claim/proof steps
 //	Differentiating Propositions from Proof steps beyond book 1
 //	HTML-transforms
 //		<term> => <dfn>
