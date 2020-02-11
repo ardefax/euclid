@@ -3,14 +3,6 @@
 // TODO:
 //	Differentiating Propositions from Proof steps beyond book 1
 //	HTML-transforms
-//		<term> => <dfn>
-//		<emph> => <var>
-///		<pb> probably 'page break' and can ignore
-//		<lb> probably 'line break' and can ignore
-//		handle [<ref>...</ref>]
-//		handle <hi>...</hi> (what does rend-center?)
-//		handle <note>
-//		handle <figure>
 package main
 
 import (
@@ -22,6 +14,7 @@ import (
 	"log"
 	"os"
 	"path/filepath"
+	"regexp"
 	"strconv"
 )
 
@@ -152,7 +145,7 @@ func defs(d2 Div2) []Definition {
 			log.Fatalf("%s: wrong # of d3.paras: %d (1:definition)", d3.ID, len(d3.Paras))
 		}
 		// TODO Need to check for <terms> in the list
-		a[i] = Definition{d3.ID, string(d3.Paras[0].Content)}
+		a[i] = Definition{d3.ID, cleanPara(d3.Paras[0])}
 		debug("d3:%s %s", d3.ID, a[i].Text)
 	}
 	return a
@@ -170,13 +163,13 @@ func posts(d2 Div2) []Postulate {
 		if d3.Type != "number" {
 			log.Fatalf("%s: invalid d3.type: %q (number:postulate)", d3.ID, d3.Type)
 		}
-		content := string(d3.Paras[0].Content)
+		content := cleanPara(d3.Paras[0])
 		if len(d3.Paras) != 1 {
 			// XXX: Book 1, Postulate 1 starts w/ "Let the following be postulated:"
 			// This was manually injected as part of the page layout for now :/
 			//log.Fatalf("%s: wrong # of d3.paras: %d (1:postulate)", d3.ID, len(d3.Paras))
 			fmt.Fprintf(os.Stderr, "warn: %s: wrong # of d3.paras: %d (1:postulate)\n", d3.ID, len(d3.Paras))
-			content = string(d3.Paras[1].Content)
+			content = cleanPara(d3.Paras[1])
 		}
 		a[i] = Postulate{d3.ID, content}
 		debug("d3:%s: %s", d3.ID, a[i].Text)
@@ -198,7 +191,7 @@ func cns(d2 Div2) []CommonNotion {
 		if len(d3.Paras) != 1 {
 			log.Fatalf("%s: wrong # of d3.paras: %d (1:common-notion)", d3.ID, len(d3.Paras))
 		}
-		a[i] = CommonNotion{d3.ID, string(d3.Paras[0].Content)}
+		a[i] = CommonNotion{d3.ID, cleanPara(d3.Paras[0])}
 		debug("d3:%s: %s", d3.ID, a[i].Text)
 	}
 	return a
@@ -209,7 +202,9 @@ type Proposition struct {
 	ID string `json:"id"`
 	Claim string `json:"claim,omitempty"`// TODO Enunciation?
 	Proof []string `json:"proof,omitempty"`
-	Text string `json:"text,omitempty"`// TODO For tne non-div4 cases can we use the p tags?
+	QED string `json:"qed,omitempty"`
+	// TODO Remove
+	Text string `json:"text,omitempty"`
 }
 func props(d2 Div2) []Proposition {
 	a := make([]Proposition, len(d2.Divs))
@@ -226,23 +221,25 @@ func props(d2 Div2) []Proposition {
 				if len(d4.Paras) != 1 {
 					log.Fatalf("Expected 1 paragraph for the claim, not %d", len(d4.Paras))
 				}
-				prop.Claim = string(d4.Paras[0].Content)
+				prop.Claim = cleanPara(d4.Paras[0])
 			case "Proof":
 				if len(d4.Paras) < 2 {
 					log.Fatalf("Expected some steps for the proof, not %d", len(d4.Paras))
 				}
 				prop.Proof = make([]string, len(d4.Paras))
 				for j, p := range d4.Paras {
-					// TODO Generic way to unpack paragraphs and handle internal structure
-					prop.Proof[j] = string(p.Content)
+					prop.Proof[j] = cleanPara(p)
 				}
 			case "QED": // skip
+				if len(d4.Paras) != 1 {
+					log.Fatalf("Expected 1 paragraph for the QED, not %d", len(d4.Paras))
+				}
+				prop.QED = cleanPara(d4.Paras[0])
 			case "porism": // TODO
+			case "lemma": // TODO
 			default:
-				log.Fatalf("invalid d4.type: %q (Enunc|Proof|QED|porism)", d4.Type)
+				log.Fatalf("invalid d4.type: %q (Enunc|Proof|QED|porism|lemma)", d4.Type)
 			}
-			fmt.Println(d3.ID, d4.Paras)
-			fmt.Println(d3.ID, string(d4.Content))
 		}
 
 		if len(prop.Proof) == 0 {
@@ -257,6 +254,34 @@ func props(d2 Div2) []Proposition {
 	}
 	return a
 }
+
+
+// cleanPara is a bit of a regex kludge. It exists to transform embedded
+// tags in paragraphs from the source XML to something that is HTML-friendly.
+func cleanPara(p Node) string {
+	s := string(p.Content)
+	for _, repl := range repls {
+	  s = repl.re.ReplaceAllString(s, repl.target)
+	}
+	return s
+}
+
+var repls = []struct{
+  target string
+  re *regexp.Regexp
+} {
+	{ `<${1}dfn>`, regexp.MustCompile(`<(/?)term>`)},
+	{ `<${1}var>`, regexp.MustCompile(`<(/?)emph>`)},
+	// TODO Make these into superscripts of the preceding statement
+	{ `<a href="#$1">`, regexp.MustCompile(`<ref target="([a-z1-9.]+)" targOrder="U">`) },
+	{ `</a>`, regexp.MustCompile(`</ref>`) },
+	{ ``, regexp.MustCompile(`<figure />`) },
+	{ ``, regexp.MustCompile(`<(/?)hi( rend="center")?>`) },
+	{ ``, regexp.MustCompile(`<(/?)hi( rend="center")?>`) },
+	{ ``, regexp.MustCompile(`<[p|l]b n="\d+" />`) },
+	// TODO anything with <note>'s?
+}
+
 
 func debug(format string, head interface{}, tail ...interface{}) {
 	if !*verbose {

@@ -3,11 +3,11 @@
   "definitions": [
     {
       "id": "elem.2.def.1",
-      "text": "Any rectangular parallelogram is said to be <hi rend=\"bold\">contained</hi> by the two straight lines containing the right angle."
+      "text": "Any rectangular parallelogram is said to be <hi rend=\"bold\">contained by the two straight lines containing the right angle."
     },
     {
       "id": "elem.2.def.2",
-      "text": "And in any parallelogrammic area let any one whatever of the parallelograms about its diameter with the two complements be called a <hi rend=\"bold\">gnomon.</hi>"
+      "text": "And in any parallelogrammic area let any one whatever of the parallelograms about its diameter with the two complements be called a <hi rend=\"bold\">gnomon."
     }
   ],
   "postulates": null,

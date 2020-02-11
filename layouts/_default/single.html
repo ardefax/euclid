@@ -5,12 +5,13 @@
   <h1>Book {{ $data.num }}</h1>
 
   {{ with $data.definitions }}
+  <!-- TODO This could almost be a `dl` but it doesn't use `dt` and `dd` -->
   <section class="definition-list">
     <h2>Definitions</h2>
     {{ range $i, $v := . }}
       <section id="{{ $v.id }}" class="definition">
         <h3 id="{{ $v.id }}">Definition {{ add $i 1 }}</h3>
-        <p>{{ $v.text }}</p>
+        <p>{{ $v.text | safeHTML }}</p>
       <section id="{{ $v.id }}">
     {{ end }}
   </section>
@@ -24,7 +25,7 @@
     {{ range $i, $v := . }}
       <section id="{{ $v.id }}" class="postulate">
         <h3 id="{{ $v.id }}">Postulate {{ add $i 1 }}</h3>
-        <p>{{ $v.text }}</p>
+        <p>{{ $v.text | safeHTML }}</p>
       </section>
     {{ end }}
   </section>
@@ -36,7 +37,7 @@
     {{ range $i, $v := . }}
       <section id="{{ $v.id }}" class="common-notion">
         <h3>Common Notion {{ add $i 1 }}</h3>
-        <p>{{ $v.text }}</p>
+        <p>{{ $v.text | safeHTML }}</p>
       </section>
     {{ end }}
   </section>
@@ -49,13 +50,13 @@
       <section id="{{ $v.id }}" class="proposition">
         <h3>Proposition {{ add $i 1 }}</h3>
         <p><i>{{ $v.claim }}</i></p>
-        <!-- TODO Should these be steps, e.g. in an ordered list? -->
         <ol>
         {{ range $j, $p := $v.proof }}
-          <li>{{ $p }}</li>
+          <li>{{ $p | safeHTML }}</li>
         {{ end }}
         </ol>
-      <section id="{{ $v.id }}">
+        <b>{{ $v.qed }}</b>
+      </section>
     {{ end }}
   </section>
   {{ end }}
