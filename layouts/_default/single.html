@@ -6,34 +6,34 @@
   <h1>Book {{ $data.num }}</h1>
 
   {{ with $data.definitions }}
-    <h2>Definitions</h2>
+    <!-- <h2>Definitions</h2> -->
     {{ range $i, $v := . }}
         <h3 id="{{ $v.id }}">Definition {{ add $i 1 }}</h3>
-        {{ $v.text | safeHTML }}
+        {{ $v.text }}
     {{ end }}
   {{ end }}
 
   {{ with $data.postulates }}
-    <h2>Postulates</h2>
+    <!-- <h2>Postulates</h2> -->
     {{ range $i, $v := . }}
         <h3 id="{{ $v.id }}">Postulate {{ add $i 1 }}</h3>
-        {{ $v.text | safeHTML }}
+        {{ $v.text }}
     {{ end }}
   {{ end }}
 
   {{ with $data.common_notions }}
-    <h2>Common Notions</h2>
+    <!-- <h2>Common Notions</h2> -->
     {{ range $i, $v := . }}
         <h3 id="{{ $v.id }}">Common Notion {{ add $i 1 }}</h3>
-        {{ $v.text | safeHTML }}
+        {{ $v.text }}
     {{ end }}
   {{ end }}
 
   {{ with $data.propositions }}
-    <h2>Propositions</h2>
+    <!-- <h2>Propositions</h2> -->
     {{ range $i, $v := . }}
         <h3 id="{{ $v.id }}">Proposition {{ add $i 1 }}</h3>
-        {{ $v.claim | safeHTML }}
+        {{ $v.claim }}
     {{ end }}
   {{ end }}
 </main>

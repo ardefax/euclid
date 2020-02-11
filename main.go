@@ -151,7 +151,10 @@ func defs(d2 Div2) []Definition {
 		if d3.Type != "number" {
 			log.Fatalf("invalid d3.type: %q (number:definition)", d3.Type)
 		}
-		a[i] = Definition{d3.ID, string(d3.Content)}
+		if len(d3.Paras) != 1 {
+			log.Fatalf("%s: wrong # of d3.paras: %d (1:definition)", d3.ID, len(d3.Paras))
+		}
+		a[i] = Definition{d3.ID, string(d3.Paras[0].Content)}
 		debug("d3:%s %s", d3.ID, a[i].Text)
 	}
 	return a
@@ -167,9 +170,16 @@ func posts(d2 Div2) []Postulate {
 	a := make([]Postulate, len(d2.Divs))
 	for i, d3 := range d2.Divs {
 		if d3.Type != "number" {
-			log.Fatalf("invalid d3.type: %q (number:postulate)", d3.Type)
+			log.Fatalf("%s: invalid d3.type: %q (number:postulate)", d3.ID, d3.Type)
 		}
-		a[i] = Postulate{d3.ID, string(d3.Content)}
+		content := string(d3.Paras[0].Content)
+		if len(d3.Paras) != 1 {
+			// TODO Book 1, Postulate 1 starts w/ "Let the following be postulated:"
+			//log.Fatalf("%s: wrong # of d3.paras: %d (1:postulate)", d3.ID, len(d3.Paras))
+			fmt.Fprintf(os.Stderr, "warn: %s: wrong # of d3.paras: %d (1:postulate)\n", d3.ID, len(d3.Paras))
+			content += " " + string(d3.Paras[1].Content)
+		}
+		a[i] = Postulate{d3.ID, content}
 		debug("d3:%s: %s", d3.ID, a[i].Text)
 	}
 	return a
@@ -186,7 +196,10 @@ func cns(d2 Div2) []CommonNotion {
 		if d3.Type != "number" {
 			log.Fatalf("invalid d3.type: %q (number:common-notion)", d3.Type)
 		}
-		a[i] = CommonNotion{d3.ID, string(d3.Content)}
+		if len(d3.Paras) != 1 {
+			log.Fatalf("%s: wrong # of d3.paras: %d (1:common-notion)", d3.ID, len(d3.Paras))
+		}
+		a[i] = CommonNotion{d3.ID, string(d3.Paras[0].Content)}
 		debug("d3:%s: %s", d3.ID, a[i].Text)
 	}
 	return a
@@ -196,7 +209,7 @@ func cns(d2 Div2) []CommonNotion {
 type Proposition struct {
 	ID string `json:"id"`
 	Claim string `json:"claim,omitempty"`// TODO Enunciation?
-	Proof string `json:"proof,omitempty"`// TODO Discrete Steps
+	Proof []string `json:"proof,omitempty"`
 	Text string `json:"text,omitempty"`// TODO For tne non-div4 cases can we use the p tags?
 }
 func props(d2 Div2) []Proposition {
@@ -211,17 +224,29 @@ func props(d2 Div2) []Proposition {
 		for _, d4 := range d3.Divs {
 			switch d4.Type {
 			case "Enunc":
-				prop.Claim = string(d4.Content)
+				if len(d4.Paras) != 1 {
+					log.Fatalf("Expected 1 paragraph for the claim, not %d", len(d4.Paras))
+				}
+				prop.Claim = string(d4.Paras[0].Content)
 			case "Proof":
-				prop.Proof = string(d4.Content)
+				if len(d4.Paras) < 2 {
+					log.Fatalf("Expected some steps for the proof, not %d", len(d4.Paras))
+				}
+				prop.Proof = make([]string, len(d4.Paras))
+				for j, p := range d4.Paras {
+					// TODO Generic way to unpack paragraphs and handle internal structure
+					prop.Proof[j] = string(p.Content)
+				}
 			case "QED": // skip
 			case "porism": // TODO
 			default:
 				log.Fatalf("invalid d4.type: %q (Enunc|Proof|QED|porism)", d4.Type)
 			}
+			fmt.Println(d3.ID, d4.Paras)
+			fmt.Println(d3.ID, string(d4.Content))
 		}
 
-		if prop.Proof == "" {
+		if len(prop.Proof) == 0 {
 			// TODO Can we assume d3.Nodes[0] as Claim and d3.Nodes[1:] as Proof?
 			prop.Text = string(d3.Content)
 			debug("d3:%s:raw %s", d3.ID, prop.Text)

@@ -31,6 +31,7 @@ type div struct {
 	//TODO Sample string `xml:"sample,attr"`
 
 	//TODO Heads []string `xml:"head"`
+	Paras []Node `xml:"p"`
 }
 // raw exposes unprocessed XML data
 type raw struct {
@@ -90,4 +91,8 @@ func (n Node) Print(prefix string) {
 	for _, n := range n.Nodes {
 		n.Print(prefix + " ")
 	}
+}
+
+func (n Node) String() string {
+	return string(n.Content)
 }
