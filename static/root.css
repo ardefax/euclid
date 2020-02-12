@@ -1,11 +1,35 @@
-html {
+html, body {
   height: 100%;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
   font-family: Optima,Candara,Calibri,Segoe,Segoe UI
-
+}
+main {
+  margin: 0 40px;
+  flex: 1 0 auto;
+}
+header, footer {
+  text-align: center;
+  flex-shrink: 0;
+}
+header {
+  margin-top: 20px;
+}
+footer {
+  margin-bottom: 20px;
+}
+img {
+  max-width: 100%;
 }
 
-body {
-  margin: 15px 30px;
+h1 {
+  text-align: center;
+}
+p, ol, ul {
+  line-height: 1.4;
 }
 
 section.proposition {
@@ -22,31 +46,9 @@ section.qed {
   font-weight: bold;
   text-align: right;
 }
-
-p, ol {
-  line-height: 1.4;
-}
-li {
-  margin: 5px auto;
-}
-
-a.anchor {
+section a.anchor {
   text-decoration: none;
   margin-right: 5px;
-}
-
-header, footer {
-  text-align: center;
-}
-
-main {
-  margin: 20px 0;
-  /*max-width: 1000px;
-  margin: auto;*/
-}
-
-img {
-  max-width: 100%;
 }
 
 // TODO Explore white on black
