@@ -1,8 +1,12 @@
 {{ partial "header" . }}
   <main>
-  {{ .Content }}
+    {{ .Content }}
 
-  {{ range $k, $v := .Site.Data.heath }}
-  {{ end }}
+    <ul>
+    {{ range $k, $v := .Site.Data.heath }}
+      <li><a href="/{{ $k }}" >{{ $v.title }}</a></li>
+    {{ end }}
+    </ul>
+
   </main>
 {{ partial "footer" . }}

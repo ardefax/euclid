@@ -80,6 +80,7 @@ func main() {
 
 // Book TODO Later books (e.g. X) interleave definitions and propositions
 type Book struct {
+	Title string `json:"title"`
 	Num int `json:"num"`
 
 	Definitions []Definition `json:"definitions"`
@@ -99,6 +100,7 @@ func (b *Book) parse(d1 Div1) error {
 		return fmt.Errorf("invalid d1.N: %s", err)
 	}
 	b.Num = n
+	b.Title = fmt.Sprintf("Book %s", roman(n))
 
 	for _, d2 := range d1.Divs {
 		debug("  %#v\n", d2.div)
@@ -281,6 +283,27 @@ var repls = []struct{
 	{ ``, regexp.MustCompile(`<(/?)hi( rend="center")?>`) },
 	{ ``, regexp.MustCompile(`<[p|l]b n="\d+" />`) },
 	// TODO anything with <note>'s?
+}
+
+// roman is a terrible implementation of making roman numerals
+func roman(n int) string {
+	switch n {
+	case 1: return "I"
+	case 2: return "II"
+	case 3: return "III"
+	case 4: return "IV"
+	case 5: return "V"
+	case 6: return "VI"
+	case 7: return "VII"
+	case 8: return "VIII"
+	case 9: return "IX"
+	case 10: return "X"
+	case 11: return "XI"
+	case 12: return "XII"
+	case 13: return "XIII"
+	}
+	log.Fatalf("TODO: proper roman numerals %d", n)
+	return ""
 }
 
 func debug(format string, head interface{}, tail ...interface{}) {

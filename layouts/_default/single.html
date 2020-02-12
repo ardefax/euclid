@@ -1,10 +1,10 @@
 {{ partial "header" . }}
 
-{{ $data := index .Site.Data.heath .Params.data }}
+{{ $book := index .Site.Data.heath .Params.data }}
 <main>
-  <h1>Book {{ $data.num }}</h1>
+  <h1>{{ $book.title }}</h1>
 
-  {{ with $data.definitions }}
+  {{ with $book.definitions }}
   <!-- TODO This could almost be a `dl` but it doesn't use `dt` and `dd` -->
   <section class="definition-list">
     <h2>Definitions</h2>
@@ -17,7 +17,7 @@
   </section>
   {{ end }}
 
-  {{ with $data.postulates }}
+  {{ with $book.postulates }}
   <section class="postulate-list">
     <h2>Postulates</h2>
     <!-- XXX: Need a better systeme for these -->
@@ -31,7 +31,7 @@
   </section>
   {{ end }}
 
-  {{ with $data.common_notions }}
+  {{ with $book.common_notions }}
   <section class="common-notion-list">
     <h2>Common Notions</h2>
     {{ range $i, $v := . }}
@@ -43,7 +43,7 @@
   </section>
   {{ end }}
 
-  {{ with $data.propositions }}
+  {{ with $book.propositions }}
   <section class="proposition-list">
     <h2>Propositions</h2>
     {{ range $i, $v := . }}
