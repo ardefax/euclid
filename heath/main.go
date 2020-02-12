@@ -77,19 +77,16 @@ func main() {
 	}
 }
 
-// Book TODO Later books (e.g. X) interleave definitions and propositions
 type Book struct {
 	Title string `json:"title"`
 	Num int `json:"num"`
 	Sections []Section `json:"sections"`
 
-	// Concrete versions of what's in sections
-	// TODO Don't render the below or emit into the JSON?
-
-	Definitions []Definition `json:"definitions"`
-	Postulates []Postulate `json:"postulates"`
-	CommonNotions []CommonNotion `json:"common_notions"`
-	Propositions []Proposition `json:"propositions"`
+	// TODO Remove these now??
+	Definitions []Definition `json:"-"`
+	Postulates []Postulate `json:"-"`
+	CommonNotions []CommonNotion `json:"-"`
+	Propositions []Proposition `json:"-"`
 }
 
 // Section is a generic part of the book

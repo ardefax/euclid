@@ -8,60 +8,6 @@
     {{ partial "section" (dict "section" . "depth" 2) }}
   {{ end }}
 
-  {{ with $book.definitions }}
-  <!-- TODO This could almost be a `dl` but it doesn't use `dt` and `dd` -->
-  <section class="definition-list">
-    <h2>Definitions</h2>
-    {{ range $i, $v := . }}
-      <section id="{{ $v.id }}" class="definition">
-        <h3 id="{{ $v.id }}">Definition {{ add $i 1 }}</h3>
-        <p>{{ $v.text | safeHTML }}</p>
-      <section id="{{ $v.id }}">
-    {{ end }}
-  </section>
-  {{ end }}
-
-  {{ with $book.postulates }}
-  <section class="postulate-list">
-    <h2>Postulates</h2>
-    {{ range $i, $v := . }}
-      <section id="{{ $v.id }}" class="postulate">
-        <h3 id="{{ $v.id }}">Postulate {{ add $i 1 }}</h3>
-        <p>{{ $v.text | safeHTML }}</p>
-      </section>
-    {{ end }}
-  </section>
-  {{ end }}
-
-  {{ with $book.common_notions }}
-  <section class="common-notion-list">
-    <h2>Common Notions</h2>
-    {{ range $i, $v := . }}
-      <section id="{{ $v.id }}" class="common-notion">
-        <h3>Common Notion {{ add $i 1 }}</h3>
-        <p>{{ $v.text | safeHTML }}</p>
-      </section>
-    {{ end }}
-  </section>
-  {{ end }}
-
-  {{ with $book.propositions }}
-  <section class="proposition-list">
-    <h2>Propositions</h2>
-    {{ range $i, $v := . }}
-      <section id="{{ $v.id }}" class="proposition">
-        <h3>Proposition {{ add $i 1 }}</h3>
-        <p><i>{{ $v.claim }}</i></p>
-        <ol>
-        {{ range $j, $p := $v.proof }}
-          <li>{{ $p | safeHTML }}</li>
-        {{ end }}
-        </ol>
-        <b>{{ $v.qed }}</b>
-      </section>
-    {{ end }}
-  </section>
-  {{ end }}
 </main>
 
 {{ partial "footer" . }}
