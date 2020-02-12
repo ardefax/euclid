@@ -142,7 +142,8 @@ func defs(d2 Div2) []Definition {
 			log.Fatalf("invalid d3.type: %q (number:definition)", d3.Type)
 		}
 		if len(d3.Paras) != 1 {
-			log.Fatalf("%s: wrong # of d3.paras: %d (1:definition)", d3.ID, len(d3.Paras))
+			// TODO V.Def.17 has two paragraphs
+			fmt.Fprintf(os.Stderr, "warn: %s: wrong # of d3.paras: %d (1:definition)\n", d3.ID, len(d3.Paras))
 		}
 		// TODO Need to check for <terms> in the list
 		a[i] = Definition{d3.ID, cleanPara(d3.Paras[0])}
@@ -281,7 +282,6 @@ var repls = []struct{
 	{ ``, regexp.MustCompile(`<[p|l]b n="\d+" />`) },
 	// TODO anything with <note>'s?
 }
-
 
 func debug(format string, head interface{}, tail ...interface{}) {
 	if !*verbose {
