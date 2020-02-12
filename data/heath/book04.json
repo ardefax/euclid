@@ -5,13 +5,13 @@
     {
       "id": "",
       "kind": "list:definition",
-      "title": "",
+      "title": "Definitions",
       "text": null,
       "sections": [
         {
           "id": "elem.4.def.1",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 1",
           "text": [
             "A rectilineal figure is said to be <hi rend=\"bold\">inscribed in a rectilineal figure when the respective angles of the inscribed figure lie on the respective sides of that in which it is inscribed."
           ],
@@ -20,7 +20,7 @@
         {
           "id": "elem.4.def.2",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 2",
           "text": [
             "Similarly a figure is said to be <hi rend=\"bold\">circumscribed about a figure when the respective sides of the circumscribed figure pass through the respective angles of that about which it is circumscribed."
           ],
@@ -29,7 +29,7 @@
         {
           "id": "elem.4.def.3",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 3",
           "text": [
             "A rectilineal figure is said to be <hi rend=\"bold\">inscribed in a circle when each angle of the inscribed figure lies on the circumference of the circle."
           ],
@@ -38,7 +38,7 @@
         {
           "id": "elem.4.def.4",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 4",
           "text": [
             "A rectilineal figure is said to be <hi rend=\"bold\">circumscribed about a circle, when each side of the circumscribed figure touches the circumference of the circle."
           ],
@@ -47,7 +47,7 @@
         {
           "id": "elem.4.def.5",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 5",
           "text": [
             "Similarly a circle is said to be <hi rend=\"bold\">inscribed in a figure when the circumference of the circle touches each side of the figure in which it is inscribed."
           ],
@@ -56,7 +56,7 @@
         {
           "id": "elem.4.def.6",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 6",
           "text": [
             "A circle is said to be <hi rend=\"bold\">circumscribed about a figure when the circumference of the circle passes through each angle of the figure about which it is circumscribed."
           ],
@@ -65,7 +65,7 @@
         {
           "id": "elem.4.def.7",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 7",
           "text": [
             "A straight line is said to be <hi rend=\"bold\">fitted into a circle when its extremities are on the circumference of the circle."
           ],
@@ -76,118 +76,118 @@
     {
       "id": "",
       "kind": "list:proposition",
-      "title": "",
+      "title": "Propositions",
       "text": null,
       "sections": [
         {
           "id": "elem.4.1",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 1",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.4.2",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 2",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.4.3",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 3",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.4.4",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 4",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.4.5",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 5",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.4.6",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 6",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.4.7",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 7",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.4.8",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 8",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.4.9",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 9",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.4.10",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 10",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.4.11",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 11",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.4.12",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 12",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.4.13",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 13",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.4.14",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 14",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.4.15",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 15",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.4.16",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 16",
           "text": null,
           "sections": null
         }

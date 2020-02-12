@@ -4,6 +4,10 @@
 <main>
   <h1>{{ $book.title }}</h1>
 
+  {{ range $book.sections }}
+    {{ partial "section" (dict "section" . "depth" 2) }}
+  {{ end }}
+
   {{ with $book.definitions }}
   <!-- TODO This could almost be a `dl` but it doesn't use `dt` and `dd` -->
   <section class="definition-list">
@@ -20,8 +24,6 @@
   {{ with $book.postulates }}
   <section class="postulate-list">
     <h2>Postulates</h2>
-    <!-- XXX: Need a better systeme for these -->
-	<p>Let the following be postulated:</p>
     {{ range $i, $v := . }}
       <section id="{{ $v.id }}" class="postulate">
         <h3 id="{{ $v.id }}">Postulate {{ add $i 1 }}</h3>

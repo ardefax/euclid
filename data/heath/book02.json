@@ -5,13 +5,13 @@
     {
       "id": "",
       "kind": "list:definition",
-      "title": "",
+      "title": "Definitions",
       "text": null,
       "sections": [
         {
           "id": "elem.2.def.1",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 1",
           "text": [
             "Any rectangular parallelogram is said to be <hi rend=\"bold\">contained by the two straight lines containing the right angle."
           ],
@@ -20,7 +20,7 @@
         {
           "id": "elem.2.def.2",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 2",
           "text": [
             "And in any parallelogrammic area let any one whatever of the parallelograms about its diameter with the two complements be called a <hi rend=\"bold\">gnomon."
           ],
@@ -31,104 +31,104 @@
     {
       "id": "",
       "kind": "list:proposition",
-      "title": "",
+      "title": "Propositions",
       "text": null,
       "sections": [
         {
           "id": "elem.2.1",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 1",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.2.2",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 2",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.2.3",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 3",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.2.4",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 4",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.2.5",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 5",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.2.6",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 6",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.2.7",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 7",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.2.8",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 8",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.2.9",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 9",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.2.10",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 10",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.2.11",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 11",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.2.12",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 12",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.2.13",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 13",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.2.14",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 14",
           "text": null,
           "sections": null
         }

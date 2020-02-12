@@ -6,10 +6,26 @@ body {
   margin: 15px 30px;
 }
 
+section > h2
+section > h3
+section > h4 {
+}
+
+section.proposition {
+  margin-bottom: 30px
+}
+section.claim {
+  font-style: italic;
+}
+section.qed {
+  font-size: 13px;
+  font-weight: bold;
+  text-align: right;
+}
+
 p, ol {
   line-height: 1.4;
 }
-
 li {
   margin: 5px auto;
 }

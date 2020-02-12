@@ -2,7 +2,6 @@
 //
 // TODO:
 //	Differentiating Propositions from Proof steps beyond book 1
-//	HTML-transforms
 package main
 
 import (
@@ -179,9 +178,9 @@ type Definition struct {
 
 func parseDefs(d2 Div2) (Section, []Definition) {
 	s := Section{
-		// TODO ID
+		// TODO ID based on the book.num
 		Kind: "list:definition",
-		// TODO Title (TODO d2.Head???)
+		Title: "Definitions", // TODO d2.Head?
 		Sections: make([]Section, len(d2.Divs)),
 	}
 
@@ -199,7 +198,7 @@ func parseDefs(d2 Div2) (Section, []Definition) {
 		s.Sections[i] = Section{
 			ID: d3.ID,
 			Kind: "definition",
-			// TODO: Title
+			Title: fmt.Sprintf("Definition %d", i+1), // TODO: d3.head?
 			Text: []string{a[i].Text},
 		}
 		debug("d3:%s %s", d3.ID, a[i].Text)
@@ -217,7 +216,7 @@ func parsePosts(d2 Div2) (Section, []Postulate) {
 	s := Section{
 		// TODO ID
 		Kind: "list:postulate",
-		// TODO Title (TODO d2.Head???)
+		Title: "Postulates",
 		Sections: make([]Section, len(d2.Divs)),
 	}
 	a := make([]Postulate, len(d2.Divs))
@@ -239,7 +238,7 @@ func parsePosts(d2 Div2) (Section, []Postulate) {
 		s.Sections[i] = Section{
 			ID: d3.ID,
 			Kind: "postulate",
-			// TODO: Title
+			Title: fmt.Sprintf("Postulate %d", i+1),
 			Text: []string{content},
 		}
 		debug("d3:%s: %s", d3.ID, a[i].Text)
@@ -256,7 +255,7 @@ func parseCNs(d2 Div2) (Section, []CommonNotion) {
 	s := Section{
 		// TODO ID
 		Kind: "list:common-notion",
-		// TODO Title (TODO d2.Head???)
+		Title: "Common Notions",
 		Sections: make([]Section, len(d2.Divs)),
 	}
 	a := make([]CommonNotion, len(d2.Divs))
@@ -271,7 +270,7 @@ func parseCNs(d2 Div2) (Section, []CommonNotion) {
 		s.Sections[i] = Section{
 			ID: d3.ID,
 			Kind: "common-notion",
-			// TODO: Title
+			Title: fmt.Sprintf("Common Notion %d", i+1),
 			Text: []string{a[i].Text},
 		}
 		debug("d3:%s: %s", d3.ID, a[i].Text)
@@ -292,12 +291,12 @@ func parseProps(d2 Div2) (Section, []Proposition) {
 	s := Section{
 		// TODO ID
 		Kind: "list:proposition",
-		// TODO Title (TODO d2.Head???)
+		Title: "Propositions", // TODO d2.Head because of book X
 		Sections: make([]Section, len(d2.Divs)),
 	}
 	a := make([]Proposition, len(d2.Divs))
 	for i, d3 := range d2.Divs {
-		// TODO Book II also uses type="proposition"
+		// XXX Book II also uses type="proposition"
 		if d3.Type != "number" && d3.Type != "proposition" {
 			log.Fatalf("invalid d3.type: %q (number:proposition)", d3.Type)
 		}
@@ -306,10 +305,8 @@ func parseProps(d2 Div2) (Section, []Proposition) {
 		ss := Section{
 			ID: d3.ID,
 			Kind: "proposition",
-			// TODO: Title
-			// TODO Make use of Sections here instead?
+			Title: fmt.Sprintf("Proposition %d", i+1),
 		}
-
 		for _, d4 := range d3.Divs {
 			switch d4.Type {
 			case "Enunc":

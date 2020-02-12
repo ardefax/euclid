@@ -1,0 +1,10 @@
+<section id="{{ .section.id }}" class="{{ .section.kind }}">
+  {{ $d := .depth }}
+  {{ if .section.title }}<h{{ $d }}>{{ .section.title }}</h{{ $d }}>{{ end }}
+  {{ range .section.text }}
+    <p>{{ . | safeHTML }}</p>
+  {{ end }}
+  {{ range .section.sections }}
+    {{ partial "section" (dict "section" . "depth" (add $d 1)) }}
+  {{ end }}
+</section>

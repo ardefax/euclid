@@ -5,13 +5,13 @@
     {
       "id": "",
       "kind": "list:definition",
-      "title": "",
+      "title": "Definitions",
       "text": null,
       "sections": [
         {
           "id": "elem.7.def.1",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 1",
           "text": [
             "An <hi rend=\"bold\">unit is that by virtue of which each of the things that exist is called one."
           ],
@@ -20,7 +20,7 @@
         {
           "id": "elem.7.def.2",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 2",
           "text": [
             " A <hi rend=\"bold\">number is a multitude composed of units."
           ],
@@ -29,7 +29,7 @@
         {
           "id": "elem.7.def.3",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 3",
           "text": [
             " A number is <hi rend=\"bold\">a part of a number, the less of the greater, when it measures the greater;"
           ],
@@ -38,7 +38,7 @@
         {
           "id": "elem.7.def.4",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 4",
           "text": [
             " but <hi rend=\"bold\">parts when it does not measure it."
           ],
@@ -47,7 +47,7 @@
         {
           "id": "elem.7.def.5",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 5",
           "text": [
             " The greater number is a <hi rend=\"bold\">multiple of the less when it is measured by the less."
           ],
@@ -56,7 +56,7 @@
         {
           "id": "elem.7.def.6",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 6",
           "text": [
             " An <hi rend=\"bold\">even number is that which is divisible into two equal parts."
           ],
@@ -65,7 +65,7 @@
         {
           "id": "elem.7.def.7",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 7",
           "text": [
             " An <hi rend=\"bold\">odd number is that which is not divisible into two equal parts, or that which differs by an unit from an even number."
           ],
@@ -74,7 +74,7 @@
         {
           "id": "elem.7.def.8",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 8",
           "text": [
             " An <hi rend=\"bold\">even-times even number is that which is measured by an even number according to an even number."
           ],
@@ -83,7 +83,7 @@
         {
           "id": "elem.7.def.9",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 9",
           "text": [
             " An <hi rend=\"bold\">even-times odd number is that which is measured by an even number according to an odd number."
           ],
@@ -92,7 +92,7 @@
         {
           "id": "elem.7.def.10",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 10",
           "text": [
             " An <hi rend=\"bold\">odd-times odd number is that which is measured by an odd number according to an odd number."
           ],
@@ -101,7 +101,7 @@
         {
           "id": "elem.7.def.11",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 11",
           "text": [
             " A <hi rend=\"bold\">prime number is that which is measured by an unit alone."
           ],
@@ -110,7 +110,7 @@
         {
           "id": "elem.7.def.12",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 12",
           "text": [
             " Numbers <hi rend=\"bold\">prime to one another are those which are measured by an unit alone as a common measure."
           ],
@@ -119,7 +119,7 @@
         {
           "id": "elem.7.def.13",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 13",
           "text": [
             " A <hi rend=\"bold\">composite number is that which is measured by some number."
           ],
@@ -128,7 +128,7 @@
         {
           "id": "elem.7.def.14",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 14",
           "text": [
             " Numbers <hi rend=\"bold\">composite to one another are those which are measured by some number as a common measure."
           ],
@@ -137,7 +137,7 @@
         {
           "id": "elem.7.def.15",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 15",
           "text": [
             " A number is said to <hi rend=\"bold\">multiply a number when that which is multiplied is added to itself as many times as there are units in the other, and thus some number is produced."
           ],
@@ -146,7 +146,7 @@
         {
           "id": "elem.7.def.16",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 16",
           "text": [
             " And, when two numbers having multiplied one another make some number, the number so produced is called <hi rend=\"bold\">plane, and its <hi rend=\"bold\">sides are the numbers which have multiplied one another."
           ],
@@ -155,7 +155,7 @@
         {
           "id": "elem.7.def.17",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 17",
           "text": [
             " And, when three numbers having multiplied one another make some number, the number so produced is <hi rend=\"bold\">solid, and its <hi rend=\"bold\">sides are the numbers which have multiplied one another."
           ],
@@ -164,7 +164,7 @@
         {
           "id": "elem.7.def.18",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 18",
           "text": [
             " A <hi rend=\"bold\">square number is equal multiplied by equal, or a number which is contained by two equal numbers."
           ],
@@ -173,7 +173,7 @@
         {
           "id": "elem.7.def.19",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 19",
           "text": [
             " And a <hi rend=\"bold\">cube is equal multiplied by equal and again by equal, or a number which is contained by three equal numbers."
           ],
@@ -182,7 +182,7 @@
         {
           "id": "elem.7.def.20",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 20",
           "text": [
             " Numbers are <hi rend=\"bold\">proportional when the first is the same multiple, or the same part, or the same parts, of the second that the third is of the fourth."
           ],
@@ -191,7 +191,7 @@
         {
           "id": "elem.7.def.21",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 21",
           "text": [
             "\n       <hi rend=\"bold\">Similar plane and <hi rend=\"bold\">solid numbers are those which have their sides proportional."
           ],
@@ -200,7 +200,7 @@
         {
           "id": "elem.7.def.22",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 22",
           "text": [
             " A <hi rend=\"bold\">perfect number is that which is equal to its own parts."
           ],
@@ -211,279 +211,279 @@
     {
       "id": "",
       "kind": "list:proposition",
-      "title": "",
+      "title": "Propositions",
       "text": null,
       "sections": [
         {
           "id": "elem.7.1",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 1",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.7.2",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 2",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.7.3",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 3",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.7.4",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 4",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.7.5",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 5",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.7.6",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 6",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.7.7",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 7",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.7.8",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 8",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.7.9",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 9",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.7.10",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 10",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.7.11",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 11",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.7.12",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 12",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.7.13",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 13",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.7.14",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 14",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.7.15",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 15",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.7.16",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 16",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.7.17",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 17",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.7.18",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 18",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.7.19",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 19",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.7.20",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 20",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.7.21",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 21",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.7.22",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 22",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.7.23",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 23",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.7.24",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 24",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.7.25",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 25",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.7.26",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 26",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.7.27",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 27",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.7.28",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 28",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.7.29",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 29",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.7.30",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 30",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.7.31",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 31",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.7.32",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 32",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.7.33",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 33",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.7.34",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 34",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.7.35",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 35",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.7.36",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 36",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.7.37",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 37",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.7.38",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 38",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.7.39",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 39",
           "text": null,
           "sections": null
         }

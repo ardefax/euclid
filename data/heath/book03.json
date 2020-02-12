@@ -5,13 +5,13 @@
     {
       "id": "",
       "kind": "list:definition",
-      "title": "",
+      "title": "Definitions",
       "text": null,
       "sections": [
         {
           "id": "elem.3.def.1",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 1",
           "text": [
             "<hi rend=\"bold\">Equal circles are those the diameters of which are equal, or the radii of which are equal."
           ],
@@ -20,7 +20,7 @@
         {
           "id": "elem.3.def.2",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 2",
           "text": [
             "A straight line is said to <hi rend=\"bold\">touch a circle which, meeting the circle and being produced, does not cut the circle."
           ],
@@ -29,7 +29,7 @@
         {
           "id": "elem.3.def.3",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 3",
           "text": [
             "<hi rend=\"bold\">Circles are said to <hi rend=\"bold\">touch one another which, meeting one another, do not cut one another."
           ],
@@ -38,7 +38,7 @@
         {
           "id": "elem.3.def.4",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 4",
           "text": [
             "In a circle straight lines are said <hi rend=\"bold\">to be equally distant from the centre when the perpendiculars drawn to them from the centre are equal."
           ],
@@ -47,7 +47,7 @@
         {
           "id": "elem.3.def.5",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 5",
           "text": [
             "And that straight line is said to be <hi rend=\"bold\">at a greater distance on which the greater perpendicular falls."
           ],
@@ -56,7 +56,7 @@
         {
           "id": "elem.3.def.6",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 6",
           "text": [
             "A <hi rend=\"bold\">segment of a circle is the figure contained by a straight line and a circumference of a circle."
           ],
@@ -65,7 +65,7 @@
         {
           "id": "elem.3.def.7",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 7",
           "text": [
             "An <hi rend=\"bold\">angle of a segment is that contained by a straight line and a circumference of a circle."
           ],
@@ -74,7 +74,7 @@
         {
           "id": "elem.3.def.8",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 8",
           "text": [
             "An <hi rend=\"bold\">angle in a segment is the angle which, when a point is taken on the circumference of the segment and straight lines are joined from it to the extremities of the straight line which is the <hi rend=\"bold\">base of the segment, is contained by the straight lines so joined."
           ],
@@ -83,7 +83,7 @@
         {
           "id": "elem.3.def.9",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 9",
           "text": [
             "And, when the straight lines containing the angle cut off a circumference, the angle is said to <hi rend=\"bold\">stand upon that circumference."
           ],
@@ -92,7 +92,7 @@
         {
           "id": "elem.3.def.10",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 10",
           "text": [
             "A sector of a circle is the figure which, when an angle is constructed at the centre of the circle, is contained by the straight lines containing the angle and the circumference cut off by them."
           ],
@@ -101,7 +101,7 @@
         {
           "id": "elem.3.def.11",
           "kind": "definition",
-          "title": "",
+          "title": "Definition 11",
           "text": [
             "<hi rend=\"bold\">Similar segments of circles are those which admit equal angles, or in which the angles are equal to one another."
           ],
@@ -112,265 +112,265 @@
     {
       "id": "",
       "kind": "list:proposition",
-      "title": "",
+      "title": "Propositions",
       "text": null,
       "sections": [
         {
           "id": "elem.3.1",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 1",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.3.2",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 2",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.3.3",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 3",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.3.4",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 4",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.3.5",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 5",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.3.6",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 6",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.3.7",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 7",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.3.8",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 8",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.3.9",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 9",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.3.10",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 10",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.3.11",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 11",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.3.12",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 12",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.3.13",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 13",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.3.14",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 14",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.3.15",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 15",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.3.16",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 16",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.3.17",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 17",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.3.18",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 18",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.3.19",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 19",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.3.20",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 20",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.3.21",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 21",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.3.22",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 22",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.3.23",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 23",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.3.24",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 24",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.3.25",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 25",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.3.26",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 26",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.3.27",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 27",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.3.28",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 28",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.3.29",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 29",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.3.30",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 30",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.3.31",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 31",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.3.32",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 32",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.3.33",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 33",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.3.34",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 34",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.3.35",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 35",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.3.36",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 36",
           "text": null,
           "sections": null
         },
         {
           "id": "elem.3.37",
           "kind": "proposition",
-          "title": "",
+          "title": "Proposition 37",
           "text": null,
           "sections": null
         }
