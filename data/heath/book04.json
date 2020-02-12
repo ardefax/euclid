@@ -3,31 +3,31 @@
   "definitions": [
     {
       "id": "elem.4.def.1",
-      "text": "\n<head>1</head>\n<p>A rectilineal figure is said to be <hi rend=\"bold\">inscribed in a rectilineal figure</hi> when the respective angles of the inscribed figure lie on the respective sides of that in which it is inscribed.</p>\n     "
+      "text": "A rectilineal figure is said to be <hi rend=\"bold\">inscribed in a rectilineal figure when the respective angles of the inscribed figure lie on the respective sides of that in which it is inscribed."
     },
     {
       "id": "elem.4.def.2",
-      "text": "\n<head>2</head>\n<p>Similarly a figure is said to be <hi rend=\"bold\">circumscribed about a figure</hi> when the respective sides of the circumscribed figure pass through the respective angles of that about which it is circumscribed.</p>\n     "
+      "text": "Similarly a figure is said to be <hi rend=\"bold\">circumscribed about a figure when the respective sides of the circumscribed figure pass through the respective angles of that about which it is circumscribed."
     },
     {
       "id": "elem.4.def.3",
-      "text": "\n<head>3</head>\n<p>A rectilineal figure is said to be <hi rend=\"bold\">inscribed in a circle</hi> when each angle of the inscribed figure lies on the circumference of the circle.</p>\n     "
+      "text": "A rectilineal figure is said to be <hi rend=\"bold\">inscribed in a circle when each angle of the inscribed figure lies on the circumference of the circle."
     },
     {
       "id": "elem.4.def.4",
-      "text": "\n<head>4</head>\n<p>A rectilineal figure is said to be <hi rend=\"bold\">circumscribed about a circle</hi>, when each side of the circumscribed figure touches the circumference of the circle.</p>\n     "
+      "text": "A rectilineal figure is said to be <hi rend=\"bold\">circumscribed about a circle, when each side of the circumscribed figure touches the circumference of the circle."
     },
     {
       "id": "elem.4.def.5",
-      "text": "\n<head>5</head>\n<p>Similarly a circle is said to be <hi rend=\"bold\">inscribed in a figure</hi> when the circumference of the circle touches each side of the figure in which it is inscribed.</p>\n     "
+      "text": "Similarly a circle is said to be <hi rend=\"bold\">inscribed in a figure when the circumference of the circle touches each side of the figure in which it is inscribed."
     },
     {
       "id": "elem.4.def.6",
-      "text": "\n<head>6</head>\n<p>A circle is said to be <hi rend=\"bold\">circumscribed about a figure</hi> when the circumference of the circle passes through each angle of the figure about which it is circumscribed.</p>\n     "
+      "text": "A circle is said to be <hi rend=\"bold\">circumscribed about a figure when the circumference of the circle passes through each angle of the figure about which it is circumscribed."
     },
     {
       "id": "elem.4.def.7",
-      "text": "\n<head>7</head>\n<p>A straight line is said to be <hi rend=\"bold\">fitted into a circle</hi> when its extremities are on the circumference of the circle.</p>\n     "
+      "text": "A straight line is said to be <hi rend=\"bold\">fitted into a circle when its extremities are on the circumference of the circle."
     }
   ],
   "postulates": null,

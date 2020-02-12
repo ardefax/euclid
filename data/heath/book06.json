@@ -3,23 +3,23 @@
   "definitions": [
     {
       "id": "elem.6.def.1",
-      "text": "\n<head>1</head>\n<p><hi rend=\"bold\">Similar rectilineal figures</hi> are such as have their angles severally equal and the sides about the equal angles proportional.</p>\n     "
+      "text": "<hi rend=\"bold\">Similar rectilineal figures are such as have their angles severally equal and the sides about the equal angles proportional."
     },
     {
       "id": "elem.6.def.2",
-      "text": "\n<head>2</head>\n<p>[<hi rend=\"bold\">Reciprocally related</hi> figures. <emph>See note</emph>.]</p>\n     "
+      "text": "[<hi rend=\"bold\">Reciprocally related figures. <var>See note</var>.]"
     },
     {
       "id": "elem.6.def.3",
-      "text": "\n<head>3</head>\n<p>A straight line is said to have been <hi rend=\"bold\">cut in extreme and mean ratio</hi> when, as the whole line is to the greater segment, so is the greater to the less.</p>\n     "
+      "text": "A straight line is said to have been <hi rend=\"bold\">cut in extreme and mean ratio when, as the whole line is to the greater segment, so is the greater to the less."
     },
     {
       "id": "elem.6.def.4",
-      "text": "\n<head>4</head>\n<p>The <hi rend=\"bold\">height</hi> of any figure is the perpendicular drawn from the vertex to the base.</p>\n     "
+      "text": "The <hi rend=\"bold\">height of any figure is the perpendicular drawn from the vertex to the base."
     },
     {
       "id": "elem.6.def.5",
-      "text": "\n<head>5</head>\n<p />\n     "
+      "text": ""
     }
   ],
   "postulates": null,

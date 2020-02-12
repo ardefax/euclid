@@ -3,47 +3,47 @@
   "definitions": [
     {
       "id": "elem.3.def.1",
-      "text": "\n      <head>1</head>\n      <p><hi rend=\"bold\">Equal circles</hi> are those the diameters of which are equal, or the radii of which are equal.</p>\n     "
+      "text": "<hi rend=\"bold\">Equal circles are those the diameters of which are equal, or the radii of which are equal."
     },
     {
       "id": "elem.3.def.2",
-      "text": "\n\t<head>2</head>\n      <p>A straight line is said to <hi rend=\"bold\">touch a circle</hi> which, meeting the circle and being produced, does not cut the circle.</p>\n     "
+      "text": "A straight line is said to <hi rend=\"bold\">touch a circle which, meeting the circle and being produced, does not cut the circle."
     },
     {
       "id": "elem.3.def.3",
-      "text": "\n\t<head>3</head>\n      <p><hi rend=\"bold\">Circles</hi> are said to <hi rend=\"bold\">touch one another</hi> which, meeting one another, do not cut one another.</p>\n     "
+      "text": "<hi rend=\"bold\">Circles are said to <hi rend=\"bold\">touch one another which, meeting one another, do not cut one another."
     },
     {
       "id": "elem.3.def.4",
-      "text": "\n\t<head>4</head>\n      <p>In a circle straight lines are said <hi rend=\"bold\">to be equally distant from the centre</hi> when the perpendiculars drawn to them from the centre are equal.</p>\n     "
+      "text": "In a circle straight lines are said <hi rend=\"bold\">to be equally distant from the centre when the perpendiculars drawn to them from the centre are equal."
     },
     {
       "id": "elem.3.def.5",
-      "text": "\n<head>5</head>\n<p>And that straight line is said to be <hi rend=\"bold\">at a greater distance</hi> on which the greater perpendicular falls.</p>\n     "
+      "text": "And that straight line is said to be <hi rend=\"bold\">at a greater distance on which the greater perpendicular falls."
     },
     {
       "id": "elem.3.def.6",
-      "text": "\n<head>6</head>\n<p>A <hi rend=\"bold\">segment of a circle</hi> is the figure contained by a straight line and a circumference of a circle.</p>\n     "
+      "text": "A <hi rend=\"bold\">segment of a circle is the figure contained by a straight line and a circumference of a circle."
     },
     {
       "id": "elem.3.def.7",
-      "text": "\n<head>7</head>\n<p>An <hi rend=\"bold\">angle of a segment</hi> is that contained by a straight line and a circumference of a circle.</p>\n     "
+      "text": "An <hi rend=\"bold\">angle of a segment is that contained by a straight line and a circumference of a circle."
     },
     {
       "id": "elem.3.def.8",
-      "text": "\n<head>8</head>\n<p>An <hi rend=\"bold\">angle in a segment</hi> is the angle which, when a point is taken on the circumference of the segment and straight lines are joined from it to the extremities of the straight line which is the <hi rend=\"bold\">base of the segment</hi>, is contained by the straight lines so joined.</p>\n     "
+      "text": "An <hi rend=\"bold\">angle in a segment is the angle which, when a point is taken on the circumference of the segment and straight lines are joined from it to the extremities of the straight line which is the <hi rend=\"bold\">base of the segment, is contained by the straight lines so joined."
     },
     {
       "id": "elem.3.def.9",
-      "text": "\n<head>9</head>\n<p>And, when the straight lines containing the angle cut off a circumference, the angle is said to <hi rend=\"bold\">stand upon</hi> that circumference.</p>\n     "
+      "text": "And, when the straight lines containing the angle cut off a circumference, the angle is said to <hi rend=\"bold\">stand upon that circumference."
     },
     {
       "id": "elem.3.def.10",
-      "text": "\n<head>10</head>\n<pb n=\"2\" />\n      <p>A sector of a circle is the figure which, when an angle is constructed at the centre of the circle, is contained by the straight lines containing the angle and the circumference cut off by them.</p>\n     "
+      "text": "A sector of a circle is the figure which, when an angle is constructed at the centre of the circle, is contained by the straight lines containing the angle and the circumference cut off by them."
     },
     {
       "id": "elem.3.def.11",
-      "text": "\n<head>11</head>\n<p><hi rend=\"bold\">Similar segments of circles</hi> are those which admit equal angles, or in which the angles are equal to one another.</p>\n     "
+      "text": "<hi rend=\"bold\">Similar segments of circles are those which admit equal angles, or in which the angles are equal to one another."
     }
   ],
   "postulates": null,

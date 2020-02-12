@@ -3,91 +3,91 @@
   "definitions": [
     {
       "id": "elem.7.def.1",
-      "text": "\n<head>1</head>\n<p>An <hi rend=\"bold\">unit</hi> is that by virtue of which each of the things that exist is called one.</p>\n     "
+      "text": "An <hi rend=\"bold\">unit is that by virtue of which each of the things that exist is called one."
     },
     {
       "id": "elem.7.def.2",
-      "text": "\n<head>2</head>\n<p> A <hi rend=\"bold\">number</hi> is a multitude composed of units.</p>\n     "
+      "text": " A <hi rend=\"bold\">number is a multitude composed of units."
     },
     {
       "id": "elem.7.def.3",
-      "text": "\n<head>3</head>\n<p> A number is <hi rend=\"bold\">a part</hi> of a number, the less of the greater, when it measures the greater;</p>\n     "
+      "text": " A number is <hi rend=\"bold\">a part of a number, the less of the greater, when it measures the greater;"
     },
     {
       "id": "elem.7.def.4",
-      "text": "\n<head>4</head>\n<p> but <hi rend=\"bold\">parts</hi> when it does not measure it.</p>\n     "
+      "text": " but <hi rend=\"bold\">parts when it does not measure it."
     },
     {
       "id": "elem.7.def.5",
-      "text": "\n<head>5</head>\n<p> The greater number is a <hi rend=\"bold\">multiple</hi> of the less when it is measured by the less.</p>\n     "
+      "text": " The greater number is a <hi rend=\"bold\">multiple of the less when it is measured by the less."
     },
     {
       "id": "elem.7.def.6",
-      "text": "\n<head>6</head>\n<p> An <hi rend=\"bold\">even number</hi> is that which is divisible into two equal parts.</p>\n     "
+      "text": " An <hi rend=\"bold\">even number is that which is divisible into two equal parts."
     },
     {
       "id": "elem.7.def.7",
-      "text": "\n<head>7</head>\n<p> An <hi rend=\"bold\">odd number</hi> is that which is not divisible into two equal parts, or that which differs by an unit from an even number.</p>\n     "
+      "text": " An <hi rend=\"bold\">odd number is that which is not divisible into two equal parts, or that which differs by an unit from an even number."
     },
     {
       "id": "elem.7.def.8",
-      "text": "\n<head>8</head>\n<p> An <hi rend=\"bold\">even-times even number</hi> is that which is measured by an even number according to an even number.</p>\n     "
+      "text": " An <hi rend=\"bold\">even-times even number is that which is measured by an even number according to an even number."
     },
     {
       "id": "elem.7.def.9",
-      "text": "\n<head>9</head>\n<p> An <hi rend=\"bold\">even-times odd number</hi> is that which is measured by an even number according to an odd number.</p>\n     "
+      "text": " An <hi rend=\"bold\">even-times odd number is that which is measured by an even number according to an odd number."
     },
     {
       "id": "elem.7.def.10",
-      "text": "\n<head>10</head>\n<p> An <hi rend=\"bold\">odd-times odd number</hi> is that which is measured by an odd number according to an odd number.</p>\n     "
+      "text": " An <hi rend=\"bold\">odd-times odd number is that which is measured by an odd number according to an odd number."
     },
     {
       "id": "elem.7.def.11",
-      "text": "\n<head>11</head>\n<pb n=\"278\" />\n      <p> A <hi rend=\"bold\">prime number</hi> is that which is measured by an unit alone.</p>\n     "
+      "text": " A <hi rend=\"bold\">prime number is that which is measured by an unit alone."
     },
     {
       "id": "elem.7.def.12",
-      "text": "\n<head>12</head>\n<p> Numbers <hi rend=\"bold\">prime to one another</hi> are those which are measured by an unit alone as a common measure.</p>\n     "
+      "text": " Numbers <hi rend=\"bold\">prime to one another are those which are measured by an unit alone as a common measure."
     },
     {
       "id": "elem.7.def.13",
-      "text": "\n<head>13</head>\n<p> A <hi rend=\"bold\">composite number</hi> is that which is measured by some number.</p>\n     "
+      "text": " A <hi rend=\"bold\">composite number is that which is measured by some number."
     },
     {
       "id": "elem.7.def.14",
-      "text": "\n<head>14</head>\n<p> Numbers <hi rend=\"bold\">composite to one another</hi> are those which are measured by some number as a common measure.</p>\n     "
+      "text": " Numbers <hi rend=\"bold\">composite to one another are those which are measured by some number as a common measure."
     },
     {
       "id": "elem.7.def.15",
-      "text": "\n<head>15</head>\n<p> A number is said to <hi rend=\"bold\">multiply</hi> a number when that which is multiplied is added to itself as many times as there are units in the other, and thus some number is produced.</p>\n     "
+      "text": " A number is said to <hi rend=\"bold\">multiply a number when that which is multiplied is added to itself as many times as there are units in the other, and thus some number is produced."
     },
     {
       "id": "elem.7.def.16",
-      "text": "\n<head>16</head>\n<p> And, when two numbers having multiplied one another make some number, the number so produced is called <hi rend=\"bold\">plane,</hi> and its <hi rend=\"bold\">sides</hi> are the numbers which have multiplied one another.</p>\n     "
+      "text": " And, when two numbers having multiplied one another make some number, the number so produced is called <hi rend=\"bold\">plane, and its <hi rend=\"bold\">sides are the numbers which have multiplied one another."
     },
     {
       "id": "elem.7.def.17",
-      "text": "\n<head>17</head>\n<p> And, when three numbers having multiplied one another make some number, the number so produced is <hi rend=\"bold\">solid</hi>, and its <hi rend=\"bold\">sides</hi> are the numbers which have multiplied one another.</p>\n     "
+      "text": " And, when three numbers having multiplied one another make some number, the number so produced is <hi rend=\"bold\">solid, and its <hi rend=\"bold\">sides are the numbers which have multiplied one another."
     },
     {
       "id": "elem.7.def.18",
-      "text": "\n<head>18</head>\n<p> A <hi rend=\"bold\">square number</hi> is equal multiplied by equal, or a number which is contained by two equal numbers.</p>\n     "
+      "text": " A <hi rend=\"bold\">square number is equal multiplied by equal, or a number which is contained by two equal numbers."
     },
     {
       "id": "elem.7.def.19",
-      "text": "\n<head>19</head>\n<p> And a <hi rend=\"bold\">cube</hi> is equal multiplied by equal and again by equal, or a number which is contained by three equal numbers.</p>\n     "
+      "text": " And a <hi rend=\"bold\">cube is equal multiplied by equal and again by equal, or a number which is contained by three equal numbers."
     },
     {
       "id": "elem.7.def.20",
-      "text": "\n<head>20</head>\n<p> Numbers are <hi rend=\"bold\">proportional</hi> when the first is the same multiple, or the same part, or the same parts, of the second that the third is of the fourth.</p>\n     "
+      "text": " Numbers are <hi rend=\"bold\">proportional when the first is the same multiple, or the same part, or the same parts, of the second that the third is of the fourth."
     },
     {
       "id": "elem.7.def.21",
-      "text": "\n<head>21</head>\n<p>\n       <hi rend=\"bold\">Similar plane</hi> and <hi rend=\"bold\">solid</hi> numbers are those which have their sides proportional.</p>\n     "
+      "text": "\n       <hi rend=\"bold\">Similar plane and <hi rend=\"bold\">solid numbers are those which have their sides proportional."
     },
     {
       "id": "elem.7.def.22",
-      "text": "\n<head>22</head>\n<p> A <hi rend=\"bold\">perfect number</hi> is that which is equal to its own parts.</p>\n     "
+      "text": " A <hi rend=\"bold\">perfect number is that which is equal to its own parts."
     }
   ],
   "postulates": null,
