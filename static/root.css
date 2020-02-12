@@ -1,5 +1,7 @@
 html {
   height: 100%;
+  font-family: Optima,Candara,Calibri,Segoe,Segoe UI
+
 }
 
 body {
@@ -43,3 +45,12 @@ main {
 img {
   max-width: 100%;
 }
+
+// TODO Explore white on black
+//body {
+//  color: white;
+//  background-color: black;
+//}
+//a {
+//  color: gray;
+//}
