@@ -1,6 +1,6 @@
 {{ partial "header" . }}
 
-{{ $data := index .Site.Data.heath .File.ContentBaseName }}
+{{ $data := index .Site.Data.heath .Params.data }}
 <main>
   <h1>Book {{ $data.num }}</h1>
 
