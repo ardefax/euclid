@@ -81,12 +81,6 @@ type Book struct {
 	Title string `json:"title"`
 	Num int `json:"num"`
 	Sections []Section `json:"sections"`
-
-	// TODO Remove these now??
-	Definitions []Definition `json:"-"`
-	Postulates []Postulate `json:"-"`
-	CommonNotions []CommonNotion `json:"-"`
-	Propositions []Proposition `json:"-"`
 }
 
 // Section is a generic part of the book
@@ -130,76 +124,46 @@ func (b *Book) parseSection(d2 Div2) error {
 		return fmt.Errorf("invalid d2.type: %q (book)", d2.Type)
 	}
 
+	var s Section
 	switch d2.Type {
 	case "type":
 		switch d2.N {
 			// Book X interleaves sections as  `Def #` or `Prop #`
 			case "Def":
-				s, defs := parseDefs(d2)
+				s = parseDefs(d2)
 				s.ID = fmt.Sprintf("elem.%d.def", b.Num)
-				b.Sections = append(b.Sections, s)
-				for _, d := range defs {
-					b.Definitions = append(b.Definitions, d)
-				}
 			case "Def 1", "Def 2", "Def 3":
-				s, defs := parseDefs(d2)
+				s = parseDefs(d2)
 				// TODO Prop def ID for book X
-				b.Sections = append(b.Sections, s)
-				for _, d := range defs {
-					b.Definitions = append(b.Definitions, d)
-				}
 			case "Post":
-				s, posts := parsePosts(d2)
+				s = parsePosts(d2)
 				s.ID = fmt.Sprintf("elem.%d.post", b.Num)
-				b.Sections = append(b.Sections, s)
-				for _, p := range posts {
-					b.Postulates = append(b.Postulates, p)
-				}
 			case "CN":
-				s, cns := parseCNs(d2)
+				s = parseCNs(d2)
 				s.ID = fmt.Sprintf("elem.%d.c.n", b.Num) // TODO Don't like the c.n.
-				b.Sections = append(b.Sections, s)
-				for _, cn := range cns {
-					b.CommonNotions = append(b.CommonNotions, cn)
-				}
 			case "Prop":
-				s, props := parseProps(d2)
+				s = parseProps(d2)
 				s.ID = fmt.Sprintf("elem.%d.prop", b.Num)
-				b.Sections = append(b.Sections, s)
-				for _, p := range props {
-					b.Propositions = append(b.Propositions, p)
-				}
 			case "Prop 1", "Prop 2", "Prop 3":
-				s, props := parseProps(d2)
+				s = parseProps(d2)
 				// TODO Handle the prop IDs for book X
-				b.Sections = append(b.Sections, s)
-				for _, p := range props {
-					b.Propositions = append(b.Propositions, p)
-				}
 			default:
 				return fmt.Errorf("invalid d2.N: %q (Def|Post|CN|Prop)", d2.N)
 		}
 	default:
 		return fmt.Errorf("invalid type: %q (type)", d2.Type)
 	}
+	b.Sections = append(b.Sections, s)
 	return nil
 }
 
-// Definition TODO
-type Definition struct {
-	ID string `json:"id"`
-	Text string `json:"text"`
-}
-
-func parseDefs(d2 Div2) (Section, []Definition) {
+// parseDefs TODO doc
+func parseDefs(d2 Div2) Section {
 	s := Section{
-		// TODO ID based on the book.num
 		Kind: "list:definition",
 		Title: "Definitions", // TODO d2.Head?
 		Sections: make([]Section, len(d2.Divs)),
 	}
-
-	a := make([]Definition, len(d2.Divs))
 	for i, d3 := range d2.Divs {
 		if d3.Type != "number" {
 			log.Fatalf("invalid d3.type: %q (number:definition)", d3.Type)
@@ -208,33 +172,24 @@ func parseDefs(d2 Div2) (Section, []Definition) {
 			// TODO V.Def.17 has two paragraphs
 			fmt.Fprintf(os.Stderr, "warn: %s: wrong # of d3.paras: %d (1:definition)\n", d3.ID, len(d3.Paras))
 		}
-		// TODO Need to check for <terms> in the list
-		a[i] = Definition{d3.ID, cleanPara(d3.Paras[0])}
 		s.Sections[i] = Section{
 			ID: d3.ID,
 			Kind: "definition",
 			Title: fmt.Sprintf("Definition %d", i+1), // TODO: d3.head?
-			Text: []string{a[i].Text},
+			Text: []string{cleanPara(d3.Paras[0])},
 		}
-		debug("d3:%s %s", d3.ID, a[i].Text)
+		debug("d3:%s %s", d3.ID, s.Sections[i].Text[0])
 	}
-	return s, a
+	return s
 }
 
-// Postulate TODO
-type Postulate struct {
-	ID string `json:"id"`
-	Text string `json:"text"`
-}
-
-func parsePosts(d2 Div2) (Section, []Postulate) {
+// parsePosts TODO doc
+func parsePosts(d2 Div2) Section {
 	s := Section{
-		// TODO ID
 		Kind: "list:postulate",
 		Title: "Postulates",
 		Sections: make([]Section, len(d2.Divs)),
 	}
-	a := make([]Postulate, len(d2.Divs))
 	for i, d3 := range d2.Divs {
 		if d3.Type != "number" {
 			log.Fatalf("%s: invalid d3.type: %q (number:postulate)", d3.ID, d3.Type)
@@ -249,31 +204,24 @@ func parsePosts(d2 Div2) (Section, []Postulate) {
 			s.Text = []string{content}
 			content = cleanPara(d3.Paras[1])
 		}
-		a[i] = Postulate{d3.ID, content}
 		s.Sections[i] = Section{
 			ID: d3.ID,
 			Kind: "postulate",
 			Title: fmt.Sprintf("Postulate %d", i+1),
 			Text: []string{content},
 		}
-		debug("d3:%s: %s", d3.ID, a[i].Text)
+		debug("d3:%s: %s", d3.ID, content)
 	}
-	return s, a
+	return s
 }
 
-// CommonNotion TODO
-type CommonNotion struct {
-	ID string `json:"id"`
-	Text string `json:"text"`
-}
-func parseCNs(d2 Div2) (Section, []CommonNotion) {
+// parseCNs TODO doc
+func parseCNs(d2 Div2) Section {
 	s := Section{
-		// TODO ID
 		Kind: "list:common-notion",
 		Title: "Common Notions",
 		Sections: make([]Section, len(d2.Divs)),
 	}
-	a := make([]CommonNotion, len(d2.Divs))
 	for i, d3 := range d2.Divs {
 		if d3.Type != "number" {
 			log.Fatalf("invalid d3.type: %q (number:common-notion)", d3.Type)
@@ -281,42 +229,30 @@ func parseCNs(d2 Div2) (Section, []CommonNotion) {
 		if len(d3.Paras) != 1 {
 			log.Fatalf("%s: wrong # of d3.paras: %d (1:common-notion)", d3.ID, len(d3.Paras))
 		}
-		a[i] = CommonNotion{d3.ID, cleanPara(d3.Paras[0])}
+		content := cleanPara(d3.Paras[0])
 		s.Sections[i] = Section{
 			ID: d3.ID,
 			Kind: "common-notion",
 			Title: fmt.Sprintf("Common Notion %d", i+1),
-			Text: []string{a[i].Text},
+			Text: []string{content},
 		}
-		debug("d3:%s: %s", d3.ID, a[i].Text)
+		debug("d3:%s: %s", d3.ID, content)
 	}
-	return s, a
+	return s
 }
 
-// Proposition TODO
-type Proposition struct {
-	ID string `json:"id"`
-	Claim string `json:"claim,omitempty"`// TODO Enunciation?
-	Proof []string `json:"proof,omitempty"`
-	QED string `json:"qed,omitempty"`
-	// TODO Remove
-	Text string `json:"text,omitempty"`
-}
-func parseProps(d2 Div2) (Section, []Proposition) {
+// parseProps TODO doc
+func parseProps(d2 Div2) Section {
 	s := Section{
-		// TODO ID
 		Kind: "list:proposition",
 		Title: "Propositions", // TODO d2.Head because of book X
 		Sections: make([]Section, len(d2.Divs)),
 	}
-	a := make([]Proposition, len(d2.Divs))
 	for i, d3 := range d2.Divs {
 		// XXX Book II also uses type="proposition"
 		if d3.Type != "number" && d3.Type != "proposition" {
 			log.Fatalf("invalid d3.type: %q (number:proposition)", d3.Type)
 		}
-
-		prop := Proposition{ID: d3.ID}
 		ss := Section{
 			ID: d3.ID,
 			Kind: "proposition",
@@ -326,60 +262,47 @@ func parseProps(d2 Div2) (Section, []Proposition) {
 			switch d4.Type {
 			case "Enunc":
 				if len(d4.Paras) != 1 {
-					log.Fatalf("Expected 1 paragraph for the claim, not %d", len(d4.Paras))
+					log.Fatalf("Expected 1 paragraph for the theorem, not %d", len(d4.Paras))
 				}
-				prop.Claim = cleanPara(d4.Paras[0])
 				ss.Sections = append(ss.Sections, Section {
-					// TODO ID
-					Kind: "claim",
-					Text: []string{ prop.Claim },
+					ID: d3.ID + ".theorem", // TODO Is this what I want?
+					Kind: "theorem",
+					Text: []string{ cleanPara(d4.Paras[0]) },
 				})
 			case "Proof":
 				if len(d4.Paras) < 2 {
 					log.Fatalf("Expected some steps for the proof, not %d", len(d4.Paras))
 				}
-				prop.Proof = make([]string, len(d4.Paras))
 				sss := Section{
-					// TODO ID
+					ID: d3.ID + ".proof", // TODO Is this what I want?
 					Kind: "proof",
 					Text: make([]string, len(d4.Paras)),
 				}
 				for j, p := range d4.Paras {
-					prop.Proof[j] = cleanPara(p)
-					sss.Text[j] = prop.Proof[j]
+					sss.Text[j] = cleanPara(p)
 				}
 				ss.Sections = append(ss.Sections, sss)
 			case "QED": // skip
 				if len(d4.Paras) != 1 {
 					log.Fatalf("Expected 1 paragraph for the QED, not %d", len(d4.Paras))
 				}
-				prop.QED = cleanPara(d4.Paras[0])
+				qed := cleanPara(d4.Paras[0])
 				ss.Sections = append(ss.Sections, Section{
-					// TODO ID
 					Kind: "qed",
-					Text: []string{prop.QED},
+					Text: []string{qed},
 				})
-			case "porism": // TODO Definitely a new section
-			case "lemma": // TODO Definitely a new section
+			case "porism": // TODO
+			case "lemma": // TODO
 			default:
 				log.Fatalf("invalid d4.type: %q (Enunc|Proof|QED|porism|lemma)", d4.Type)
 			}
 		}
 
-		if len(prop.Proof) == 0 {
-			// TODO Can we assume d3.Nodes[0] as Claim and d3.Nodes[1:] as Proof?
-			prop.Text = string(d3.Content)
-			debug("d3:%s:raw %s", d3.ID, prop.Text)
-		} else {
-			debug("d3:%s:claim %s\n", d3.ID, prop.Claim)
-			debug("d3:%s:proof %s\n", d3.ID, prop.Proof)
-		}
-		a[i] = prop
+		// TODO Need to handle proof structure beyond Book I
 		s.Sections[i] = ss
 	}
-	return s, a
+	return s
 }
-
 
 // cleanPara is a bit of a regex kludge. It exists to transform embedded
 // tags in paragraphs from the source XML to something that is HTML-friendly.

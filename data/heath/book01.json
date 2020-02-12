@@ -338,8 +338,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.1.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "On a given finite straight line to construct an equilateral triangle."
@@ -347,7 +347,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.1.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -381,8 +381,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.2.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "To place at a given point (as an extremity) a straight line equal to a given straight line."
@@ -390,7 +390,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.2.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -425,8 +425,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.3.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "Given two unequal straight lines, to cut off from the greater a straight line equal to the less. "
@@ -434,7 +434,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.3.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -463,8 +463,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.4.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "If two triangles have the two sides equal to two sides respectively, and have the angles contained by the equal straight lines equal, they will also have the base equal to the base, the triangle will be equal to the triangle, and the remaining angles will be equal to the remaining angles respectively, namely those which the equal sides subtend."
@@ -472,7 +472,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.4.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -506,8 +506,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.5.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "In isosceles triangles the angles at the base are equal to one another, and, if the equal straight lines be produced further, the angles under the base will be equal to one another."
@@ -515,7 +515,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.5.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -548,8 +548,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.6.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "If in a triangle two angles be equal to one another, the sides which subtend the equal angles will also be equal to one another."
@@ -557,7 +557,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.6.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -589,8 +589,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.7.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "Given two straight lines constructed on a straight line (from its extremities) and meeting in a point, there cannot be constructed on the same straight line (from its extremities), and on the same side of it, two other straight lines meeting in another point and equal to the former two respectively, namely each to that which has the same extremity with it."
@@ -598,7 +598,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.7.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -627,8 +627,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.8.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "If two triangles have the two sides equal to two sides respectively, and have also the base equal to the base, they will also have the angles equal which are contained by the equal straight lines. "
@@ -636,7 +636,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.8.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -667,8 +667,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.9.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "To bisect a given rectilineal angle."
@@ -676,7 +676,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.9.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -708,8 +708,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.10.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "To bisect a given finite straight line."
@@ -717,7 +717,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.10.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -748,8 +748,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.11.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "To draw a straight line at right angles to a given straight line from a given point on it."
@@ -757,7 +757,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.11.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -789,8 +789,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.12.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "To a given infinite straight line, from a given point which is not on it, to draw a perpendicular straight line."
@@ -798,7 +798,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.12.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -829,8 +829,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.13.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "If a straight line set up on a straight line make angles, it will make either two right angles or angles equal to two right angles."
@@ -838,7 +838,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.13.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -871,8 +871,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.14.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "If with any straight line, and at a point on it, two straight lines not lying on the same side make the adjacent angles equal to two right angles, the two straight lines will be in a straight line with one another. "
@@ -880,7 +880,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.14.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -912,8 +912,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.15.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "If two straight lines cut one another, they make the vertical angles equal to one another."
@@ -921,7 +921,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.15.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -944,8 +944,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.16.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "In any triangle, if one of the sides be produced, the exterior angle is greater than either of the interior and opposite angles."
@@ -953,7 +953,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.16.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -986,8 +986,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.17.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "In any triangle two angles taken together in any manner are less than two right angles."
@@ -995,7 +995,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.17.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -1027,8 +1027,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.18.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "In any triangle the greater side subtends the greater angle."
@@ -1036,7 +1036,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.18.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -1068,8 +1068,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.19.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "In any triangle the greater angle is subtended by the greater side."
@@ -1077,7 +1077,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.19.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -1109,8 +1109,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.20.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "In any triangle two sides taken together in any manner are greater than the remaining one."
@@ -1118,7 +1118,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.20.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -1150,8 +1150,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.21.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "If on one of the sides of a triangle, from its extremities, there be constructed two straight lines meeting within the triangle, the straight lines so constructed will be less than the remaining two sides of the triangle, but will contain a greater angle."
@@ -1159,7 +1159,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.21.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -1194,8 +1194,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.22.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "Out of three straight lines, which are equal to three given straight lines, to construct a triangle: thus it is necessary that two of the straight lines taken together in any manner should be greater than the remaining one. [<ref target=\"elem.1.20\" targOrder=\"U\">I. 20</a>]"
@@ -1203,7 +1203,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.22.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -1237,8 +1237,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.23.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "On a given straight line and at a point on it to construct a rectilineal angle equal to a given rectilineal angle."
@@ -1246,7 +1246,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.23.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -1276,8 +1276,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.24.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "If two triangles have the two sides equal to two sides respectively, but have the one of the angles contained by the equal straight lines greater than the other, they will also have the base greater than the base. "
@@ -1285,7 +1285,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.24.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -1319,8 +1319,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.25.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "If two triangles have the two sides equal to two sides respectively, but have the base greater than the base, they will also have the one of the angles contained by the equal straight lines greater than the other."
@@ -1328,7 +1328,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.25.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -1360,8 +1360,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.26.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "If two triangles have the two angles equal to two angles respectively, and one side equal to one side, namely, either the side adjoining the equal angles, or that subtending one of the equal angles, they will also have the remaining sides equal to the remaining sides and the remaining angle to the remaining angle. "
@@ -1369,7 +1369,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.26.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -1409,8 +1409,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.27.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "If a straight line falling on two straight lines make the alternate angles equal to one another, the straight lines will be parallel to one another."
@@ -1418,7 +1418,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.27.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -1452,8 +1452,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.28.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "If a straight line falling on two straight lines make the exterior angle equal to the interior and opposite angle on the same side, or the interior angles on the same side equal to two right angles, the straight lines will be parallel to one another. "
@@ -1461,7 +1461,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.28.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -1492,8 +1492,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.29.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "A straight line falling on parallel straight lines makes the alternate angles equal to one another, the exterior angle equal to the interior and opposite angle, and the interior angles on the same side equal to two right angles. "
@@ -1501,7 +1501,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.29.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -1538,8 +1538,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.30.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "Straight lines parallel to the same straight line are also parallel to one another."
@@ -1547,7 +1547,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.30.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -1578,8 +1578,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.31.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "Through a given point to draw a straight line parallel to a given straight line."
@@ -1587,7 +1587,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.31.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -1616,8 +1616,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.32.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "In any triangle, if one of the sides be produced, the exterior angle is equal to the two interior and opposite angles, and the three interior angles of the triangle are equal to two right angles."
@@ -1625,7 +1625,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.32.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -1659,8 +1659,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.33.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "The straight lines joining equal and parallel straight lines (at the extremities which are) in the same directions (respectively) are themselves also equal and parallel."
@@ -1668,7 +1668,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.33.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -1700,8 +1700,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.34.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "In parallelogrammic areas the opposite sides and angles are equal to one another, and the diameter bisects the areas."
@@ -1709,7 +1709,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.34.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -1743,8 +1743,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.35.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "Parallelograms which are on the same base and in the same parallels are equal to one another."
@@ -1752,7 +1752,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.35.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -1784,8 +1784,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.36.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "Parallelograms which are on equal bases and in the same parallels are equal to one another."
@@ -1793,7 +1793,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.36.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -1818,8 +1818,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.37.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "Triangles which are on the same base and in the same parallels are equal to one another."
@@ -1827,7 +1827,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.37.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -1861,8 +1861,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.38.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "Triangles which are on equal bases and in the same parallels are equal to one another."
@@ -1870,7 +1870,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.38.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -1904,8 +1904,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.39.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "Equal triangles which are on the same base and on the same side are also in the same parallels."
@@ -1913,7 +1913,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.39.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -1946,8 +1946,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.40.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "Equal triangles which are on equal bases and on the same side are also in the same parallels."
@@ -1955,7 +1955,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.40.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -1988,8 +1988,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.41.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "If a parallelogram have the same base with a triangle and be in the same parallels, the parallelogram is double of the triangle."
@@ -1997,7 +1997,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.41.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -2028,8 +2028,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.42.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "To construct, in a given rectilineal angle, a parallelogram equal to a given triangle."
@@ -2037,7 +2037,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.42.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -2060,8 +2060,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.43.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "In any parallelogram the complements of the parallelograms about the diameter are equal to one another."
@@ -2069,7 +2069,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.43.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -2101,8 +2101,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.44.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "To a given straight line to apply, in a given rectilineal angle, a parallelogram equal to a given triangle."
@@ -2110,7 +2110,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.44.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -2144,8 +2144,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.45.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "To construct, in a given rectilineal angle, a parallelogram equal to a given rectilineal figure."
@@ -2153,7 +2153,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.45.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -2190,8 +2190,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.46.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "On a given straight line to describe a square."
@@ -2199,7 +2199,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.46.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -2234,8 +2234,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.47.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "In right-angled triangles the square on the side subtending the right angle is equal to the squares on the sides containing the right angle."
@@ -2243,7 +2243,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.47.proof",
               "kind": "proof",
               "title": "",
               "text": [
@@ -2282,8 +2282,8 @@
           "text": null,
           "sections": [
             {
-              "id": "",
-              "kind": "claim",
+              "id": "elem.1.48.theorem",
+              "kind": "theorem",
               "title": "",
               "text": [
                 "If in a triangle the square on one of the sides be equal to the squares on the remaining two sides of the triangle, the angle contained by the remaining two sides of the triangle is right."
@@ -2291,7 +2291,7 @@
               "sections": null
             },
             {
-              "id": "",
+              "id": "elem.1.48.proof",
               "kind": "proof",
               "title": "",
               "text": [

@@ -11,8 +11,11 @@ body {
 section.proposition {
   margin-bottom: 30px
 }
-section.claim {
+section.theorem {
   font-style: italic;
+}
+section.proof {
+  margin-left: 20px;
 }
 section.qed {
   font-size: 13px;
