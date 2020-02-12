@@ -6,11 +6,6 @@ body {
   margin: 15px 30px;
 }
 
-section > h2
-section > h3
-section > h4 {
-}
-
 section.proposition {
   margin-bottom: 30px
 }
@@ -30,7 +25,9 @@ li {
   margin: 5px auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
+a.anchor {
+  text-decoration: none;
+  margin-right: 5px;
 }
 
 header, footer {

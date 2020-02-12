@@ -1,3 +1,4 @@
 ---
-data: 'book06'
+data: book06
+type: book
 ---

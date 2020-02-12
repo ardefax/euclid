@@ -3,7 +3,7 @@
   "num": 6,
   "sections": [
     {
-      "id": "",
+      "id": "elem.6.def",
       "kind": "list:definition",
       "title": "Definitions",
       "text": null,
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "elem.6.prop",
       "kind": "list:proposition",
       "title": "Propositions",
       "text": null,

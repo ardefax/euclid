@@ -10,7 +10,8 @@ all: $(MD)
 # Stubs out the content files with the proper data name
 content/book%.md: data/heath/book%.json
 	echo "---" > $@
-	echo "data: '$(@:content/%.md=%)'" >> $@
+	echo "data: $(@:content/%.md=%)" >> $@
+	echo "type: book" >> $@
 	echo "---" >> $@
 
 # Intermediate trick from here https://stackoverflow.com/a/10609434

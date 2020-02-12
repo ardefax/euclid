@@ -134,26 +134,44 @@ func (b *Book) parseSection(d2 Div2) error {
 	case "type":
 		switch d2.N {
 			// Book X interleaves sections as  `Def #` or `Prop #`
-			case "Def", "Def 1", "Def 2", "Def 3":
+			case "Def":
 				s, defs := parseDefs(d2)
+				s.ID = fmt.Sprintf("elem.%d.def", b.Num)
+				b.Sections = append(b.Sections, s)
+				for _, d := range defs {
+					b.Definitions = append(b.Definitions, d)
+				}
+			case "Def 1", "Def 2", "Def 3":
+				s, defs := parseDefs(d2)
+				// TODO Prop def ID for book X
 				b.Sections = append(b.Sections, s)
 				for _, d := range defs {
 					b.Definitions = append(b.Definitions, d)
 				}
 			case "Post":
 				s, posts := parsePosts(d2)
+				s.ID = fmt.Sprintf("elem.%d.post", b.Num)
 				b.Sections = append(b.Sections, s)
 				for _, p := range posts {
 					b.Postulates = append(b.Postulates, p)
 				}
 			case "CN":
 				s, cns := parseCNs(d2)
+				s.ID = fmt.Sprintf("elem.%d.c.n", b.Num) // TODO Don't like the c.n.
 				b.Sections = append(b.Sections, s)
 				for _, cn := range cns {
 					b.CommonNotions = append(b.CommonNotions, cn)
 				}
-			case "Prop", "Prop 1", "Prop 2", "Prop 3":
+			case "Prop":
 				s, props := parseProps(d2)
+				s.ID = fmt.Sprintf("elem.%d.prop", b.Num)
+				b.Sections = append(b.Sections, s)
+				for _, p := range props {
+					b.Propositions = append(b.Propositions, p)
+				}
+			case "Prop 1", "Prop 2", "Prop 3":
+				s, props := parseProps(d2)
+				// TODO Handle the prop IDs for book X
 				b.Sections = append(b.Sections, s)
 				for _, p := range props {
 					b.Propositions = append(b.Propositions, p)

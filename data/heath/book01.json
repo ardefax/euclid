@@ -3,7 +3,7 @@
   "num": 1,
   "sections": [
     {
-      "id": "",
+      "id": "elem.1.def",
       "kind": "list:definition",
       "title": "Definitions",
       "text": null,
@@ -218,7 +218,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "elem.1.post",
       "kind": "list:postulate",
       "title": "Postulates",
       "text": [
@@ -273,7 +273,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "elem.1.c.n",
       "kind": "list:common-notion",
       "title": "Common Notions",
       "text": null,
@@ -326,7 +326,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "elem.1.prop",
       "kind": "list:proposition",
       "title": "Propositions",
       "text": null,
