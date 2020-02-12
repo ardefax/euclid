@@ -1,6 +1,205 @@
 {
   "title": "Book VIII",
   "num": 8,
+  "sections": [
+    {
+      "id": "",
+      "kind": "list:proposition",
+      "title": "",
+      "text": null,
+      "sections": [
+        {
+          "id": "elem.8.1",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.8.2",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.8.3",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.8.4",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.8.5",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.8.6",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.8.7",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.8.8",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.8.9",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.8.10",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.8.11",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.8.12",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.8.13",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.8.14",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.8.15",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.8.16",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.8.17",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.8.18",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.8.19",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.8.20",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.8.21",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.8.22",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.8.23",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.8.24",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.8.25",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.8.26",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.8.27",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        }
+      ]
+    }
+  ],
   "definitions": null,
   "postulates": null,
   "common_notions": null,

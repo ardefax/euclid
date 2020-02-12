@@ -1,6 +1,268 @@
 {
   "title": "Book IX",
   "num": 9,
+  "sections": [
+    {
+      "id": "",
+      "kind": "list:proposition",
+      "title": "",
+      "text": null,
+      "sections": [
+        {
+          "id": "elem.9.1",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.9.2",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.9.3",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.9.4",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.9.5",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.9.6",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.9.7",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.9.8",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.9.9",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.9.10",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.9.11",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.9.12",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.9.13",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.9.14",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.9.15",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.9.16",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.9.17",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.9.18",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.9.19",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.9.20",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.9.21",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.9.22",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.9.23",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.9.24",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.9.25",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.9.26",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.9.27",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.9.28",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.9.29",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.9.30",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.9.31",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.9.32",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.9.33",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.9.34",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.9.35",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.9.36",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        }
+      ]
+    }
+  ],
   "definitions": null,
   "postulates": null,
   "common_notions": null,

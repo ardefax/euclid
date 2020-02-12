@@ -1,6 +1,300 @@
 {
   "title": "Book VI",
   "num": 6,
+  "sections": [
+    {
+      "id": "",
+      "kind": "list:definition",
+      "title": "",
+      "text": null,
+      "sections": [
+        {
+          "id": "elem.6.def.1",
+          "kind": "definition",
+          "title": "",
+          "text": [
+            "<hi rend=\"bold\">Similar rectilineal figures are such as have their angles severally equal and the sides about the equal angles proportional."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.6.def.2",
+          "kind": "definition",
+          "title": "",
+          "text": [
+            "[<hi rend=\"bold\">Reciprocally related figures. <var>See note</var>.]"
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.6.def.3",
+          "kind": "definition",
+          "title": "",
+          "text": [
+            "A straight line is said to have been <hi rend=\"bold\">cut in extreme and mean ratio when, as the whole line is to the greater segment, so is the greater to the less."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.6.def.4",
+          "kind": "definition",
+          "title": "",
+          "text": [
+            "The <hi rend=\"bold\">height of any figure is the perpendicular drawn from the vertex to the base."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.6.def.5",
+          "kind": "definition",
+          "title": "",
+          "text": [
+            ""
+          ],
+          "sections": null
+        }
+      ]
+    },
+    {
+      "id": "",
+      "kind": "list:proposition",
+      "title": "",
+      "text": null,
+      "sections": [
+        {
+          "id": "elem.6.1",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.6.2",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.6.3",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.6.4",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.6.5",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.6.6",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.6.7",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.6.8",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.6.9",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.6.10",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.6.11",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.6.12",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.6.13",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.6.14",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.6.15",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.6.16",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.6.17",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.6.18",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.6.19",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.6.20",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.6.21",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.6.22",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.6.23",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.6.24",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.6.25",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.6.26",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.6.27",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.6.28",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.6.29",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.6.30",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.6.31",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.6.32",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.6.33",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        }
+      ]
+    }
+  ],
   "definitions": [
     {
       "id": "elem.6.def.1",

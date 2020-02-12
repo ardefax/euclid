@@ -1,6 +1,361 @@
 {
   "title": "Book V",
   "num": 5,
+  "sections": [
+    {
+      "id": "",
+      "kind": "list:definition",
+      "title": "",
+      "text": null,
+      "sections": [
+        {
+          "id": "elem.5.def.1",
+          "kind": "definition",
+          "title": "",
+          "text": [
+            "A magnitude is a <hi rend=\"bold\">part of a magnitude, the less of the greater, when it measures the greater."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.5.def.2",
+          "kind": "definition",
+          "title": "",
+          "text": [
+            "The greater is a <hi rend=\"bold\">multiple of the less when it is measured by the less."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.5.def.3",
+          "kind": "definition",
+          "title": "",
+          "text": [
+            "A <hi rend=\"bold\">ratio is a sort of relation in respect of size between two magnitudes of the same kind."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.5.def.4",
+          "kind": "definition",
+          "title": "",
+          "text": [
+            "Magnitudes are said to <hi rend=\"bold\">have a ratio to one another which are capable, when multiplied, of exceeding one another."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.5.def.5",
+          "kind": "definition",
+          "title": "",
+          "text": [
+            "Magnitudes are said to <hi rend=\"bold\">be in the same ratio, the first to the second and the third to the fourth, when, if any equimultiples whatever be taken of the first and third, and any equimultiples whatever of the second and fourth, the former equimultiples alike exceed, are alike equal to, or alike fall short of, the latter equimultiples respectively taken in corresponding order."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.5.def.6",
+          "kind": "definition",
+          "title": "",
+          "text": [
+            "Let magnitudes which have the same ratio be called <hi rend=\"bold\">proportional."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.5.def.7",
+          "kind": "definition",
+          "title": "",
+          "text": [
+            "When, of the equimultiples, the multiple of the first magnitude exceeds the multiple of the second, but the multiple of the third does not exceed the multiple of the fourth, then the first is said to <hi rend=\"bold\">have a greater ratio to the second than the third has to the fourth."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.5.def.8",
+          "kind": "definition",
+          "title": "",
+          "text": [
+            "A proportion in three terms is the least possible."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.5.def.9",
+          "kind": "definition",
+          "title": "",
+          "text": [
+            "When three magnitudes are proportional, the first is said to have to the third the <hi rend=\"bold\">duplicate ratio of that which it has to the second."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.5.def.10",
+          "kind": "definition",
+          "title": "",
+          "text": [
+            "When four magnitudes are &lt;continuously&gt; proportional, the first is said to have to the fourth the <hi rend=\"bold\">triplicate ratio of that which it has to the second, and so on continually, whatever be the proportion."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.5.def.11",
+          "kind": "definition",
+          "title": "",
+          "text": [
+            "The term <hi rend=\"bold\">corresponding magnitudes is used of antecedents in relation to antecedents, and of consequents in relation to consequents."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.5.def.12",
+          "kind": "definition",
+          "title": "",
+          "text": [
+            "<hi rend=\"bold\">Alternate ratio means taking the antecedent in relation to the antecedent and the consequent in relation to the consequent."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.5.def.13",
+          "kind": "definition",
+          "title": "",
+          "text": [
+            "<hi rend=\"bold\">Inverse ratio means taking the consequent as antecedent in relation to the antecedent as consequent."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.5.def.14",
+          "kind": "definition",
+          "title": "",
+          "text": [
+            "<hi rend=\"bold\">Composition of a ratio means taking the antecedent together with the consequent as one in relation to the consequent by itself."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.5.def.15",
+          "kind": "definition",
+          "title": "",
+          "text": [
+            "<hi rend=\"bold\">Separation of a ratio means taking the excess by which the antecedent exceeds the consequent in relation to the consequent by itself."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.5.def.16",
+          "kind": "definition",
+          "title": "",
+          "text": [
+            "<hi rend=\"bold\">Conversion of a ratio means taking the antecedent in relation to the excess by which the antecedent exceeds the consequent."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.5.def.17",
+          "kind": "definition",
+          "title": "",
+          "text": [
+            "A ratio <foreign lang=\"la\">ex aequali</foreign> arises when, there being several magnitudes and another set equal to them in multitude which taken two and two are in the same proportion, as the first is to the last among the first magnitudes, so is the first to the last among the second magnitudes; "
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.5.def.18",
+          "kind": "definition",
+          "title": "",
+          "text": [
+            "A <hi rend=\"bold\">perturbed proportion arises when, there being three magnitudes and another set equal to them in multitude, as antecedent is to consequent among the first magnitudes, so is antecedent to consequent among the second magnitudes, while, as the consequent is to a third among the first magnitudes, so is a third to the antecedent among the second magnitudes."
+          ],
+          "sections": null
+        }
+      ]
+    },
+    {
+      "id": "",
+      "kind": "list:proposition",
+      "title": "",
+      "text": null,
+      "sections": [
+        {
+          "id": "elem.5.1",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.5.2",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.5.3",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.5.4",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.5.5",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.5.6",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.5.7",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.5.8",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.5.9",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.5.10",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.5.11",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.5.12",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.5.13",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.5.14",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.5.15",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.5.16",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.5.17",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.5.18",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.5.19",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.5.20",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.5.21",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.5.22",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.5.23",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.5.24",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.5.25",
+          "kind": "proposition",
+          "title": "",
+          "text": null,
+          "sections": null
+        }
+      ]
+    }
+  ],
   "definitions": [
     {
       "id": "elem.5.def.1",
