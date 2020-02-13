@@ -1,7 +1,7 @@
 # brew install saxon
 # http://www.saxonica.com/documentation/index.html#!using-xsl/commandline
 
-N:=4
+N:=5
 
 # Retain the intermediate files for inspection
 .SECONDARY:
@@ -12,6 +12,8 @@ all: vol1.xml vol2.xml vol3.xml
 vol%.xml: $(N)/vol%.xml
 	ln -sf $<
 
+5/vol%.xml: 4/vol%.xml 5.xslt
+	saxon -s:$< -xsl:5.xslt -o:$@
 4/vol%.xml: 3/vol%.xml 4.xslt
 	saxon -s:$< -xsl:4.xslt -o:$@
 3/vol%.xml: 2/vol%.xml 3.xslt
