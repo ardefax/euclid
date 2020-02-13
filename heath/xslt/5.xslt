@@ -8,7 +8,7 @@
     <p><xsl:value-of select="substring(text(), 5)"/></p>
   </xsl:template>
 
-  <!-- Prop I.15, I.36 is missing the QED div. The copy-of `.` causes issues when
+  <!-- Prop I.15, I.36 missing the QED div. The copy-of `.` causes issues when
       this was also attempted to be combined with the prior QED fixes -->
   <xsl:template match="div3[@id='elem.1.15' or @id='elem.1.36']/div4[@type='Proof']">
     <xsl:copy-of select="."/>
