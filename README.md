@@ -19,7 +19,7 @@ $ hugo server -D
 ## Sources
 
 [Heath - Perseus Project](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0086)
-- Source of the XML files that contain the book.
+- Source of the XML files that contain the book. [TEI format?](https://dh.obdurodon.org/#tei)
 
 [David Joyce's Euclid's Elements](https://mathcs.clarku.edu/~djoyce/java/elements/toc.html)
 

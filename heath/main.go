@@ -304,6 +304,7 @@ func parseProps(d2 Div2) Section {
 	return s
 }
 
+// TODO Remove this now
 // cleanPara is a bit of a regex kludge. It exists to transform embedded
 // tags in paragraphs from the source XML to something that is HTML-friendly.
 func cleanPara(p Node) string {
@@ -318,16 +319,6 @@ var repls = []struct{
   target string
   re *regexp.Regexp
 } {
-	{ `<${1}dfn>`, regexp.MustCompile(`<(/?)term>`)},
-	{ `<${1}var>`, regexp.MustCompile(`<(/?)emph>`)},
-	// TODO Make these into superscripts of the preceding statement
-	{ `<a href="#$1">`, regexp.MustCompile(`<ref target="([a-z1-9.]+)" targOrder="U">`) },
-	{ `</a>`, regexp.MustCompile(`</ref>`) },
-	{ ``, regexp.MustCompile(`<figure />`) },
-	{ ``, regexp.MustCompile(`<(/?)hi( rend="center")?>`) },
-	{ ``, regexp.MustCompile(`<(/?)hi( rend="center")?>`) },
-	{ ``, regexp.MustCompile(`<[p|l]b n="\d+" />`) },
-	// TODO anything with <note>'s?
 }
 
 // roman is a terrible implementation of making roman numerals
