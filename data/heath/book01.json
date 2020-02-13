@@ -368,7 +368,7 @@
               "kind": "qed",
               "title": "",
               "text": [
-                "(Being) what it was required to do."
+                "Q. E. F."
               ],
               "sections": null
             }
@@ -412,7 +412,7 @@
               "kind": "qed",
               "title": "",
               "text": [
-                "(Being) what it was required to do."
+                "Q. E. F."
               ],
               "sections": null
             }
@@ -450,7 +450,7 @@
               "kind": "qed",
               "title": "",
               "text": [
-                "(Being) what it was required to do."
+                "Q. E. F."
               ],
               "sections": null
             }
@@ -478,7 +478,7 @@
               "text": [
                 "Let <var>ABC</var>, <var>DEF</var> be two triangles having the two sides <var>AB</var>, <var>AC</var> equal to the two sides <var>DE</var>, <var>DF</var> respectively, namely <var>AB</var> to <var>DE</var> and <var>AC</var> to <var>DF</var>, and the angle <var>BAC</var> equal to the angle <var>EDF</var>.",
                 "I say that the base <var>BC</var> is also equal to the base <var>EF</var>, the triangle <var>ABC</var> will be equal to the triangle <var>DEF</var>, and the remaining angles will be equal to the remaining angles respectively, namely those which the equal sides subtend, that is, the angle <var>ABC</var> to the angle <var>DEF</var>, and the angle <var>ACB</var> to the angle <var>DFE</var>.",
-                "For, if the triangle <var>ABC</var> be applied to the triangle <var>DEF</var>, and if the point <var>A</var> be placed on the point <var>D</var> and the straight line <var>AB</var> on <var>DE</var>, then the point <var>B</var> will also coincide with <var>E</var>, because <var>AB</var> is equal to <var>DE</var>. \n        ",
+                "For, if the triangle <var>ABC</var> be applied to the triangle <var>DEF</var>, and if the point <var>A</var> be placed <lb n=\"20\"/>on the point <var>D</var> and the straight line <var>AB</var> on <var>DE</var>, then the point <var>B</var> will also coincide with <var>E</var>, because <var>AB</var> is equal to <var>DE</var>. \n        ",
                 "Again, <var>AB</var> coinciding with <var>DE</var>, the straight line <var>AC</var> will also coincide with <var>DF</var>, because the angle <var>BAC</var> is equal to the angle <var>EDF</var>; hence the point <var>C</var> will also coincide with the point <var>F</var>, because <var>AC</var> is again equal to <var>DF</var>.\n        ",
                 "But <var>B</var> also coincided with <var>E</var>; hence the base <var>BC</var> will coincide with the base <var>EF</var>.",
                 "[For if, when <var>B</var> coincides with <var>E</var> and <var>C</var> with <var>F</var>, the base <var>BC</var> does not coincide with the base <var>EF</var>, two straight lines will enclose a space: which is impossible. Therefore the base <var>BC</var> will coincide with <var>EF</var>] and will be equal to it. [<a href=\"#elem.1.c.n.4\">C.N. 4</a>]",
@@ -493,7 +493,7 @@
               "kind": "qed",
               "title": "",
               "text": [
-                "(Being) what it was required to prove."
+                "Q. E. D."
               ],
               "sections": null
             }
@@ -522,7 +522,7 @@
                 "Let <var>ABC</var> be an isosceles triangle having the side <var>AB</var>\n        equal to the side <var>AC</var>; and let the straight lines <var>BD</var>, <var>CE</var> be produced further in a straight line with <var>AB</var>, <var>AC</var>. [<a href=\"#elem.1.post.2\">Post. 2</a>]",
                 "I say that the angle <var>ABC</var> is equal to the angle <var>ACB</var>, and the angle <var>CBD</var> to the angle <var>BCE</var>. ",
                 "Let a point <var>F</var> be taken at random on <var>BD</var>;  from <var>AE</var> the greater let <var>AG</var> be cut off equal to <var>AF</var> the less; [<a href=\"#elem.1.3\">I. 3</a>] and let the straight lines <var>FC</var>, <var>GB</var> be joined. [<a href=\"#elem.1.post.1\">Post. 1</a>] ",
-                "Then, since <var>AF</var> is equal to <var>AG</var> and <var>AB</var> to <var>AC</var>, the two sides <var>FA</var>, <var>AC</var> are equal to the two sides <var>GA</var>, <var>AB</var>, respectively; and they contain a common angle, the angle <var>FAG</var>. Therefore the base <var>FC</var> is equal to the base <var>GB</var>, and the triangle <var>AFC</var> is equal to the triangle <var>AGB</var>, and the remaining angles will be equal to the remaining angles respectively, namely those which the equal sides subtend, that is, the angle <var>ACF</var> to the angle <var>ABG</var>, and the angle <var>AFC</var> to the angle <var>AGB</var>. [<a href=\"#elem.1.4\">I. 4</a>]",
+                "Then, since <var>AF</var> is equal to <var>AG</var> and <var>AB</var> to <var>AC</var>, the two sides <var>FA</var>, <var>AC</var> are equal to the two sides <var>GA</var>, <var>AB</var>, respectively; and they contain a common angle, the angle <var>FAG</var>. Therefore the base <var>FC</var> is equal to the base <var>GB</var>, and the triangle <var>AFC</var> is equal to the triangle <var>AGB</var>, and the remaining angles will be equal to the remaining angles respectively, namely those which the equal sides subtend, that is, the angle <var>ACF</var> to the angle <var>ABG</var>, <lb n=\"25\"/>and the angle <var>AFC</var> to the angle <var>AGB</var>. [<a href=\"#elem.1.4\">I. 4</a>]",
                 "And, since the whole <var>AF</var> is equal to the whole <var>AG</var>, and in these <var>AB</var> is equal to <var>AC</var>, the remainder <var>BF</var> is equal to the remainder <var>CG</var>.",
                 "But <var>FC</var> was also proved equal to <var>GB</var>; therefore the two sides <var>BF</var>, <var>FC</var> are equal to the two sides <var>CG</var>, <var>GB</var> respectively; and the angle <var>BFC</var> is equal to the angle <var>CGB</var>, while the base <var>BC</var> is common to them; therefore the triangle <var>BFC</var> is also equal to the triangle <var>CGB</var>, and the remaining angles will be equal to the remaining angles respectively, namely those which the equal sides subtend; therefore the angle <var>FBC</var> is equal to the angle <var>GCB</var>, and the angle <var>BCF</var> to the angle <var>CBG</var>.\n        ",
                 "Accordingly, since the whole angle <var>ABG</var> was proved equal to the angle <var>ACF</var>, and in these the angle <var>CBG</var> is equal to the angle <var>BCF</var>, the remaining angle <var>ABC</var> is equal to the remaining angle <var>ACB</var>; and they are at the base of the triangle <var>ABC</var>. But the angle <var>FBC</var> was also proved equal to the angle <var>GCB</var>; and they are under the base.",
@@ -603,7 +603,7 @@
               "title": "",
               "text": [
                 "For, if possible, given two straight lines <var>AC</var>, <var>CB</var> constructed on the straight line <var>AB</var> and meeting at the point <var>C</var>, let two other straight lines \n        <var>AD</var>, <var>DB</var> be constructed on the same straight line <var>AB</var>, on the same side of it, meeting in another point <var>D</var> and equal to the former two respectively, namely each to that which has the same extremity with it, so that <var>CA</var> is equal to <var>DA</var> which has the same extremity <var>A</var> with it, and <var>CB</var> to <var>DB</var> which has the same extremity <var>B</var> with it; and let <var>CD</var> be joined.",
-                "Then, since <var>AC</var> is equal to <var>AD</var>, the angle <var>ACD</var> is also equal to the angle <var>ADC</var>; [<a href=\"#elem.1.5\">I. 5</a>] therefore the angle <var>ADC</var> is greater than the angle <var>DCB</var>; therefore the angle <var>CDB</var> is much greater than the angle <var>DCB</var>.",
+                "Then, since <var>AC</var> is equal to <var>AD</var>, the angle <var>ACD</var> is also equal to the angle <var>ADC</var>; [<a href=\"#elem.1.5\">I. 5</a>] <lb n=\"20\"/>therefore the angle <var>ADC</var> is greater than the angle <var>DCB</var>; therefore the angle <var>CDB</var> is much greater than the angle <var>DCB</var>.",
                 "Again, since <var>CB</var> is equal to <var>DB</var>, the angle <var>CDB</var> is also equal to the angle <var>DCB</var>.\n        But it was also proved much greater than it: which is impossible.",
                 "Therefore etc."
               ],
@@ -643,7 +643,7 @@
                 "Let <var>ABC</var>, <var>DEF</var> be two triangles having the two sides <var>AB</var>, <var>AC</var> equal to the two sides <var>DE</var>, <var>DF</var> respectively, namely <var>AB</var> to <var>DE</var>, and <var>AC</var> to <var>DF</var>; and let them have the base <var>BC</var> equal to the base <var>EF</var>; ",
                 "I say that the angle <var>BAC</var> is also equal to the angle <var>EDF</var>.",
                 "For, if the triangle <var>ABC</var> be applied to the triangle <var>DEF</var>, and if the point <var>B</var> be placed on the point <var>E</var> and the straight line <var>BC</var> on <var>EF</var>, the point <var>C</var> will also coincide with <var>F</var>, because <var>BC</var> is equal to <var>EF</var>.\n        ",
-                "Then, <var>BC</var> coinciding with <var>EF</var>, <var>BA</var>, <var>AC</var> will also coincide with <var>ED</var>, <var>DF</var>;\n        for, if the base <var>BC</var> coincides with the base <var>EF</var>, and the sides <var>BA</var>, <var>AC</var> do not coincide with <var>ED</var>, <var>DF</var> but fall beside them as <var>EG</var>, <var>GF</var>, then, given two straight lines constructed on a straight line (from its extremities) and meeting in a point, there will have been constructed on the same straight line (from its extremities), and on the same side of it, two other straight lines meeting in another point and equal to the former two respectively, namely each to that which has the same extremity with it. But they cannot be so constructed. [<a href=\"#elem.1.7\">I. 7</a>]",
+                "Then, <var>BC</var> coinciding with <var>EF</var>, <var>BA</var>, <var>AC</var> will also coincide with <var>ED</var>, <var>DF</var>;\n        for, if the base <var>BC</var> coincides with the base <var>EF</var>, and the sides <var>BA</var>, <var>AC</var> do not coincide with <var>ED</var>, <var>DF</var> but fall beside them as <var>EG</var>, <var>GF</var>, then, given two straight lines constructed on a straight line (from its extremities) and meeting in a point, there will <lb n=\"25\"/>have been constructed on the same straight line (from its extremities), and on the same side of it, two other straight lines meeting in another point and equal to the former two respectively, namely each to that which has the same extremity with it. <lb n=\"30\"/>But they cannot be so constructed. [<a href=\"#elem.1.7\">I. 7</a>]",
                 "Therefore it is not possible that, if the base <var>BC</var> be applied to the base <var>EF</var>, the sides <var>BA</var>, <var>AC</var> should not coincide with <var>ED</var>, <var>DF</var>; they will therefore coincide,\n        so that the angle <var>BAC</var> will also coincide with the angle <var>EDF</var>, and will be equal to it.",
                 "If therefore etc."
               ],
@@ -765,8 +765,8 @@
                 "Thus it is required to draw from the point <var>C</var> a straight line at right angles to the straight line <var>AB</var>.",
                 "Let a point <var>D</var> be taken at random on <var>AC</var>; let <var>CE</var> be made equal to <var>CD</var>; [<a href=\"#elem.1.3\">I. 3</a>] on <var>DE</var> let the equilateral triangle <var>FDE</var> be constructed, [<a href=\"#elem.1.1\">I. 1</a>] and let <var>FC</var> be joined; ",
                 "I say that the straight line <var>FC</var> has been drawn at right angles to the given straight line <var>AB</var> from <var>C</var> the given point on it.",
-                "For, since <var>DC</var> is equal to <var>CE</var>, and <var>CF</var> is common, the two sides <var>DC</var>, <var>CF</var> are equal to the two sides <var>EC</var>, <var>CF</var> respectively; and the base <var>DF</var> is equal to the base <var>FE</var>; therefore the angle <var>DCF</var> is equal to the angle <var>ECF</var>; [<a href=\"#elem.1.8\">I. 8</a>] and they are adjacent angles.",
-                "But, when a straight line set up on a straight line makes the adjacent angles equal to one another, each of the equal angles is right; [<ref target=\"elem.1.def.10\" targOrder=\"U\">Def. 10</a>] therefore each of the angles <var>DCF</var>, <var>FCE</var> is right.",
+                "For, since <var>DC</var> is equal to <var>CE</var>, and <var>CF</var> is common, the two sides <var>DC</var>, <var>CF</var> are equal to the two sides <var>EC</var>, <lb n=\"20\"/><var>CF</var> respectively; and the base <var>DF</var> is equal to the base <var>FE</var>; therefore the angle <var>DCF</var> is equal to the angle <var>ECF</var>; [<a href=\"#elem.1.8\">I. 8</a>] and they are adjacent angles.",
+                "But, when a straight line set up on a straight line makes the adjacent angles equal to one another, each of the equal angles is right; [<a href=\"#elem.1.def.10\">Def. 10</a>] therefore each of the angles <var>DCF</var>, <var>FCE</var> is right.",
                 "Therefore the straight line <var>CF</var> has been drawn at right angles to the given straight line <var>AB</var> from the given point <var>C</var> on it."
               ],
               "sections": null
@@ -803,10 +803,10 @@
               "title": "",
               "text": [
                 "Let <var>AB</var> be the given infinite straight line, and <var>C</var> the given point which is not on it; thus it is required to draw to the given infinite straight line <var>AB</var>, from the given point <var>C</var> which is not on it, a perpendicular straight line.",
-                "For let a point <var>D</var> be taken at random on the other side of the straight line <var>AB</var>, and with centre <var>C</var> and distance <var>CD</var> let the circle <var>EFG</var> be described; [<a href=\"#elem.1.post.3\">Post. 3</a>] \n        let the straight line <var>EG</var>\n         be bisected at <var>H</var>, [<ref target=\"elem.1.10\" targOrder=\"U\">I. 10</a>] and let the straight lines <var>CG</var>, <var>CH</var>, <var>CE</var> be joined. [<a href=\"#elem.1.post.1\">Post. 1</a>]",
+                "For let a point <var>D</var> be taken at random on the other side of the straight line <var>AB</var>, and with centre <var>C</var> and distance <var>CD</var> let the circle <var>EFG</var> be described; [<a href=\"#elem.1.post.3\">Post. 3</a>] \n        let the straight line <var>EG</var>\n         <lb n=\"15\"/>be bisected at <var>H</var>, [<a href=\"#elem.1.10\">I. 10</a>] and let the straight lines <var>CG</var>, <var>CH</var>, <var>CE</var> be joined. [<a href=\"#elem.1.post.1\">Post. 1</a>]",
                 "I say that <var>CH</var> has been drawn perpendicular to the given infinite straight line <var>AB</var> from the given point <var>C</var> which is not on it. ",
                 "For, since <var>GH</var> is equal to <var>HE</var>, and <var>HC</var> is common, the two sides <var>GH</var>, <var>HC</var> are equal to the two sides <var>EH</var>, <var>HC</var> respectively; and the base <var>CG</var> is equal to the base <var>CE</var>; therefore the angle <var>CHG</var> is equal to the angle <var>EHC</var>. [<a href=\"#elem.1.8\">I. 8</a>] And they are adjacent angles.",
-                "But, when a straight line set up on a straight line makes the adjacent angles equal to one another, each of the equal angles is right, and the straight line standing on the other is called a perpendicular to that on which it stands. [<ref target=\"elem.1.def.10\" targOrder=\"U\">Def. 10</a>]",
+                "But, when a straight line set up on a straight line makes the adjacent angles equal to one another, each of the equal angles is right, and the straight line standing on the other is called a perpendicular to that on which it stands. [<a href=\"#elem.1.def.10\">Def. 10</a>]",
                 "Therefore <var>CH</var> has been drawn perpendicular to the given infinite straight line <var>AB</var> from the given point <var>C</var> which is not on it."
               ],
               "sections": null
@@ -844,11 +844,11 @@
               "text": [
                 "For let any straight line <var>AB</var> set up on the straight line <var>CD</var> make the angles <var>CBA</var>, <var>ABD</var>;",
                 "I say that the angles <var>CBA</var>, <var>ABD</var> are either two right angles or equal to two right angles. ",
-                "Now, if the angle <var>CBA</var> is equal to the angle <var>ABD</var>, they are two right angles. [<ref target=\"elem.1.def.10\" targOrder=\"U\">Def. 10</a>]",
+                "Now, if the angle <var>CBA</var> is equal to the angle <var>ABD</var>, they are two right angles. [<a href=\"#elem.1.def.10\">Def. 10</a>]",
                 "But, if not, let <var>BE</var> be drawn from the point <var>B</var> at right angles to <var>CD</var>; [<a href=\"#elem.1.11\">I. 11</a>] therefore the angles <var>CBE</var>, <var>EBD</var> are two right angles.\n        ",
                 "Then, since the angle <var>CBE</var> is equal to the two angles <var>CBA</var>, <var>ABE</var>, let the angle <var>EBD</var> be added to each; therefore the angles <var>CBE</var>, <var>EBD</var> are equal to the three angles <var>CBA</var>, <var>ABE</var>, <var>EBD</var>. [<title>C. N</title>. 2]\n        ",
                 "Again, since the angle <var>DBA</var> is equal to the two angles <var>DBE</var>, <var>EBA</var>, let the angle <var>ABC</var> be added to each; therefore the angles <var>DBA</var>. <var>ABC</var> are equal to the three angles <var>DBE</var>, <var>EBA</var>, <var>ABC</var>. [<title>C. N</title>. 2]\n        ",
-                "But the angles <var>CBE</var>, <var>EBD</var> were also proved equal to the same three angles; and things which are equal to the same thing are also equal to one another; [<title>C. N</title>. 1] therefore the angles <var>CBE</var>, <var>EBD</var> are also equal to the angles <var>DBA</var>, <var>ABC</var>.\n        But the angles <var>CBE</var>, <var>EBD</var> are two right angles; therefore the angles <var>DBA</var>, <var>ABC</var> are also equal to two right angles.",
+                "But the angles <var>CBE</var>, <var>EBD</var> were also proved equal to the same three angles; and things which are equal to the same thing are also equal to one another; [<title>C. N</title>. 1] therefore the angles <var>CBE</var>, <var>EBD</var> are also equal to the <lb n=\"30\"/>angles <var>DBA</var>, <var>ABC</var>.\n        But the angles <var>CBE</var>, <var>EBD</var> are two right angles; therefore the angles <var>DBA</var>, <var>ABC</var> are also equal to two right angles.",
                 "Therefore etc."
               ],
               "sections": null
@@ -929,7 +929,7 @@
                 "I say that the angle <var>AEC</var> is equal to the angle <var>DEB</var>, and the angle <var>CEB</var> to the angle <var>AED</var>.\n        ",
                 "For, since the straight line <var>AE</var> stands on the straight line <var>CD</var>, making the angles <var>CEA</var>, <var>AED</var>, the angles <var>CEA</var>, <var>AED</var> are equal to two right angles [<a href=\"#elem.1.13\">I. 13</a>]\n        ",
                 "Again, since the straight line <var>DE</var> stands on the straight line <var>AB</var>, making the angles <var>AED</var>, <var>DEB</var>, the angles <var>AED</var>, <var>DEB</var> are equal to two right angles. [<a href=\"#elem.1.13\">I. 13</a>]\n        ",
-                "But the angles <var>CEA</var>, <var>AED</var> were also proved equal to two right angles; therefore the angles <var>CEA</var>, <var>AED</var> are equal to the angles <var>AED</var>\n         <var>DEB</var>. [<a href=\"#elem.1.post.4\">Post. 4</a> and <a href=\"#elem.1.c.n.1\">C. N. 1</a>] Let the angle <var>AED</var> be subtracted from each; therefore the remaining angle <var>CEA</var> is equal to the remaining angle <var>BED</var>. [<a href=\"#elem.1.c.n.3\">C. N. 3</a>]",
+                "But the angles <var>CEA</var>, <var>AED</var> were also proved equal to two right angles; therefore the angles <var>CEA</var>, <var>AED</var> are equal to the angles <var>AED</var>\n         <var>DEB</var>. [<a href=\"#elem.1.post.4\">Post. 4</a> and <a href=\"#elem.1.c.n.1\">C. N. 1</a>] Let the angle <var>AED</var> be subtracted from each; <lb n=\"20\"/>therefore the remaining angle <var>CEA</var> is equal to the remaining angle <var>BED</var>. [<a href=\"#elem.1.c.n.3\">C. N. 3</a>]",
                 "Similarly it can be proved that the angles <var>CEB</var>, <var>DEA</var> are also equal.",
                 "Therefore etc. Q. E. D. "
               ],
@@ -959,9 +959,9 @@
               "text": [
                 "Let <var>ABC</var> be a triangle, and let one side of it <var>BC</var> be produced to <var>D</var>; ",
                 "I say that the exterior angle <var>ACD</var> is greater than either of the interior and opposite angles <var>CBA</var>, <var>BAC</var>.",
-                "Let <var>AC</var> be bisected at <var>E</var> [<ref target=\"elem.1.10\" targOrder=\"U\">I. 10</a>], and let <var>BE</var> be joined and produced in a straight line to <var>F</var>; ",
+                "Let <var>AC</var> be bisected at <var>E</var> [<a href=\"#elem.1.10\">I. 10</a>], and let <var>BE</var> be joined and produced in a straight line to <var>F</var>; ",
                 "let <var>EF</var> be made equal to <var>BE</var>[<a href=\"#elem.1.3\">I. 3</a>], let <var>FC</var> be joined [<a href=\"#elem.1.post.1\">Post. 1</a>], and let <var>AC</var> be drawn through to <var>G</var> [<a href=\"#elem.1.post.2\">Post. 2</a>].",
-                "Then, since <var>AE</var> is equal to <var>EC</var>, and <var>BE</var> to <var>EF</var>, the two sides <var>AE</var>, <var>EB</var> are equal to the two sides <var>CE</var>, <var>EF</var> respectively; and the angle <var>AEB</var> is equal to the angle <var>FEC</var>, for they are vertical angles. [<a href=\"#elem.1.15\">I. 15</a>] Therefore the base <var>AB</var> is equal to the base <var>FC</var>, and the triangle <var>ABE</var> is equal to the triangle <var>CFE</var>, and the remaining angles are equal to the remaining angles respectively, namely those which the equal sides subtend; [<a href=\"#elem.1.4\">I. 4</a>] therefore the angle <var>BAE</var> is equal to the angle <var>ECF</var>.\n        ",
+                "Then, since <var>AE</var> is equal to <var>EC</var>, and <var>BE</var> to <var>EF</var>, the two sides <var>AE</var>, <var>EB</var> are equal to the two sides <var>CE</var>, <var>EF</var> respectively; and the angle <var>AEB</var> is equal to the angle <var>FEC</var>, for they are vertical angles. [<a href=\"#elem.1.15\">I. 15</a>] <lb n=\"20\"/>Therefore the base <var>AB</var> is equal to the base <var>FC</var>, and the triangle <var>ABE</var> is equal to the triangle <var>CFE</var>, and the remaining angles are equal to the remaining angles respectively, namely those which the equal sides subtend; [<a href=\"#elem.1.4\">I. 4</a>] therefore the angle <var>BAE</var> is equal to the angle <var>ECF</var>.\n        ",
                 "But the angle <var>ECD</var> is greater than the angle <var>ECF</var>; [<title>C. N</title>. 5] therefore the angle <var>ACD</var> is greater than the angle <var>BAE</var>.",
                 "Similarly also, if <var>BC</var> be bisected, the angle <var>BCG</var>, that is, the angle <var>ACD</var> [<a href=\"#elem.1.15\">I. 15</a>], can be proved greater than the angle <var>ABC</var> as well.",
                 "Therefore etc."
@@ -1166,7 +1166,7 @@
                 "On <var>BC</var>, one of the sides of the triangle <var>ABC</var>, from its extremities <var>B</var>, <var>C</var>, let the two straight lines <var>BD</var>, <var>DC</var> be constructed meeting within the triangle;",
                 "I say that <var>BD</var>, <var>DC</var> are less than the remaining two sides of the triangle <var>BA</var>, <var>AC</var>, but contain an angle <var>BDC</var> greater than the angle <var>BAC</var>. ",
                 "For let <var>BD</var> be drawn through to <var>E</var>.",
-                "Then, since in any triangle two sides are greater than the remaining one, [<ref target=\"elem.1.20\" targOrder=\"U\">I. 20</a>] therefore, in the triangle <var>ABE</var>, the two sides <var>AB</var>, <var>AE</var> are greater than <var>BE</var>.",
+                "Then, since in any triangle two sides are greater than the remaining one, [<a href=\"#elem.1.20\">I. 20</a>] therefore, in the triangle <var>ABE</var>, the two sides <var>AB</var>, <var>AE</var> are greater than <var>BE</var>.",
                 "Let <var>EC</var> be added to each; therefore <var>BA</var>, <var>AC</var> are greater than <var>BE</var>, <var>EC</var>.\n        ",
                 "Again, since, in the triangle <var>CED</var>, the two sides <var>CE</var>, <var>ED</var> are greater than <var>CD</var>, let <var>DB</var> be added to each; therefore <var>CE</var>, <var>EB</var> are greater than <var>CD</var>, <var>DB</var>.",
                 "But <var>BA</var>, <var>AC</var> were proved greater than <var>BE</var>, <var>EC</var>; therefore <var>BA</var>, <var>AC</var> are much greater than <var>BD</var>, <var>DC</var>.",
@@ -1198,7 +1198,7 @@
               "kind": "theorem",
               "title": "",
               "text": [
-                "Out of three straight lines, which are equal to three given straight lines, to construct a triangle: thus it is necessary that two of the straight lines taken together in any manner should be greater than the remaining one. [<ref target=\"elem.1.20\" targOrder=\"U\">I. 20</a>]"
+                "Out of three straight lines, which are equal to three given straight lines, to construct a triangle: thus it is necessary that two of the straight lines taken together in any manner should be greater than the remaining one. [<a href=\"#elem.1.20\">I. 20</a>]"
               ],
               "sections": null
             },
@@ -1377,8 +1377,8 @@
                 "I say that they will also have the remaining sides equal to the remaining sides respectively, namely <var>AB</var> to <var>DE</var> and <var>AC</var> to <var>DF</var>, and the remaining angle to the remaining angle, namely the angle <var>BAC</var> to the angle <var>EDF</var>. ",
                 "For, if <var>AB</var> is unequal to <var>DE</var>, one of them is greater.",
                 "Let <var>AB</var> be greater, and let <var>BG</var> be made equal to <var>DE</var>; and let <var>GC</var> be joined. ",
-                "Then, since <var>BG</var> is equal to <var>DE</var>, and <var>BC</var> to <var>EF</var>, the two sides <var>GB</var>, <var>BC</var> are equal to the two sides <var>DE</var>, <var>EF</var> respectively; and the angle <var>GBC</var> is equal to the angle <var>DEF</var>; therefore the base <var>GC</var> is equal to the base <var>DF</var>, and the triangle <var>GBC</var> is equal to the triangle <var>DEF</var>, and the remaining angles will be equal to the remaining angles, namely those which the equal sides subtend; [<a href=\"#elem.1.4\">I. 4</a>] therefore the angle <var>GCB</var> is equal to the angle <var>DFE</var>. But the angle <var>DFE</var> is by hypothesis equal to the angle <var>BCA</var>; therefore the angle <var>BCG</var> is equal to the angle <var>BCA</var>, the less to the greater: which is impossible. Therefore <var>AB</var> is not unequal to <var>DE</var>, and is therefore equal to it.",
-                "But <var>BC</var> is also equal to <var>EF</var>; therefore the two sides <var>AB</var>, <var>BC</var> are equal to the two sides <var>DE</var>, <var>EF</var> respectively, and the angle <var>ABC</var> is equal to the angle <var>DEF</var>; therefore the base <var>AC</var> is equal to the base <var>DF</var>, and the remaining angle <var>BAC</var> is equal to the remaining angle <var>EDF</var>. [<a href=\"#elem.1.4\">I. 4</a>]\n        ",
+                "Then, since <var>BG</var> is equal to <var>DE</var>, and <var>BC</var> to <var>EF</var>, the two sides <var>GB</var>, <var>BC</var> are equal to the two sides <var>DE</var>, <var>EF</var> respectively; and the angle <var>GBC</var> is equal to the angle <var>DEF</var>; therefore the base <var>GC</var> is equal to the base <var>DF</var>, <lb n=\"25\"/>and the triangle <var>GBC</var> is equal to the triangle <var>DEF</var>, and the remaining angles will be equal to the remaining angles, namely those which the equal sides subtend; [<a href=\"#elem.1.4\">I. 4</a>] therefore the angle <var>GCB</var> is equal to the angle <var>DFE</var>. But the angle <var>DFE</var> is by hypothesis equal to the angle <var>BCA</var>; therefore the angle <var>BCG</var> is equal to the angle <var>BCA</var>, the less to the greater: which is impossible. Therefore <var>AB</var> is not unequal to <var>DE</var>, and is therefore equal to it.",
+                "But <var>BC</var> is also equal to <var>EF</var>; therefore the two sides <var>AB</var>, <var>BC</var> are equal to the two sides <var>DE</var>, <var>EF</var> respectively, and the angle <var>ABC</var> is equal to the angle <var>DEF</var>; therefore the base <var>AC</var> is equal to the base <var>DF</var>, and the remaining angle <var>BAC</var> is equal to the remaining <lb n=\"40\"/>angle <var>EDF</var>. [<a href=\"#elem.1.4\">I. 4</a>]\n        ",
                 "Again, let sides subtending equal angles be equal, as <var>AB</var> to <var>DE</var>;",
                 "I say again that the remaining sides will be equal to the remaining sides, namely <var>AC</var> to <var>DF</var> and <var>BC</var> to <var>EF</var>, and further the remaining angle <var>BAC</var> is equal to the remaining angle <var>EDF</var>.",
                 "For, if <var>BC</var> is unequal to <var>EF</var>, one of them is greater.",
@@ -1514,7 +1514,7 @@
                 "But straight lines produced indefinitely from angles less than two right angles meet; [<a href=\"#elem.1.post.5\">Post. 5</a>] therefore <var>AB</var>, <var>CD</var>, if produced indefinitely, will meet; but they do not meet, because they are by hypothesis parallel.",
                 "Therefore the angle <var>AGH</var> is not unequal to the angle <var>GHD</var>, and is therefore equal to it.\n        ",
                 "Again, the angle <var>AGH</var> is equal to the angle <var>EGB</var>; [<a href=\"#elem.1.15\">I. 15</a>] therefore the angle <var>EGB</var> is also equal to the angle <var>GHD</var>. [<a href=\"#elem.1.c.n.1\">C.N. 1</a>]",
-                "Let the angle <var>BGH</var> be added to each; therefore the angles <var>EGB</var>, <var>BGH</var> are equal to the angles <var>BGH</var>, <var>GHD</var>. [<a href=\"#elem.1.c.n.2\">C.N. 2</a>]",
+                "Let the angle <var>BGH</var> be added to each; therefore the angles <var>EGB</var>, <var>BGH</var> are equal to the <lb n=\"35\"/>angles <var>BGH</var>, <var>GHD</var>. [<a href=\"#elem.1.c.n.2\">C.N. 2</a>]",
                 "But the angles <var>EGB</var>, <var>BGH</var> are equal to two right angles; [<a href=\"#elem.1.13\">I. 13</a>] therefore the angles <var>BGH</var>, <var>GHD</var> are also equal to two right angles.",
                 "Therefore etc."
               ],
@@ -1675,7 +1675,7 @@
                 "Let <var>AB</var>, <var>CD</var> be equal and parallel, and let the straight  lines <var>AC</var>, <var>BD</var> join them (at the extremities which are) in the same directions (respectively); I say that <var>AC</var>, <var>BD</var> are also equal and parallel.",
                 "Let <var>BC</var> be joined. ",
                 "Then, since <var>AB</var> is parallel to <var>CD</var>,  and <var>BC</var> has fallen upon them, the alternate angles <var>ABC</var>, <var>BCD</var> are equal to one another. [<a href=\"#elem.1.29\">I. 29</a>]",
-                "And, since <var>AB</var> is equal to <var>CD</var>, and <var>BC</var> is common, the two sides <var>AB</var>, <var>BC</var> are equal to the two sides <var>DC</var>, <var>CB</var>; and the angle <var>ABC</var> is equal to the angle <var>BCD</var>; therefore the base <var>AC</var> is equal to the base <var>BD</var>, and the griangle <var>ABC</var> is equal to the triangle <var>DCB</var>, and the remaining angles will be equal to the remaining angles respectively, namely those which the equal sides subtend; [<a href=\"#elem.1.4\">I. 4</a>] therefore the angle <var>ACB</var> is equal to the angle <var>CBD</var>.",
+                "And, since <var>AB</var> is equal to <var>CD</var>, and <var>BC</var> is common, <lb n=\"15\"/>the two sides <var>AB</var>, <var>BC</var> are equal to the two sides <var>DC</var>, <var>CB</var>; and the angle <var>ABC</var> is equal to the angle <var>BCD</var>; therefore the base <var>AC</var> is equal to the base <var>BD</var>, and the griangle <var>ABC</var> is equal to the triangle <var>DCB</var>, and the remaining angles will be equal to the remaining angles <lb n=\"20\"/>respectively, namely those which the equal sides subtend; [<a href=\"#elem.1.4\">I. 4</a>] therefore the angle <var>ACB</var> is equal to the angle <var>CBD</var>.",
                 "And, since the straight line <var>BC</var> falling on the two straight lines <var>AC</var>, <var>BD</var> has made the alternate angles equal to one another, <var>AC</var> is parallel to <var>BD</var>. [<a href=\"#elem.1.27\">I. 27</a>]",
                 "And it was also proved equal to it.",
                 "Therefore etc."
@@ -1716,11 +1716,11 @@
                 "Let <var>ACDB</var> be a parallelogrammic area, and <var>BC</var> its diameter; I say that the opposite sides and angles of the parallelogram <var>ACDB</var> are equal to one another, and the diameter <var>BC</var> bisects it. ",
                 "For, since <var>AB</var> is parallel to <var>CD</var>, and the straight line <var>BC</var> has fallen  upon them, the alternate angles <var>ABC</var>, <var>BCD</var> are equal to one another. [<a href=\"#elem.1.29\">I. 29</a>]",
                 "Again, since <var>AC</var> is parallel to <var>BD</var>, and <var>BC</var>has fallen upon them, the alternate angles <var>ACB</var>, <var>CBD</var> are equal to one another. [<a href=\"#elem.1.29\">I. 29</a>]",
-                "Therefore <var>ABC</var>, <var>DCB</var> are two triangles having the two angles <var>ABC</var>, <var>BCA</var> equal to the two angles <var>DCB</var>, <var>CBD</var> respectively, and one side equal to one side, namely that adjoining the equal angles and common to both of them, <var>BC</var>; therefore they will also have the remaining sides equal to the remaining sides respectively, and the remaining angle to the remaining angle; [<a href=\"#elem.1.26\">I. 26</a>] therefore the side <var>AB</var> is equal to <var>CD</var>, and <var>AC</var> to <var>BD</var>, and further the angle <var>BAC</var> is equal to the angle <var>CDB</var>.",
+                "Therefore <var>ABC</var>, <var>DCB</var> are two triangles having the two angles <var>ABC</var>, <var>BCA</var> equal to the two angles <var>DCB</var>, <var>CBD</var> respectively, and one side equal to one side, namely that adjoining the equal angles and common to both of them, <var>BC</var>; therefore they will also have the remaining sides equal to the remaining sides respectively, and the remaining angle to the remaining angle; [<a href=\"#elem.1.26\">I. 26</a>] therefore the side <var>AB</var> is equal to <var>CD</var>, <lb n=\"25\"/>and <var>AC</var> to <var>BD</var>, and further the angle <var>BAC</var> is equal to the angle <var>CDB</var>.",
                 "And, since the angle <var>ABC</var> is equal to the angle <var>BCD</var>, and the angle <var>CBD</var> to the angle <var>ACB</var>, the whole angle <var>ABD</var> is equal to the whole angle <var>ACD</var>. [<a href=\"#elem.1.c.n.2\">C.N. 2</a>]\n        And the angle <var>BAC</var> was also proved equal to the angle <var>CDB</var>.",
                 "Therefore in parallelogrammic areas the opposite sides and angles are equal to one another.",
                 "I say, next, that the diameter also bisects the areas.",
-                "For, since <var>AB</var> is equal to <var>CD</var>, and <var>BC</var> is common, the two sides <var>AB</var>, <var>BC</var> are equal to the two sides <var>DC</var>, <var>CB</var> respectively; and the angle <var>ABC</var> is equal to the angle <var>BCD</var>; therefore the base <var>AC</var> is also equal to <var>DB</var>, and the triangle <var>ABC</var> is equal to the triangle <var>DCB</var>. [<a href=\"#elem.1.4\">I. 4</a>]",
+                "For, since <var>AB</var> is equal to <var>CD</var>, and <var>BC</var> is common, the two sides <var>AB</var>, <var>BC</var> are equal to the two sides <var>DC</var>, <var>CB</var> respectively; and the angle <var>ABC</var> is equal to the angle <var>BCD</var>; therefore the base <var>AC</var> is also equal to <var>DB</var>, <lb n=\"40\"/>and the triangle <var>ABC</var> is equal to the triangle <var>DCB</var>. [<a href=\"#elem.1.4\">I. 4</a>]",
                 "Therefore the diameter <var>BC</var> bisects the parallelogram <var>ACDB</var>."
               ],
               "sections": null
@@ -1758,8 +1758,8 @@
               "text": [
                 "Let <var>ABCD</var>, <var>EBCF</var> be parallelograms on the same base <var>BC</var> and in the same parallels <var>AF</var>, <var>BC</var>; I say that <var>ABCD</var> is equal to the parallelogram <var>EBCF</var>.",
                 "For, since <var>ABCD</var> is a parallelogram, <var>AD</var> is equal to <var>BC</var>. [<a href=\"#elem.1.34\">I. 34</a>]\n        ",
-                "For the same reason also <var>EF</var> is equal to <var>BC</var>, so that <var>AD</var> is also equal to <var>EF</var>; [<a href=\"#elem.1.c.n.1\">C.N. 1</a>] and <var>DE</var> is common; therefore the whole <var>AE</var> is equal to the whole <var>DF</var>. [<a href=\"#elem.1.c.n.2\">C.N. 2</a>]",
-                "But <var>AB</var> is also equal to <var>DC</var>; [<a href=\"#elem.1.34\">I. 34</a>] therefore the two sides <var>EA</var>, <var>AB</var> are equal to the two sides <var>FD</var>, <var>DC</var> respectively, \n        and the angle <var>FDC</var> is equal to the angle <var>EAB</var>, the exterior to the interior; [<a href=\"#elem.1.29\">I. 29</a>] therefore the base <var>EB</var> is equal to the base <var>FC</var>, and the triangle <var>EAB</var> will be equal to the triangle <var>FDC</var>. [<a href=\"#elem.1.4\">I. 4</a>]",
+                "For the same reason also <var>EF</var> is equal to <var>BC</var>, <lb n=\"10\"/>so that <var>AD</var> is also equal to <var>EF</var>; [<a href=\"#elem.1.c.n.1\">C.N. 1</a>] and <var>DE</var> is common; therefore the whole <var>AE</var> is equal to the whole <var>DF</var>. [<a href=\"#elem.1.c.n.2\">C.N. 2</a>]",
+                "But <var>AB</var> is also equal to <var>DC</var>; [<a href=\"#elem.1.34\">I. 34</a>] therefore the two sides <var>EA</var>, <var>AB</var> are equal to the two sides <var>FD</var>, <var>DC</var> respectively, \n        and the angle <var>FDC</var> is equal to the angle <var>EAB</var>, the exterior to the interior; [<a href=\"#elem.1.29\">I. 29</a>] therefore the base <var>EB</var> is equal <lb n=\"20\"/>to the base <var>FC</var>, and the triangle <var>EAB</var> will be equal to the triangle <var>FDC</var>. [<a href=\"#elem.1.4\">I. 4</a>]",
                 "Let <var>DGE</var> be subtracted from each; therefore the trapezium <var>ABGD</var> which remains is equal to the trapezium <var>EGCF</var> which remains. [<a href=\"#elem.1.c.n.3\">C.N. 3</a>] ",
                 "Let the triangle <var>GBC</var> be added to each; therefore the whole parallelogram <var>ABCD</var> is equal to the whole parallelogram <var>EBCF</var>. [<a href=\"#elem.1.c.n.2\">C.N. 2</a>]",
                 "Therefore etc."
@@ -1944,42 +1944,7 @@
           "kind": "proposition",
           "title": "Proposition 40",
           "text": null,
-          "sections": [
-            {
-              "id": "elem.1.40.theorem",
-              "kind": "theorem",
-              "title": "",
-              "text": [
-                "Equal triangles which are on equal bases and on the same side are also in the same parallels."
-              ],
-              "sections": null
-            },
-            {
-              "id": "elem.1.40.proof",
-              "kind": "proof",
-              "title": "",
-              "text": [
-                "Let <var>ABC</var>, <var>CDE</var> be equal triangles on equal bases <var>BC</var>, <var>CE</var> and on the same side.",
-                "I say that they are also in the same parallels.",
-                "For let <var>AD</var> be joined; I say that <var>AD</var> is parallel to <var>BE</var>.",
-                "For, if not, let <var>AF</var> be drawn through <var>A</var> parallel to <var>BE</var> [<a href=\"#elem.1.31\">I. 31</a>], and let <var>FE</var> be joined. ",
-                "Therefore the triangle <var>ABC</var> is equal to the triangle <var>FCE</var>; for they are on equal bases <var>BC</var>, <var>CE</var> and in the same parallels <var>BE</var>, <var>AF</var>. [<a href=\"#elem.1.38\">I. 38</a>]",
-                "But the triangle <var>ABC</var> is equal to the triangle <var>DCE</var>; therefore the triangle <var>DCE</var> is also equal to the triangle <var>FCE</var>, [<a href=\"#elem.1.c.n.1\">C.N. 1</a>] the greater to the less: which is impossible. Therefore <var>AF</var> is not parallel to <var>BE</var>.\n        ",
-                "Similarly we can prove that neither is any other straight line except <var>AD</var>; therefore <var>AD</var> is parallel to <var>BE</var>.",
-                "Therefore etc."
-              ],
-              "sections": null
-            },
-            {
-              "id": "",
-              "kind": "qed",
-              "title": "",
-              "text": [
-                "Q. E. D."
-              ],
-              "sections": null
-            }
-          ]
+          "sections": null
         },
         {
           "id": "elem.1.41",
@@ -2075,7 +2040,7 @@
               "text": [
                 "Let <var>ABCD</var> be a parallelogram, and <var>AC</var> its diameter; and about <var>AC</var> let <var>EH</var>, <var>FG</var> be parallelograms, and <var>BK</var>, <var>KD</var>\n        the so-called complements;",
                 "I say that the complement <var>BK</var> is equal to the complement <var>KD</var>.",
-                "For, since <var>ABCD</var> is a parallelogram, and <var>AC</var> its diameter, the triangle <var>ABC</var> is equal to the triangle <var>ACD</var>. [<a href=\"#elem.1.34\">I. 34</a>]",
+                "For, since <var>ABCD</var> is a parallelogram, and <var>AC</var> its diameter, the triangle <var>ABC</var> is equal to <lb n=\"10\"/>the triangle <var>ACD</var>. [<a href=\"#elem.1.34\">I. 34</a>]",
                 "Again, since <var>EH</var> is a parallelogram, and <var>AK</var> is its diameter, the triangle <var>AEK</var> is equal to the triangle <var>AHK</var>.\n        \n        For the same reason the triangle <var>KFC</var> is also equal to <var>KGC</var>.",
                 "Now, since the triangle <var>AEK</var> is equal to the triangle <var>AHK</var>, and <var>KFC</var> to <var>KGC</var>,\n        the triangle <var>AEK</var> together with <var>KGC</var> is equal to the triangle <var>AHK</var> together with <var>KFC</var>. [<a href=\"#elem.1.c.n.2\">C.N. 2</a>]",
                 "And the whole triangle <var>ABC</var> is also equal to the whole <var>ADC</var>; therefore the complement <var>BK</var> which remains is equal to the complement <var>KD</var> which remains. [<a href=\"#elem.1.c.n.3\">C.N. 3</a>]",
@@ -2166,7 +2131,7 @@
                 "And, since the straight line <var>HG</var> falls upon the parallels <var>KM</var>, <var>FG</var>, the alternate angles <var>MHG</var>, <var>HGF</var> are equal to one another. [<a href=\"#elem.1.29\">I. 29</a>]",
                 "Let the angle <var>HGL</var> be added to each; therefore the angles <var>MHG</var>, <var>HGL</var> are equal to the angles <var>HGF</var>, <var>HGL</var>. [<a href=\"#elem.1.c.n.2\">C.N. 2</a>]",
                 "But the angles <var>MHG</var>, <var>HGL</var> are equal to two right angles; [<a href=\"#elem.1.29\">I. 29</a>] therefore the angles <var>HGF</var>, <var>HGL</var> are also equal to two right angles. [<a href=\"#elem.1.c.n.1\">C.N. 1</a>] Therefore <var>FG</var> is in a straight line with <var>GL</var>. [<a href=\"#elem.1.14\">I. 14</a>]",
-                "And, since <var>FK</var> is equal and parallel to <var>HG</var>, [<a href=\"#elem.1.34\">I. 34</a>] and <var>HG</var> to <var>ML</var> also,\n        <var>KF</var> is also equal and parallel to <var>ML</var>; [<a href=\"#elem.1.c.n.1\">C.N. 1</a>;<ref target=\"elem.1.30\" targOrder=\"U\"> I. 30</a>] and the straight lines <var>KM</var>, <var>FL</var> join them (at their extremities); therefore <var>KM</var>, <var>FL</var> are also equal and parallel. [<a href=\"#elem.1.33\">I. 33</a>] Therefore <var>KFLM</var> is a parallelogram.",
+                "And, since <var>FK</var> is equal and parallel to <var>HG</var>, [<a href=\"#elem.1.34\">I. 34</a>] and <var>HG</var> to <var>ML</var> also,\n        <var>KF</var> is also equal and parallel to <var>ML</var>; [<a href=\"#elem.1.c.n.1\">C.N. 1</a>;<a href=\"#elem.1.30\"> I. 30</a>] and the straight lines <var>KM</var>, <var>FL</var> join them (at their extremities); therefore <var>KM</var>, <var>FL</var> are also equal and parallel. [<a href=\"#elem.1.33\">I. 33</a>] Therefore <var>KFLM</var> is a parallelogram.",
                 "And, since the triangle <var>ABD</var> is equal to the parallelogram <var>FH</var>, and <var>DBC</var> to <var>GM</var>,\n        the whole rectilineal figure <var>ABCD</var> is equal to the whole parallelogram <var>KFLM</var>.",
                 "Therefore the parallelogram <var>KFLM</var> has been constructed equal to the given rectilineal figure <var>ABCD</var>, in the angle <var>FKM</var> which is equal to the given angle <var>E</var>."
               ],

@@ -13,7 +13,7 @@
           "kind": "definition",
           "title": "Definition 1",
           "text": [
-            "<hi rend=\"bold\">Equal circles are those the diameters of which are equal, or the radii of which are equal."
+            "Equal circles are those the diameters of which are equal, or the radii of which are equal."
           ],
           "sections": null
         },
@@ -22,7 +22,7 @@
           "kind": "definition",
           "title": "Definition 2",
           "text": [
-            "A straight line is said to <hi rend=\"bold\">touch a circle which, meeting the circle and being produced, does not cut the circle."
+            "A straight line is said to touch a circle which, meeting the circle and being produced, does not cut the circle."
           ],
           "sections": null
         },
@@ -31,7 +31,7 @@
           "kind": "definition",
           "title": "Definition 3",
           "text": [
-            "<hi rend=\"bold\">Circles are said to <hi rend=\"bold\">touch one another which, meeting one another, do not cut one another."
+            "Circles are said to touch one another which, meeting one another, do not cut one another."
           ],
           "sections": null
         },
@@ -40,7 +40,7 @@
           "kind": "definition",
           "title": "Definition 4",
           "text": [
-            "In a circle straight lines are said <hi rend=\"bold\">to be equally distant from the centre when the perpendiculars drawn to them from the centre are equal."
+            "In a circle straight lines are said to be equally distant from the centre when the perpendiculars drawn to them from the centre are equal."
           ],
           "sections": null
         },
@@ -49,7 +49,7 @@
           "kind": "definition",
           "title": "Definition 5",
           "text": [
-            "And that straight line is said to be <hi rend=\"bold\">at a greater distance on which the greater perpendicular falls."
+            "And that straight line is said to be at a greater distance on which the greater perpendicular falls."
           ],
           "sections": null
         },
@@ -58,7 +58,7 @@
           "kind": "definition",
           "title": "Definition 6",
           "text": [
-            "A <hi rend=\"bold\">segment of a circle is the figure contained by a straight line and a circumference of a circle."
+            "A segment of a circle is the figure contained by a straight line and a circumference of a circle."
           ],
           "sections": null
         },
@@ -67,7 +67,7 @@
           "kind": "definition",
           "title": "Definition 7",
           "text": [
-            "An <hi rend=\"bold\">angle of a segment is that contained by a straight line and a circumference of a circle."
+            "An angle of a segment is that contained by a straight line and a circumference of a circle."
           ],
           "sections": null
         },
@@ -76,7 +76,7 @@
           "kind": "definition",
           "title": "Definition 8",
           "text": [
-            "An <hi rend=\"bold\">angle in a segment is the angle which, when a point is taken on the circumference of the segment and straight lines are joined from it to the extremities of the straight line which is the <hi rend=\"bold\">base of the segment, is contained by the straight lines so joined."
+            "An angle in a segment is the angle which, when a point is taken on the circumference of the segment and straight lines are joined from it to the extremities of the straight line which is the base of the segment, is contained by the straight lines so joined."
           ],
           "sections": null
         },
@@ -85,7 +85,7 @@
           "kind": "definition",
           "title": "Definition 9",
           "text": [
-            "And, when the straight lines containing the angle cut off a circumference, the angle is said to <hi rend=\"bold\">stand upon that circumference."
+            "And, when the straight lines containing the angle cut off a circumference, the angle is said to stand upon that circumference."
           ],
           "sections": null
         },
@@ -103,7 +103,7 @@
           "kind": "definition",
           "title": "Definition 11",
           "text": [
-            "<hi rend=\"bold\">Similar segments of circles are those which admit equal angles, or in which the angles are equal to one another."
+            "Similar segments of circles are those which admit equal angles, or in which the angles are equal to one another."
           ],
           "sections": null
         }

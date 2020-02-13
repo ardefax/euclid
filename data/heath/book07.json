@@ -13,7 +13,7 @@
           "kind": "definition",
           "title": "Definition 1",
           "text": [
-            "An <hi rend=\"bold\">unit is that by virtue of which each of the things that exist is called one."
+            "An unit is that by virtue of which each of the things that exist is called one."
           ],
           "sections": null
         },
@@ -22,7 +22,7 @@
           "kind": "definition",
           "title": "Definition 2",
           "text": [
-            " A <hi rend=\"bold\">number is a multitude composed of units."
+            " A number is a multitude composed of units."
           ],
           "sections": null
         },
@@ -31,7 +31,7 @@
           "kind": "definition",
           "title": "Definition 3",
           "text": [
-            " A number is <hi rend=\"bold\">a part of a number, the less of the greater, when it measures the greater;"
+            " A number is a part of a number, the less of the greater, when it measures the greater;"
           ],
           "sections": null
         },
@@ -40,7 +40,7 @@
           "kind": "definition",
           "title": "Definition 4",
           "text": [
-            " but <hi rend=\"bold\">parts when it does not measure it."
+            " but parts when it does not measure it."
           ],
           "sections": null
         },
@@ -49,7 +49,7 @@
           "kind": "definition",
           "title": "Definition 5",
           "text": [
-            " The greater number is a <hi rend=\"bold\">multiple of the less when it is measured by the less."
+            " The greater number is a multiple of the less when it is measured by the less."
           ],
           "sections": null
         },
@@ -58,7 +58,7 @@
           "kind": "definition",
           "title": "Definition 6",
           "text": [
-            " An <hi rend=\"bold\">even number is that which is divisible into two equal parts."
+            " An even number is that which is divisible into two equal parts."
           ],
           "sections": null
         },
@@ -67,7 +67,7 @@
           "kind": "definition",
           "title": "Definition 7",
           "text": [
-            " An <hi rend=\"bold\">odd number is that which is not divisible into two equal parts, or that which differs by an unit from an even number."
+            " An odd number is that which is not divisible into two equal parts, or that which differs by an unit from an even number."
           ],
           "sections": null
         },
@@ -76,7 +76,7 @@
           "kind": "definition",
           "title": "Definition 8",
           "text": [
-            " An <hi rend=\"bold\">even-times even number is that which is measured by an even number according to an even number."
+            " An even-times even number is that which is measured by an even number according to an even number."
           ],
           "sections": null
         },
@@ -85,7 +85,7 @@
           "kind": "definition",
           "title": "Definition 9",
           "text": [
-            " An <hi rend=\"bold\">even-times odd number is that which is measured by an even number according to an odd number."
+            " An even-times odd number is that which is measured by an even number according to an odd number."
           ],
           "sections": null
         },
@@ -94,7 +94,7 @@
           "kind": "definition",
           "title": "Definition 10",
           "text": [
-            " An <hi rend=\"bold\">odd-times odd number is that which is measured by an odd number according to an odd number."
+            " An odd-times odd number is that which is measured by an odd number according to an odd number."
           ],
           "sections": null
         },
@@ -103,7 +103,7 @@
           "kind": "definition",
           "title": "Definition 11",
           "text": [
-            " A <hi rend=\"bold\">prime number is that which is measured by an unit alone."
+            " A prime number is that which is measured by an unit alone."
           ],
           "sections": null
         },
@@ -112,7 +112,7 @@
           "kind": "definition",
           "title": "Definition 12",
           "text": [
-            " Numbers <hi rend=\"bold\">prime to one another are those which are measured by an unit alone as a common measure."
+            " Numbers prime to one another are those which are measured by an unit alone as a common measure."
           ],
           "sections": null
         },
@@ -121,7 +121,7 @@
           "kind": "definition",
           "title": "Definition 13",
           "text": [
-            " A <hi rend=\"bold\">composite number is that which is measured by some number."
+            " A composite number is that which is measured by some number."
           ],
           "sections": null
         },
@@ -130,7 +130,7 @@
           "kind": "definition",
           "title": "Definition 14",
           "text": [
-            " Numbers <hi rend=\"bold\">composite to one another are those which are measured by some number as a common measure."
+            " Numbers composite to one another are those which are measured by some number as a common measure."
           ],
           "sections": null
         },
@@ -139,7 +139,7 @@
           "kind": "definition",
           "title": "Definition 15",
           "text": [
-            " A number is said to <hi rend=\"bold\">multiply a number when that which is multiplied is added to itself as many times as there are units in the other, and thus some number is produced."
+            " A number is said to multiply a number when that which is multiplied is added to itself as many times as there are units in the other, and thus some number is produced."
           ],
           "sections": null
         },
@@ -148,7 +148,7 @@
           "kind": "definition",
           "title": "Definition 16",
           "text": [
-            " And, when two numbers having multiplied one another make some number, the number so produced is called <hi rend=\"bold\">plane, and its <hi rend=\"bold\">sides are the numbers which have multiplied one another."
+            " And, when two numbers having multiplied one another make some number, the number so produced is called plane, and its sides are the numbers which have multiplied one another."
           ],
           "sections": null
         },
@@ -157,7 +157,7 @@
           "kind": "definition",
           "title": "Definition 17",
           "text": [
-            " And, when three numbers having multiplied one another make some number, the number so produced is <hi rend=\"bold\">solid, and its <hi rend=\"bold\">sides are the numbers which have multiplied one another."
+            " And, when three numbers having multiplied one another make some number, the number so produced is solid, and its sides are the numbers which have multiplied one another."
           ],
           "sections": null
         },
@@ -166,7 +166,7 @@
           "kind": "definition",
           "title": "Definition 18",
           "text": [
-            " A <hi rend=\"bold\">square number is equal multiplied by equal, or a number which is contained by two equal numbers."
+            " A square number is equal multiplied by equal, or a number which is contained by two equal numbers."
           ],
           "sections": null
         },
@@ -175,7 +175,7 @@
           "kind": "definition",
           "title": "Definition 19",
           "text": [
-            " And a <hi rend=\"bold\">cube is equal multiplied by equal and again by equal, or a number which is contained by three equal numbers."
+            " And a cube is equal multiplied by equal and again by equal, or a number which is contained by three equal numbers."
           ],
           "sections": null
         },
@@ -184,7 +184,7 @@
           "kind": "definition",
           "title": "Definition 20",
           "text": [
-            " Numbers are <hi rend=\"bold\">proportional when the first is the same multiple, or the same part, or the same parts, of the second that the third is of the fourth."
+            " Numbers are proportional when the first is the same multiple, or the same part, or the same parts, of the second that the third is of the fourth."
           ],
           "sections": null
         },
@@ -193,7 +193,7 @@
           "kind": "definition",
           "title": "Definition 21",
           "text": [
-            "\n       <hi rend=\"bold\">Similar plane and <hi rend=\"bold\">solid numbers are those which have their sides proportional."
+            "\n       Similar plane and solid numbers are those which have their sides proportional."
           ],
           "sections": null
         },
@@ -202,7 +202,7 @@
           "kind": "definition",
           "title": "Definition 22",
           "text": [
-            " A <hi rend=\"bold\">perfect number is that which is equal to its own parts."
+            " A perfect number is that which is equal to its own parts."
           ],
           "sections": null
         }

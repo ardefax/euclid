@@ -13,7 +13,7 @@
           "kind": "definition",
           "title": "Definition 1",
           "text": [
-            "<hi rend=\"bold\">Similar rectilineal figures are such as have their angles severally equal and the sides about the equal angles proportional."
+            "Similar rectilineal figures are such as have their angles severally equal and the sides about the equal angles proportional."
           ],
           "sections": null
         },
@@ -22,7 +22,7 @@
           "kind": "definition",
           "title": "Definition 2",
           "text": [
-            "[<hi rend=\"bold\">Reciprocally related figures. <var>See note</var>.]"
+            "[Reciprocally related figures. <var>See note</var>.]"
           ],
           "sections": null
         },
@@ -31,7 +31,7 @@
           "kind": "definition",
           "title": "Definition 3",
           "text": [
-            "A straight line is said to have been <hi rend=\"bold\">cut in extreme and mean ratio when, as the whole line is to the greater segment, so is the greater to the less."
+            "A straight line is said to have been cut in extreme and mean ratio when, as the whole line is to the greater segment, so is the greater to the less."
           ],
           "sections": null
         },
@@ -40,7 +40,7 @@
           "kind": "definition",
           "title": "Definition 4",
           "text": [
-            "The <hi rend=\"bold\">height of any figure is the perpendicular drawn from the vertex to the base."
+            "The height of any figure is the perpendicular drawn from the vertex to the base."
           ],
           "sections": null
         },

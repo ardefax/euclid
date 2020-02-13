@@ -21,14 +21,13 @@ $(V2): intermediate.v2 ;
 .INTERMEDIATE: intermediate.v1 intermediate.v2
 #intermediate.v3
 
-intermediate.v1: heath/heath heath/vol1.xml
-	./heath/heath -d data/heath heath/vol1.xml
-
-intermediate.v2: heath/heath heath/vol2.xml
-	./heath/heath -d data/heath heath/vol2.xml
-
-#intermediate.v3: heath/heath heath/vol3.xml
-#	./heath/heath -d data/heath heath/vol3.xml
+# TODO Pattern rule once v3 is fixed
+intermediate.v1: heath/xslt/vol1.xml heath/heath 
+	./heath/heath -d data/heath $<
+intermediate.v2: heath/xslt/vol2.xml heath/heath
+	./heath/heath -d data/heath $<
+#intermediate.v3: heath/xslt/vol3.xml heath/heath
+#	./heath/heath -d data/heath $<
 
 heath/heath: heath/main.go heath/dom.go
 	go build -o heath/heath ./heath
