@@ -88,6 +88,11 @@ type Book struct {
 	Roman string `json:"roman"`
 	// Sections from the content and structure of a book
 	Sections []Section `json:"sections"`
+
+	// Hugo stuff
+
+	// Weight is the book Number, used by Hugo for sorting.
+	Weight int `json:"weight"`
 }
 
 // Section is a generic part of the book
@@ -116,6 +121,7 @@ func (b *Book) parse(d1 Div1) error {
 		return fmt.Errorf("invalid d1.N: %s", err)
 	}
 	b.Number = n
+	b.Weight = n
 	b.Roman = roman(n)
 	b.Title = fmt.Sprintf("Book %s", b.Roman)
 
