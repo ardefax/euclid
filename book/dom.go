@@ -13,10 +13,10 @@ type Body struct {
 type div struct {
 	N      string `xml:"n,attr"`
 	Type   string `xml:"type,attr"`
-	//TODO Org    string `xml:"org,attr"`
-	//TODO Sample string `xml:"sample,attr"`
+	Org    string `xml:"org,attr"`
+	Sample string `xml:"sample,attr"`
 
-	//TODO Heads []string `xml:"head"`
+	Heads []Node `xml:"head"`
 	Paras []Node `xml:"p"`
 }
 // raw exposes unprocessed XML data

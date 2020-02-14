@@ -13,7 +13,6 @@ import (
 	"log"
 	"os"
 	"path/filepath"
-	"regexp"
 	"strconv"
 )
 
@@ -79,10 +78,15 @@ func main() {
 	}
 }
 
+// Book is one of Euclid's Elements books.
 type Book struct {
+	// Title of the book
 	Title string `json:"title"`
+	// Number of the book
 	Number int `json:"number"`
+	// Roman numeral string of the book number
 	Roman string `json:"roman"`
+	// Sections from the content and structure of a book
 	Sections []Section `json:"sections"`
 }
 
@@ -308,21 +312,10 @@ func parseProps(d2 Div2) Section {
 	return s
 }
 
-// TODO Remove this now
-// cleanPara is a bit of a regex kludge. It exists to transform embedded
-// tags in paragraphs from the source XML to something that is HTML-friendly.
+// cleanPara does any content transformation that may be necessary on a node
+// in the source text. For now it just unpacks the inner text content as-is.
 func cleanPara(p Node) string {
-	s := string(p.Content)
-	for _, repl := range repls {
-	  s = repl.re.ReplaceAllString(s, repl.target)
-	}
-	return s
-}
-
-var repls = []struct{
-  target string
-  re *regexp.Regexp
-} {
+	return string(p.Content)
 }
 
 // roman is a terrible implementation of making roman numerals
