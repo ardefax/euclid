@@ -27,7 +27,7 @@ func main() {
 	log.SetFlags(0)
 	flag.Parse()
 	if flag.NArg() == 0 || *dir == "" {
-		fmt.Fprintf(os.Stderr, "usage: %s [options] <volumes>\n", os.Args[0])
+		fmt.Fprintf(os.Stderr, "usage: %s [options] <books.xml>\n", os.Args[0])
 		flag.PrintDefaults()
 		os.Exit(2)
 	}
@@ -41,14 +41,14 @@ func main() {
 		}
 
 		// Decode the raw XML structure
-		var vol Volume
-		err = xml.Unmarshal(buf, &vol)
+		var body Body
+		err = xml.Unmarshal(buf, &body)
 		if err != nil {
 			log.Fatal(err)
 		}
 
 		// Transfrom to the more strucuted Book type.
-		for _, d1 := range vol.Text.Body.Divs {
+		for _, d1 := range body.Divs {
 			book := new(Book)
 			if err := book.parse(d1); err != nil {
 				log.Fatal(err)

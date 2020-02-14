@@ -5,21 +5,7 @@ import (
 	"fmt"
 )
 
-// Volume is the root element of the Heath text
-type Volume struct {
-	XMLName xml.Name `xml:"TEI.2"`
-	Text Text `xml:"text"`
-}
-// Text wraps the front and body elements
-type Text struct {
-	Front Front `xml:"front"`
-	Body Body `xml:"body"`
-}
-// Front is the element containting the commentary chapters.
-type Front struct {
-	Divs []Div1 `xml:"div1"`
-}
-// Body is the element containting books of the elements
+// Body is the root element containting books of the elements.
 type Body struct {
 	Divs []Div1 `xml:"div1"`
 }
