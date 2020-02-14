@@ -40,8 +40,10 @@ book/book: book/main.go book/dom.go
 
 # Re-runs the identity transform
 .SECONDARY: heath/books.xml
-heath/books.xml: heath/x/6.xml heath/x/0.xslt
+heath/books.xml: heath/x/7.xml heath/x/0.xslt
 	saxon -s:$< -xsl:heath/x/0.xslt -o:$@
+heath/x/7.xml: heath/x/6.xml heath/x/7.xslt
+	saxon -s:$< -xsl:heath/x/7.xslt -o:$@
 heath/x/6.xml: heath/x/5.xml heath/x/6.xslt
 	saxon -s:$< -xsl:heath/x/6.xslt -o:$@
 heath/x/5.xml: heath/x/4.xml heath/x/5.xslt
