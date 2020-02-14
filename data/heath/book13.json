@@ -1,0 +1,140 @@
+{
+  "title": "Book XIII",
+  "num": 13,
+  "sections": [
+    {
+      "id": "elem.13.prop",
+      "kind": "list:proposition",
+      "title": "Propositions",
+      "text": null,
+      "sections": [
+        {
+          "id": "elem.13.1",
+          "kind": "proposition",
+          "title": "Proposition 1",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.13.2",
+          "kind": "proposition",
+          "title": "Proposition 2",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.13.3",
+          "kind": "proposition",
+          "title": "Proposition 3",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.13.4",
+          "kind": "proposition",
+          "title": "Proposition 4",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.13.5",
+          "kind": "proposition",
+          "title": "Proposition 5",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.13.6",
+          "kind": "proposition",
+          "title": "Proposition 6",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.13.7",
+          "kind": "proposition",
+          "title": "Proposition 7",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.13.8",
+          "kind": "proposition",
+          "title": "Proposition 8",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.13.9",
+          "kind": "proposition",
+          "title": "Proposition 9",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.13.10",
+          "kind": "proposition",
+          "title": "Proposition 10",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.13.11",
+          "kind": "proposition",
+          "title": "Proposition 11",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.13.12",
+          "kind": "proposition",
+          "title": "Proposition 12",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.13.13",
+          "kind": "proposition",
+          "title": "Proposition 13",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.13.14",
+          "kind": "proposition",
+          "title": "Proposition 14",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.13.15",
+          "kind": "proposition",
+          "title": "Proposition 15",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.13.16",
+          "kind": "proposition",
+          "title": "Proposition 16",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.13.17",
+          "kind": "proposition",
+          "title": "Proposition 17",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.13.18",
+          "kind": "proposition",
+          "title": "Proposition 18",
+          "text": null,
+          "sections": null
+        }
+      ]
+    }
+  ]
+}

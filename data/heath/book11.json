@@ -1,0 +1,547 @@
+{
+  "title": "Book XI",
+  "num": 11,
+  "sections": [
+    {
+      "id": "elem.11.def",
+      "kind": "list:definition",
+      "title": "Definitions",
+      "text": null,
+      "sections": [
+        {
+          "id": "elem.11.def.1",
+          "kind": "definition",
+          "title": "Definition 1",
+          "text": [
+            "A solid is that which has length, breadth, and depth."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.11.def.2",
+          "kind": "definition",
+          "title": "Definition 2",
+          "text": [
+            "An extremity of a solid is a surface."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.11.def.3",
+          "kind": "definition",
+          "title": "Definition 3",
+          "text": [
+            "A straight line is at right angles to a plane, when it makes right angles with all the straight lines which meet it and are in the plane."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.11.def.4",
+          "kind": "definition",
+          "title": "Definition 4",
+          "text": [
+            "A plane is at right angles to a plane when the straight lines drawn, in one of the planes, at right angles to the common section of the planes are at right angles to the remaining plane."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.11.def.5",
+          "kind": "definition",
+          "title": "Definition 5",
+          "text": [
+            "The inclination of a straight line to a plane is, assuming a perpendicular drawn from the extremity of the straight line which is elevated above the plane to the plane, and a straight line joined from the point thus arising to the extremity of the straight line which is in the plane, the angle contained by the straight line so drawn and the straight line standing up."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.11.def.6",
+          "kind": "definition",
+          "title": "Definition 6",
+          "text": [
+            "The inclination of a plane to a plane is the acute angle contained by the straight lines drawn at right angles to the common section at the same point, one in each of the planes."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.11.def.7",
+          "kind": "definition",
+          "title": "Definition 7",
+          "text": [
+            "A plane is said to be similarly inclined to a plane as another is to another when the said angles of the inclinations are equal to one another."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.11.def.8",
+          "kind": "definition",
+          "title": "Definition 8",
+          "text": [
+            "Parallel planes are those which do not meet."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.11.def.9",
+          "kind": "definition",
+          "title": "Definition 9",
+          "text": [
+            "Similar solid figures are those contained by similar planes equal in multitude."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.11.def.10",
+          "kind": "definition",
+          "title": "Definition 10",
+          "text": [
+            "Equal and similar solid figures are those contained by similar planes equal in multitude and in magnitude."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.11.def.11",
+          "kind": "definition",
+          "title": "Definition 11",
+          "text": [
+            "A solid angle is the inclination constituted by more than two lines which meet one another and are not in the same surface, towards all the lines. "
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.11.def.12",
+          "kind": "definition",
+          "title": "Definition 12",
+          "text": [
+            "A pyramid is a solid figure, contained by planes, which is constructed from one plane to one point."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.11.def.13",
+          "kind": "definition",
+          "title": "Definition 13",
+          "text": [
+            "A prism is a solid figure contained by planes two of which, namely those which are opposite, are equal, similar and parallel, while the rest are parallelograms."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.11.def.14",
+          "kind": "definition",
+          "title": "Definition 14",
+          "text": [
+            "When, the diameter of a semicircle remaining fixed, the semicircle is carried round and restored again to the same position from which it began to be moved, the figure so comprehended is a sphere."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.11.def.15",
+          "kind": "definition",
+          "title": "Definition 15",
+          "text": [
+            "The axis of the sphere is the straight line which remains fixed and about which the semicircle is turned."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.11.def.16",
+          "kind": "definition",
+          "title": "Definition 16",
+          "text": [
+            "The centre of the sphere is the same as that of the semicircle."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.11.def.17",
+          "kind": "definition",
+          "title": "Definition 17",
+          "text": [
+            "A diameter of the sphere is any straight line drawn through the centre and terminated in both directions by the surface of the sphere."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.11.def.18",
+          "kind": "definition",
+          "title": "Definition 18",
+          "text": [
+            "When, one side of those about the right angle in a right-angled triangle remaining fixed, the triangle is carried round and restored again to the same position from which it began to be moved, the figure so comprehended is a cone.\n      "
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.11.def.19",
+          "kind": "definition",
+          "title": "Definition 19",
+          "text": [
+            "The axis of the cone is the straight line which remains fixed and about which the triangle is turned."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.11.def.20",
+          "kind": "definition",
+          "title": "Definition 20",
+          "text": [
+            "And the base is the circle described by the straight line which is carried round."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.11.def.21",
+          "kind": "definition",
+          "title": "Definition 21",
+          "text": [
+            "When, one side of those about the right angle in a rectangular parallelogram remaining fixed, the parallelogram is carried round and restored again to the same position from which it began to be moved, the figure so comprehended is a cylinder."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.11.def.22",
+          "kind": "definition",
+          "title": "Definition 22",
+          "text": [
+            "The axis of the cylinder is the straight line which remains fixed and about which the parallelogram is turned."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.11.def.23",
+          "kind": "definition",
+          "title": "Definition 23",
+          "text": [
+            "And the bases are the circles described by the two sides opposite to one another which are carried round."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.11.def.24",
+          "kind": "definition",
+          "title": "Definition 24",
+          "text": [
+            "Similar cones and cylinders are those in which the axes and the diameters of the bases are proportional."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.11.def.25",
+          "kind": "definition",
+          "title": "Definition 25",
+          "text": [
+            "A cube is a solid figure contained by six equal squares."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.11.def.26",
+          "kind": "definition",
+          "title": "Definition 26",
+          "text": [
+            "An octahedron is a solid figure contained by eight equal and equilateral triangles."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.11.def.27",
+          "kind": "definition",
+          "title": "Definition 27",
+          "text": [
+            "An icosahedron is a solid figure contained by twenty equal and equilateral triangles."
+          ],
+          "sections": null
+        },
+        {
+          "id": "elem.11.def.28",
+          "kind": "definition",
+          "title": "Definition 28",
+          "text": [
+            "A dodecahedron is a solid figure contained by twelve equal, equilateral, and equiangular pentagons."
+          ],
+          "sections": null
+        }
+      ]
+    },
+    {
+      "id": "elem.11.prop",
+      "kind": "list:proposition",
+      "title": "Propositions",
+      "text": null,
+      "sections": [
+        {
+          "id": "elem.11.1",
+          "kind": "proposition",
+          "title": "Proposition 1",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.11.2",
+          "kind": "proposition",
+          "title": "Proposition 2",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.11.3",
+          "kind": "proposition",
+          "title": "Proposition 3",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.11.4",
+          "kind": "proposition",
+          "title": "Proposition 4",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.11.5",
+          "kind": "proposition",
+          "title": "Proposition 5",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.11.6",
+          "kind": "proposition",
+          "title": "Proposition 6",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.11.7",
+          "kind": "proposition",
+          "title": "Proposition 7",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.11.8",
+          "kind": "proposition",
+          "title": "Proposition 8",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.11.9",
+          "kind": "proposition",
+          "title": "Proposition 9",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.11.10",
+          "kind": "proposition",
+          "title": "Proposition 10",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.11.11",
+          "kind": "proposition",
+          "title": "Proposition 11",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.11.12",
+          "kind": "proposition",
+          "title": "Proposition 12",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.11.13",
+          "kind": "proposition",
+          "title": "Proposition 13",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.11.14",
+          "kind": "proposition",
+          "title": "Proposition 14",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.11.15",
+          "kind": "proposition",
+          "title": "Proposition 15",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.11.16",
+          "kind": "proposition",
+          "title": "Proposition 16",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.11.17",
+          "kind": "proposition",
+          "title": "Proposition 17",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.11.18",
+          "kind": "proposition",
+          "title": "Proposition 18",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.11.19",
+          "kind": "proposition",
+          "title": "Proposition 19",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.11.20",
+          "kind": "proposition",
+          "title": "Proposition 20",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.11.21",
+          "kind": "proposition",
+          "title": "Proposition 21",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.11.22",
+          "kind": "proposition",
+          "title": "Proposition 22",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.11.23",
+          "kind": "proposition",
+          "title": "Proposition 23",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.11.24",
+          "kind": "proposition",
+          "title": "Proposition 24",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.11.25",
+          "kind": "proposition",
+          "title": "Proposition 25",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.11.26",
+          "kind": "proposition",
+          "title": "Proposition 26",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.11.27",
+          "kind": "proposition",
+          "title": "Proposition 27",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.11.28",
+          "kind": "proposition",
+          "title": "Proposition 28",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.11.29",
+          "kind": "proposition",
+          "title": "Proposition 29",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.11.30",
+          "kind": "proposition",
+          "title": "Proposition 30",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.11.31",
+          "kind": "proposition",
+          "title": "Proposition 31",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.11.32",
+          "kind": "proposition",
+          "title": "Proposition 32",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.11.33",
+          "kind": "proposition",
+          "title": "Proposition 33",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.11.34",
+          "kind": "proposition",
+          "title": "Proposition 34",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.11.35",
+          "kind": "proposition",
+          "title": "Proposition 35",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.11.36",
+          "kind": "proposition",
+          "title": "Proposition 36",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.11.37",
+          "kind": "proposition",
+          "title": "Proposition 37",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.11.38",
+          "kind": "proposition",
+          "title": "Proposition 38",
+          "text": null,
+          "sections": null
+        },
+        {
+          "id": "elem.11.39",
+          "kind": "proposition",
+          "title": "Proposition 39",
+          "text": null,
+          "sections": null
+        }
+      ]
+    }
+  ]
+}
