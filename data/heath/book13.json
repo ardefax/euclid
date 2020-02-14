@@ -1,6 +1,7 @@
 {
   "title": "Book XIII",
-  "num": 13,
+  "number": 13,
+  "roman": "XIII",
   "sections": [
     {
       "id": "elem.13.prop",

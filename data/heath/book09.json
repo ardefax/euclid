@@ -1,6 +1,7 @@
 {
   "title": "Book IX",
-  "num": 9,
+  "number": 9,
+  "roman": "IX",
   "sections": [
     {
       "id": "elem.9.prop",

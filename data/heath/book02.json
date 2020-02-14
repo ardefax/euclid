@@ -1,6 +1,7 @@
 {
   "title": "Book II",
-  "num": 2,
+  "number": 2,
+  "roman": "II",
   "sections": [
     {
       "id": "elem.2.def",

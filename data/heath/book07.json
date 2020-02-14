@@ -1,6 +1,7 @@
 {
   "title": "Book VII",
-  "num": 7,
+  "number": 7,
+  "roman": "VII",
   "sections": [
     {
       "id": "elem.7.def",

@@ -61,7 +61,7 @@ func main() {
 		log.Fatal(err)
 	}
 	for _, b := range books {
-		path := fmt.Sprintf(filepath.Join(*dir, "book%02d.json"), b.Num)
+		path := fmt.Sprintf(filepath.Join(*dir, "book%02d.json"), b.Number)
 		f, err := os.Create(path)
 		if err != nil {
 			log.Fatal(err)
@@ -79,7 +79,8 @@ func main() {
 
 type Book struct {
 	Title string `json:"title"`
-	Num int `json:"num"`
+	Number int `json:"number"`
+	Roman string `json:"roman"`
 	Sections []Section `json:"sections"`
 }
 
@@ -108,8 +109,9 @@ func (b *Book) parse(d1 Div1) error {
 	if err != nil {
 		return fmt.Errorf("invalid d1.N: %s", err)
 	}
-	b.Num = n
-	b.Title = fmt.Sprintf("Book %s", roman(n))
+	b.Number = n
+	b.Roman = roman(n)
+	b.Title = fmt.Sprintf("Book %s", b.Roman)
 
 	for _, d2 := range d1.Divs {
 		b.parseSection(d2)
@@ -131,19 +133,19 @@ func (b *Book) parseSection(d2 Div2) error {
 			// Book X interleaves sections as  `Def #` or `Prop #`
 			case "Def":
 				s = parseDefs(d2)
-				s.ID = fmt.Sprintf("elem.%d.def", b.Num)
+				s.ID = fmt.Sprintf("elem.%d.def", b.Number)
 			case "Def 1", "Def 2", "Def 3":
 				s = parseDefs(d2)
 				// TODO Prop def ID for book X
 			case "Post":
 				s = parsePosts(d2)
-				s.ID = fmt.Sprintf("elem.%d.post", b.Num)
+				s.ID = fmt.Sprintf("elem.%d.post", b.Number)
 			case "CN":
 				s = parseCNs(d2)
-				s.ID = fmt.Sprintf("elem.%d.c.n", b.Num) // TODO Don't like the c.n.
+				s.ID = fmt.Sprintf("elem.%d.c.n", b.Number) // TODO Don't like the c.n.
 			case "Prop":
 				s = parseProps(d2)
-				s.ID = fmt.Sprintf("elem.%d.prop", b.Num)
+				s.ID = fmt.Sprintf("elem.%d.prop", b.Number)
 			case "Prop 1", "Prop 2", "Prop 3":
 				s = parseProps(d2)
 				// TODO Handle the prop IDs for book X

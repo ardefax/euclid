@@ -5,7 +5,7 @@
 
     <ul>
     {{ range $k, $v := .Site.Data.heath }}
-      <li><a href="/{{ $k }}" >{{ $v.title }}</a></li>
+      <li><a href="/{{ $k }}" >{{ $v.title | upper }}</a></li>
     {{ end }}
     </ul>
 

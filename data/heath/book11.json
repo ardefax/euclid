@@ -1,6 +1,7 @@
 {
   "title": "Book XI",
-  "num": 11,
+  "number": 11,
+  "roman": "XI",
   "sections": [
     {
       "id": "elem.11.def",

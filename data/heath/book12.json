@@ -1,6 +1,7 @@
 {
   "title": "Book XII",
-  "num": 12,
+  "number": 12,
+  "roman": "XII",
   "sections": [
     {
       "id": "elem.12.prop",

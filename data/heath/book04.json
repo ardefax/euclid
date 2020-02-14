@@ -1,6 +1,7 @@
 {
   "title": "Book IV",
-  "num": 4,
+  "number": 4,
+  "roman": "IV",
   "sections": [
     {
       "id": "elem.4.def",

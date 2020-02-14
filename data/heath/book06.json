@@ -1,6 +1,7 @@
 {
   "title": "Book VI",
-  "num": 6,
+  "number": 6,
+  "roman": "VI",
   "sections": [
     {
       "id": "elem.6.def",
