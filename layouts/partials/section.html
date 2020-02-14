@@ -1,6 +1,8 @@
 <section id="{{ .section.id }}" class="{{ .section.kind }}">
   {{ $d := .depth }}
-  {{ if .section.title }}<h{{ $d }}>{{ .section.title }}</h{{ $d }}>{{ end }}
+  {{ if .section.title -}}
+    <h{{ $d }}><a class="anchor" href="#{{ .section.id }}">§</a>{{ .section.title }}</h{{ $d }}>
+  {{- end }}
   {{ range .section.text }}
     <p>{{ . | safeHTML }}</p>
   {{ end }}
