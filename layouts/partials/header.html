@@ -10,8 +10,8 @@
   <header>
     <nav>
     <a href="/">Home</a>
-    {{ range $k, $v := .Site.Data.heath }}
-      <a href="/{{ $k }}" >{{ $v.roman }}</a>
+    {{ range .Site.RegularPages }}
+      <a href="{{ .URL }}" >{{ .Params.roman }}</a>
     {{ end }}
     </nav>
   </header>

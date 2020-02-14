@@ -1,37 +1,29 @@
-# Target JSON for each book
-JSON := data/heath/book01.json \
-		data/heath/book02.json \
-		data/heath/book03.json \
-		data/heath/book04.json \
-		data/heath/book05.json \
-		data/heath/book06.json \
-		data/heath/book07.json \
-		data/heath/book08.json \
-		data/heath/book09.json \
-		data/heath/book10.json \
-		data/heath/book11.json \
-		data/heath/book12.json \
-		data/heath/book13.json
-
-MD := $(JSON:data/heath/book%.json=content/books/%.md)
+# Targets for each book
+MD := content/books/1.md \
+      content/books/2.md \
+      content/books/3.md \
+      content/books/4.md \
+      content/books/5.md \
+      content/books/6.md \
+      content/books/7.md \
+      content/books/8.md \
+      content/books/9.md \
+      content/books/10.md \
+      content/books/11.md \
+      content/books/12.md \
+      content/books/13.md
 
 .PHONY: all 
 all: $(MD)
 
-# Stubs out the content files with the proper data name
-# TODO The book directory should just build these instead
-content/books/%.md: data/heath/book%.json
-	echo "---" > $@
-	echo "data: $(@:content/%.md=%)" >> $@
-	echo "type: book" >> $@
-	echo "---" >> $@
-
-
 # Intermediate trick from here https://stackoverflow.com/a/10609434
-$(JSON): intermediate.json ;
-.INTERMEDIATE: intermediate.json
-intermediate.json: heath/books.xml book/book
-	./book/book -d data/heath $<
+$(MD): intermediate.md ;
+.INTERMEDIATE: intermediate.md
+intermediate.md: heath/books.xml book/book
+	./book/book -d content/books $<
+
+
+# Build the book binary that drives content gen
 book/book: book/main.go book/dom.go
 	go build -o $@ ./book
 

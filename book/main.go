@@ -61,7 +61,9 @@ func main() {
 		log.Fatal(err)
 	}
 	for _, b := range books {
-		path := fmt.Sprintf(filepath.Join(*dir, "book%02d.json"), b.Number)
+		// Write the JSON as the markdown file frontmatter
+		// The layouts will do the heavy lifting of content generation
+		path := fmt.Sprintf(filepath.Join(*dir, "%d.md"), b.Number)
 		f, err := os.Create(path)
 		if err != nil {
 			log.Fatal(err)
