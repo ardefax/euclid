@@ -5,7 +5,7 @@
 
   <!-- Attempting a translation similar to Prop 1.40 for all Book 2
       https://stackoverflow.com/a/5672132 -->
-  <xsl:template match="div1[@n='2' or @n='3']/div2[@n='Prop']/div3">
+  <xsl:template match="div1[@n != '1']/div2[starts-with(@n, 'Prop')]/div3">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
       <xsl:copy-of select="./head"/>
