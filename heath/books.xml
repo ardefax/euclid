@@ -83,19 +83,19 @@
      </div3>
      <div3 id="elem.1.def.20" n="20" type="number" org="uniform" sample="complete">
       <head>20</head>
-      <p>Of trilateral figures, an equilateral triangle is that which has its three sides equal, an isosceles triangle that which has two of its sides alone equal, and a scalene triangle that which has its three sides unequal.</p>
+      <p>Of trilateral figures, an <dfn>equilateral triangle</dfn> is that which has its three sides equal, an <dfn>isosceles triangle</dfn> that which has two of its sides alone equal, and a <dfn>scalene triangle</dfn> that which has its three sides unequal.</p>
      </div3>
      <div3 id="elem.1.def.21" n="21" type="number" org="uniform" sample="complete">
       <head>21</head>
-      <p>Further, of trilateral figures, a right-angled triangle is that which has a right angle, an obtuse-angled triangle that which has an obtuse angle, and an acuteangled triangle that which has its three angles acute.</p>
+      <p>Further, of trilateral figures, a <dfn>right-angled triangle</dfn> is that which has a right angle, an <dfn>obtuse-angled triangle</dfn> that which has an obtuse angle, and an <dfn>acute-angled triangle</dfn> that which has its three angles acute.</p>
      </div3>
      <div3 id="elem.1.def.22" n="22" type="number" org="uniform" sample="complete">
       <head>22</head>
-      <p>Of quadrilateral figures, a square is that which is both equilateral and right-angled; an oblong that which is right-angled but not equilateral; a rhombus that which is equilateral but not right-angled; and a rhomboid that which has its opposite sides and angles equal to one another but is neither equilateral nor right-angled. And let quadrilaterals other than these be called trapezia.</p>
+      <p>Of quadrilateral figures, a <dfn>square</dfn> is that which is both equilateral and right-angled; an <dfn>oblong</dfn> that which is right-angled but not equilateral; a <dfn>rhombus</dfn> that which is equilateral but not right-angled; and a <dfn>rhomboid</dfn> that which has its opposite sides and angles equal to one another but is neither equilateral nor right-angled. And let quadrilaterals other than these be called <dfn>trapezia</dfn>.</p>
      </div3>
      <div3 id="elem.1.def.23" n="23" type="number" org="uniform" sample="complete">
       <head>23</head>
-      <p>Parallel straight lines are straight lines which, being in the same plane and being produced indefinitely in both directions, do not meet one another in either direction.</p>
+      <p><dfn>Parallel straight lines</dfn> are straight lines which, being in the same plane and being produced indefinitely in both directions, do not meet one another in either direction.</p>
      </div3>
     </div2>
     <div2 n="Post" type="type" org="uniform" sample="complete">
@@ -1449,11 +1449,11 @@
      <head>DEFINITIONS.</head>
      <div3 id="elem.2.def.1" n="1" type="number" org="uniform" sample="complete">
       <head>1</head>
-      <p>Any rectangular parallelogram is said to be contained by the two straight lines containing the right angle.</p>
+      <p>Any rectangular parallelogram is said to be <dfn>contained</dfn> by the two straight lines containing the right angle.</p>
      </div3>
      <div3 id="elem.2.def.2" n="2" type="number" org="uniform" sample="complete">
       <head>2</head>
-      <p>And in any parallelogrammic area let any one whatever of the parallelograms about its diameter with the two complements be called a gnomon.</p>
+      <p>And in any parallelogrammic area let any one whatever of the parallelograms about its diameter with the two complements be called a <dfn>gnomon</dfn>.</p>
      </div3>
     </div2>
     <div2 n="Prop" type="type" org="uniform" sample="complete">

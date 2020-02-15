@@ -1,8 +1,7 @@
-<!-- Wrap definition words with the <term> tag where missing
-  TODO There's probably a function I could define for this
--->
+<!-- Wrap definition words with the <term> tag where missing -->
 <xsl:stylesheet version="3.0"
-  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:ardefax="http://xsl.ardefax.org">
   <xsl:mode on-no-match="shallow-copy" />
 
   <!-- https://www.w3.org/TR/xslt-30/#regex-examples -->
@@ -12,24 +11,88 @@
       <xsl:matching-substring>
         <term><xsl:value-of select="."/></term>
       </xsl:matching-substring>
+      <xsl:non-matching-substring><xsl:value-of select="."/></xsl:non-matching-substring>
+    </xsl:analyze-string>
+  </xsl:template>
+
+  <xsl:template match="div3[@id='elem.1.def.20']/p/text()">
+    <xsl:analyze-string select="." regex="(equilateral|isosceles|scalene) triangle">
+      <xsl:matching-substring>
+        <term><xsl:value-of select="."/></term>
+      </xsl:matching-substring>
+      <xsl:non-matching-substring><xsl:value-of select="."/></xsl:non-matching-substring>
+    </xsl:analyze-string>
+  </xsl:template>
+
+  <xsl:template match="div3[@id='elem.1.def.21']/p/text()">
+    <xsl:analyze-string select="." regex="(right|obtuse|acute)-angled triangle">
+      <xsl:matching-substring>
+        <term><xsl:value-of select="."/></term>
+      </xsl:matching-substring>
+      <xsl:non-matching-substring><xsl:value-of select="."/></xsl:non-matching-substring>
+    </xsl:analyze-string>
+  </xsl:template>
+
+  <xsl:template match="div3[@id='elem.1.def.22']/p/text()">
+    <xsl:analyze-string select="." regex="(square|oblong|rhombus|rhomboid|trapezia)">
+      <xsl:matching-substring>
+        <term><xsl:value-of select="."/></term>
+      </xsl:matching-substring>
+      <xsl:non-matching-substring><xsl:value-of select="."/></xsl:non-matching-substring>
+    </xsl:analyze-string>
+  </xsl:template>
+
+  <xsl:template match="div3[@id='elem.1.def.23']/p/text()">
+    <xsl:analyze-string select="." regex="(Parallel straight lines)">
+      <xsl:matching-substring>
+        <term><xsl:value-of select="."/></term>
+      </xsl:matching-substring>
+      <xsl:non-matching-substring><xsl:value-of select="."/></xsl:non-matching-substring>
+    </xsl:analyze-string>
+  </xsl:template>
+
+  <!-- Book 2 -->
+  <xsl:template match="div3[@id='elem.2.def.1']/p/text()">
+    <xsl:analyze-string select="." regex="(contained)">
+      <xsl:matching-substring>
+        <term><xsl:value-of select="."/></term>
+      </xsl:matching-substring>
+      <xsl:non-matching-substring><xsl:value-of select="."/></xsl:non-matching-substring>
+    </xsl:analyze-string>
+  </xsl:template>
+
+  <xsl:template match="div3[@id='elem.2.def.2']/p/text()">
+    <xsl:analyze-string select="." regex="(gnomon)">
+      <xsl:matching-substring>
+        <term><xsl:value-of select="."/></term>
+      </xsl:matching-substring>
+      <xsl:non-matching-substring><xsl:value-of select="."/></xsl:non-matching-substring>
+    </xsl:analyze-string>
+  </xsl:template>
+
+  <!-- Book 3 -->
+
+
+
+
+  <!-- TODO Can't quite seem to make this work as a function (maybe a for-each eventually)
+  <xsl:function name="ardefax:find-terms">
+    <xsl:param name="doc"/>
+    <xsl:param name="id"/>
+    <xsl:param name="terms"/>
+    <xsl:analyze-string select="$doc//div3[@id=$id]/p/text()" regex="$terms">
+      <xsl:matching-substring>
+        <term><xsl:value-of select="."/></term>
+      </xsl:matching-substring>
       <xsl:non-matching-substring>
         <xsl:value-of select="."/>
       </xsl:non-matching-substring>
     </xsl:analyze-string>
+  </xsl:function>
+
+  <xsl:template match="/">
+    <xsl:value-of select="ardefax:find-terms(., 'elem.1.def.19', 'Rectilineal|trilateral|quadrilateral|multilateral')"/>
   </xsl:template>
-
-<!--
-§Definition 20
-Of trilateral figures, an equilateral triangle is that which has its three sides equal, an isosceles triangle that which has two of its sides alone equal, and a scalene triangle that which has its three sides unequal.
-
-§Definition 21
-Further, of trilateral figures, a right-angled triangle is that which has a right angle, an obtuse-angled triangle that which has an obtuse angle, and an acuteangled triangle that which has its three angles acute.
-
-§Definition 22
-Of quadrilateral figures, a square is that which is both equilateral and right-angled; an oblong that which is right-angled but not equilateral; a rhombus that which is equilateral but not right-angled; and a rhomboid that which has its opposite sides and angles equal to one another but is neither equilateral nor right-angled. And let quadrilaterals other than these be called trapezia.
-
-§Definition 23
-Parallel straight lines are straight lines which, being in the same plane and being produced indefinitely in both directions, do not meet one another in either direction.
--->
+  -->
 
 </xsl:stylesheet>
