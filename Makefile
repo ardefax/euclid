@@ -27,6 +27,7 @@ all: $(BOOKS)
 # https://stackoverflow.com/a/10609434
 $(BOOKS): content ;
 .INTERMEDIATE: content
+# TODO This runs even if everything is up to date...
 content: heath/books.xml book/book
 	./book/book -d content/books $<
 
@@ -35,31 +36,16 @@ content: heath/books.xml book/book
 book/book: book/main.go book/dom.go
 	go build -o $@ ./book
 
-
 ### XSLT Transforms of the source material
 
-# Re-runs the identity transform
-.SECONDARY: heath/books.xml
-heath/books.xml: heath/x/8.xml heath/x/0.xslt
-	saxon -s:$< -xsl:heath/x/0.xslt -o:$@
-heath/x/8.xml: heath/x/7.xml heath/x/8.xslt
-	saxon -s:$< -xsl:heath/x/8.xslt -o:$@
-heath/x/7.xml: heath/x/6.xml heath/x/7.xslt
-	saxon -s:$< -xsl:heath/x/7.xslt -o:$@
-heath/x/6.xml: heath/x/5.xml heath/x/6.xslt
-	saxon -s:$< -xsl:heath/x/6.xslt -o:$@
-heath/x/5.xml: heath/x/4.xml heath/x/5.xslt
-	saxon -s:$< -xsl:heath/x/5.xslt -o:$@
-heath/x/4.xml: heath/x/3.xml heath/x/4.xslt
-	saxon -s:$< -xsl:heath/x/4.xslt -o:$@
-heath/x/3.xml: heath/x/2.xml heath/x/3.xslt
-	saxon -s:$< -xsl:heath/x/3.xslt -o:$@
-heath/x/2.xml: heath/x/1.xml heath/x/2.xslt
-	saxon -s:$< -xsl:heath/x/2.xslt -o:$@
-heath/x/1.xml: heath/x/0.xml heath/x/1.xslt
-	saxon -s:$< -xsl:heath/x/1.xslt -o:$@
-heath/x/0.xml: heath/dl/books.xml heath/x/0.xslt
-	saxon -s:$< -xsl:heath/x/0.xslt -o:$@
+# TODO Figure out if it's feasible to create an implicit
+# rule that relies on the sequential nature of the files.
+# Alternatively, could use an automatic variable trick to
+# figure out the "lowest-valued" xslt that has changed
+# as the start of what needs to be run.
+TRANSFORMS := $(wildcard heath/x/*.xslt)
+heath/books.xml: heath/xslt.sh heath/dl/books.xml $(TRANSFORMS)
+	./heath/xslt.sh heath/dl/books.xml heath/x heath/books.xml
 
 .PHONY: clean
 clean:
