@@ -10,6 +10,7 @@ import (
 	"log"
 	"os"
 	"path/filepath"
+	"regexp"
 	"strconv"
 	"strings"
 )
@@ -100,6 +101,8 @@ type Section struct {
 	ID string `json:"id"`
 	// Kind is is the type of section
 	Kind string `json:"kind"`
+	// Frag is the url fragment that references this segment, sans the #
+	Frag string `json:"frag"`
 	// Title is used for  section headings
 	Title string `json:"title"`
 	// Text is a list of paragraphs that may contain embedded HTML
@@ -148,8 +151,8 @@ func (b *Book) parseSection(d2 Div2) error {
 		s = b.parseSimple(d2, short, "definition")
 	case "post":
 		s = b.parseSimple(d2, short, "postulate")
-	case "cn": // TODO the c.n format is lame
-		s = b.parseSimple(d2, "c.n", "common-notion")
+	case "cn":
+		s = b.parseSimple(d2, short, "common-notion")
 	case "prop", "prop1", "prop2", "prop3":
 		s = b.parseProps(d2, short)
 	default:
@@ -174,6 +177,7 @@ func (b *Book) parseSimple(d2 Div2, short, kind string) Section {
 	s := Section{
 		ID: fmt.Sprintf("elem.%d.%s", b.Number, short),
 		Kind: "list:" + kind,
+		Frag: short + "s",
 		Title: cleanContent(d2.Heads[0]),
 		Sections: make([]Section, len(d2.Divs)),
 	}
@@ -197,6 +201,7 @@ func (b *Book) parseSimple(d2 Div2, short, kind string) Section {
 		s.Sections[i] = Section{
 			ID: d3.ID,
 			Kind: kind,
+			Frag: fmt.Sprintf("%s.%s", short, d3.N),
 			Title: fmt.Sprintf("%s %s", title, d3.N),
 			Text: text,
 		}
@@ -205,12 +210,12 @@ func (b *Book) parseSimple(d2 Div2, short, kind string) Section {
 	return s
 }
 
-
 // parseProps TODO doc
 func (b *Book) parseProps(d2 Div2, short string) Section {
 	s := Section{
 		ID: fmt.Sprintf("elem.%d.prop", b.Number),
 		Kind: "list:proposition",
+		Frag: fragify(short),
 		Title: cleanContent(d2.Heads[0]),
 		Sections: make([]Section, len(d2.Divs)),
 	}
@@ -221,6 +226,7 @@ func (b *Book) parseProps(d2 Div2, short string) Section {
 		}
 		ss := Section{
 			ID: d3.ID,
+			Frag: "prop." + d3.N,
 			Kind: "proposition",
 			Title: fmt.Sprintf("Proposition %s.", d3.N),
 		}
@@ -232,6 +238,7 @@ func (b *Book) parseProps(d2 Div2, short string) Section {
 				}
 				ss.Sections = append(ss.Sections, Section {
 					ID: d3.ID + ".theorem", // TODO Rationalize ID strat better
+					// TODO Fragify theorem
 					Kind: "theorem",
 					Text: []string{ cleanContent(d4.Paras[0]) },
 				})
@@ -268,10 +275,49 @@ func (b *Book) parseProps(d2 Div2, short string) Section {
 	return s
 }
 
+// fragify maps a section "short code" to a url fragment, sans the `#`.
+func fragify(short string) string {
+	switch short {
+	case "def", "post", "cn", "prop":
+		return short + "s"
+	case "def1", "def2", "def3", "prop1", "prop2", "prop3":
+		return short
+	}
+	log.Fatalf("hash: invalid short-code: %q", short)
+	return ""
+}
+//
+//// pathify maps a content identifier [e.g elem.#(.short)?.num(.ext)?]
+//// For mapping references by id to the urls on the site
+//func pathify(id string) string {
+//	log.Fatalf("pathify: TODO: more thought required")
+//	return ""
+//}
+
 // cleanContent does any content transformation that may be necessary on a node
-// in the source text. For now it just unpacks the inner text content as-is.
+// in the source text. The one kludge for now is resolving `href` attributes in
+// anchor tags to the right path on the site.
 func cleanContent(p Node) string {
-	return string(p.Content)
+	s := string(p.Content)
+	for _, repl := range repls {
+	  s = repl.re.ReplaceAllString(s, repl.target)
+	}
+	return s
+}
+
+
+var repls = []struct{
+  target string
+  re *regexp.Regexp
+} {
+	// Drop the middle `.` for the common notions
+	// Conver the common notions from elem.1.c.n.Y => /books/X/#cn.Y
+	{ `<a href="/books/1/#cn.${1}">`, regexp.MustCompile(`<a href="#elem\.1\.c\.n\.([1-5])">`)},
+	// Convert the props from elem.X.Y => /books/X/#prop.Y
+	// TODO Figure out the sub-lemmas, etc.
+	{ `<a href="/books/${1}/#prop.${2}">`, regexp.MustCompile(`<a href="#elem\.(\d+)\.([0-9]+)">`)},
+	// Convert the rest from elem.X.* => /books/X/#*
+	{ `<a href="/books/${1}/#${2}">`, regexp.MustCompile(`<a href="#elem\.(\d+)\.([a-z0-9.]+)">`)},
 }
 
 // roman is a terrible implementation of making roman numerals
