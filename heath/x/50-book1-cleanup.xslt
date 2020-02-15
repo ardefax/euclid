@@ -32,5 +32,4 @@
     <var>BC</var><xsl:text> </xsl:text>
   </xsl:template>
 
-
 </xsl:stylesheet>

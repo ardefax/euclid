@@ -1,4 +1,4 @@
-<!-- Strip out line break (lb), page break (pg), figure, and hi tags -->
+<!-- Strip out line break (lb), page break (pg), figure, and some hi tags -->
 <!-- TODO Ideally should clean the stray whitespace from pb removals -->
 <xsl:stylesheet version="3.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
@@ -8,10 +8,9 @@
   <xsl:template match="pb"/>
   <xsl:template match="figure"/>
 
-  <!-- Want the embedded text and child nodes to be retained -->
-  <xsl:template match="hi">
+  <!-- TODO these render tags are interesting -->
+  <xsl:template match="hi"> <!-- TODO: Value in keeping around? -->
       <xsl:copy-of select="*|text()"/>
   </xsl:template>
-
 
 </xsl:stylesheet>

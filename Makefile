@@ -49,5 +49,5 @@ heath/books.xml: heath/xslt.sh heath/dl/books.xml $(TRANSFORMS)
 
 .PHONY: clean
 clean:
-	rm -rf $(BOOKS) heath/books.xml heath/x/*.xml book/book
+	rm -rf $(BOOKS) heath/books.xml tmp/* book/book
 

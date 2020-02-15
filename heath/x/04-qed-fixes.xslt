@@ -1,4 +1,4 @@
-<!-- QED cleanups
+<!-- QED cleanups TODO Needs to be re-thought and moved after structure
    (Being) what it was required to do. => Q. E. F.
    (Being) what it was required to prove. => Q. E. D.
    ...

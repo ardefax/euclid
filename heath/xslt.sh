@@ -5,8 +5,8 @@
 #
 # Sequentially process an input xml file with a directory of
 # xslt files to produce a new xml file. The intermediate files
-# are left in the processing directory with the same basename
-# as the source xslt files.
+# are left in a `tmp` directory with the same basename of the
+# source xslt files.
 #
 
 set -eu
@@ -17,7 +17,7 @@ out="${3}"
 
 for xslt in ${dir}/*.xslt
 do
-    xml="${dir}/$(basename "${xslt}" .xslt).xml"
+    xml="tmp/$(basename "${xslt}" .xslt).xml"
 	echo "saxon -s:${in} -xsl:${xslt} -o:${xml}"
 	saxon -s:${in} -xsl:${xslt} -o:${xml}
     in=${xml}
