@@ -178,6 +178,10 @@ func (b *Book) parseSimple(d2 Div2, short, kind string) Section {
 		Sections: make([]Section, len(d2.Divs)),
 	}
 
+	for _, p := range d2.Paras {
+		s.Text = append(s.Text, cleanContent(p))
+	}
+
 	title := strings.Title(kind)
 	for i, d3 := range d2.Divs {
 		if d3.Type != "number" { // TODO fix the proposition one

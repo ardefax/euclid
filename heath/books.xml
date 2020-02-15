@@ -99,10 +99,10 @@
      </div3>
     </div2>
     <div2 n="Post" type="type" org="uniform" sample="complete">
-     <head>POSTULATES.</head>
+     <head>POSTULATES.</head><p>Let the following be postulated:</p><Age>34</Age>
      <div3 id="elem.1.post.1" n="1" type="number" org="uniform" sample="complete">
       <head>1</head>
-      <p>Let the following be postulated:</p>
+      
       <p>To draw a straight line from any point to any point.</p>
      </div3>
      <div3 id="elem.1.post.2" n="2" type="number" org="uniform" sample="complete">
