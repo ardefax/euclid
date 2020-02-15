@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ .Title }}</title>
+  <title>{{ if not .IsHome }}Elements: {{ end }}{{ .Title }}</title>
   <link rel="stylesheet" href="/root.css" type="text/css">
 </head>
 <body>

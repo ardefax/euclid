@@ -1,7 +1,4 @@
-// euclid extracts content from the Heath version
-//
-// TODO:
-//	Differentiating Propositions from Proof steps beyond book 1
+// book extracts content from the Heath version
 package main
 
 import (
@@ -14,6 +11,7 @@ import (
 	"os"
 	"path/filepath"
 	"strconv"
+	"strings"
 )
 
 var (
@@ -123,7 +121,7 @@ func (b *Book) parse(d1 Div1) error {
 	b.Number = n
 	b.Weight = n
 	b.Roman = roman(n)
-	b.Title = fmt.Sprintf("Book %s", b.Roman)
+	b.Title = fmt.Sprintf("BOOK %s", b.Roman)
 
 	for _, d2 := range d1.Divs {
 		b.parseSection(d2)
@@ -131,135 +129,85 @@ func (b *Book) parse(d1 Div1) error {
 	return nil
 }
 
-// parseSection TODO
+// parseSection converts a Div2 to the equivalent section of the book
 func (b *Book) parseSection(d2 Div2) error {
 	debug("  %#v\n", d2.div)
 	if d2.Type != "type" {
 		return fmt.Errorf("invalid d2.type: %q (book)", d2.Type)
 	}
+	if len(d2.Heads) != 1 {
+		warn("b%d.%s: wrong # of d2.heads: %d (1)", b.Number, d2.N, len(d2.Heads))
+	}
 
 	var s Section
-	switch d2.Type {
-	case "type":
-		switch d2.N {
-			// Book X interleaves sections as  `Def #` or `Prop #`
-			case "Def":
-				s = parseDefs(d2)
-				s.ID = fmt.Sprintf("elem.%d.def", b.Number)
-			case "Def 1", "Def 2", "Def 3":
-				s = parseDefs(d2)
-				// TODO Prop def ID for book X
-			case "Post":
-				s = parsePosts(d2)
-				s.ID = fmt.Sprintf("elem.%d.post", b.Number)
-			case "CN":
-				s = parseCNs(d2)
-				s.ID = fmt.Sprintf("elem.%d.c.n", b.Number) // TODO Don't like the c.n.
-			case "Prop":
-				s = parseProps(d2)
-				s.ID = fmt.Sprintf("elem.%d.prop", b.Number)
-			case "Prop 1", "Prop 2", "Prop 3":
-				s = parseProps(d2)
-				// TODO Handle the prop IDs for book X
-			default:
-				return fmt.Errorf("invalid d2.N: %q (Def|Post|CN|Prop)", d2.N)
-		}
+
+	// Book X interleaves sections as `Def #` or `Prop #`
+	short := strings.Replace(strings.ToLower(d2.N), " ", "", -1)
+	switch short {
+	case "def", "def1", "def2", "def3":
+		s = b.parseSimple(d2, short, "definition")
+	case "post":
+		s = b.parseSimple(d2, short, "postulate")
+	case "cn": // TODO the c.n format is lame
+		s = b.parseSimple(d2, "c.n", "common-notion")
+	case "prop", "prop1", "prop2", "prop3":
+		s = b.parseProps(d2, short)
 	default:
-		return fmt.Errorf("invalid type: %q (type)", d2.Type)
+		return fmt.Errorf("elem.%d: invalid d2.N: %q (Def|Post|CN|Prop)", b.Number, d2.N)
 	}
+
 	b.Sections = append(b.Sections, s)
 	return nil
 }
 
-// parseDefs TODO doc
-func parseDefs(d2 Div2) Section {
+// parseSimple converts a non-proposition Div2 into a Section
+func (b *Book) parseSimple(d2 Div2, short, kind string) Section {
+	switch kind {
+	case "definition", "postulate", "common-notion":
+		// no-op
+	case "proposition":
+		log.Fatalf("section: not simple kind: %s", kind)
+	default:
+		log.Fatalf("section: invalid kind: %s", kind)
+	}
+
 	s := Section{
-		Kind: "list:definition",
-		Title: "Definitions", // TODO d2.Head?
+		ID: fmt.Sprintf("elem.%d.%s", b.Number, short),
+		Kind: "list:" + kind,
+		Title: cleanContent(d2.Heads[0]),
 		Sections: make([]Section, len(d2.Divs)),
 	}
+
+	title := strings.Title(kind)
 	for i, d3 := range d2.Divs {
-		if d3.Type != "number" {
-			log.Fatalf("invalid d3.type: %q (number:definition)", d3.Type)
+		if d3.Type != "number" { // TODO fix the proposition one
+			log.Fatalf("invalid d3.type: %q (number:%s)", d3.Type, kind)
 		}
+		// TODO V.Def.17 has two paragraphs (and a couple others)
+		// TODO This should just join paras into text but Postulate 1 needs to be fixed
+		text := []string{cleanContent(d3.Paras[0])}
 		if len(d3.Paras) != 1 {
-			// TODO V.Def.17 has two paragraphs
-			fmt.Fprintf(os.Stderr, "warn: %s: wrong # of d3.paras: %d (1:definition)\n", d3.ID, len(d3.Paras))
+			warn("%s: wrong # of d3.paras: %d (1:%s)", d3.ID, len(d3.Paras), kind)
+			text = append(text, cleanContent(d3.Paras[1]))
 		}
 		s.Sections[i] = Section{
 			ID: d3.ID,
-			Kind: "definition",
-			Title: fmt.Sprintf("Definition %d", i+1), // TODO: d3.head?
-			Text: []string{cleanPara(d3.Paras[0])},
+			Kind: kind,
+			Title: fmt.Sprintf("%s %s", title, d3.N),
+			Text: text,
 		}
 		debug("d3:%s %s", d3.ID, s.Sections[i].Text[0])
 	}
 	return s
 }
 
-// parsePosts TODO doc
-func parsePosts(d2 Div2) Section {
-	s := Section{
-		Kind: "list:postulate",
-		Title: "Postulates",
-		Sections: make([]Section, len(d2.Divs)),
-	}
-	for i, d3 := range d2.Divs {
-		if d3.Type != "number" {
-			log.Fatalf("%s: invalid d3.type: %q (number:postulate)", d3.ID, d3.Type)
-		}
-		content := cleanPara(d3.Paras[0])
-		if len(d3.Paras) != 1 {
-			// XXX: Book 1, Postulate 1 starts w/ "Let the following be postulated:"
-			if i != 0 {
-				log.Fatalf("%s: wrong # of d3.paras: %d (1:postulate)", d3.ID, len(d3.Paras))
-			}
-			// Promote the starter text outside the first postulate
-			s.Text = []string{content}
-			content = cleanPara(d3.Paras[1])
-		}
-		s.Sections[i] = Section{
-			ID: d3.ID,
-			Kind: "postulate",
-			Title: fmt.Sprintf("Postulate %d", i+1),
-			Text: []string{content},
-		}
-		debug("d3:%s: %s", d3.ID, content)
-	}
-	return s
-}
-
-// parseCNs TODO doc
-func parseCNs(d2 Div2) Section {
-	s := Section{
-		Kind: "list:common-notion",
-		Title: "Common Notions",
-		Sections: make([]Section, len(d2.Divs)),
-	}
-	for i, d3 := range d2.Divs {
-		if d3.Type != "number" {
-			log.Fatalf("invalid d3.type: %q (number:common-notion)", d3.Type)
-		}
-		if len(d3.Paras) != 1 {
-			log.Fatalf("%s: wrong # of d3.paras: %d (1:common-notion)", d3.ID, len(d3.Paras))
-		}
-		content := cleanPara(d3.Paras[0])
-		s.Sections[i] = Section{
-			ID: d3.ID,
-			Kind: "common-notion",
-			Title: fmt.Sprintf("Common Notion %d", i+1),
-			Text: []string{content},
-		}
-		debug("d3:%s: %s", d3.ID, content)
-	}
-	return s
-}
 
 // parseProps TODO doc
-func parseProps(d2 Div2) Section {
+func (b *Book) parseProps(d2 Div2, short string) Section {
 	s := Section{
+		ID: fmt.Sprintf("elem.%d.prop", b.Number),
 		Kind: "list:proposition",
-		Title: "Propositions", // TODO d2.Head because of book X
+		Title: cleanContent(d2.Heads[0]),
 		Sections: make([]Section, len(d2.Divs)),
 	}
 	for i, d3 := range d2.Divs {
@@ -270,7 +218,7 @@ func parseProps(d2 Div2) Section {
 		ss := Section{
 			ID: d3.ID,
 			Kind: "proposition",
-			Title: fmt.Sprintf("Proposition %d", i+1),
+			Title: fmt.Sprintf("Proposition %s.", d3.N),
 		}
 		for _, d4 := range d3.Divs {
 			switch d4.Type {
@@ -279,31 +227,30 @@ func parseProps(d2 Div2) Section {
 					log.Fatalf("Expected 1 paragraph for the theorem, not %d", len(d4.Paras))
 				}
 				ss.Sections = append(ss.Sections, Section {
-					ID: d3.ID + ".theorem", // TODO Is this what I want?
+					ID: d3.ID + ".theorem", // TODO Rationalize ID strat better
 					Kind: "theorem",
-					Text: []string{ cleanPara(d4.Paras[0]) },
+					Text: []string{ cleanContent(d4.Paras[0]) },
 				})
 			case "Proof":
 				if len(d4.Paras) < 2 {
 					log.Fatalf("Expected some steps for the proof, not %d", len(d4.Paras))
 				}
 				sss := Section{
-					ID: d3.ID + ".proof", // TODO Is this what I want?
+					ID: d3.ID + ".proof", // TODO Rationalize ID strat better
 					Kind: "proof",
 					Text: make([]string, len(d4.Paras)),
 				}
 				for j, p := range d4.Paras {
-					sss.Text[j] = cleanPara(p)
+					sss.Text[j] = cleanContent(p)
 				}
 				ss.Sections = append(ss.Sections, sss)
-			case "QED": // skip
+			case "QED":
 				if len(d4.Paras) != 1 {
 					log.Fatalf("Expected 1 paragraph for the QED, not %d", len(d4.Paras))
 				}
-				qed := cleanPara(d4.Paras[0])
 				ss.Sections = append(ss.Sections, Section{
 					Kind: "qed",
-					Text: []string{qed},
+					Text: []string{cleanContent(d4.Paras[0])},
 				})
 			case "porism": // TODO
 			case "lemma": // TODO
@@ -312,15 +259,14 @@ func parseProps(d2 Div2) Section {
 			}
 		}
 
-		// TODO Need to handle proof structure beyond Book I
 		s.Sections[i] = ss
 	}
 	return s
 }
 
-// cleanPara does any content transformation that may be necessary on a node
+// cleanContent does any content transformation that may be necessary on a node
 // in the source text. For now it just unpacks the inner text content as-is.
-func cleanPara(p Node) string {
+func cleanContent(p Node) string {
 	return string(p.Content)
 }
 
@@ -343,6 +289,14 @@ func roman(n int) string {
 	}
 	log.Fatalf("TODO: proper roman numerals %d", n)
 	return ""
+}
+
+func warn(format string, head interface{}, tail ...interface{}) {
+	format = os.Args[0] + ": warn: " + format + "\n"
+	args := make([]interface{}, 1, len(tail) + 1)
+	args[0] = head
+	args = append(args, tail...)
+	fmt.Fprintf(os.Stderr, format, args...)
 }
 
 func debug(format string, head interface{}, tail ...interface{}) {
