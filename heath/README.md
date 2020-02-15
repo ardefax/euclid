@@ -1,18 +1,13 @@
 # Heath
 
 Contains the XML text for Heath's version of Euclid's Elements and tool(s) to
-transform into a JSON representation. Said JSON is a more useful intermediate format
-for generating the site via Hugo.
+transform it. The original files are in `dl/vol{1,2,3}.xml` along with the merged
+`dl/books.xml` which excludes the initial chapters.
 
-There have been some hand modifications to the XML files downloaded from the Perseus
-Project where errors or significant inconsistencies exist. However, attempts have
-been made to limit these by making the transforms programmatic.
+The `x` directory exists to do various transforms on the source text that _should_
+work on both `books.xml` and `vol?.xml`, however, only the `books.xml` is consumed.
 
-## Development
+The above transforms are driven by the `Makefile` in the root of the repo using
+the [saxon] XSLT transformer.
 
-Build and run the go binary
-
-```sh
-go build
-./heath -d ../data/heath vol?.xml
-```
+[saxon]: http://www.saxonica.com/documentation/index.html#!using-xsl/commandline

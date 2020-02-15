@@ -6,6 +6,7 @@
   <xsl:template match="body//term">
     <dfn><xsl:apply-templates select="@* | node()"/></dfn>
   </xsl:template>
+  <!-- TODO Prop II.1, II.2 (and more?) use <emph> around parts in the enunciation -->
   <xsl:template match="body//emph">
     <var><xsl:apply-templates select="@* | node()"/></var>
   </xsl:template>

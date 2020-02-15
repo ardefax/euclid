@@ -1,0 +1,17 @@
+{{ partial "header" . }}
+{{/* TODO This is for the /books/ page currently */}}
+  <main class="books">
+    <h1>Overview</h1>
+
+    {{ range .Site.RegularPages }}
+    {{ $page := . }}
+    <h2><a href="{{ .RelPermalink }}" >{{ .Title | upper }}</a></h2>
+      <p>TODO: Short blurb about the book</p>
+      <ul>
+      {{ range .Params.sections }}
+        <li><a href="{{ $page.RelPermalink }}#{{ .id }}">{{ .title }}</a> ({{ len .sections }})</li>
+      {{ end }}
+      </ul>
+    {{ end }}
+  </main>
+{{ partial "footer" . }}

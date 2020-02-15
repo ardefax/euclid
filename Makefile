@@ -1,37 +1,65 @@
-V1 := data/heath/book01.json data/heath/book02.json
-V2 := data/heath/book03.json data/heath/book04.json data/heath/book05.json data/heath/book06.json data/heath/book07.json data/heath/book08.json data/heath/book09.json
-#V3 := data/heath/book10.json data/heath/book11.json data/heath/book12.json data/heath/book13.json
-JSON := $(V1) $(V2)
-#$(V3)
-MD := $(JSON:data/heath/book%.json=content/book%.md)
+# Makefile that drives building of the site content.
+#
+# 	heath/dl/books.xml => ... => content/books/*.md
+#
+# Note that some of these build artifacts are checked in
+# easily diff changes over time.
 
-all: $(MD)
+# Targets for each book
+BOOKS := content/books/1.md \
+         content/books/2.md \
+         content/books/3.md \
+         content/books/4.md \
+         content/books/5.md \
+         content/books/6.md \
+         content/books/7.md \
+         content/books/8.md \
+         content/books/9.md \
+         content/books/10.md \
+         content/books/11.md \
+         content/books/12.md \
+         content/books/13.md
 
-# Stubs out the content files with the proper data name
-content/book%.md: data/heath/book%.json
-	echo "---" > $@
-	echo "data: $(@:content/%.md=%)" >> $@
-	echo "type: book" >> $@
-	echo "---" >> $@
+.PHONY: all 
+all: $(BOOKS)
 
-# Intermediate trick from here https://stackoverflow.com/a/10609434
-$(V1): intermediate.v1 ;
-$(V2): intermediate.v2 ;
-#$(V3): intermediate.v3 ;
-.INTERMEDIATE: intermediate.v1 intermediate.v2
-#intermediate.v3
+# Intermediate trick for multiple targets from single recipe
+# https://stackoverflow.com/a/10609434
+$(BOOKS): content ;
+.INTERMEDIATE: content
+content: heath/books.xml book/book
+	./book/book -d content/books $<
 
-# TODO Pattern rule once v3 is fixed
-intermediate.v1: heath/xslt/vol1.xml heath/heath 
-	./heath/heath -d data/heath $<
-intermediate.v2: heath/xslt/vol2.xml heath/heath
-	./heath/heath -d data/heath $<
-#intermediate.v3: heath/xslt/vol3.xml heath/heath
-#	./heath/heath -d data/heath $<
 
-heath/heath: heath/main.go heath/dom.go
-	go build -o heath/heath ./heath
+# Build the go binary used to generate content
+book/book: book/main.go book/dom.go
+	go build -o $@ ./book
+
+
+### XSLT Transforms of the source material
+
+# Re-runs the identity transform
+.SECONDARY: heath/books.xml
+heath/books.xml: heath/x/7.xml heath/x/0.xslt
+	saxon -s:$< -xsl:heath/x/0.xslt -o:$@
+heath/x/7.xml: heath/x/6.xml heath/x/7.xslt
+	saxon -s:$< -xsl:heath/x/7.xslt -o:$@
+heath/x/6.xml: heath/x/5.xml heath/x/6.xslt
+	saxon -s:$< -xsl:heath/x/6.xslt -o:$@
+heath/x/5.xml: heath/x/4.xml heath/x/5.xslt
+	saxon -s:$< -xsl:heath/x/5.xslt -o:$@
+heath/x/4.xml: heath/x/3.xml heath/x/4.xslt
+	saxon -s:$< -xsl:heath/x/4.xslt -o:$@
+heath/x/3.xml: heath/x/2.xml heath/x/3.xslt
+	saxon -s:$< -xsl:heath/x/3.xslt -o:$@
+heath/x/2.xml: heath/x/1.xml heath/x/2.xslt
+	saxon -s:$< -xsl:heath/x/2.xslt -o:$@
+heath/x/1.xml: heath/x/0.xml heath/x/1.xslt
+	saxon -s:$< -xsl:heath/x/1.xslt -o:$@
+heath/x/0.xml: heath/dl/books.xml heath/x/0.xslt
+	saxon -s:$< -xsl:heath/x/0.xslt -o:$@
 
 .PHONY: clean
 clean:
-	rm -rf $(MD) $(JSON)
+	rm -rf $(BOOKS) heath/books.xml heath/x/*.xml book/book
+

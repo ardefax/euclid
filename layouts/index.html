@@ -4,8 +4,8 @@
     {{ .Content }}
 
     <ul>
-    {{ range $k, $v := .Site.Data.heath }}
-      <li><a href="/{{ $k }}" >{{ $v.title }}</a></li>
+    {{ range .Site.RegularPages }}
+      <li><h3><a href="{{ .RelPermalink }}" >{{ .Title | upper }}</a></h3></li>
     {{ end }}
     </ul>
 

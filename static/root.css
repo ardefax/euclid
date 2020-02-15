@@ -7,6 +7,7 @@ body {
   flex-direction: column;
   font-family: Optima,Candara,Calibri,Segoe,Segoe UI
 }
+
 main {
   margin: 0 40px;
   flex: 1 0 auto;
@@ -21,16 +22,37 @@ header {
 footer {
   margin-bottom: 20px;
 }
-img {
-  max-width: 100%;
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+nav ol {
+  list-style-type: none;
 }
 
 h1 {
   text-align: center;
 }
+
+img {
+  max-width: 100%;
+}
+
 p, ol, ul {
   line-height: 1.4;
 }
+
+/*
+ * Home page
+ */
+
+
+/*
+ * Book pages
+ */
 
 section.proposition {
   margin-bottom: 30px
@@ -49,13 +71,5 @@ section.qed {
 section a.anchor {
   text-decoration: none;
   margin-right: 5px;
+  color: gray;
 }
-
-// TODO Explore white on black
-//body {
-//  color: white;
-//  background-color: black;
-//}
-//a {
-//  color: gray;
-//}
