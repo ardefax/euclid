@@ -71,4 +71,5 @@ section.qed {
 section a.anchor {
   text-decoration: none;
   margin-right: 5px;
+  color: gray;
 }
