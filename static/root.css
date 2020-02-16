@@ -1,3 +1,6 @@
+/*
+ * Structure
+ */
 html, body {
   height: 100%;
   margin: 0;
@@ -18,21 +21,18 @@ header, footer {
 }
 header {
   margin-top: 20px;
+
 }
 footer {
   margin-bottom: 20px;
 }
-
-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-
-}
-nav ol {
-  list-style-type: none;
+footer .copyright {
+  margin-top: 20px;
 }
 
+/*
+ * Global
+ */
 h1 {
   text-align: center;
 }
@@ -43,6 +43,30 @@ img {
 
 p, ol, ul {
   line-height: 1.4;
+}
+
+/*
+ * Navigation
+ */
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+
+  /* Fixed width relative to the viewport so it doesn't jump when
+   * switching pages when there is/isn't a scrollbar */
+  width: calc(100vw - 20px);
+}
+nav a {
+  width: 7%; /* ~100/14 */
+  margin: auto 10px;
+  padding: 5px 0;
+  color: black;
+  font-weight: bold;
+}
+nav a.current-page {
+  background-color: lightGray; 
 }
 
 /*
@@ -73,3 +97,10 @@ section a.anchor {
   margin-right: 5px;
   color: gray;
 }
+
+/*
+ * Colors
+ *
+ * Favicon Orange: #F6A623
+ * Favicon Yellow: #F8E81C
+ */

@@ -1,3 +1,6 @@
-  <footer>ARDEFAX</footer>
+  <footer>
+    {{ if .Params.sections }}{{ partial "nav" . }}{{ end }}
+    <div class="copyright">ARDEFAX</div>
+  </footer>
 </body>
 </html>

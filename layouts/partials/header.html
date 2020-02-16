@@ -8,10 +8,5 @@
 </head>
 <body>
   <header>
-    <nav>
-    <a href="/">Home</a>
-    {{ range .Site.RegularPages }}
-      <a href="{{ .RelPermalink }}" >{{ .Params.roman }}</a>
-    {{ end }}
-    </nav>
+    {{ partial "nav" . }}
   </header>

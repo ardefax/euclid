@@ -1,0 +1,6 @@
+<nav>
+  <a class="home" href="/">O</a>
+  {{ range .Site.RegularPages }}
+  <a href="{{ .RelPermalink }}"{{ if eq $.Permalink .Permalink }} class="current-page"{{ end }}>{{ .Params.roman }}</a>
+  {{ end }}
+</nav>
