@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+  version="1.1" viewBox="0 0 400 300" >
+
+  <g id="step.1">
+    <line
+      x1 = "150" y1 = "150"
+      x2 = "250" y2 = "150"
+      stroke = "blue" stroke-width = "3" />
+    <text x="135" y="155">A</text>
+    <text x="255" y="155">B</text>
+  </g>
+
+  <g id="step.3a">
+    <circle
+      cx = "150" cy = "150" r = "100"
+      stroke = "green" stroke-width = "3"
+      fill = "none" />
+    <text x="60" y="130">D</text>
+  </g>
+
+  <g id="step.3b">
+    <circle
+      cx = "250" cy = "150" r = "100"
+      stroke = "green" stroke-width = "3"
+      fill = "none" />
+    <text x="330" y="130">E</text>
+  </g>
+
+  <!-- TODO Nicer point where the two lines meet -->
+  <g id="step.3c">
+    <!-- The _assumed_ intersection point requires Pythagoras to solve for 
+      e.g. (r/2)^2 + h2^2 = r => h = r * sqrt(3)/2  -->
+    <line
+      x1 = "150" y1 = "150"
+      x2 = "200" y2 = "63.4"
+      stroke = "red" stroke-width = "3" />
+    <line
+      x1 = "250" y1 = "150"
+      x2 = "200" y2 = "63.4"
+      stroke = "red" stroke-width = "3" />
+    <text x="195" y="55">C</text>
+  </g>
+
+</svg>
