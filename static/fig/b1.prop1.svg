@@ -45,24 +45,22 @@
   </g>
 
   <!-- Experimenting with SMIL animations (yes they are technically deprecated) -->
-  <animate xlink:href="#AB" attributeName="stroke-dasharray" dur="1ms" to="100 100" fill="freeze" />
-  <animate xlink:href="#AB" attributeName="stroke-dashoffset" dur="1s" from="100" to="0" fill="freeze" />
+  <animate id="anim-AB" xlink:href="#AB" begin="anim-init.end + 1ms" attributeName="stroke-dashoffset" dur="500ms" to="0" fill="freeze" />
+  <animate id="anim-BCD" xlink:href="#BCD" begin="anim-AB.end + 1ms" attributeName="stroke-dashoffset" dur="1s" to="0" fill="freeze" />
+  <animate id="anim-ACE" xlink:href="#ACE" begin="anim-BCD.end + 1ms" attributeName="stroke-dashoffset" dur="1s" to="0" fill="freeze" />
+  <animate id="anim-AC" xlink:href="#AC" begin="anim-ACE.end + 1ms" attributeName="stroke-dashoffset" dur="500ms" to="0" fill="freeze" />
+  <animate id="anim-BC" xlink:href="#BC" begin="anim-AC.end + 1ms" attributeName="stroke-dashoffset" dur="500ms" to="0" fill="freeze" />
 
-  <!-- 629 =~ 100 * 2 * pi -->
-  <animate xlink:href="#BCD" attributeName="stroke-dasharray" dur="1ms" to="629 629" fill="freeze" />
+  <!-- Initialize all the stroke-dash* props for the animations above -->
+  <animate xlink:href="#AB" attributeName="stroke-dasharray" dur="1ms" to="100 100" fill="freeze" id="anim-init" />
+  <animate xlink:href="#AB" attributeName="stroke-dashoffset" dur="1ms" to="100" fill="freeze" />
+  <animate xlink:href="#BCD" attributeName="stroke-dasharray" dur="1ms" to="629 629" fill="freeze" /> <!-- 629 =~ 100 * 2 * pi -->
   <animate xlink:href="#BCD" attributeName="stroke-dashoffset" dur="1ms" to="629" fill="freeze" />
-  <animate xlink:href="#BCD" begin="1s" attributeName="stroke-dashoffset" dur="1s" to="0" fill="freeze" />
-
   <animate xlink:href="#ACE" attributeName="stroke-dasharray" dur="1ms" to="629 629" fill="freeze" />
   <animate xlink:href="#ACE" attributeName="stroke-dashoffset" dur="1ms" to="629" fill="freeze" />
-  <animate xlink:href="#ACE" begin="2s" attributeName="stroke-dashoffset" dur="1s" to="0" fill="freeze" />
-
   <animate xlink:href="#AC" attributeName="stroke-dasharray" dur="1ms" to="100 100" fill="freeze" />
   <animate xlink:href="#AC" attributeName="stroke-dashoffset" dur="1ms" to="100" fill="freeze" />
-  <animate xlink:href="#AC" begin="3s" attributeName="stroke-dashoffset" dur="1s" to="0" fill="freeze" />
-
   <animate xlink:href="#BC" attributeName="stroke-dasharray" dur="1ms" to="100 100" fill="freeze" />
   <animate xlink:href="#BC" attributeName="stroke-dashoffset" dur="1ms" to="100" fill="freeze" />
-  <animate xlink:href="#BC" begin="4s" attributeName="stroke-dashoffset" dur="1s" to="0" fill="freeze" />
 
 </svg>
