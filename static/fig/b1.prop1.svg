@@ -44,6 +44,7 @@
     <text x="195" y="55">C</text>
   </g>
 
+  <!-- https://jakearchibald.com/2013/animated-line-drawing-svg/ -->
   <!-- Experimenting with SMIL animations (yes they are technically deprecated) -->
   <animate id="anim-AB" xlink:href="#AB" begin="anim-init.end + 1ms" attributeName="stroke-dashoffset" dur="500ms" to="0" fill="freeze" />
   <animate id="anim-BCD" xlink:href="#BCD" begin="anim-AB.end + 1ms" attributeName="stroke-dashoffset" dur="1s" to="0" fill="freeze" />
