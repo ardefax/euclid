@@ -138,10 +138,64 @@ class Ui {
         // TODO validate that tag is a circle
         elem.setAttribute('cx', x);
         elem.setAttribute('cy', y);
-      } break
+      } break;
+
+      case "label": { // label A left AB; label B right AB
+        // label <target> [constraints]
+        const anchor = svg.getElementById(def[3]),
+              direction = def[2];
+
+        if (!anchor || T(anchor) != 'line') {
+          console.warn("redraw: unexpected anchor tag:def", tag, def)
+          break;
+        }
+
+        const [_, x1, y1, x2, y2] = this.decompose(anchor),
+              d = Math.hypot(x1-x2, y1-y2),
+              bbox = elem.getBBox();
+
+        elem.setAttribute('text-anchor', 'middle');
+        elem.setAttribute('dominant-baseline', 'central');
+
+        //debugger;
+        switch (direction) {
+          case "left": { // relative to x1,y1
+            elem.setAttribute('x', x1 + bbox.width * (x1 - x2) / d);
+            elem.setAttribute('y', y1 + bbox.height * (y1 - y2) / d);
+          } break;
+          case "right": { // relative to x2,y2
+            elem.setAttribute('x', x2 + bbox.width * (x2 - x1) / d);
+            elem.setAttribute('y', y2 + bbox.height * (y2 - y1) / d);
+          } break;
+          case "above": {
+            console.warn("redraw: unexpected direction tag:def", tag, def)
+          } break;
+          default:
+            console.warn("redraw: unexpected direction tag:def", tag, def)
+        }
+        
+      } break;
+
       default:
         console.warn("redraw: TODO tag:def", tag, def);
     }
+  }
+
+  decompose(elem) {
+    const t = T(elem);
+    switch (t) {
+      case 'point': // <circle> under-the-hood
+        return [t, N(elem.cx), N(elem.cy)];
+      case 'line':
+        return [t, N(elem.x1), N(elem.y1), N(elem.x2), N(elem.y2)];
+      case 'circle':
+        return [t, N(elem.cx), N(elem.cy), N(elem.r)];
+      case 'ellipse':
+        return [t, N(elem.cx), N(elem.cy), N(elem.r)];
+      default:
+        console.warn("decompose: unexpected", t);
+    }
+    return [];
   }
 
   intersect(elem1, elem2) {
@@ -249,4 +303,4 @@ window.setTimeout(() => { // XXX Hack for embedded svg object to be loaded.
   const svg = objects[0].contentDocument.firstElementChild;
   const ui = new Ui(svg);
   ui.update({ id: "point" });
-}, 50);
+}, 100);

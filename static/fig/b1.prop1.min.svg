@@ -6,13 +6,14 @@
 
   <style>
     circle.point { fill: black; } // TODO
+    text.label { text-anchor: middle; }
   </style>
 
   <g id="step.1">
     <line id="AB" class="line A B"
       stroke = "blue" stroke-width = "3" />
-    <text x="135" y="155">A</text>
-    <text x="255" y="155">B</text>
+    <text class="label A left AB">A</text>
+    <text class="label B right AB">B</text>
   </g>
 
   <g id="step.3a">
@@ -34,9 +35,9 @@
       stroke = "red" stroke-width = "3" />
     <line id="BC" class="line B C"
       stroke = "red" stroke-width = "3" />
-    <text x="195" y="55">C</text>
 
     <circle id="C" class="intersection BCD ACE" r="4" />
+    <text class="label C above">C</text>
   </g>
 
   <g id="input">
