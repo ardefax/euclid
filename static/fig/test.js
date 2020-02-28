@@ -101,18 +101,24 @@ class Ui {
           tag = elem.tagName,
           def = elem.classList;
     switch (def[0]) { // TODO also care about tag?
+      case "point": {
+        // XXX No-op since these are to trigger the initial draws from input
+        // TODO Could do something with "random" points here...
+      } break;
+
       case "circle": { // class='circle A B'
         const center = svg.getElementById(def[1]),
               radius = svg.getElementById(def[2]),
               [cx, cy] = this.origin(center),
               [rx, ry] = this.origin(radius);
 
-        console.log("redraw: circle", cx, cy, rx, ry);
+        //console.log("redraw: circle", cx, cy, rx, ry);
 
         elem.setAttribute('cx', cx);
         elem.setAttribute('cy', cy);
         elem.setAttribute('r', Math.hypot(cx-rx, cy-ry));
       } break;
+
       case "line": {
         const p1 = svg.getElementById(def[1]),
               p2 = svg.getElementById(def[2]),
@@ -124,6 +130,7 @@ class Ui {
         elem.setAttribute('x2', x2);
         elem.setAttribute('y2', y2);
       } break;
+
       case "intersection": {
         const p1 = svg.getElementById(def[1]),
               p2 = svg.getElementById(def[2]),
@@ -241,5 +248,5 @@ window.setTimeout(() => { // XXX Hack for embedded svg object to be loaded.
   const objects = document.getElementsByTagName('object')
   const svg = objects[0].contentDocument.firstElementChild;
   const ui = new Ui(svg);
-  console.log("new UI");
-}, 1000);
+  ui.update({ id: "point" });
+}, 50);
