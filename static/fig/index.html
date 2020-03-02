@@ -2,13 +2,72 @@
 <meta charset="UTF-8">
 <title>Figure Testing</title>
 <link rel="stylesheet" href="test.css" type="text/css"></link>
+<!-- TODO Make with touch events on a tablet, currently scrolls -->
 <style type="text/css">
-  body {
+  html, body, object, svg {
+    height: 100%;
+    width: 100%;
     margin: 0;
+    padding: 0;
+    overflow-y: hidden; /*FF and Safari are dumb*/
+  }
+
+  body { /* Prevent accidental pans when on touch browers */
+    /* XXX: Can't apply this directly to the object tag, will probably need a wrapper div */
+    touch-action: none; /* TODO: Allow pinch-zoom after fixing coordinate calc */
+  }
+  * {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  circle.point { fill: black; }
+  g#input circle.point {
+    cursor: move; 
   }
 </style>
 <body>
-  <object type="image/svg+xml" data="b1.prop1.min.svg"></object>
-  <!-- img src="b1.prop1.svg"></img -->
+  <object id="object-svg" type="image/svg+xml" data="b1.prop1.min.svg"></object>
+
+<!-- svg id="s-xy"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  version="1.1" viewBox="0 0 400 300" >
+
+  <g id="step.1">
+    <line id="AB" class="line A B"
+      stroke = "blue" stroke-width = "3" />
+    <text class="label A left AB">A</text>
+    <text class="label B right AB">B</text>
+  </g>
+
+  <g id="step.3a">
+    <circle id="BCD" class="circle A B"
+      stroke = "lime" stroke-width = "3"
+      fill = "none" />
+    <text x="60" y="130">D</text>
+  </g>
+
+  <g id="step.3b">
+    <circle id="ACE" class="circle B A"
+      stroke = "green" stroke-width = "3"
+      fill = "none" />
+    <text x="330" y="130">E</text>
+  </g>
+
+  <g id="step.3c">
+    <line id="AC" class="line A C"
+      stroke = "red" stroke-width = "3" />
+    <line id="BC" class="line B C"
+      stroke = "red" stroke-width = "3" />
+
+    <circle id="C" class="intersection BCD ACE" r="4" />
+  </g>
+
+  <g id="input">
+    <circle id="A" class="point" cx="150" cy="150" r="4" />
+    <circle id="B" class="point" cx="250" cy="150" r="4" />
+  </g>
+</svg -->
 </body>
 <script type="text/javascript" src="test.js"></script>

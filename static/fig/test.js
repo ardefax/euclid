@@ -20,13 +20,19 @@ class Ui {
   pointerDown(evt) {
     const [x, y] = this.getCoords(evt)
     this.handle = null;
+    // Need larger hit tests
+    // - One trick would be mimicking a touch event that expands beyound the hit target
     if (evt.target.classList.contains("point")) {
       this.handle = evt.target;
     }
     console.log('pointer:down x', x, 'y', y, 'h', this.handle);
+    var req = new XMLHttpRequest();
+    req.open("GET", "/down?x=" + x + "&y=" + y + "&type=" + evt.pointerType);
+    req.send();
     if (this.handle == null) {
       return
     }
+    //this.handle.setPointerCapture(evt.pointerId);
 
     // TODO Ideally move the pointer correctly relative to the mouse
     const [hx, hy] = this.origin(this.handle),
@@ -34,6 +40,7 @@ class Ui {
           dy = y - hy;
     this.move(this.handle, dx, dy);
     this.update(this.handle, dx, dy);
+
   }
   pointerMove(evt) {
     const [x, y] = this.getCoords(evt);
@@ -51,9 +58,13 @@ class Ui {
   pointerUp(evt) {
     const [x, y] = this.getCoords(evt)
     console.log('pointer:up x', x, 'y', y, 'h', this.handle);
+    var req = new XMLHttpRequest();
+    req.open("GET", "/up?x=" + x, "&y=", y);
+    req.send();
     if (this.handle == null) {
       return;
     }
+    //this.handle.releasePointerCapture(evt.pointerId);
 
     const [hx, hy] = this.origin(this.handle),
           dx = x - hx,
@@ -298,9 +309,15 @@ class Ui {
   }
 }
 
-window.setTimeout(() => { // XXX Hack for embedded svg object to be loaded.
-  const objects = document.getElementsByTagName('object')
-  const svg = objects[0].contentDocument.firstElementChild;
+const object = document.getElementById('object-svg');
+if (object) {
+object.addEventListener('load', function(evt) {
+  const svg = object.contentDocument.firstElementChild;
   const ui = new Ui(svg);
   ui.update({ id: "point" });
-}, 100);
+}, false);
+} else {
+  const svg = document.getElementById('s-xy');
+  const ui = new Ui(svg);
+  ui.update({ id: "point" });
+}

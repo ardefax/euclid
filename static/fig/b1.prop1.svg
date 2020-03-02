@@ -46,7 +46,7 @@
       x1 = "250" y1 = "150"
       x2 = "200" y2 = "63.4"
       stroke = "red" stroke-width = "3" />
-    <text x="195" y="55">C</text>
+    <!-- <text x="195" y="55">C</text> -->
 
     <circle id="C" class="intersection BCD ACE" cx="200" cy="63.4" r="4" />
   </g>

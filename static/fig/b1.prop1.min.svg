@@ -5,8 +5,19 @@
   version="1.1" viewBox="0 0 400 300" >
 
   <style>
-    circle.point { fill: black; } // TODO
-    text.label { text-anchor: middle; }
+    //svg { /* Prevent accidental pans when on touch browers */
+    //  /* TODO This does not seem to work when embedded via an `object` tag */
+    //  touch-action: none; /* TODO: Allow pinch-zoom after fixing coordinate calc */
+    //}
+    * {
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      user-select: none;
+    }
+    circle.point { fill: black; }
+    g#input circle.point {
+      cursor: move; 
+    }
   </style>
 
   <g id="step.1">
@@ -37,7 +48,7 @@
       stroke = "red" stroke-width = "3" />
 
     <circle id="C" class="intersection BCD ACE" r="4" />
-    <text class="label C above">C</text>
+    <!-- <text class="label C above">C</text> -->
   </g>
 
   <g id="input">

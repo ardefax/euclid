@@ -52,7 +52,7 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  list-style: none;
+  list-style: none; /* TODO Remove? */
 
   /* Fixed width relative to the viewport so it doesn't jump when
    * switching pages when there is/isn't a scrollbar */
