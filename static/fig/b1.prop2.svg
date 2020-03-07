@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  version="1.1" viewBox="0 0 400 300" >
+
+  <style>
+    * {
+      stroke-width: 3;
+    }
+    not(text) {
+      fill: none;
+    }
+  </style>
+
+  <g id="step.1a">
+    <line id="BC"
+      x1 = "230" y1 = "145"
+      x2 = "220" y2 = "70"
+      stroke = "blue"
+    />
+    <text x="235" y="150">B</text>
+    <text x="214" y="65">C</text>
+  </g>
+
+  <g id="step.1b">
+    <text x="180" y="200">A</text>
+  </g>
+
+  <g id="step.2a">
+    <line id="AB"
+      x1 = "185" y1 = "185"
+      x2 = "230" y2 = "145"
+      stroke = "red" />
+  </g>
+
+  <!-- B: 230, 145
+       A: 185, 185
+       D:  -->
+
+  <!-- TODO How do I want to handle these triangle constructions
+    These should probably get color fills so that references to the 
+    lines also can have meaningful colors where necessary -->
+  <g id="step.2b">
+    <!-- TODO Explicit lines as well would be nice -->
+    <polygon id="DAB"
+      points="230,145 185,185"
+      fill = "lime"
+    />
+    <text x="180" y="200">D</text>
+  </g>
+  -->
+
+  <!--
+  <g id="step.3a">
+    <circle id="BCD"
+      cx = "150" cy = "150" r = "100"
+      stroke = "green" stroke-width = "3"
+      fill = "none"/>
+    <text x="60" y="130">D</text>
+  </g>
+
+  <g id="step.3b">
+    <circle id="ACE"
+      cx = "250" cy = "150" r = "100"
+      stroke = "green" stroke-width = "3"
+      fill = "none"/>
+    <text x="330" y="130">E</text>
+  </g>
+
+  <g id="step.3c">
+    <line id="AC"
+      x1 = "150" y1 = "150"
+      x2 = "200" y2 = "63.4"
+      stroke = "red" stroke-width = "3" />
+    <line id="BC"
+      x1 = "250" y1 = "150"
+      x2 = "200" y2 = "63.4"
+      stroke = "red" stroke-width = "3" />
+    <text x="195" y="55">C</text>
+  </g>
+  -->
+
+  <!-- 
+  <animate id="anim-AB" xlink:href="#AB" begin="anim-init.end + 1ms" attributeName="stroke-dashoffset" dur="500ms" to="0" fill="freeze" />
+  <animate id="anim-BCD" xlink:href="#BCD" begin="anim-AB.end + 1ms" attributeName="stroke-dashoffset" dur="1s" to="0" fill="freeze" />
+  <animate id="anim-ACE" xlink:href="#ACE" begin="anim-BCD.end + 1ms" attributeName="stroke-dashoffset" dur="1s" to="0" fill="freeze" />
+  <animate id="anim-AC" xlink:href="#AC" begin="anim-ACE.end + 1ms" attributeName="stroke-dashoffset" dur="500ms" to="0" fill="freeze" />
+  <animate id="anim-BC" xlink:href="#BC" begin="anim-AC.end + 1ms" attributeName="stroke-dashoffset" dur="500ms" to="0" fill="freeze" />
+
+  <animate xlink:href="#AB" attributeName="stroke-dasharray" dur="1ms" to="100 100" fill="freeze" id="anim-init" /> 
+  <animate xlink:href="#AB" attributeName="stroke-dashoffset" dur="1ms" to="100" fill="freeze" />
+  <animate xlink:href="#BCD" attributeName="stroke-dasharray" dur="1ms" to="629 629" fill="freeze" />
+  <animate xlink:href="#BCD" attributeName="stroke-dashoffset" dur="1ms" to="629" fill="freeze" />
+  <animate xlink:href="#ACE" attributeName="stroke-dasharray" dur="1ms" to="629 629" fill="freeze" />
+  <animate xlink:href="#ACE" attributeName="stroke-dashoffset" dur="1ms" to="629" fill="freeze" />
+  <animate xlink:href="#AC" attributeName="stroke-dasharray" dur="1ms" to="100 100" fill="freeze" />
+  <animate xlink:href="#AC" attributeName="stroke-dashoffset" dur="1ms" to="100" fill="freeze" />
+  <animate xlink:href="#BC" attributeName="stroke-dasharray" dur="1ms" to="100 100" fill="freeze" />
+  <animate xlink:href="#BC" attributeName="stroke-dashoffset" dur="1ms" to="100" fill="freeze" />
+  -->
+
+</svg>

@@ -1,13 +1,7 @@
 {{ partial "header" . }}
-  <main>
+  <main class="index type-{{.Type}}">
     <h1>{{ .Title }}</h1>
     {{ .Content }}
-
-    <ul>
-    {{ range .Site.RegularPages }}
-      <li><h3><a href="{{ .RelPermalink }}" >{{ .Title | upper }}</a></h3></li>
-    {{ end }}
-    </ul>
 
   </main>
 {{ partial "footer" . }}

@@ -98,6 +98,20 @@ section a.anchor {
   color: gray;
 }
 
+main.books-single section.proposition section.proof,
+main.books-single section.proposition section.qed {
+  display: none; /* TODO Filter these out at the actual content level */
+}
+
+/*
+ * TODO Definition Pages
+ */
+
+/*
+ * TODO Proposition Pages
+ */
+
+
 /*
  * Colors
  *

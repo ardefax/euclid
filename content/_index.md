@@ -1,5 +1,5 @@
 ---
-title: "Euclid: The Elements"
+title: "Euclid's Elements"
 ---
 
-*An Interactive Translation (w/ straight-edge and compass)?*
+Under-construction interactive edition of Euclid's Elements

@@ -1,12 +1,9 @@
 {{ partial "header" . }}
 
-<main>
+<main class="_default-single type-{{.Type}}">
   <h1>{{ .Title }}</h1>
 
-  {{ range .Params.sections }}
-    {{ partial "section" (dict "section" . "depth" 2) }}
-  {{ end }}
-
+  {{ .Content }}
 </main>
 
 {{ partial "footer" . }}
