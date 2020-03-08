@@ -28,9 +28,10 @@ class Ui {
       this.handle = evt.target;
     }
     console.log('pointer:down x', x, 'y', y, 'h', this.handle);
-    var req = new XMLHttpRequest();
-    req.open("GET", "/down?x=" + x + "&y=" + y + "&type=" + evt.pointerType);
-    req.send();
+    // XXX: Hack for quick debugging pointer events on sandboxed phone/tablet
+    //var req = new XMLHttpRequest();
+    //req.open("GET", "/down?x=" + x + "&y=" + y + "&type=" + evt.pointerType);
+    //req.send();
     if (this.handle == null) {
       return
     }
@@ -93,7 +94,7 @@ class Ui {
     const svg = this.svg,
           processed = {};
     processed[src.id] = src;
-    console.log("------ update --------")
+    //console.log("------ update --------")
 
     let counter = 0;
 
@@ -107,7 +108,7 @@ class Ui {
 
       const elem = cascade.shift();
       if (!!processed[elem.id]) {
-        console.log("skipping", elem.tagName, elem.id)
+        //console.log("skipping", elem.tagName, elem.id)
         continue;
       }
 
@@ -127,7 +128,7 @@ class Ui {
       if (requeue) {
         // Re-queue this element since there are missing deps
         // TODO This could cycle forever if we don't have a DAG
-        console.log("requeuing", elem.id);
+        //console.log("requeuing", elem.id);
         cascade.push(elem);
         continue;
       }
@@ -143,11 +144,11 @@ class Ui {
           tag = elem.tagName,
           def = elem.classList;
 
-    console.log("redraw", elem)
+    //console.log("redraw", elem)
     switch (def[0]) { // TODO also care about tag?
       case "point": {
         // XXX No-op since these are to trigger the initial draws from input
-        // TODO Could do something with "random" points here...
+        // TODO Could do something with "random" points here... little dice-icon somwhere
       } break;
 
       case "circle": { // class='circle A B'
@@ -173,6 +174,17 @@ class Ui {
         elem.setAttribute('y1', y1);
         elem.setAttribute('x2', x2);
         elem.setAttribute('y2', y2);
+      } break;
+
+      case "triangle": {
+        const p1 = svg.getElementById(def[1]),
+              p2 = svg.getElementById(def[2]),
+              p3 = svg.getElementById(def[3]),
+              [x1, y1] = this.origin(p1),
+              [x2, y2] = this.origin(p2),
+              [x3, y3] = this.origin(p3);
+
+        elem.setAttribute('points', [x1, y1, x2, y2, x3, y3]);
       } break;
 
       case "intersection": {
@@ -297,6 +309,9 @@ class Ui {
         return [t, N(elem.cx), N(elem.cy), N(elem.r)];
       case 'ellipse':
         return [t, N(elem.cx), N(elem.cy), N(elem.r)]; // TODO r1 and r2
+      case 'triangle':
+        const pts = Array.from(elem.points).map(p => [p.x, p.y]);
+        return [t, ...pts.flat()];
       default:
         console.warn("decompose: unexpected", t);
     }
@@ -326,7 +341,7 @@ class Ui {
             lx = cx1 + a*cdx, // roughly lens midpoint
             ly = cy1 + a*cdy;
 
-      //console.log({a, h, lx, ly, cdx, cdy});
+      //console.log("intersect:", {a, h, lx, ly, cdx, cdy});
       return [
         lx + h*cdy, ly - h*cdx,
         lx - h*cdy, ly + h*cdx
@@ -353,7 +368,7 @@ class Ui {
                 r = N(elem.r),
                 x = ox + r + dx, y = oy + dy;
           //debugger;
-          console.log("nudge:radius o:", ox, oy, "r:", r, "x", x, "y", y);
+          //console.log("nudge:radius o:", ox, oy, "r:", r, "x", x, "y", y);
           elem.setAttribute('r', Math.hypot(ox, x, oy, y));
         }
         break;

@@ -33,9 +33,11 @@
       stroke = "red" stroke-width = "3" />
 
     <circle id="C" class="intersection BCD ACE" r="4" />
-    <!-- polygon id="ABC" class="triangle A C B"
-      stroke = "none" fill = "cyan" / -->
     <text id="_C" class="label C above BC above AC">C</text>
+
+    <!-- TODO: Because of SVG draw-order this would occlude parts of above if filled -->
+    <polygon id="ABC" class="triangle A B C"
+      stroke = "none" fill = "none" />
   </g>
 
   <g id="input">
