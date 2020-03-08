@@ -222,18 +222,20 @@ class Ui {
             elem.setAttribute('y', y12 + bbox.height * v[1] / d);
           } break;
           case "incirc": { // incirc ACE <rads>  TODO this name sucks
-            // where dregrees is CCW relative to the radial point used to describe the circle
+            // where rads is CCW relative to the radial point used to describe the circle
             const [, cx, cy, r, px, py] = this.circleAnchor(params[0]),
+              // Formula for vector rotation in 2D
+              // https://matthew-brett.github.io/teaching/rotation_2d.html
               rads = params[1],
               sin = Math.sin(rads),
               cos = Math.cos(rads),
               dx = px - cx,
-              dy = py - cy;
+              dy = py - cy,
+              x = cx + dx * cos - dy * sin,
+              y = cy + dx * sin + dy * cos;
 
-            // Formula for vector rotation in 2D
-            // https://matthew-brett.github.io/teaching/rotation_2d.html
-            elem.setAttribute('x', cx + dx * cos - dy * sin);
-            elem.setAttribute('y', cy + dx * sin + dy * cos);
+            elem.setAttribute('x', x - bbox.width * (x - cx) / r); // TODO generalize this as an inset/offset function
+            elem.setAttribute('y', y - bbox.height * (y - cy) / r); // since these are similar to the above labels.
           } break;
           default:
             console.warn("redraw: unexpected direction tag:def", tag, def)
@@ -287,7 +289,7 @@ class Ui {
   decompose(elem) {
     const t = T(elem);
     switch (t) {
-      case 'point': // <circle> under-the-hood
+      case 'point': // <circle> under-the-hood, could be <rect>, etc. though
         return [t, N(elem.cx), N(elem.cy)];
       case 'line':
         return [t, N(elem.x1), N(elem.y1), N(elem.x2), N(elem.y2)];
