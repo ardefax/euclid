@@ -228,7 +228,7 @@ class Ui {
               sin = Math.sin(rads),
               cos = Math.cos(rads),
               dx = px - cx,
-              dy = px - cy;
+              dy = py - cy;
 
             // Formula for vector rotation in 2D
             // https://matthew-brett.github.io/teaching/rotation_2d.html

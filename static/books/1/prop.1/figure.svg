@@ -16,16 +16,14 @@
     <circle id="BCD" class="circle A B"
       stroke = "green" stroke-width = "3"
       fill = "none" />
-    <text x="60" y="130">D</text>
-    <!-- text id="_D" class="label D incirc BCD 1">D</text -->
+    <text id="_D" class="label D incirc BCD -2.9">D</text>
   </g>
 
   <g id="step.3b">
     <circle id="ACE" class="circle B A"
       stroke = "green" stroke-width = "3"
       fill = "none" />
-    <text id="_E" class="label E incirc ACE 3">E</text>
-    <!-- text x="330" y="130">E</text -->
+    <text id="_E" class="label E incirc ACE 2.9">E</text>
   </g>
 
   <g id="step.3c">
