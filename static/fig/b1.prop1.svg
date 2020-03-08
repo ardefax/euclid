@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/figure.css" type="text/css"?>
 <svg id="s-xy"
   xmlns="http://www.w3.org/2000/svg"
   xmlns:xlink="http://www.w3.org/1999/xlink"
   version="1.1" viewBox="0 0 400 300" >
-
-  <style>
-    circle.point { fill: black; } // TODO
-  </style>
 
   <g id="step.1">
     <line id="AB" class="line A B"

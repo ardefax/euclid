@@ -310,14 +310,8 @@ class Ui {
 }
 
 const object = document.getElementById('object-svg');
-if (object) {
 object.addEventListener('load', function(evt) {
   const svg = object.contentDocument.firstElementChild;
   const ui = new Ui(svg);
   ui.update({ id: "point" });
 }, false);
-} else {
-  const svg = document.getElementById('s-xy');
-  const ui = new Ui(svg);
-  ui.update({ id: "point" });
-}

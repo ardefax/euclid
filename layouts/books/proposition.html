@@ -5,7 +5,7 @@
 
   {{ $fig := print "static" .RelPermalink "fig.svg" }}
   {{ if fileExists $fig }}
-  <img src="fig.svg"></img>
+  <object id="object-svg" type="image/svg+xml" data="fig.svg"></object>
   {{ end }}
 
   {{ range .Params.sections }}
@@ -13,5 +13,6 @@
   {{ end }}
 
 </main>
+<script type="text/javascript" src="/fig/test.js"></script>
 
 {{ partial "footer" . }}
