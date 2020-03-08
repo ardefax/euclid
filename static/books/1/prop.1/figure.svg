@@ -33,7 +33,9 @@
       stroke = "red" stroke-width = "3" />
 
     <circle id="C" class="intersection BCD ACE" r="4" />
-    <text class="label C above">C</text>
+    <!-- polygon id="ABC" class="triangle A C B"
+      stroke = "none" fill = "cyan" / -->
+    <text class="label C above BC above AC">C</text>
   </g>
 
   <g id="input">

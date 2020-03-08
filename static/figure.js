@@ -151,35 +151,42 @@ class Ui {
         elem.setAttribute('cy', y);
       } break;
 
-      case "label": { // label A left AB; label B right AB
-        // label <target> [constraints]
-        const anchor = svg.getElementById(def[3]),
-              direction = def[2];
-
-        if (!anchor || T(anchor) != 'line') {
-          console.warn("redraw: unexpected anchor tag:def", tag, def)
-          break;
-        }
-
-        const [_, x1, y1, x2, y2] = this.decompose(anchor),
-              d = Math.hypot(x1-x2, y1-y2),
-              bbox = elem.getBBox();
+      case "label": { // label A left AB; label B right AB; label C above AC BC
+        // label <target> [constraint] TODO Multiple constraints
+        const bbox = elem.getBBox(),
+          constraints = Array.from(def).slice(2),
+          direction = constraints[0],
+          params = constraints.slice(1);
 
         elem.setAttribute('text-anchor', 'middle');
         elem.setAttribute('dominant-baseline', 'central');
 
-        //debugger;
         switch (direction) {
           case "left": { // relative to x1,y1
+            const [, x1, y1, x2, y2, d] = this.lineAnchor(params[0]);
             elem.setAttribute('x', x1 + bbox.width * (x1 - x2) / d);
             elem.setAttribute('y', y1 + bbox.height * (y1 - y2) / d);
           } break;
           case "right": { // relative to x2,y2
+            const [, x1, y1, x2, y2, d] = this.lineAnchor(params[0]);
             elem.setAttribute('x', x2 + bbox.width * (x2 - x1) / d);
             elem.setAttribute('y', y2 + bbox.height * (y2 - y1) / d);
           } break;
-          case "above": {
-            console.warn("redraw: unexpected direction tag:def", tag, def)
+          case "above": { // "between" the rays for the two anchor, e.g.
+            // the vector that bisects the two lines. Assumes that the
+            // two lines share the same x2,y2 points
+            const [, x11, y11, x12, y12, d1] = this.lineAnchor(params[0]);
+            const [, x21, y21, x22, y22, d2] = this.lineAnchor(params[1]);
+            const v1 = [(x12 - x11) / d1, (y12 - y11) / d1];
+            const v2 = [(x22 - x21) / d2, (y22 - y21) / d2];
+            const v = [ v1[0]+v2[0], v1[1]+v2[1] ];
+            const d = Math.hypot(v[0], v[1]);
+
+            if (x12 != x22 || y12 != y22) {
+              consale.warn(`redraw: above ${params[0]} ${params[1]} don't share endpoint: (${x12},${y12}) != (${x22},${y22})`)
+            }
+            elem.setAttribute('x', x12 + bbox.width * v[0] / d);
+            elem.setAttribute('y', y12 + bbox.height * v[1] / d);
           } break;
           default:
             console.warn("redraw: unexpected direction tag:def", tag, def)
@@ -190,6 +197,21 @@ class Ui {
       default:
         console.warn("redraw: TODO tag:def", tag, def);
     }
+  }
+
+  lineAnchor(id) {
+      const anchor = this.svg.getElementById(id);
+      if (!anchor) {
+        debugger
+        console.warn("redraw: missing anchor id:", id)
+        return [];
+      }
+      const [type, x1, y1, x2, y2] = this.decompose(anchor);
+      if (type != 'line') {
+        console.warn("redraw: anchor not a line id:type", id, type)
+        return [type];
+      }
+      return [type, x1, y1, x2, y2, Math.hypot(x1-x2, y1-y2)];
   }
 
   decompose(elem) {
