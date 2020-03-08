@@ -1,6 +1,6 @@
 {{ partial "header" . }}
 
-<main class="_default-single type-{{.Type}}">
+<main class="_default-single {{ partial "main-class" . | chomp }}">
   <h1>{{ .Title }}</h1>
 
   {{ .Content }}

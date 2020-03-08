@@ -1,7 +1,7 @@
 {{ partial "header" . }}
-  <main class="index type-{{.Type}}">
-    <h1>{{ .Title }}</h1>
-    {{ .Content }}
+<main class="index {{ partial "main-class" . | chomp }}">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
 
-  </main>
+</main>
 {{ partial "footer" . }}

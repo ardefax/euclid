@@ -1,7 +1,11 @@
 <section id="{{ .section.frag }}" class="{{ .section.kind }}">
   {{ $d := .depth }}
   {{ if .section.title -}}
+    {{ if .section.link }}
+    <h{{ $d }}><a class="anchor" href="#{{ .section.frag }}">§</a><a href="{{ .section.link }}">{{ .section.title }}</a></h{{ $d }}>
+    {{ else }}
     <h{{ $d }}><a class="anchor" href="#{{ .section.frag }}">§</a>{{ .section.title }}</h{{ $d }}>
+    {{ end }}
   {{- end }}
   {{ range .section.text }}
     <p>{{ . | safeHTML }}</p>

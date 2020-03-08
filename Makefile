@@ -1,24 +1,24 @@
 # Makefile that drives building of the site content.
 #
-# 	heath/dl/books.xml => ... => content/books/*.md
+# 	heath/dl/books.xml => ... => content/books/**
 #
 # Note that some of these build artifacts are checked in
 # easily diff changes over time.
 
 # Targets for each book
-BOOKS := content/books/1.md \
-         content/books/2.md \
-         content/books/3.md \
-         content/books/4.md \
-         content/books/5.md \
-         content/books/6.md \
-         content/books/7.md \
-         content/books/8.md \
-         content/books/9.md \
-         content/books/10.md \
-         content/books/11.md \
-         content/books/12.md \
-         content/books/13.md
+BOOKS := content/books/1/_index.md \
+         content/books/2/_index.md \
+         content/books/3/_index.md \
+         content/books/4/_index.md \
+         content/books/5/_index.md \
+         content/books/6/_index.md \
+         content/books/7/_index.md \
+         content/books/8/_index.md \
+         content/books/9/_index.md \
+         content/books/10/_index.md \
+         content/books/11/_index.md \
+         content/books/12/_index.md \
+         content/books/13/_index.md
 
 .PHONY: all 
 all: $(BOOKS)
@@ -49,5 +49,5 @@ heath/books.xml: heath/xslt.sh heath/dl/books.xml $(TRANSFORMS)
 
 .PHONY: clean
 clean:
-	rm -rf $(BOOKS) heath/books.xml tmp/* book/book
+	rm -rf content/books heath/books.xml tmp/* book/book
 

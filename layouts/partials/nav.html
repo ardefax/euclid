@@ -1,5 +1,5 @@
 <nav>
   <a class="home" href="/">O</a>
-  {{ range where .Site.RegularPages "Section" "books" }}
+  {{ range where .Site.Pages "Type" "book" }}
   <a href="{{ .RelPermalink }}"{{ if eq $.Permalink .Permalink }} class="current-page"{{ end }}>{{ .Params.roman }}</a>{{ end }}
 </nav>

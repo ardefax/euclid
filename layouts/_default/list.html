@@ -1,17 +1,17 @@
 {{ partial "header" . }}
-{{/* TODO This is for the /books/ page currently */}}
-  <main class="_default-list type-{{.Type}}">
-    <h1>Overview</h1>
 
-    {{ range .Site.RegularPages }}
-    {{ $page := . }}
-    <h2><a href="{{ .RelPermalink }}" >{{ .Title | upper }}</a></h2>
-      <p>TODO: Short blurb about the book</p>
-      <ul>
-      {{ range .Params.sections }}
-        <li><a href="{{ $page.RelPermalink }}#{{ .id }}">{{ .title }}</a> ({{ len .sections }})</li>
-      {{ end }}
-      </ul>
+<main class="books-list {{ partial "main-class" . | chomp }}">
+  <h1>Overview</h1>
+
+  {{ range where .Site.Pages "Type" "book" }}
+  {{ $page := . }}
+  <h2><a href="{{ .RelPermalink }}" >{{ .Title | upper }}</a></h2>
+    <p>TODO: Short blurb about the book</p>
+    <ul>
+    {{ range .Params.sections }}
+      <li><a href="{{ $page.RelPermalink }}#{{ .id }}">{{ .title }}</a> ({{ len .sections }})</li>
     {{ end }}
-  </main>
+    </ul>
+  {{ end }}
+</main>
 {{ partial "footer" . }}
