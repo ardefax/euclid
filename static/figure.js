@@ -15,6 +15,8 @@ class Ui {
     svg.addEventListener("pointerdown", evt => this.pointerDown(evt));
     svg.addEventListener("pointermove", evt => this.pointerMove(evt));
     svg.addEventListener("pointerup", evt => this.pointerUp(evt));
+
+    // Build the DAG for updates
   }
 
   pointerDown(evt) {
@@ -91,19 +93,48 @@ class Ui {
     const svg = this.svg,
           processed = {};
     processed[src.id] = src;
+    console.log("------ update --------")
+
+    let counter = 0;
 
     let cascade = Array.from(svg.getElementsByClassName(src.id));
     while (cascade.length > 0) {
+      counter++;
+      if (counter > 100) {
+        debugger; // TOO Blowing the stack
+        break;
+      }
+
       const elem = cascade.shift();
-      //if (!!processed[elem.id]) {
-      //  continue;
-      //}
-      //processed[elem.id] = elem;
+      if (!!processed[elem.id]) {
+        console.log("skipping", elem.tagName, elem.id)
+        continue;
+      }
+
+      // Ensure we've already processed the dependents of this list
+      const requeue = Array.from(elem.classList).some((depId) => {
+        // TODO This isn't quite right either since it's going to find
+        // things that may not be part of the DAG rooted at the original
+        // `src` that changed to cause the update. Really need to just
+        // build the DAG and do a proper depth-first-search update.
+        const dep = svg.getElementById(depId)
+        if (!!dep && !processed[depId]) {
+          cascade.push(dep);
+          return true;
+        }
+        return false;
+      }, []);
+      if (requeue) {
+        // Re-queue this element since there are missing deps
+        // TODO This could cycle forever if we don't have a DAG
+        console.log("requeuing", elem.id);
+        cascade.push(elem);
+        continue;
+      }
 
       this.redraw(elem);
       cascade = cascade.concat(Array.from(svg.getElementsByClassName(elem.id)));
-      // TODO Recursively collect what needs updating...
-      // TODO Validate that my "class pointers" form a DAG
+      processed[elem.id] = elem;
     }
   }
 
@@ -111,6 +142,8 @@ class Ui {
     const svg = this.svg,
           tag = elem.tagName,
           def = elem.classList;
+
+    console.log("redraw", elem)
     switch (def[0]) { // TODO also care about tag?
       case "point": {
         // XXX No-op since these are to trigger the initial draws from input
@@ -188,6 +221,20 @@ class Ui {
             elem.setAttribute('x', x12 + bbox.width * v[0] / d);
             elem.setAttribute('y', y12 + bbox.height * v[1] / d);
           } break;
+          case "incirc": { // incirc ACE <rads>  TODO this name sucks
+            // where dregrees is CCW relative to the radial point used to describe the circle
+            const [, cx, cy, r, px, py] = this.circleAnchor(params[0]),
+              rads = params[1],
+              sin = Math.sin(rads),
+              cos = Math.cos(rads),
+              dx = px - cx,
+              dy = px - cy;
+
+            // Formula for vector rotation in 2D
+            // https://matthew-brett.github.io/teaching/rotation_2d.html
+            elem.setAttribute('x', cx + dx * cos - dy * sin);
+            elem.setAttribute('y', cy + dx * sin + dy * cos);
+          } break;
           default:
             console.warn("redraw: unexpected direction tag:def", tag, def)
         }
@@ -202,7 +249,6 @@ class Ui {
   lineAnchor(id) {
       const anchor = this.svg.getElementById(id);
       if (!anchor) {
-        debugger
         console.warn("redraw: missing anchor id:", id)
         return [];
       }
@@ -213,7 +259,31 @@ class Ui {
       }
       return [type, x1, y1, x2, y2, Math.hypot(x1-x2, y1-y2)];
   }
+  circleAnchor(id) {
+      const anchor = this.svg.getElementById(id);
+      if (!anchor) {
+        console.warn("redraw: missing anchor id:", id)
+        return [];
+      }
+      const [type, cx, cy, r] = this.decompose(anchor);
+      if (type != 'circle') {
+        console.warn("redraw: anchor not a circle id:type", id, type)
+        return [type];
+      }
+      // Resolve the other point on the circle as well, e.g class='circle <center> <radius-point>'
+      const [,, px, py] = this.decomposeId(anchor.classList[2])
+      return [type, cx, cy, r, px, py];
+  }
 
+  decomposeId(id) {
+    const elem = this.svg.getElementById(id);
+    if (!elem) {
+      console.warn("decomposie: missing elem id:", id)
+      return [];
+    }
+    const arr = this.decompose(elem);
+    return [elem, ...arr];
+  }
   decompose(elem) {
     const t = T(elem);
     switch (t) {
@@ -224,7 +294,7 @@ class Ui {
       case 'circle':
         return [t, N(elem.cx), N(elem.cy), N(elem.r)];
       case 'ellipse':
-        return [t, N(elem.cx), N(elem.cy), N(elem.r)];
+        return [t, N(elem.cx), N(elem.cy), N(elem.r)]; // TODO r1 and r2
       default:
         console.warn("decompose: unexpected", t);
     }

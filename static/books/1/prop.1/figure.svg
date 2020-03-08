@@ -8,22 +8,24 @@
   <g id="step.1">
     <line id="AB" class="line A B"
       stroke = "blue" stroke-width = "3" />
-    <text class="label A left AB">A</text>
-    <text class="label B right AB">B</text>
+    <text id="_A" class="label A left AB">A</text>
+    <text id="_B" class="label B right AB">B</text>
   </g>
 
   <g id="step.3a">
     <circle id="BCD" class="circle A B"
       stroke = "green" stroke-width = "3"
       fill = "none" />
-    <text x="60" y="130">D</text> <!-- TODO Move the labels -->
+    <text x="60" y="130">D</text>
+    <!-- text id="_D" class="label D incirc BCD 1">D</text -->
   </g>
 
   <g id="step.3b">
     <circle id="ACE" class="circle B A"
       stroke = "green" stroke-width = "3"
       fill = "none" />
-    <text x="330" y="130">E</text> <!-- TODO Move the labels -->
+    <text id="_E" class="label E incirc ACE 3">E</text>
+    <!-- text x="330" y="130">E</text -->
   </g>
 
   <g id="step.3c">
@@ -35,7 +37,7 @@
     <circle id="C" class="intersection BCD ACE" r="4" />
     <!-- polygon id="ABC" class="triangle A C B"
       stroke = "none" fill = "cyan" / -->
-    <text class="label C above BC above AC">C</text>
+    <text id="_C" class="label C above BC above AC">C</text>
   </g>
 
   <g id="input">
