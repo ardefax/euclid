@@ -6,19 +6,20 @@
 # easily diff changes over time.
 
 # Targets for each book
-BOOKS := content/books/1/_index.md \
-         content/books/2/_index.md \
-         content/books/3/_index.md \
-         content/books/4/_index.md \
-         content/books/5/_index.md \
-         content/books/6/_index.md \
-         content/books/7/_index.md \
-         content/books/8/_index.md \
-         content/books/9/_index.md \
-         content/books/10/_index.md \
-         content/books/11/_index.md \
-         content/books/12/_index.md \
-         content/books/13/_index.md
+BOOKS := \
+  content/books/1/_index.md \
+  content/books/2/_index.md \
+  content/books/3/_index.md \
+  content/books/4/_index.md \
+  content/books/5/_index.md \
+  content/books/6/_index.md \
+  content/books/7/_index.md \
+  content/books/8/_index.md \
+  content/books/9/_index.md \
+  content/books/10/_index.md \
+  content/books/11/_index.md \
+  content/books/12/_index.md \
+  content/books/13/_index.md
 
 .PHONY: all 
 all: $(BOOKS)
@@ -46,6 +47,12 @@ book/book: book/main.go book/dom.go
 TRANSFORMS := $(wildcard heath/x/*.xslt)
 heath/books.xml: heath/xslt.sh heath/dl/books.xml $(TRANSFORMS)
 	./heath/xslt.sh heath/dl/books.xml heath/x heath/books.xml
+
+# TODO: Run these through an actual expansion since the inputs
+# are minimal and currently require an initial JS step to figure
+# out things like intersections, label positions, etc.
+#content/books/1/prop.1-fig.svg: figures/b1.prop1.svg
+#	mkdir -p $(@D); cp  $< $@
 
 .PHONY: clean
 clean:

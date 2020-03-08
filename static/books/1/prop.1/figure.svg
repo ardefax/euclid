@@ -7,45 +7,33 @@
 
   <g id="step.1">
     <line id="AB" class="line A B"
-      x1 = "150" y1 = "150"
-      x2 = "250" y2 = "150"
       stroke = "blue" stroke-width = "3" />
-    <text x="135" y="155">A</text>
-    <text x="255" y="155">B</text>
+    <text class="label A left AB">A</text>
+    <text class="label B right AB">B</text>
   </g>
 
   <g id="step.3a">
     <circle id="BCD" class="circle A B"
-      cx = "150" cy = "150" r = "100"
       stroke = "green" stroke-width = "3"
-      fill = "none"
-    />
-    <text x="60" y="130">D</text>
+      fill = "none" />
+    <text x="60" y="130">D</text> <!-- TODO Move the labels -->
   </g>
 
   <g id="step.3b">
     <circle id="ACE" class="circle B A"
-      cx = "250" cy = "150" r = "100"
       stroke = "green" stroke-width = "3"
-      fill = "none"
-    />
-    <text x="330" y="130">E</text>
+      fill = "none" />
+    <text x="330" y="130">E</text> <!-- TODO Move the labels -->
   </g>
 
   <g id="step.3c">
-    <!-- The _assumed_ intersection point requires Pythagoras to solve for
-      e.g. (r/2)^2 + h2^2 = r => h = r * sqrt(3)/2  -->
     <line id="AC" class="line A C"
-      x1 = "150" y1 = "150"
-      x2 = "200" y2 = "63.4"
       stroke = "red" stroke-width = "3" />
     <line id="BC" class="line B C"
-      x1 = "250" y1 = "150"
-      x2 = "200" y2 = "63.4"
       stroke = "red" stroke-width = "3" />
-    <!-- <text x="195" y="55">C</text> -->
 
-    <circle id="C" class="intersection BCD ACE" cx="200" cy="63.4" r="4" />
+    <circle id="C" class="intersection BCD ACE" r="4" />
+    <text class="label C above">C</text>
   </g>
 
   <g id="input">
