@@ -2,8 +2,7 @@
   "id": "elem.11.34",
   "kind": "proposition",
   "frag": "prop.34",
-  "title": "Proposition 34.",
-  "link": "",
+  "title": "BOOK XI: Proposition 34.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       In equal parallelepipedal solids the bases are reciprocally proportional to the heights; and those parallelepipedal solids in which the bases are reciprocally proportional to the heights are equal.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.11.34.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let AB, CD be equal parallelepipedal solids; I say that in the parallelepipedal solids AB, CD the bases are reciprocally proportional to the heights, that is, as the base EH is to the base NQ, so is the height of the solid CD to the height of the solid AB. ",
         "First, let the sides which stand up, namely AG, EF, LB, HK, CM, NO, PD, QR, be at right angles to their bases; I say that, as the base EH is to the base NQ, so is CM to AG. ",
@@ -58,21 +54,27 @@
         "Therefore in the parallelepipedal solids BT, DX the bases are reciprocally proportional to the heights; therefore the solid BT is equal to the solid DX. [Part 1.] ",
         "But BT is equal to BA, for they are on the same base FK and of the same height; [<a href=\"#elem.11.29 elem.11.30\">XI. 29, 30</a>] and the solid DX is equal to the solid DC. [id.] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore the solid AB is also equal to the solid CD. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 11,
+  "next": {
+    "text": "Proposition 35.",
+    "url": "/books/11/prop.35"
+  },
+  "prev": {
+    "text": "Proposition 33.",
+    "url": "/books/11/prop.33"
+  }
 }

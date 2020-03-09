@@ -2,8 +2,7 @@
   "id": "elem.5.11",
   "kind": "proposition",
   "frag": "prop.11",
-  "title": "Proposition 11.",
-  "link": "",
+  "title": "BOOK V: Proposition 11.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>Ratios which are the same with the same ratio are also the same with one another</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.5.11.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For, as <var>A</var> is to <var>B</var>, so let <var>C</var> be to <var>D</var>, and, as <var>C</var> is to <var>D</var>, so let <var>E</var> be to <var>F</var>; I say that, as <var>A</var> is to <var>B</var>, so is <var>E</var> to <var>F</var>. \n      ",
         "For of <var>A</var>, <var>C</var>, <var>E</var> let equimultiples <var>G</var>, <var>H</var>, <var>K</var> be taken, and of <var>B</var>, <var>D</var>, <var>F</var> other, chance, equimultiples <var>L</var>, <var>M</var>, <var>N</var>. ",
@@ -32,21 +28,27 @@
         "But we saw that, if <var>H</var> was in excess of <var>M</var>, <var>G</var> was also in excess of <var>L</var>; if equal, equal; and if less, less; so that, in addition, if <var>G</var> is in excess of <var>L</var>, <var>K</var> is also in excess of <var>N</var>, if equal, equal, and if less, less. ",
         "And <var>G</var>, <var>K</var> are equimultiples of <var>A</var>, <var>E</var>, while <var>L</var>, <var>N</var> are other, chance, equimultiples of <var>B</var>, <var>F</var>; therefore, as <var>A</var> is to <var>B</var>, so is <var>E</var> to <var>F</var>.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 5,
+  "next": {
+    "text": "Proposition 12.",
+    "url": "/books/5/prop.12"
+  },
+  "prev": {
+    "text": "Proposition 10.",
+    "url": "/books/5/prop.10"
+  }
 }

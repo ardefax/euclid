@@ -2,8 +2,7 @@
   "id": "elem.4.15",
   "kind": "proposition",
   "frag": "prop.15",
-  "title": "Proposition 15.",
-  "link": "",
+  "title": "BOOK IV: Proposition 15.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>In a given circle to inscribe an equilateral and equiangular hexagon</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.4.15.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABCDEF</var> be the given circle; thus it is required to inscribe an equilateral and equiangular hexagon in the circle <var>ABCDEF</var>. ",
         "Let the diameter <var>AD</var> of the circle <var>ABCDEF</var> be drawn; let the centre <var>G</var> of the circle be taken, and with centre <var>D</var> and distance <var>DG</var> let the circle <var>EGCH</var> be described;  let <var>EG</var>, <var>CG</var> be joined and carried through to the points <var>B</var>, <var>F</var>, and let <var>AB</var>, <var>BC</var>, <var>CD</var>, <var>DE</var>, <var>EF</var>, <var>FA</var> be joined. ",
@@ -43,21 +39,27 @@
         "Similarly it can be proved that the remaining angles of the hexagon <var>ABCDEF</var> are also severally equal to each of the angles <var>AFE</var>, <var>FED</var>; therefore the hexagon <var>ABCDEF</var> is equiangular.\n      ",
         "But it was also proved equilateral; and it has been inscribed in the circle <var>ABCDEF</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore in the given circle an equilateral and equiangular hexagon has been inscribed. Q. E. F. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 4,
+  "next": {
+    "text": "Proposition 16.",
+    "url": "/books/4/prop.16"
+  },
+  "prev": {
+    "text": "Proposition 14.",
+    "url": "/books/4/prop.14"
+  }
 }

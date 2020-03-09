@@ -2,8 +2,7 @@
   "id": "elem.3.3",
   "kind": "proposition",
   "frag": "prop.3",
-  "title": "Proposition 3.",
-  "link": "",
+  "title": "BOOK III: Proposition 3.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>If in a circle a straight line through the centre bisect a straight line not through the centre</var>, <var>it also cuts it at right angles; and if it cut it at right angles</var>, <var>it also bisects it</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.3.3.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABC</var> be a circle, and in it let a straight line <var>CD</var>\n       through the centre bisect a straight line <var>AB</var> not through the centre at the point <var>F</var>;  I say that it also cuts it at right angles. ",
         "For let the centre of the circle <var>ABC</var>\n       be taken, and let it be <var>E</var>; let <var>EA</var>, <var>EB</var> be joined. ",
@@ -34,21 +30,27 @@
         "For, with the same construction, since <var>EA</var> is equal to <var>EB</var>, the angle <var>EAF</var> is also equal to the angle <var>EBF</var>. [<a href=\"/books/1/#prop.5\">I. 5</a>] ",
         "But the right angle <var>AFE</var> is equal to the right angle <var>BFE</var>, therefore <var>EAF</var>, <var>EBF</var> are two triangles having two angles equal to two angles and one side equal to one side, namely <var>EF</var>, which is common to them, and subtends one of the equal angles; therefore they will also have the remaining sides equal to <lb n=\"35\"/>the remaining sides; [<a href=\"/books/1/#prop.26\">I. 26</a>] therefore <var>AF</var> is equal to <var>FB</var>.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D.\n<note n=\"26\" type=\"crit\" place=\"unspecified\" anchored=\"yes\">\n        <p>with the same construction, <foreign lang=\"greek\">τῶν αὐτῶν κατασκευασθέντων</foreign>.</p>\n       </note>"
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 3,
+  "next": {
+    "text": "Proposition 4.",
+    "url": "/books/3/prop.4"
+  },
+  "prev": {
+    "text": "Proposition 2.",
+    "url": "/books/3/prop.2"
+  }
 }

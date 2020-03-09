@@ -2,8 +2,7 @@
   "id": "elem.13.6",
   "kind": "proposition",
   "frag": "prop.6",
-  "title": "Proposition 6.",
-  "link": "",
+  "title": "BOOK XIII: Proposition 6.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If a rational straight line be cut in extreme and mean ratio, each of the segments is the irrational straight line called apotome.\n       "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.13.6.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let AB be a rational straight line, let it be cut in extreme and mean ratio at C, and let AC be the greater segment; I say that each of the straight lines AC, CB is the irrational straight line called apotome. \n      ",
         "For let BA be produced, and let AD be made half of BA. ",
@@ -36,21 +32,27 @@
         "But the square on an apotome, if applied to a rational straight line, produces as breadth a first apotome; [<a href=\"/books/10/#prop.97\">X. 97</a>] therefore CB is a first apotome. ",
         "And CA was also proved to be an apotome. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 13,
+  "next": {
+    "text": "Proposition 7.",
+    "url": "/books/13/prop.7"
+  },
+  "prev": {
+    "text": "Proposition 5.",
+    "url": "/books/13/prop.5"
+  }
 }

@@ -2,8 +2,7 @@
   "id": "elem.4.10",
   "kind": "proposition",
   "frag": "prop.10",
-  "title": "Proposition 10.",
-  "link": "",
+  "title": "BOOK IV: Proposition 10.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>To construct an isosceles triangle having each of the angles at the base double of the remaining one</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.4.10.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let any straight line <var>AB</var> be set out, and let it be cut at the point <var>C</var> so that the rectangle contained by <var>AB</var>, <var>BC</var> is equal to the square on <var>CA</var>; [<a href=\"/books/2/#prop.11\">II. 11</a>] with centre <var>A</var> and distance <var>AB</var> let the circle <var>BDE</var> be described, and let there be fitted in the circle <var>BDE</var> the straight line <var>BD</var> equal to the straight line <var>AC</var> which is not greater than the diameter of the circle <var>BDE</var>. [<a href=\"/books/4/#prop.1\">IV. 1</a>] \n      ",
         "Let <var>AD</var>, <var>DC</var> be joined, and let the circle <var>ACD</var> be circumscribed about the triangle <var>ACD</var>. [<a href=\"/books/4/#prop.5\">IV. 5</a>] ",
@@ -39,21 +35,27 @@
         "But the angle <var>BCD</var> is equal to the angles <var>CDA</var>, <var>DAC</var>; therefore the angle <var>BCD</var> is also double of the angle <var>CAD</var>. ",
         "But the angle <var>BCD</var> is equal to each of the angles <var>BDA</var>, <var>DBA</var>; therefore each of the angles <var>BDA</var>, <var>DBA</var> is also double of the angle <var>DAB</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore the isosceles triangle <var>ABD</var> has been constructed having each of the angles at the base <var>DB</var> double of the remaining one. Q. E. F."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 4,
+  "next": {
+    "text": "Proposition 11.",
+    "url": "/books/4/prop.11"
+  },
+  "prev": {
+    "text": "Proposition 9.",
+    "url": "/books/4/prop.9"
+  }
 }

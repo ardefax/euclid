@@ -2,8 +2,7 @@
   "id": "elem.10.75",
   "kind": "proposition",
   "frag": "prop.75",
-  "title": "Proposition 75.",
-  "link": "",
+  "title": "BOOK X: Proposition 75.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If from a medial straight line there be subtracted a medial straight line which is commensurable with the whole in square only, and which contains with the whole a medial rectangle, the remainder is irrational; and let it be called a\n       second apotome of a medial\n       straight line. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.75.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For from the medial straight line AB let there be subtracted the medial straight line CB which is commensurable with the whole AB in square only and such that the rectangle AB, BC, which it contains with the whole AB, is medial; [<a href=\"/books/10/#prop.28\">X. 28</a>] I say that the remainder AC is irrational; and let it be called a second apotome of a medial straight line. \n      ",
         "For let a rational straight line DI be set out, let DE equal to the squares on AB, BC be applied to DI, producing DG as breadth, and let DH equal to twice the rectangle AB, BC be applied to DI, producing DF as breadth; therefore the remainder FE is equal to the square on AC. [<a href=\"/books/2/#prop.7\">II. 7</a>] ",
@@ -40,21 +36,27 @@
         "But DI is rational, and the rectangle contained by a rational and an irrational straight line is irrational, [deduction from <a href=\"/books/10/#prop.20\">X. 20</a>] and its ’side’ is irrational. ",
         "And AC is the ’side’ of FE; therefore AC is irrational. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "And let it be called a second apotome of a medial straight line. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": {
+    "text": "Proposition 76.",
+    "url": "/books/10/prop.76"
+  },
+  "prev": {
+    "text": "Proposition 74.",
+    "url": "/books/10/prop.74"
+  }
 }

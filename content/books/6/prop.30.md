@@ -2,8 +2,7 @@
   "id": "elem.6.30",
   "kind": "proposition",
   "frag": "prop.30",
-  "title": "Proposition 30.",
-  "link": "",
+  "title": "BOOK VI: Proposition 30.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>To cut a given finite straight line in extreme and mean ratio</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.6.30.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>AB</var> be the given finite straight line; thus it is required to cut <var>AB</var> in extreme and mean ratio.\n      ",
         "On <var>AB</var> let the square <var>BC</var> be described; and let there be applied to <var>AC</var> the parallelogram <var>CD</var> equal to <var>BC</var> and exceeding by the figure <var>AD</var> similar to <var>BC</var>. [<a href=\"/books/6/#prop.29\">VI. 29</a>] ",
@@ -34,21 +30,27 @@
         "Therefore, as <var>BA</var> is to <var>AE</var>, so is <var>AE</var> to <var>EB</var>. ",
         "And <var>AB</var> is greater than <var>AE</var>; therefore <var>AE</var> is also greater than <var>EB</var>.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore the straight line <var>AB</var> has been cut in extreme and mean ratio at <var>E</var>, and the greater segment of it is <var>AE</var>. Q. E. F."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 6,
+  "next": {
+    "text": "Proposition 31.",
+    "url": "/books/6/prop.31"
+  },
+  "prev": {
+    "text": "Proposition 29.",
+    "url": "/books/6/prop.29"
+  }
 }

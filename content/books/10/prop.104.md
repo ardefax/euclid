@@ -2,8 +2,7 @@
   "id": "elem.10.104",
   "kind": "proposition",
   "frag": "prop.104",
-  "title": "Proposition 104.",
-  "link": "",
+  "title": "BOOK X: Proposition 104.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "A straight line commensurable with an apotome of a medial straight line is an apotome of a medial straight line and the same in order. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.104.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let AB be an apotome of a medial straight line, and let CD be commensurable in length with AB; I say that CD is also an apotome of a medial straight line and the same in order with AB. \n      ",
         "For, since AB is an apotome of a medial straight line, let EB be the annex to it. ",
@@ -35,21 +31,27 @@
         "But the square on AE is commensurable with the square on CF; therefore the rectangle AE, EB is also commensurable with the rectangle CF, FD. [<a href=\"/books/5/#prop.16\">V. 16</a>, <a href=\"/books/10/#prop.11\">X. 11</a>] ",
         "Therefore, if the rectangle AE, EB is rational, the rectangle CF, FD will also be rational, [<a href=\"/books/10/#def.4\">X. Def. 4</a>] and if the rectangle AE, EB is medial, the rectangle CF, FD is also medial. [<a href=\"/books/10/#23.p.1\">X. 23, Por.</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore CD is an apotome of a medial straight line and the same in order with AB. [<a href=\"#elem.10.74 elem.10.75\">X. 74, 75</a>] Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": {
+    "text": "Proposition 105.",
+    "url": "/books/10/prop.105"
+  },
+  "prev": {
+    "text": "Proposition 103.",
+    "url": "/books/10/prop.103"
+  }
 }

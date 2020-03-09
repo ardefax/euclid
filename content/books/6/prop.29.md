@@ -2,8 +2,7 @@
   "id": "elem.6.29",
   "kind": "proposition",
   "frag": "prop.29",
-  "title": "Proposition 29.",
-  "link": "",
+  "title": "BOOK VI: Proposition 29.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>To a given straight line to apply a parallelogram equal to a given rectilineal figure and exceeding by a parallelogrammic figure similar to a given one</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.6.29.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>AB</var> be the given straight line, <var>C</var> the given rectilineal figure to which the figure to be applied to <var>AB</var> is required to be equal, and <var>D</var> that to which the excess is required to be similar; thus it is required to apply to the straight line <var>AB</var> a parallelogram equal to the rectilineal figure <var>C</var> and exceeding by a parallelogrammic figure similar to <var>D</var>. \n      ",
         "Let <var>AB</var> be bisected at <var>E</var>; let there be described on <var>EB</var> the parallelogram <var>BF</var> similar and similarly situated to <var>D</var>; and let <var>GH</var> be constructed at once equal to the sum of <var>BF</var>, <var>C</var> and similar and similarly situated to <var>D</var>. [<a href=\"/books/6/#prop.25\">VI. 25</a>] ",
@@ -38,21 +34,27 @@
         "Let <var>EO</var> be added to each; therefore the whole <var>AO</var> is equal to the gnomon <var>VWX</var>.\n      ",
         "But the gnomon <var>VWX</var> is equal to <var>C</var>; therefore <var>AO</var> is also equal to <var>C</var>.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore to the given straight line <var>AB</var> there has been applied the parallelogram <var>AO</var> equal to the given rectilineal figure <var>C</var> and exceeding by a parallelogrammic figure <var>QP</var> which is similar to <var>D</var>, since <var>PQ</var> is also similar to <var>EL</var> [<a href=\"/books/6/#prop.24\">VI. 24</a>]. Q. E. F."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 6,
+  "next": {
+    "text": "Proposition 30.",
+    "url": "/books/6/prop.30"
+  },
+  "prev": {
+    "text": "Proposition 28.",
+    "url": "/books/6/prop.28"
+  }
 }

@@ -2,8 +2,7 @@
   "id": "elem.12.4",
   "kind": "proposition",
   "frag": "prop.4",
-  "title": "Proposition 4.",
-  "link": "",
+  "title": "BOOK XII: Proposition 4.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If there be two pyramids of the same height which have triangular bases, and cach of them be divided into two pyramids equal to one another and similar to the whole, and into two equal prisms, then, as the base of the one pyramid is to the base of the other pyramid, so will all the prisms in the one pyramid be to all the prisms, being equal in multitude, in the other pyramid.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.12.4.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let there be two pyramids of the same height which have the triangular bases ABC, DEF, and vertices the points G, H, and let each of them be divided into two pyramids equal to one another and similar to the whole and into two equal prisms; [<a href=\"/books/12/#prop.3\">XII. 3</a>] I say that, as the base ABC is to the base DEF, so are all the prisms in the pyramid ABCG to all the prisms, being equal in multitude, in the pyramid DEFH, ",
         "For, since BO is equal to OC, and AL to LC, therefore LO is parallel to AB, and the triangle ABC is similar to the triangle LOC. \n      ",
@@ -38,21 +34,27 @@
         "But, as the base PMN is to the base STU, so is the base ABC to the base DEF; for the triangles PMN, STU are equal to the triangles LOC, RVF respectively. ",
         "Therefore also, as the base ABC is to the base DEF, so are the four prisms to the four prisms. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "And similarly also, if we divide the remaining pyramids into two pyramids and into two prisms, then, as the base ABC is to the base DEF, so will all the prisms in the pyramid ABCG be to all the prisms, being equal in multitude, in the pyramid DEFH. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 12,
+  "next": {
+    "text": "Proposition 5.",
+    "url": "/books/12/prop.5"
+  },
+  "prev": {
+    "text": "Proposition 3.",
+    "url": "/books/12/prop.3"
+  }
 }

@@ -2,8 +2,7 @@
   "id": "elem.10.85",
   "kind": "proposition",
   "frag": "prop.85",
-  "title": "Proposition 85.",
-  "link": "",
+  "title": "BOOK X: Proposition 85.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "To find the first apotome. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.85.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let a rational straight line A be set out, and let BG be commensurable in length with A; therefore BG is also rational. \n      ",
         "Let two square numbers DE, EF be set out, and let their difference FD not be square; therefore neither has ED to DF the ratio which a square number has to a square number. ",
@@ -39,21 +35,27 @@
         "And the whole BG is commensurable in length with the rational straight line A set out. ",
         "Therefore BC is a first apotome. [<a href=\"/books/10/#def.3.1\">X. Deff. III. 1</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore the first apotome BC has been found. (Being) that which it was required to find."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": {
+    "text": "Proposition 86.",
+    "url": "/books/10/prop.86"
+  },
+  "prev": {
+    "text": "Proposition 84.",
+    "url": "/books/10/prop.84"
+  }
 }

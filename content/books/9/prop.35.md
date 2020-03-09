@@ -2,8 +2,7 @@
   "id": "elem.9.35",
   "kind": "proposition",
   "frag": "prop.35",
-  "title": "Proposition 35.",
-  "link": "",
+  "title": "BOOK IX: Proposition 35.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       If as many numbers as we please be in continued proportion, and there be subtracted from the second and the last numbers equal to the first, then, as the excess of the second is to the first, so will the excess of the last be to all those before it.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.9.35.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let there be as many numbers as we please in continued proportion, A, BC, D, EF, beginning from A as least, and let there be subtracted from BC and EF the numbers BG, FH, each equal to A; I say that, as GC is to A, so is EH to A, BC, D. \n      ",
         "For let FK be made equal to BC, and FL equal to D. ",
@@ -33,21 +29,27 @@
         "Therefore also, as one of the antecedents is to one of the consequents, so are all the antecedents to all the consequents; [<a href=\"/books/7/#prop.12\">VII. 12</a>] therefore, as KH is to FH, so are EL, LK. KH to LF, FK, HF. ",
         "But KH is equal to CG, FH to A, and LF, FK, HF to D, BC, A; therefore, as CG is to A, so is EH to D, BC, A. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore, as the excess of the second is to the first, so is the excess of the last to all those before it. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 9,
+  "next": {
+    "text": "Proposition 36.",
+    "url": "/books/9/prop.36"
+  },
+  "prev": {
+    "text": "Proposition 34.",
+    "url": "/books/9/prop.34"
+  }
 }

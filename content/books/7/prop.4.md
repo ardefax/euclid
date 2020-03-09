@@ -2,8 +2,7 @@
   "id": "elem.7.4",
   "kind": "proposition",
   "frag": "prop.4",
-  "title": "Proposition 4.",
-  "link": "",
+  "title": "BOOK VII: Proposition 4.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       Any number is either a part or parts of any number, the less of the greater.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.7.4.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let A, BC be two numbers, and let BC be the less; I say that BC is either a part, or parts, of A. ",
         "For A, BC are either prime to one another or not. ",
@@ -35,21 +31,27 @@
         "Now, since D measures A, D is a part of A. ",
         "But D is equal to each of the numbers BE, EF, FC; therefore each of the numbers BE, EF, FC is also a part of A; so that BC is parts of A. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 7,
+  "next": {
+    "text": "Proposition 5.",
+    "url": "/books/7/prop.5"
+  },
+  "prev": {
+    "text": "Proposition 3.",
+    "url": "/books/7/prop.3"
+  }
 }

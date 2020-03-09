@@ -2,8 +2,7 @@
   "id": "elem.10.3",
   "kind": "proposition",
   "frag": "prop.3",
-  "title": "Proposition 3.",
-  "link": "",
+  "title": "BOOK X: Proposition 3.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Given two commensurable magnitudes, to find their greatest common measure. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.3.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let the two given commensurable magnitudes be AB, CD of which AB is the less; thus it is required to find the greatest common measure of AB, CD. ",
         "Now the magnitude AB either measures CD or it does not. ",
@@ -45,21 +41,27 @@
         "But it measures the whole AB also, and it will therefore measure the remainder AF, the greater the less: which is impossible. ",
         "Therefore no magnitude greater than AF will measure AB, CD; therefore AF is the greatest common measure of AB, CD. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore the greatest common measure of the two given commensurable magnitudes AB, CD has been found. Q. E. D. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": {
+    "text": "Proposition 4.",
+    "url": "/books/10/prop.4"
+  },
+  "prev": {
+    "text": "Proposition 2.",
+    "url": "/books/10/prop.2"
+  }
 }

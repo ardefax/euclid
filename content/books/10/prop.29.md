@@ -2,8 +2,7 @@
   "id": "elem.10.29",
   "kind": "proposition",
   "frag": "prop.29",
-  "title": "Proposition 29.",
-  "link": "",
+  "title": "BOOK X: Proposition 29.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "To find two rational straight lines commensurable in square only and such that the square on the greater is greater than the square on the less by the square on a straight line commensurable in length with the greater. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.29.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let there be set out any rational straight line AB, and two square numbers CD, DE such that their difference CE is not square; [<a href=\"/books/10/#28.l.1\">Lemma 1</a>] let there be described on AB the semicircle AFB, and let it be contrived that, as <hi rend=\"ital\">DC</hi> is to <hi rend=\"ital\">CE</hi>, so is the square on <hi rend=\"ital\">BA</hi> to the square on <hi rend=\"ital\">AF</hi>. [<a href=\"/books/10/#6.p.1\">X. 6, Por.</a>]\n      ",
         "Let FB be joined. ",
@@ -35,21 +31,27 @@
         "But CD has to DE the ratio which a square number has to a square number: therefore also the square on AB has to the square on BF the ratio which a square number has to a square number; therefore AB is commensurable in length with BF. [<a href=\"/books/10/#prop.9\">X. 9</a>] ",
         "And the square on AB is equal to the squares on AF, FB; therefore the square on AB is greater than the square on AF by the square on BF commensurable with AB. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore there have been found two rational straight lines BA, AF commensurable in square only and such that the square on the greater AB is greater than the square on the less AF by the square on BF commensurable in length with AB."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": {
+    "text": "Proposition 30.",
+    "url": "/books/10/prop.30"
+  },
+  "prev": {
+    "text": "Proposition 28.",
+    "url": "/books/10/prop.28"
+  }
 }

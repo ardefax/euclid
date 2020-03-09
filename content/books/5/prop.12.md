@@ -2,8 +2,7 @@
   "id": "elem.5.12",
   "kind": "proposition",
   "frag": "prop.12",
-  "title": "Proposition 12.",
-  "link": "",
+  "title": "BOOK V: Proposition 12.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>If any number of magnitudes be proportional</var>, <var>as one of the antecedents is to one of the consequents</var>, <var>so will all the antecedents be to all the consequents</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.5.12.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let any number of magnitudes <var>A</var>, <var>B</var>, <var>C</var>, <var>D</var>, <var>E</var>, <var>F</var> be proportional, so that, as <var>A</var> is to <var>B</var>, so is <var>C</var> to <var>D</var> and <var>E</var> to <var>F</var>; I say that, as <var>A</var> is to <var>B</var>, so are <var>A</var>, <var>C</var>, <var>E</var> to <var>B</var>, <var>D</var>, <var>F</var>. \n      ",
         "For of <var>A</var>, <var>C</var>, <var>E</var> let equimultiples <var>G</var>, <var>H</var>, <var>K</var> be taken, and of <var>B</var>, <var>D</var>, <var>F</var> other, chance, equimultiples <var>L</var>, <var>M</var>, <var>N</var>. ",
@@ -31,21 +27,27 @@
         "Now <var>G</var> and <var>G</var>, <var>H</var>, <var>K</var> are equimultiples of <var>A</var> and <var>A</var>, <var>C</var>, <var>E</var>, since, if any number of magnitudes whatever are respectively equimultiples of any magnitudes equal in multitude, whatever multiple one of the magnitudes is of one, that multiple also will all be of all. [<a href=\"/books/5/#prop.1\">V. 1</a>] ",
         "For the same reason <var>L</var> and <var>L</var>, <var>M</var>, <var>N</var> are also equimultiples of <var>B</var> and <var>B</var>, <var>D</var>, <var>F</var>; therefore, as <var>A</var> is to <var>B</var>, so are <var>A</var>, <var>C</var>, <var>E</var> to <var>B</var>, <var>D</var>, <var>F</var>. [<a href=\"/books/5/#def.5\">V. Def. 5</a>]\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 5,
+  "next": {
+    "text": "Proposition 13.",
+    "url": "/books/5/prop.13"
+  },
+  "prev": {
+    "text": "Proposition 11.",
+    "url": "/books/5/prop.11"
+  }
 }

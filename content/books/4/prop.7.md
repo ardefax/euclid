@@ -2,8 +2,7 @@
   "id": "elem.4.7",
   "kind": "proposition",
   "frag": "prop.7",
-  "title": "Proposition 7.",
-  "link": "",
+  "title": "BOOK IV: Proposition 7.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>About a given circle to circumscribe a square</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.4.7.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABCD</var> be the given circle; thus it is required to circumscribe a square about the circle <var>ABCD</var>. ",
         "Let two diameters <var>AC</var>, <var>BD</var> of the circle <var>ABCD</var> be drawn at right angles to one another, and through the points <var>A</var>, <var>B</var>, <var>C</var>, <var>D</var> let <var>FG</var>, <var>GH</var>, <var>HK</var>, <var>KF</var> be drawn touching the circle <var>ABCD</var>. [<a href=\"/books/3/#16.p.1\">III. 16, Por.</a>] \n      ",
@@ -40,21 +36,27 @@
         "Therefore <var>FGHK</var> is right-angled. ",
         "But it was also proved equilateral; therefore it is a square; and it has been circumscribed about the circle <var>ABCD</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore about the given circle a square has been circumscribed. Q. E. F."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 4,
+  "next": {
+    "text": "Proposition 8.",
+    "url": "/books/4/prop.8"
+  },
+  "prev": {
+    "text": "Proposition 6.",
+    "url": "/books/4/prop.6"
+  }
 }

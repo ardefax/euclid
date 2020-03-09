@@ -2,8 +2,7 @@
   "id": "elem.1.27",
   "kind": "proposition",
   "frag": "prop.27",
-  "title": "Proposition 27.",
-  "link": "",
+  "title": "BOOK I: Proposition 27.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If a straight line falling on two straight lines make the alternate angles equal to one another, the straight lines will be parallel to one another."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.1.27.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the straight line <var>EF</var> falling on the two straight lines <var>AB</var>, <var>CD</var> make the alternate angles <var>AEF</var>, <var>EFD</var> equal to one another;",
         "I say that <var>AB</var> is parallel to <var>CD</var>.",
@@ -34,21 +30,27 @@
         "Similarly it can be proved that neither will they meet towards <var>A</var>, <var>C</var>. ",
         "But straight lines which do not meet in either direction are parallel; [<a href=\"/books/1/#def.23\">Def. 23</a>] therefore <var>AB</var> is parallel to <var>CD</var>."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 1,
+  "next": {
+    "text": "Proposition 28.",
+    "url": "/books/1/prop.28"
+  },
+  "prev": {
+    "text": "Proposition 26.",
+    "url": "/books/1/prop.26"
+  }
 }

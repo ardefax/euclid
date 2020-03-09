@@ -2,8 +2,7 @@
   "id": "elem.10.111",
   "kind": "proposition",
   "frag": "prop.111",
-  "title": "Proposition 111.",
-  "link": "",
+  "title": "BOOK X: Proposition 111.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "The apotome is not the same with the binomial straight line. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.111.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let AB be an apotome; I say that AB is not the same with the binomial straight line. \n      ",
         "For, if possible, let it be so; let a rational straight line DC be set out, and to CD let there be applied the rectangle CE equal to the square on AB and producing DE as breadth. ",
@@ -36,21 +32,27 @@
         "Therefore GF, FE are rational straight lines commensurable in square only; therefore EG is an apotome. [<a href=\"/books/10/#prop.73\">X. 73</a>] ",
         "But it is also rational: which is impossible. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore the apotome is not the same with the binomial straight line. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": {
+    "text": "Proposition 112.",
+    "url": "/books/10/prop.112"
+  },
+  "prev": {
+    "text": "Proposition 110.",
+    "url": "/books/10/prop.110"
+  }
 }

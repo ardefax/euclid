@@ -2,8 +2,7 @@
   "id": "elem.9.13",
   "kind": "proposition",
   "frag": "prop.13",
-  "title": "Proposition 13.",
-  "link": "",
+  "title": "BOOK IX: Proposition 13.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If as many numbers as we please beginning from an unit be in continued proportion, and the number after the unit be prime, the greatest will not be measured by any except those which have a place among the proportional numbers. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.9.13.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let there be as many numbers as we please, A, B, C, D, beginning from an unit and in continued proportion, and let A, the number after the unit, be prime; I say that D, the greatest of them, will not be measured by any other number except A, B, C. \n      ",
         "For, if possible, let it be measured by E, and let E not be the same with any of the numbers A, B, C. ",
@@ -64,21 +60,27 @@
         "Therefore, as H is to A, so is A to G. [<a href=\"/books/7/#prop.19\">VII. 19</a>] ",
         "But A measures G;&lt; therefore H also measures A, which is prime, though it is not the same with it: which is absurd. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore D the greatest will not be measured by any other number except A, B, C. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 9,
+  "next": {
+    "text": "Proposition 14.",
+    "url": "/books/9/prop.14"
+  },
+  "prev": {
+    "text": "Proposition 12.",
+    "url": "/books/9/prop.12"
+  }
 }

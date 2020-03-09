@@ -2,8 +2,7 @@
   "id": "elem.5.25",
   "kind": "proposition",
   "frag": "prop.25",
-  "title": "Proposition 25.",
-  "link": "",
+  "title": "BOOK V: Proposition 25.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>If four magnitudes be proportional</var>, <var>the greatest and the least are greater than the remaining two</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.5.25.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let the four magnitudes <var>AB</var>, <var>CD</var>, <var>E</var>, <var>F</var> be proportional so that, as <var>AB</var> is to <var>CD</var>, so is <var>E</var> to <var>F</var>, and let <var>AB</var> be the greatest of them and <var>F</var> the least; I say that <var>AB</var>, <var>F</var> are greater than <var>CD</var>, <var>E</var>. \n      ",
         "For let <var>AG</var> be made equal to <var>E</var>, and <var>CH</var> equal to <var>F</var>. ",
@@ -33,21 +29,27 @@
         "And, since <var>AG</var> is equal to <var>E</var>, and <var>CH</var> to <var>F</var>, therefore <var>AG</var>, <var>F</var> are equal to <var>CH</var>, <var>E</var>. ",
         "And if, <var>GB</var>, <var>HD</var> being unequal, and <var>GB</var> greater, <var>AG</var>, <var>F</var> be added to <var>GB</var> and <var>CH</var>, <var>E</var> be added to <var>HD</var>, it follows that <var>AB</var>, <var>F</var> are greater than <var>CD</var>, <var>E</var>.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 5,
+  "next": {
+    "text": "BOOK VI",
+    "url": "/books/6"
+  },
+  "prev": {
+    "text": "Proposition 24.",
+    "url": "/books/5/prop.24"
+  }
 }

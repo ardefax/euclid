@@ -8,7 +8,6 @@
       "kind": "list:definition",
       "frag": "defs",
       "title": "DEFINITIONS.",
-      "link": "",
       "text": null,
       "sections": [
         {
@@ -16,348 +15,290 @@
           "kind": "definition",
           "frag": "def.1",
           "title": "Definition 1",
-          "link": "",
           "text": [
             "A solid is that which has length, breadth, and depth."
           ],
-          "sections": null,
-          "Layout": ""
+          "sections": null
         },
         {
           "id": "elem.11.def.2",
           "kind": "definition",
           "frag": "def.2",
           "title": "Definition 2",
-          "link": "",
           "text": [
             "An extremity of a solid is a surface."
           ],
-          "sections": null,
-          "Layout": ""
+          "sections": null
         },
         {
           "id": "elem.11.def.3",
           "kind": "definition",
           "frag": "def.3",
           "title": "Definition 3",
-          "link": "",
           "text": [
             "A straight line is at right angles to a plane, when it makes right angles with all the straight lines which meet it and are in the plane."
           ],
-          "sections": null,
-          "Layout": ""
+          "sections": null
         },
         {
           "id": "elem.11.def.4",
           "kind": "definition",
           "frag": "def.4",
           "title": "Definition 4",
-          "link": "",
           "text": [
             "A plane is at right angles to a plane when the straight lines drawn, in one of the planes, at right angles to the common section of the planes are at right angles to the remaining plane."
           ],
-          "sections": null,
-          "Layout": ""
+          "sections": null
         },
         {
           "id": "elem.11.def.5",
           "kind": "definition",
           "frag": "def.5",
           "title": "Definition 5",
-          "link": "",
           "text": [
             "The inclination of a straight line to a plane is, assuming a perpendicular drawn from the extremity of the straight line which is elevated above the plane to the plane, and a straight line joined from the point thus arising to the extremity of the straight line which is in the plane, the angle contained by the straight line so drawn and the straight line standing up."
           ],
-          "sections": null,
-          "Layout": ""
+          "sections": null
         },
         {
           "id": "elem.11.def.6",
           "kind": "definition",
           "frag": "def.6",
           "title": "Definition 6",
-          "link": "",
           "text": [
             "The inclination of a plane to a plane is the acute angle contained by the straight lines drawn at right angles to the common section at the same point, one in each of the planes."
           ],
-          "sections": null,
-          "Layout": ""
+          "sections": null
         },
         {
           "id": "elem.11.def.7",
           "kind": "definition",
           "frag": "def.7",
           "title": "Definition 7",
-          "link": "",
           "text": [
             "A plane is said to be similarly inclined to a plane as another is to another when the said angles of the inclinations are equal to one another."
           ],
-          "sections": null,
-          "Layout": ""
+          "sections": null
         },
         {
           "id": "elem.11.def.8",
           "kind": "definition",
           "frag": "def.8",
           "title": "Definition 8",
-          "link": "",
           "text": [
             "Parallel planes are those which do not meet."
           ],
-          "sections": null,
-          "Layout": ""
+          "sections": null
         },
         {
           "id": "elem.11.def.9",
           "kind": "definition",
           "frag": "def.9",
           "title": "Definition 9",
-          "link": "",
           "text": [
             "Similar solid figures are those contained by similar planes equal in multitude."
           ],
-          "sections": null,
-          "Layout": ""
+          "sections": null
         },
         {
           "id": "elem.11.def.10",
           "kind": "definition",
           "frag": "def.10",
           "title": "Definition 10",
-          "link": "",
           "text": [
             "Equal and similar solid figures are those contained by similar planes equal in multitude and in magnitude."
           ],
-          "sections": null,
-          "Layout": ""
+          "sections": null
         },
         {
           "id": "elem.11.def.11",
           "kind": "definition",
           "frag": "def.11",
           "title": "Definition 11",
-          "link": "",
           "text": [
             "A solid angle is the inclination constituted by more than two lines which meet one another and are not in the same surface, towards all the lines. ",
             "Otherwise: A solid angle is that which is contained by more than two plane angles which are not in the same plane and are constructed to one point."
           ],
-          "sections": null,
-          "Layout": ""
+          "sections": null
         },
         {
           "id": "elem.11.def.12",
           "kind": "definition",
           "frag": "def.12",
           "title": "Definition 12",
-          "link": "",
           "text": [
             "A pyramid is a solid figure, contained by planes, which is constructed from one plane to one point."
           ],
-          "sections": null,
-          "Layout": ""
+          "sections": null
         },
         {
           "id": "elem.11.def.13",
           "kind": "definition",
           "frag": "def.13",
           "title": "Definition 13",
-          "link": "",
           "text": [
             "A prism is a solid figure contained by planes two of which, namely those which are opposite, are equal, similar and parallel, while the rest are parallelograms."
           ],
-          "sections": null,
-          "Layout": ""
+          "sections": null
         },
         {
           "id": "elem.11.def.14",
           "kind": "definition",
           "frag": "def.14",
           "title": "Definition 14",
-          "link": "",
           "text": [
             "When, the diameter of a semicircle remaining fixed, the semicircle is carried round and restored again to the same position from which it began to be moved, the figure so comprehended is a sphere."
           ],
-          "sections": null,
-          "Layout": ""
+          "sections": null
         },
         {
           "id": "elem.11.def.15",
           "kind": "definition",
           "frag": "def.15",
           "title": "Definition 15",
-          "link": "",
           "text": [
             "The axis of the sphere is the straight line which remains fixed and about which the semicircle is turned."
           ],
-          "sections": null,
-          "Layout": ""
+          "sections": null
         },
         {
           "id": "elem.11.def.16",
           "kind": "definition",
           "frag": "def.16",
           "title": "Definition 16",
-          "link": "",
           "text": [
             "The centre of the sphere is the same as that of the semicircle."
           ],
-          "sections": null,
-          "Layout": ""
+          "sections": null
         },
         {
           "id": "elem.11.def.17",
           "kind": "definition",
           "frag": "def.17",
           "title": "Definition 17",
-          "link": "",
           "text": [
             "A diameter of the sphere is any straight line drawn through the centre and terminated in both directions by the surface of the sphere."
           ],
-          "sections": null,
-          "Layout": ""
+          "sections": null
         },
         {
           "id": "elem.11.def.18",
           "kind": "definition",
           "frag": "def.18",
           "title": "Definition 18",
-          "link": "",
           "text": [
             "When, one side of those about the right angle in a right-angled triangle remaining fixed, the triangle is carried round and restored again to the same position from which it began to be moved, the figure so comprehended is a cone.\n      ",
             "And, if the straight line which remains fixed be equal to the remaining side about the right angle which is carried round, the cone will be right-angled; if less, obtuse-angled; and if greater, acute-angled."
           ],
-          "sections": null,
-          "Layout": ""
+          "sections": null
         },
         {
           "id": "elem.11.def.19",
           "kind": "definition",
           "frag": "def.19",
           "title": "Definition 19",
-          "link": "",
           "text": [
             "The axis of the cone is the straight line which remains fixed and about which the triangle is turned."
           ],
-          "sections": null,
-          "Layout": ""
+          "sections": null
         },
         {
           "id": "elem.11.def.20",
           "kind": "definition",
           "frag": "def.20",
           "title": "Definition 20",
-          "link": "",
           "text": [
             "And the base is the circle described by the straight line which is carried round."
           ],
-          "sections": null,
-          "Layout": ""
+          "sections": null
         },
         {
           "id": "elem.11.def.21",
           "kind": "definition",
           "frag": "def.21",
           "title": "Definition 21",
-          "link": "",
           "text": [
             "When, one side of those about the right angle in a rectangular parallelogram remaining fixed, the parallelogram is carried round and restored again to the same position from which it began to be moved, the figure so comprehended is a cylinder."
           ],
-          "sections": null,
-          "Layout": ""
+          "sections": null
         },
         {
           "id": "elem.11.def.22",
           "kind": "definition",
           "frag": "def.22",
           "title": "Definition 22",
-          "link": "",
           "text": [
             "The axis of the cylinder is the straight line which remains fixed and about which the parallelogram is turned."
           ],
-          "sections": null,
-          "Layout": ""
+          "sections": null
         },
         {
           "id": "elem.11.def.23",
           "kind": "definition",
           "frag": "def.23",
           "title": "Definition 23",
-          "link": "",
           "text": [
             "And the bases are the circles described by the two sides opposite to one another which are carried round."
           ],
-          "sections": null,
-          "Layout": ""
+          "sections": null
         },
         {
           "id": "elem.11.def.24",
           "kind": "definition",
           "frag": "def.24",
           "title": "Definition 24",
-          "link": "",
           "text": [
             "Similar cones and cylinders are those in which the axes and the diameters of the bases are proportional."
           ],
-          "sections": null,
-          "Layout": ""
+          "sections": null
         },
         {
           "id": "elem.11.def.25",
           "kind": "definition",
           "frag": "def.25",
           "title": "Definition 25",
-          "link": "",
           "text": [
             "A cube is a solid figure contained by six equal squares."
           ],
-          "sections": null,
-          "Layout": ""
+          "sections": null
         },
         {
           "id": "elem.11.def.26",
           "kind": "definition",
           "frag": "def.26",
           "title": "Definition 26",
-          "link": "",
           "text": [
             "An octahedron is a solid figure contained by eight equal and equilateral triangles."
           ],
-          "sections": null,
-          "Layout": ""
+          "sections": null
         },
         {
           "id": "elem.11.def.27",
           "kind": "definition",
           "frag": "def.27",
           "title": "Definition 27",
-          "link": "",
           "text": [
             "An icosahedron is a solid figure contained by twenty equal and equilateral triangles."
           ],
-          "sections": null,
-          "Layout": ""
+          "sections": null
         },
         {
           "id": "elem.11.def.28",
           "kind": "definition",
           "frag": "def.28",
           "title": "Definition 28",
-          "link": "",
           "text": [
             "A dodecahedron is a solid figure contained by twelve equal, equilateral, and equiangular pentagons."
           ],
-          "sections": null,
-          "Layout": ""
+          "sections": null
         }
-      ],
-      "Layout": ""
+      ]
     },
     {
       "id": "elem.11.prop",
       "kind": "list:proposition",
       "frag": "props",
       "title": "PROPOSITIONS.",
-      "link": "",
       "text": null,
       "sections": [
         {
@@ -373,15 +314,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       A part of a straight line cannot be in the plane of reference and a part in a plane more elevated.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "Proposition 2.",
+            "url": "/books/11/prop.2"
+          },
+          "prev": {
+            "text": "BOOK XI",
+            "url": "/books/11"
+          }
         },
         {
           "id": "elem.11.2",
@@ -396,15 +344,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "If two straight lines cut one another, they are in one plane, and every triangle is in one plane.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "Proposition 3.",
+            "url": "/books/11/prop.3"
+          },
+          "prev": {
+            "text": "Proposition 1.",
+            "url": "/books/11/prop.1"
+          }
         },
         {
           "id": "elem.11.3",
@@ -419,15 +374,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "If two planes cut one another, their common section is a straight line.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "Proposition 4.",
+            "url": "/books/11/prop.4"
+          },
+          "prev": {
+            "text": "Proposition 2.",
+            "url": "/books/11/prop.2"
+          }
         },
         {
           "id": "elem.11.4",
@@ -442,15 +404,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "If a straight line be set up at right angles to two straight lines which cut one another, at their common point of section, it will also be at right angles to the plane through them.\n       "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "Proposition 5.",
+            "url": "/books/11/prop.5"
+          },
+          "prev": {
+            "text": "Proposition 3.",
+            "url": "/books/11/prop.3"
+          }
         },
         {
           "id": "elem.11.5",
@@ -465,15 +434,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "If a straight line be set up at right angles to three straight lines which meet one another, at their common point of section, the three straight lines are in one plane.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "Proposition 6.",
+            "url": "/books/11/prop.6"
+          },
+          "prev": {
+            "text": "Proposition 4.",
+            "url": "/books/11/prop.4"
+          }
         },
         {
           "id": "elem.11.6",
@@ -488,15 +464,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "If two straight lines be at right angles to the same plane, the straight lines will be parallel.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "Proposition 7.",
+            "url": "/books/11/prop.7"
+          },
+          "prev": {
+            "text": "Proposition 5.",
+            "url": "/books/11/prop.5"
+          }
         },
         {
           "id": "elem.11.7",
@@ -511,15 +494,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "If two straight lines be parallel and points be taken at random on each of them, the straight line joining the points is in the same plane with the parallel straight lines.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "Proposition 8.",
+            "url": "/books/11/prop.8"
+          },
+          "prev": {
+            "text": "Proposition 6.",
+            "url": "/books/11/prop.6"
+          }
         },
         {
           "id": "elem.11.8",
@@ -534,15 +524,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "If two straight lines be parallel, and one of them be at right angles to any plane, the remaining one will also be at right angles to the same plane.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "Proposition 9.",
+            "url": "/books/11/prop.9"
+          },
+          "prev": {
+            "text": "Proposition 7.",
+            "url": "/books/11/prop.7"
+          }
         },
         {
           "id": "elem.11.9",
@@ -557,15 +554,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       Straight lines which are parallel to the same straight line and are not in the same plane with it are also parallel to one another.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "Proposition 10.",
+            "url": "/books/11/prop.10"
+          },
+          "prev": {
+            "text": "Proposition 8.",
+            "url": "/books/11/prop.8"
+          }
         },
         {
           "id": "elem.11.10",
@@ -580,15 +584,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "If two straight lines meeting one another be parallel to two straight lines meeting one another not in the same plane, they will contain equal angles.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "Proposition 11.",
+            "url": "/books/11/prop.11"
+          },
+          "prev": {
+            "text": "Proposition 9.",
+            "url": "/books/11/prop.9"
+          }
         },
         {
           "id": "elem.11.11",
@@ -603,15 +614,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       From a given elevated point to draw a straight line perpendicular to a given plane.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "Proposition 12.",
+            "url": "/books/11/prop.12"
+          },
+          "prev": {
+            "text": "Proposition 10.",
+            "url": "/books/11/prop.10"
+          }
         },
         {
           "id": "elem.11.12",
@@ -626,15 +644,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       To set up a straight line at right angles to a given plane from a given point in it.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "Proposition 13.",
+            "url": "/books/11/prop.13"
+          },
+          "prev": {
+            "text": "Proposition 11.",
+            "url": "/books/11/prop.11"
+          }
         },
         {
           "id": "elem.11.13",
@@ -649,15 +674,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       From the same point two straight lines cannot be set up at right angles to the same plane on the same side.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "Proposition 14.",
+            "url": "/books/11/prop.14"
+          },
+          "prev": {
+            "text": "Proposition 12.",
+            "url": "/books/11/prop.12"
+          }
         },
         {
           "id": "elem.11.14",
@@ -672,15 +704,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       Planes to which the same straight line is at right angles will be parallel.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "Proposition 15.",
+            "url": "/books/11/prop.15"
+          },
+          "prev": {
+            "text": "Proposition 13.",
+            "url": "/books/11/prop.13"
+          }
         },
         {
           "id": "elem.11.15",
@@ -695,15 +734,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "If two straight lines meeting one another be parallel to two straight lines meeting one another, not being in the same plane, the planes through them are parallel.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "Proposition 16.",
+            "url": "/books/11/prop.16"
+          },
+          "prev": {
+            "text": "Proposition 14.",
+            "url": "/books/11/prop.14"
+          }
         },
         {
           "id": "elem.11.16",
@@ -718,15 +764,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "If two parallel planes be cut by any plane, their common sections are parallel.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "Proposition 17.",
+            "url": "/books/11/prop.17"
+          },
+          "prev": {
+            "text": "Proposition 15.",
+            "url": "/books/11/prop.15"
+          }
         },
         {
           "id": "elem.11.17",
@@ -741,15 +794,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "If two straight lines be cut by parallel planes, they will be cut in the same ratios.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "Proposition 18.",
+            "url": "/books/11/prop.18"
+          },
+          "prev": {
+            "text": "Proposition 16.",
+            "url": "/books/11/prop.16"
+          }
         },
         {
           "id": "elem.11.18",
@@ -764,15 +824,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "If a straight line be at right angles to any plane, all the planes through it will also be at right angles to the same plane.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "Proposition 19.",
+            "url": "/books/11/prop.19"
+          },
+          "prev": {
+            "text": "Proposition 17.",
+            "url": "/books/11/prop.17"
+          }
         },
         {
           "id": "elem.11.19",
@@ -787,15 +854,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "If two planes which cut one another be at right angles to any plane, their common section will also be at right angles to the same plane.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "Proposition 20.",
+            "url": "/books/11/prop.20"
+          },
+          "prev": {
+            "text": "Proposition 18.",
+            "url": "/books/11/prop.18"
+          }
         },
         {
           "id": "elem.11.20",
@@ -810,15 +884,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "If a solid angle be contained by three plane angles, any two, taken together in any manner, are greater than the remaining one.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "Proposition 21.",
+            "url": "/books/11/prop.21"
+          },
+          "prev": {
+            "text": "Proposition 19.",
+            "url": "/books/11/prop.19"
+          }
         },
         {
           "id": "elem.11.21",
@@ -833,15 +914,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       Any solid angle is contained by plane angles less than four right angles.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "Proposition 22.",
+            "url": "/books/11/prop.22"
+          },
+          "prev": {
+            "text": "Proposition 20.",
+            "url": "/books/11/prop.20"
+          }
         },
         {
           "id": "elem.11.22",
@@ -856,15 +944,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "If there be three plane angles of which two, taken together in any manner, are greater than the remaining one, and they are contained by equal straight lines, it is possible to construct a triangle out of the straight lines joining the extremities of the equal straight lines.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "Proposition 23.",
+            "url": "/books/11/prop.23"
+          },
+          "prev": {
+            "text": "Proposition 21.",
+            "url": "/books/11/prop.21"
+          }
         },
         {
           "id": "elem.11.23",
@@ -879,15 +974,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "To construct a solid angle out of three plane angles two of which, taken together in any manner, are greater than the remaining one: thus the three angles must be less than four right angles.\n       "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "Proposition 24.",
+            "url": "/books/11/prop.24"
+          },
+          "prev": {
+            "text": "Proposition 22.",
+            "url": "/books/11/prop.22"
+          }
         },
         {
           "id": "elem.11.24",
@@ -902,15 +1004,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "If a solid be contained by parallel planes, the opposite planes in it are equal and parallelogrammic.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "Proposition 25.",
+            "url": "/books/11/prop.25"
+          },
+          "prev": {
+            "text": "Proposition 23.",
+            "url": "/books/11/prop.23"
+          }
         },
         {
           "id": "elem.11.25",
@@ -925,15 +1034,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "If a parallelepipedal solid be cut by a plane which is parallel to the opposite planes, then, as the base is to the base, so will the solid be to the solid.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "Proposition 26.",
+            "url": "/books/11/prop.26"
+          },
+          "prev": {
+            "text": "Proposition 24.",
+            "url": "/books/11/prop.24"
+          }
         },
         {
           "id": "elem.11.26",
@@ -948,15 +1064,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "On a given straight line, and at a given point on it, to construct a solid angle equal to a given solid angle.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "Proposition 27.",
+            "url": "/books/11/prop.27"
+          },
+          "prev": {
+            "text": "Proposition 25.",
+            "url": "/books/11/prop.25"
+          }
         },
         {
           "id": "elem.11.27",
@@ -971,15 +1094,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       On a given straight line to describe a parallelepipedal solid similar and similarly situated to a given parallelepipedal solid.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "Proposition 28.",
+            "url": "/books/11/prop.28"
+          },
+          "prev": {
+            "text": "Proposition 26.",
+            "url": "/books/11/prop.26"
+          }
         },
         {
           "id": "elem.11.28",
@@ -994,15 +1124,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "If a parallelepipedal solid be cut by a plane through the diagonals of the opposite planes, the solid will be bisected by the plane.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "Proposition 29.",
+            "url": "/books/11/prop.29"
+          },
+          "prev": {
+            "text": "Proposition 27.",
+            "url": "/books/11/prop.27"
+          }
         },
         {
           "id": "elem.11.29",
@@ -1017,15 +1154,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "Parallelepipedal solids which are on the same base and of the same height, and in which the extremities of the sides which stand up are on the same straight lines, are equal to one another.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "Proposition 30.",
+            "url": "/books/11/prop.30"
+          },
+          "prev": {
+            "text": "Proposition 28.",
+            "url": "/books/11/prop.28"
+          }
         },
         {
           "id": "elem.11.30",
@@ -1040,15 +1184,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "Parallelepipedal solids which are on the same base and of the same height, and in which the extremities of the sides which stand up are not on the same straight lines, are equal to one another.\n       "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "Proposition 31.",
+            "url": "/books/11/prop.31"
+          },
+          "prev": {
+            "text": "Proposition 29.",
+            "url": "/books/11/prop.29"
+          }
         },
         {
           "id": "elem.11.31",
@@ -1063,15 +1214,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       Parallelepipedal solids which are on equal bases and of the same height are equal to one another.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "Proposition 32.",
+            "url": "/books/11/prop.32"
+          },
+          "prev": {
+            "text": "Proposition 30.",
+            "url": "/books/11/prop.30"
+          }
         },
         {
           "id": "elem.11.32",
@@ -1086,15 +1244,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       Parallelepipedal solids which are of the same height are to one another as their bases.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "Proposition 33.",
+            "url": "/books/11/prop.33"
+          },
+          "prev": {
+            "text": "Proposition 31.",
+            "url": "/books/11/prop.31"
+          }
         },
         {
           "id": "elem.11.33",
@@ -1109,15 +1274,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       Similar parallelepipedal solids are to one another in the triplicate ratio of their corresponding sides.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "Proposition 34.",
+            "url": "/books/11/prop.34"
+          },
+          "prev": {
+            "text": "Proposition 32.",
+            "url": "/books/11/prop.32"
+          }
         },
         {
           "id": "elem.11.34",
@@ -1132,15 +1304,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       In equal parallelepipedal solids the bases are reciprocally proportional to the heights; and those parallelepipedal solids in which the bases are reciprocally proportional to the heights are equal.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "Proposition 35.",
+            "url": "/books/11/prop.35"
+          },
+          "prev": {
+            "text": "Proposition 33.",
+            "url": "/books/11/prop.33"
+          }
         },
         {
           "id": "elem.11.35",
@@ -1155,15 +1334,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "If there be two equal plane angles, and on their vertices there be set up elevated straight lines containing equal angles with the original straight lines respectively, if on the elevated straight lines points be taken at random and perpendiculars be drawn from them to the planes in which the original angles are, and if from the points so arising in the planes straight lines be joined to the vertices of the original angles, they will contain, with the elevated straight lines, equal angles. "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "Proposition 36.",
+            "url": "/books/11/prop.36"
+          },
+          "prev": {
+            "text": "Proposition 34.",
+            "url": "/books/11/prop.34"
+          }
         },
         {
           "id": "elem.11.36",
@@ -1178,15 +1364,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "If three straight lines be proportional, the parallelepipedal solid formed out of the three is equal to the parallelepipedal solid on the mean which is equilateral, but equiangular with the aforesaid solid.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "Proposition 37.",
+            "url": "/books/11/prop.37"
+          },
+          "prev": {
+            "text": "Proposition 35.",
+            "url": "/books/11/prop.35"
+          }
         },
         {
           "id": "elem.11.37",
@@ -1201,15 +1394,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "If four straight lines be proportional, the parallelepipedal solids on them which are similar and similarly described will also be proportional; and, if the parallelepipedal solids on them which are similar and similarly described be proportional, the straight lines will themselves also be proportional.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "Proposition 38.",
+            "url": "/books/11/prop.38"
+          },
+          "prev": {
+            "text": "Proposition 36.",
+            "url": "/books/11/prop.36"
+          }
         },
         {
           "id": "elem.11.38",
@@ -1224,15 +1424,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "If the sides of the opposite planes of a cube be bisected, and planes be carried through the points of section, the common section of the planes and the diameter of the cube bisect one another.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "Proposition 39.",
+            "url": "/books/11/prop.39"
+          },
+          "prev": {
+            "text": "Proposition 37.",
+            "url": "/books/11/prop.37"
+          }
         },
         {
           "id": "elem.11.39",
@@ -1247,21 +1454,35 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "If there be two prisms of equal height, and one have a parallelogram as base and the other a triangle, and if the parallelogram be double of the triangle, the prisms will be equal.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 11,
+          "next": {
+            "text": "BOOK XII",
+            "url": "/books/12"
+          },
+          "prev": {
+            "text": "Proposition 38.",
+            "url": "/books/11/prop.38"
+          }
         }
-      ],
-      "Layout": ""
+      ]
     }
   ],
   "weight": 11,
   "type": "book",
-  "Layout": "book"
+  "layout": "book",
+  "next": {
+    "text": "BOOK XII",
+    "url": "/books/12"
+  },
+  "prev": {
+    "text": "BOOK X",
+    "url": "/books/10"
+  }
 }

@@ -2,8 +2,7 @@
   "id": "elem.10.44",
   "kind": "proposition",
   "frag": "prop.44",
-  "title": "Proposition 44.",
-  "link": "",
+  "title": "BOOK X: Proposition 44.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "A second bimedial straight line is divided at one point only. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.44.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let AB be a second bimedial straight line divided at C, so that AC, CB are medial straight lines commensurable in square only and containing a medial rectangle; [<a href=\"/books/10/#prop.38\">X. 38</a>\n] it is then manifest that C is not at the point of bisection, because the segments are not commensurable in length. ",
         "I say that AB is not so divided at another point. \n      ",
@@ -47,21 +43,27 @@
         "For the squares on AC, CB are greater than the squares on AD, DB. ",
         "But the squares on AD, DB are greater than twice the rectangle AD, DB; therefore also the squares on AC, CB, that is, EG, are much greater than twice the rectangle AD, DB, that is, MK, so that EH is also greater than MN. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore EH is not the same with MN. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": {
+    "text": "Proposition 45.",
+    "url": "/books/10/prop.45"
+  },
+  "prev": {
+    "text": "Proposition 43.",
+    "url": "/books/10/prop.43"
+  }
 }

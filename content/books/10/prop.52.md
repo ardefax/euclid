@@ -2,8 +2,7 @@
   "id": "elem.10.52",
   "kind": "proposition",
   "frag": "prop.52",
-  "title": "Proposition 52.",
-  "link": "",
+  "title": "BOOK X: Proposition 52.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "To find the fifth binomial straight line. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.52.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let two numbers AC, CB be set out such that AB has not to either of them the ratio which a square number has to a square number; let any rational straight line D be set out, and let EF be commensurable with D; therefore EF is rational. ",
         "Let it be contrived that, as CA is to AB, so is the square on EF to the square on FG. [<a href=\"/books/10/#6.p.1\">X. 6, Por.</a>] ",
@@ -36,21 +32,27 @@
         "Therefore FG is incommensurable in length with H; [<a href=\"/books/10/#prop.9\">X. 9</a>] so that the square on FG is greater than the square on FE by the square on a straight line incommensurable with FG. ",
         "And GF, FE are rational straight lines commensurable in square only, and the lesser term EF is commensurable in length with the rational straight line D set out. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore EG is a fifth binomial straight line. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": {
+    "text": "Proposition 53.",
+    "url": "/books/10/prop.53"
+  },
+  "prev": {
+    "text": "Proposition 51.",
+    "url": "/books/10/prop.51"
+  }
 }

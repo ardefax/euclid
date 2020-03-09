@@ -2,8 +2,7 @@
   "id": "elem.6.1",
   "kind": "proposition",
   "frag": "prop.1",
-  "title": "Proposition 1.",
-  "link": "",
+  "title": "BOOK VI: Proposition 1.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>Triangles and parallelograms which are under the same height are to one another as their bases</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.6.1.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABC</var>, <var>ACD</var> be triangles and <var>EC</var>, <var>CF</var> parallelograms under the same height; I say that, as the base <var>BC</var> is to the base <var>CD</var>, so is the triangle <var>ABC</var> to the triangle <var>ACD</var>, and the parallelogram <var>EC</var> to the parallelogram <var>CF</var>. \n      ",
         "For let <var>BD</var> be produced in both directions to the points <var>H</var>, <var>L</var> and let [any number of straight lines] <var>BG</var>, <var>GH</var> be made equal to the base <var>BC</var>, and any number of straight lines <var>DK</var>, <var>KL</var> equal to the base <var>CD</var>; let <var>AG</var>, <var>AH</var>, <var>AK</var>, <var>AL</var> be joined. ",
@@ -35,21 +31,27 @@
         "Next, since the parallelogram <var>EC</var> is double of the triangle <var>ABC</var>, [<a href=\"/books/1/#prop.41\">I. 41</a>] and the parallelogram <var>FC</var> is double of the triangle <var>ACD</var>, while parts have the same ratio as the same multiples of them, [<a href=\"/books/5/#prop.15\">V. 15</a>] therefore, as the triangle <var>ABC</var> is to the triangle <var>ACD</var>, so is the parallelogram <var>EC</var> to the parallelogram <var>FC</var>. ",
         "Since, then, it was proved that, as the base <var>BC</var> is to <var>CD</var>, so is the triangle <var>ABC</var> to the triangle <var>ACD</var>, and, as the triangle <var>ABC</var> is to the triangle <var>ACD</var>, so is the parallelogram <var>EC</var> to the parallelogram <var>CF</var>, therefore also, as the base <var>BC</var> is to the base <var>CD</var>, so is the parallelogram <var>EC</var> to the parallelogram <var>FC</var>. [<a href=\"/books/5/#prop.11\">V. 11</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D.\n<note n=\"4\" type=\"crit\" place=\"unspecified\" anchored=\"yes\">\n        <p>Under the same height. The Greek text has <quote>under the same height <var>AC</var>,</quote>\n with a figure in which the side <var>AC</var> common to the two triangles is perpendicular to the base and is therefore itself the <quote>height.</quote>\n But, even if the two triangles are placed contiguously so as to have a common side <var>AC</var>, it is quite gratuitous to require it to be perpendicular to the base. Theon, on this occasion making an improvement, altered to <quote>which are (<foreign lang=\"greek\">ὅντα</foreign>) under the same height, (namely) the perpendicular drawn from <var>A</var> to <var>BD</var>.</quote>\n I have ventured to alter so far as to omit <quote><var>AC</var></quote>\n and to draw the figure in the usual way. </p>\n       </note>\n       <note n=\"14\" type=\"crit\" place=\"unspecified\" anchored=\"yes\">\n        <p>ABC, AGB, AHG. Euclid, indifferent to exact order, writes <quote><var>AHG</var>, <var>AGB</var>, <var>ABC</var>.</quote>\n</p>\n       </note>\n       <note n=\"46\" type=\"crit\" place=\"unspecified\" anchored=\"yes\">\n        <p>Since then it was proved that, as the base BC is to CD, so is the triangle ABC to the triangle ACD. Here again words have to be supplied in translating the extremely terse Greek <foreign lang=\"greek\">ἐπεὶ οὐν ὲδείχθη, ὡς μὲν ἡ βάσις ΒΓ πρὸς τὴν ΓΔ, οὔτως τὸ ΑΒΓ τρίγωνον πρὸς τὸ ΑΓΔ τρίγωνον</foreign>, literally <quote>since was proved, as the base <var>BC</var> to <var>CD</var>, so the triangle <var>ABC</var> to the triangle <var>ACD</var>.</quote>\n Cf. note on <a href=\"/books/5/#prop.16\">V. 16</a>, p. 165.</p>\n       </note>"
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 6,
+  "next": {
+    "text": "Proposition 2.",
+    "url": "/books/6/prop.2"
+  },
+  "prev": {
+    "text": "BOOK VI",
+    "url": "/books/6"
+  }
 }

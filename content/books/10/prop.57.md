@@ -2,8 +2,7 @@
   "id": "elem.10.57",
   "kind": "proposition",
   "frag": "prop.57",
-  "title": "Proposition 57.",
-  "link": "",
+  "title": "BOOK X: Proposition 57.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       If an area be contained by a rational straight line and the fourth binomial, the <quote>side</quote>\n of the area is the irrational straight line called major.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.57.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the area AC be contained by the rational straight line AB and the fourth binomial AD divided into its terms at E, of which terms let AE be the greater; I say that the <quote>side</quote>\n of the area AC is the irrational straight line called major. ",
         "For, since AD is a fourth binomial straight line, therefore AE, ED are rational straight lines commensurable in square only, the square on AE is greater than the square on ED by the square on a straight line incommensurable with AE, and AE is commensurable in length with AB. [<a href=\"/books/10/#def.2.4\">X. Deff. II. 4</a>] ",
@@ -38,21 +34,27 @@
         "And the [sum] of the squares on MN, NO is rational, and MN, NO are incommensurable in square. ",
         "But, if two straight lines incommensurable in square and making the sum of the squares on them rational, but the rectangle contained by them medial, be added together, the whole is irrational and is called major. [<a href=\"/books/10/#prop.39\">X. 39</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore MO is the irrational straight line called major and is the <quote>side</quote>\n of the area AC. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": {
+    "text": "Proposition 58.",
+    "url": "/books/10/prop.58"
+  },
+  "prev": {
+    "text": "Proposition 56.",
+    "url": "/books/10/prop.56"
+  }
 }

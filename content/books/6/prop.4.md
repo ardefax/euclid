@@ -2,8 +2,7 @@
   "id": "elem.6.4",
   "kind": "proposition",
   "frag": "prop.4",
-  "title": "Proposition 4.",
-  "link": "",
+  "title": "BOOK VI: Proposition 4.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>In equiangular triangles the sides about the equal angles are proportional</var>, <var>and those are corresponding sides which subtend the equal angles</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.6.4.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABC</var>, <var>DCE</var> be equiangular triangles having the angle <var>ABC</var> equal to the angle <var>DCE</var>, the angle <var>BAC</var> to the angle <var>CDE</var>, and further the angle <var>ACB</var> to the angle <var>CED</var>; I say that in the triangles <var>ABC</var>, <var>DCE</var> the sides about the equal angles are proportional, and those are corresponding sides which subtend the equal angles. \n      ",
         "For let <var>BC</var> be placed in a straight line with <var>CE</var>. ",
@@ -38,21 +34,27 @@
         "But <var>FD</var> is equal to <var>AC</var>; therefore, as <var>BC</var> is to <var>CE</var>, so is <var>AC</var> to <var>DE</var>, and alternately, as <var>BC</var> is to <var>CA</var>, so is <var>CE</var> to <var>ED</var>. [<a href=\"/books/5/#prop.16\">V. 16</a>] ",
         "Since then it was proved that, as <var>AB</var> is to <var>BC</var>, so is <var>DC</var> to <var>CE</var>, and, as <var>BC</var> is to <var>CA</var>, so is <var>CE</var> to <var>ED</var>; therefore, <var>ex aequali</var>, as <var>BA</var> is to <var>AC</var>, so is <var>CD</var> to <var>DE</var>. [<a href=\"/books/5/#prop.22\">V. 22</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 6,
+  "next": {
+    "text": "Proposition 5.",
+    "url": "/books/6/prop.5"
+  },
+  "prev": {
+    "text": "Proposition 3.",
+    "url": "/books/6/prop.3"
+  }
 }

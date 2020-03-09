@@ -2,8 +2,7 @@
   "id": "elem.4.13",
   "kind": "proposition",
   "frag": "prop.13",
-  "title": "Proposition 13.",
-  "link": "",
+  "title": "BOOK IV: Proposition 13.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>In a given pentagon</var>, <var>which is equilateral and equiangular</var>, <var>to inscribe a circle</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.4.13.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABCDE</var> be the given equilateral and equiangular pentagon; thus it is required to inscribe a circle in the pentagon <var>ABCDE</var>. ",
         "For let the angles <var>BCD</var>, <var>CDE</var> be bisected by the straight lines <var>CF</var>, <var>DF</var> respectively; and from the point <var>F</var>, at which the straight lines <var>CF</var>, <var>DF</var> meet one another, let the straight lines <var>FB</var>, <var>FA</var>, <var>FE</var> be joined. ",
@@ -39,21 +35,27 @@
         "Therefore the circle described with centre <var>F</var> and distance one of the straight lines <var>FG</var>, <var>FH</var>, <var>FK</var>, <var>FL</var>, <var>FM</var> will not cut the straight lines <var>AB</var>, <var>BC</var>, <var>CD</var>, <var>DE</var>, <var>EA</var>; therefore it will touch them.\n      ",
         "Let it be described, as <var>GHKLM</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore in the given pentagon, which is equilateral and equiangular, a circle has been inscribed. Q. E. F."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 4,
+  "next": {
+    "text": "Proposition 14.",
+    "url": "/books/4/prop.14"
+  },
+  "prev": {
+    "text": "Proposition 12.",
+    "url": "/books/4/prop.12"
+  }
 }

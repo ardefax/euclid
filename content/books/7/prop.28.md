@@ -2,8 +2,7 @@
   "id": "elem.7.28",
   "kind": "proposition",
   "frag": "prop.28",
-  "title": "Proposition 28.",
-  "link": "",
+  "title": "BOOK VII: Proposition 28.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       If two numbers be prime to one another, the sum will also be prime to each of them; and, if the sum of two numbers be prime to any one of them, the original numbers will also be prime to one another.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.7.28.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let two numbers AB, BC prime to one another be added; I say that the sum AC is also prime to each of the numbers AB, BC. \n      ",
         "For, if CA, AB are not prime to one another, some number will measure CA, AB. ",
@@ -40,21 +36,27 @@
         "But it also measures AB; therefore D measures CA, AB which are prime to one another: which is impossible. [<a href=\"/books/7/#def.12\">VII. Def. 12</a>] ",
         "Therefore no number will measure the numbers AB, BC. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore AB, BC are prime to one another. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 7,
+  "next": {
+    "text": "Proposition 29.",
+    "url": "/books/7/prop.29"
+  },
+  "prev": {
+    "text": "Proposition 27.",
+    "url": "/books/7/prop.27"
+  }
 }

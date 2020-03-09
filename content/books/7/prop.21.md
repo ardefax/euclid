@@ -2,8 +2,7 @@
   "id": "elem.7.21",
   "kind": "proposition",
   "frag": "prop.21",
-  "title": "Proposition 21.",
-  "link": "",
+  "title": "BOOK VII: Proposition 21.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       Numbers prime to one another are the least of those which have the same ratio with them.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.7.21.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let A, B be numbers prime to one another; I say that A, B are the least of those which have the same ratio with them. ",
         "For, if not, there will be some numbers less than A, B which are in the same ratio with A, B. \n      ",
@@ -36,21 +32,27 @@
         "Therefore E measures A, B which are prime to one another: which is impossible. [<a href=\"/books/7/#def.12\">VII. Def. 12</a>] ",
         "Therefore there will be no numbers less than A, B which are in the same ratio with A, B. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore A, B are the least of those which have the same ratio with them. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 7,
+  "next": {
+    "text": "Proposition 22.",
+    "url": "/books/7/prop.22"
+  },
+  "prev": {
+    "text": "Proposition 20.",
+    "url": "/books/7/prop.20"
+  }
 }

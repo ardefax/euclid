@@ -2,8 +2,7 @@
   "id": "elem.6.33",
   "kind": "proposition",
   "frag": "prop.33",
-  "title": "Proposition 33.",
-  "link": "",
+  "title": "BOOK VI: Proposition 33.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>In equal circles angles have the same ratio as the circumferences on which they stand</var>, <var>whether they stand at the centres or at the circumferences</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.6.33.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABC</var>, <var>DEF</var> be equal circles, and let the angles <var>BGC</var>, <var>EHF</var> be angles at their centres <var>G</var>, <var>H</var>, and the angles <var>BAC</var>, <var>EDF</var> angles at the circumferences; I say that, as the circumference <var>BC</var> is to the circumference <var>EF</var>, so is the angle <var>BGC</var> to the angle <var>EHF</var>, and the angle <var>BAC</var> to the angle <var>EDF</var>. \n      ",
         "For let any number of consecutive circumferences <var>CK</var>, <var>KL</var> be made equal to the circumference <var>BC</var>, and any number of consecutive circumferences <var>FM</var>, <var>MN</var> equal to the circumference <var>EF</var>; and let <var>GK</var>, <var>GL</var>, <var>HM</var>, <var>HN</var> be joined. ",
@@ -36,21 +32,27 @@
         "But, as the angle <var>BGC</var> is to the angle <var>EHF</var>, so is the angle <var>BAC</var> to the angle <var>EDF</var>; for they are doubles respectively. ",
         "Therefore also, as the circumference <var>BC</var> is to the circumference <var>EF</var>, so is the angle <var>BGC</var> to the angle <var>EHF</var>, and the angle <var>BAC</var> to the angle <var>EDF</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 6,
+  "next": {
+    "text": "BOOK VII",
+    "url": "/books/7"
+  },
+  "prev": {
+    "text": "Proposition 32.",
+    "url": "/books/6/prop.32"
+  }
 }

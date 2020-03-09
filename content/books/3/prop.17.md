@@ -2,8 +2,7 @@
   "id": "elem.3.17",
   "kind": "proposition",
   "frag": "prop.17",
-  "title": "Proposition 17.",
-  "link": "",
+  "title": "BOOK III: Proposition 17.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>From a given point to draw a straight line touching a given circle</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.3.17.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>A</var> be the given point, and <var>BCD</var> the given circle; thus it is required to draw from the point <var>A</var> a straight line touching the circle <var>BCD</var>. ",
         "For let the centre <var>E</var> of the circle be taken; [<a href=\"/books/3/#prop.1\">III. 1</a>] let <var>AE</var> be joined, and with centre <var>E</var> and distance <var>EA</var> let the circle <var>AFG</var> be described;  from <var>D</var> let <var>DF</var> be drawn at right angles to <var>EA</var>, and let <var>EF</var>, <var>AB</var> be joined; I say that <var>AB</var> has been drawn from the point <var>A</var> touching the circle <var>BCD</var>. ",
@@ -31,21 +27,27 @@
         "But the angle <var>EDF</var> is right; therefore the angle <var>EBA</var> is also right.\n      ",
         "Now <var>EB</var> is a radius; and the straight line drawn at right angles to the diameter of a circle, from its extremity, touches the circle; [<a href=\"/books/3/#16.p.1\">III. 16, Por.</a>] therefore <var>AB</var> touches the circle <var>BCD</var>.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore from the given point <var>A</var> the straight line <var>AB</var> has been drawn touching the circle <var>BCD</var>."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 3,
+  "next": {
+    "text": "Proposition 18.",
+    "url": "/books/3/prop.18"
+  },
+  "prev": {
+    "text": "Proposition 16.",
+    "url": "/books/3/prop.16"
+  }
 }

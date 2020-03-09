@@ -2,8 +2,7 @@
   "id": "elem.1.6",
   "kind": "proposition",
   "frag": "prop.6",
-  "title": "Proposition 6.",
-  "link": "",
+  "title": "BOOK I: Proposition 6.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If in a triangle two angles be equal to one another, the sides which subtend the equal angles will also be equal to one another."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.1.6.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABC</var> be a triangle having the angle <var>ABC</var> equal to the angle <var>ACB</var>;",
         "I say that the side <var>AB</var> is also equal to the side <var>AC</var>.",
@@ -32,21 +28,27 @@
         "let <var>DC</var> be joined. ",
         "Then, since <var>DB</var> is equal to <var>AC</var>, and <var>BC</var> is common, the two sides <var>DB</var>, <var>BC</var> are equal to the two sides <var>AC</var>, <var>CB</var> respectively;\n        and the angle <var>DBC</var> is equal to the angle <var>ACB</var>; therefore the base <var>DC</var> is equal to the base <var>AB</var>, and the triangle <var>DBC</var> will be equal to the triangle <var>ACB</var>, the less to the greater: which is absurd. Therefore <var>AB</var> is not unequal to <var>AC</var>; it is therefore equal to it."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 1,
+  "next": {
+    "text": "Proposition 7.",
+    "url": "/books/1/prop.7"
+  },
+  "prev": {
+    "text": "Proposition 5.",
+    "url": "/books/1/prop.5"
+  }
 }

@@ -2,8 +2,7 @@
   "id": "elem.11.8",
   "kind": "proposition",
   "frag": "prop.8",
-  "title": "Proposition 8.",
-  "link": "",
+  "title": "BOOK XI: Proposition 8.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If two straight lines be parallel, and one of them be at right angles to any plane, the remaining one will also be at right angles to the same plane.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.11.8.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let AB, CD be two parallel straight lines, and let one of them, AB, be at right angles to the plane of reference; I say that the remaining one, CD, will also be at right angles to the same plane. \n      ",
         "For let AB, CD meet the plane of reference at the points B, D, and let BD be joined; therefore AB, CD, BD are in one plane. [<a href=\"/books/11/#prop.7\">XI. 7</a>] ",
@@ -42,21 +38,27 @@
         "Therefore CD is set up at right angles to the two straight lines DE, DB which cut one another, from the point of section at D; so that CD is also at right angles to the plane through DE, DB. [<a href=\"/books/11/#prop.4\">XI. 4</a>] ",
         "But the plane through DE, DB is the plane of reference; therefore CD is at right angles to the plane of reference. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 11,
+  "next": {
+    "text": "Proposition 9.",
+    "url": "/books/11/prop.9"
+  },
+  "prev": {
+    "text": "Proposition 7.",
+    "url": "/books/11/prop.7"
+  }
 }

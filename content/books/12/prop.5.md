@@ -2,8 +2,7 @@
   "id": "elem.12.5",
   "kind": "proposition",
   "frag": "prop.5",
-  "title": "Proposition 5.",
-  "link": "",
+  "title": "BOOK XII: Proposition 5.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       Pyramids which are of the same height and have triangular bases are to one another as the bases.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.12.5.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let there be pyramids of the same height, of which the triangles ABC, DEF are the bases and the points G, H the vertices; I say that, as the base ABC is to the base DEF, so is the pyramid ABCG to the pyramid DEFH. \n      ",
         "For, if the pyramid ABCG is not to the pyramid DEFH as the base ABC is to the base DEF, then, as the base ABC is to the base DEF, so will the pyramid ABCG be either to some solid less than the pyramid DEFH or to a greater. ",
@@ -42,21 +38,27 @@
         "Therefore the pyramid ABCG is not to any solid greater than the pyramid DEFH as the base ABC is to the base DEF. ",
         "But it was proved that neither is it in that ratio to a less solid. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore, as the base ABC is to the base DEF, so is the pyramid ABCG to the pyramid DEFH. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 12,
+  "next": {
+    "text": "Proposition 6.",
+    "url": "/books/12/prop.6"
+  },
+  "prev": {
+    "text": "Proposition 4.",
+    "url": "/books/12/prop.4"
+  }
 }

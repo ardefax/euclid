@@ -2,8 +2,7 @@
   "id": "elem.10.59",
   "kind": "proposition",
   "frag": "prop.59",
-  "title": "Proposition 59.",
-  "link": "",
+  "title": "BOOK X: Proposition 59.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       If an area be contained by a rational straight line and the sixth binomial, the <quote>side</quote>\n of the area is the irrational straight line called the side of the sum of two medial areas.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.59.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the area ABCD be contained by the rational straight line AB and the sixth binomial AD, divided into its terms at E, so that AE is the greater term; I say that the <quote>side</quote>\n of AC is the side of the sum of two medial areas. ",
         "Let the same construction be made as before shown. \n      ",
@@ -34,21 +30,27 @@
         "But AK is the sum of the squares on MN, NO, and EL is the rectangle MN, NO; therefore the sum of the squares on MN, NO is incommensurable with the rectangle MN, NO.\n      ",
         "And each of them is medial, and MN, NO are incommensurable in square. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore MO is the side of the sum of two medial areas [<a href=\"/books/10/#prop.41\">X. 41</a>], and is the <quote>side</quote>\n of AC. Q. E. D.\n "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": {
+    "text": "Proposition 60.",
+    "url": "/books/10/prop.60"
+  },
+  "prev": {
+    "text": "Proposition 58.",
+    "url": "/books/10/prop.58"
+  }
 }

@@ -2,8 +2,7 @@
   "id": "elem.10.84",
   "kind": "proposition",
   "frag": "prop.84",
-  "title": "Proposition 84.",
-  "link": "",
+  "title": "BOOK X: Proposition 84.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "To a straight line which produces with a medial area a medial whole only one straight line can be annexed which is incommensurable in square with the whole straight line and which with the whole straight line makes the sum of the squares <pb n=\"175\"/>on them medial and twice the rectangle contained by them both medial and also incommensurable with the sum of the squares on them. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.84.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let AB be the straight line which produces with a medial area a medial whole, and BC an annex to it; therefore AC, CB are straight lines incommensurable in square which fulfil the aforesaid conditions. [<a href=\"/books/10/#prop.78\">X. 78</a>] \n      ",
         "I say that no other straight line can be annexed to AB which fulfils the aforesaid conditions. ",
@@ -41,21 +37,27 @@
         "Therefore to an apotome different rational straight lines are annexed which are commensurable with the wholes in square only: which was proved impossible. [<a href=\"/books/10/#prop.79\">X. 79</a>] ",
         "Therefore no other straight line can be so annexed to AB. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore to AB only one straight line can be annexed which is incommensurable in square with the whole and which with the whole makes the squares on them added together medial, twice the rectangle contained by them medial, and also the squares on them incommensurable with twice the rectangle contained by them. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": {
+    "text": "Proposition 85.",
+    "url": "/books/10/prop.85"
+  },
+  "prev": {
+    "text": "Proposition 83.",
+    "url": "/books/10/prop.83"
+  }
 }

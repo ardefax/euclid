@@ -2,8 +2,7 @@
   "id": "elem.9.12",
   "kind": "proposition",
   "frag": "prop.12",
-  "title": "Proposition 12.",
-  "link": "",
+  "title": "BOOK IX: Proposition 12.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       If as many numbers as we please beginning from an unit be in continued proportion, by however many prime numbers the last is measured, the next to the unit will also be measured by the same.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.9.12.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let there be as many numbers as we please, A, B, C, D, beginning from an unit, and in continued proportion; I say that, by however many prime numbers D is measured, A will also be measured by the same. \n      ",
         "For let D be measured by any prime number E; I say that E measures A. ",
@@ -49,21 +45,27 @@
         "And, since E is by hypothesis prime, and the prime is not measured by any number other than itself, therefore E measures A, E, so that E measures A. ",
         "[But it also measures D; therefore E measures A, D.] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Similarly we can prove that, by however many prime numbers D is measured, A will also be measured by the same. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 9,
+  "next": {
+    "text": "Proposition 13.",
+    "url": "/books/9/prop.13"
+  },
+  "prev": {
+    "text": "Proposition 11.",
+    "url": "/books/9/prop.11"
+  }
 }

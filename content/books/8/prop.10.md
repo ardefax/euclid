@@ -2,8 +2,7 @@
   "id": "elem.8.10",
   "kind": "proposition",
   "frag": "prop.10",
-  "title": "Proposition 10.",
-  "link": "",
+  "title": "BOOK VIII: Proposition 10.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       If numbers fall between each of two numbers and an unit in continued proportion, however many numbers fall between each of them and an unit in continued proportion, so many also will fall between the numbers themselves in continued proportion.\n       \n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.8.10.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the numbers D, E and F, G respectively fall between the two numbers A, B and the unit C in continued proportion; I say that, as many numbers as have fallen between each of the numbers A, B and the unit C in continued proportion, so many numbers will also fall between A, B in continued proportion. ",
         "For let D by multiplying F make H, and let the numbers D, F by multiplying H make K, L respectively. \n      ",
@@ -44,21 +40,27 @@
         "But it was also proved that, as <hi rend=\"ital\">D</hi> is to <hi rend=\"ital\">F</hi>, so is <hi rend=\"ital\">A</hi> to <hi rend=\"ital\">K</hi> and <hi rend=\"ital\">K</hi> to <hi rend=\"ital\">L</hi>; therefore also, as A is to K, so is K to L and L to B. ",
         "Therefore A, K, L, B are in continued proportion. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore, as many numbers as fall between each of the numbers A, B and the unit C in continued proportion, so many also will fall between A, B in continued proportion. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 8,
+  "next": {
+    "text": "Proposition 11.",
+    "url": "/books/8/prop.11"
+  },
+  "prev": {
+    "text": "Proposition 9.",
+    "url": "/books/8/prop.9"
+  }
 }

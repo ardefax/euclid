@@ -2,8 +2,7 @@
   "id": "elem.9.31",
   "kind": "proposition",
   "frag": "prop.31",
-  "title": "Proposition 31.",
-  "link": "",
+  "title": "BOOK IX: Proposition 31.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       If an odd number be prime to any number, it will also be prime to the double of it.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.9.31.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the odd number A be prime to any number B, and let C be double of B; I say that A is prime to C. \n      ",
         "For, if they are not prime to one another, some number will measure them. ",
@@ -34,21 +30,27 @@
         "But it also measures A; therefore D measures A, B which are prime to one another: which is impossible. ",
         "Therefore A cannot but be prime to C. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore A, C are prime to one another. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 9,
+  "next": {
+    "text": "Proposition 32.",
+    "url": "/books/9/prop.32"
+  },
+  "prev": {
+    "text": "Proposition 30.",
+    "url": "/books/9/prop.30"
+  }
 }

@@ -2,8 +2,7 @@
   "id": "elem.4.11",
   "kind": "proposition",
   "frag": "prop.11",
-  "title": "Proposition 11.",
-  "link": "",
+  "title": "BOOK IV: Proposition 11.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>In a given circle to inscribe an equilateral and equiangular pentagon</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.4.11.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABCDE</var> be the given circle; thus it is required to inscribe in the circle <var>ABCDE</var> an equilateral and equiangular pentagon. ",
         "Let the isosceles triangle <var>FGH</var> be set out having each of the angles at <var>G</var>, <var>H</var> double of the angle at <var>F</var>; [<a href=\"/books/4/#prop.10\">IV. 10</a>]  let there be inscribed in the circle <var>ABCDE</var> the triangle <var>ACD</var> equiangular with the triangle <var>FGH</var>, so that the angle <var>CAD</var> is equal to the angle at <var>F</var> and the angles at <var>G</var>, <var>H</var> respectively equal to the angles <var>ACD</var>, <var>CDA</var>; [<a href=\"/books/4/#prop.2\">IV. 2</a>] therefore each of the angles <var>ACD</var>, <var>CDA</var> is also double of the angle <var>CAD</var>. ",
@@ -36,21 +32,27 @@
         "And the angle <var>AED</var> stands on the circumference <var>ABCD</var>, and the angle <var>BAE</var> on the circumference <var>EDCB</var>; therefore the angle <var>BAE</var> is also equal to the angle <var>AED</var>. [<a href=\"/books/3/#prop.27\">III. 27</a>]\n      ",
         "For the same reason each of the angles <var>ABC</var>, <var>BCD</var>, <var>CDE</var> is also equal to each of the angles <var>BAE</var>, <var>AED</var>; therefore the pentagon <var>ABCDE</var> is equiangular.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "But it was also proved equilateral; therefore in the given circle an equilateral and equiangular pentagon has been inscribed. Q. E. F."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 4,
+  "next": {
+    "text": "Proposition 12.",
+    "url": "/books/4/prop.12"
+  },
+  "prev": {
+    "text": "Proposition 10.",
+    "url": "/books/4/prop.10"
+  }
 }

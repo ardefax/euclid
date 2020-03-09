@@ -2,8 +2,7 @@
   "id": "elem.13.3",
   "kind": "proposition",
   "frag": "prop.3",
-  "title": "Proposition 3.",
-  "link": "",
+  "title": "BOOK XIII: Proposition 3.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If a straight line be cut in extreme and mean ratio, the square on the lesser segment added to the half of the greater segment is five times the square on the half of the greater segment.\n       "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.13.3.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let any straight line AB be cut in extreme and mean ratio at the point C, let AC be the greater segment, and let AC be bisected at D; I say that the square on BD is five times the square on DC. \n      ",
         "For let the square AE be described on AB, and let the figure be drawn double. ",
@@ -40,21 +36,27 @@
         "But the gnomon OPQ and the square FG are the square DN. ",
         "And DN is the square on DB, and GF the square on DC. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore the square on DB is five times the square on DC. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 13,
+  "next": {
+    "text": "Proposition 4.",
+    "url": "/books/13/prop.4"
+  },
+  "prev": {
+    "text": "Proposition 2.",
+    "url": "/books/13/prop.2"
+  }
 }

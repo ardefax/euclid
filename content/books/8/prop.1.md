@@ -2,8 +2,7 @@
   "id": "elem.8.1",
   "kind": "proposition",
   "frag": "prop.1",
-  "title": "Proposition 1.",
-  "link": "",
+  "title": "BOOK VIII: Proposition 1.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       If there be as many numbers as we please in continued proportion, and the extremes of them be prime to one another, the numbers are the least of those which have the same ratio with them.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.8.1.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let there be as many numbers as we please, A, B, C, D, in continued proportion, and let the extremes of them A, D be prime to one another; I say that A, B, C, D are the least of those which have the same ratio with them. \n      ",
         "For, if not, let E, F, G, H be less than A, B, C, D, and in the same ratio with them. ",
@@ -32,21 +28,27 @@
         "Therefore A measures E, the greater the less: which is impossible. ",
         "Therefore E, F, G, H which are less than A, B, C, D are not in the same ratio with them. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore A, B, C, D are the least of those which have the same ratio with them. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 8,
+  "next": {
+    "text": "Proposition 2.",
+    "url": "/books/8/prop.2"
+  },
+  "prev": {
+    "text": "BOOK VIII",
+    "url": "/books/8"
+  }
 }

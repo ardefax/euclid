@@ -2,8 +2,7 @@
   "id": "elem.8.12",
   "kind": "proposition",
   "frag": "prop.12",
-  "title": "Proposition 12.",
-  "link": "",
+  "title": "BOOK VIII: Proposition 12.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       Between two cube numbers there are two mean proportional numbers, and the cube has to the cube the ratio triplicate of that which the side has to the side.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.8.12.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let A, B be cube numbers, and let C be the side of A, and D of B; I say that between A, B there are two mean proportional numbers, and A has to B the ratio triplicate of that which C has to D. \n      ",
         "For let C by multiplying itself make E, and by multiplying D let it make F; let D by multiplying itself make G, and let the numbers C, D by multiplying F make H, K respectively. ",
@@ -41,21 +37,27 @@
         "I say next that A also has to B the ratio triplicate of that which C has to D. ",
         "For, since A, H, K, B are four numbers in proportion, therefore A has to B the ratio triplicate of that which A has to H. [<a href=\"/books/5/#def.10\">V. Def. 10</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "But, as A is to H, so is C to D; therefore A also has to B the ratio triplicate of that which C has to D. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 8,
+  "next": {
+    "text": "Proposition 13.",
+    "url": "/books/8/prop.13"
+  },
+  "prev": {
+    "text": "Proposition 11.",
+    "url": "/books/8/prop.11"
+  }
 }

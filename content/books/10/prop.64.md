@@ -2,8 +2,7 @@
   "id": "elem.10.64",
   "kind": "proposition",
   "frag": "prop.64",
-  "title": "Proposition 64.",
-  "link": "",
+  "title": "BOOK X: Proposition 64.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "The square on the side of a rational plus a medial area applied to a rational straight line produces as breadth the fifth binomial. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.64.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let AB be the side of a rational plus a medial area, divided into its straight lines at C, so that AC is the greater; let a rational straight line DE be set out, and let there be applied to DE the parallelogram DF equal to the square on AB, producing DG as its breadth; I say that DG is a fifth binomial straight line. \n      ",
         "Let the same construction as before be made. ",
@@ -35,21 +31,27 @@
         "For it can be proved similarly that the rectangle DK, KM is equal to the square on MN, and that DK is incommensurable in length with KM; therefore the square on DM is greater than the square on MG by the square on a straight line incommensurable with DM. [<a href=\"/books/10/#prop.18\">X. 18</a>] ",
         "And DM, MG are commensurable in square only, and the less, MG, is commensurable in length with DE. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore DG is a fifth binomial. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": {
+    "text": "Proposition 65.",
+    "url": "/books/10/prop.65"
+  },
+  "prev": {
+    "text": "Proposition 63.",
+    "url": "/books/10/prop.63"
+  }
 }

@@ -2,8 +2,7 @@
   "id": "elem.7.27",
   "kind": "proposition",
   "frag": "prop.27",
-  "title": "Proposition 27.",
-  "link": "",
+  "title": "BOOK VII: Proposition 27.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If two numbers be prime to one another, and each by multiplying itself make a certain number, the products will be prime to one another; and, if the original numbers by multiplying the products make certain numbers, the latter will also be prime to one another [and this is always the case with the extremes]. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.7.27.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let A, B be two numbers prime to one another, let A by multiplying itself make C, and by multiplying C make D, and let B by multiplying itself make E, and by multiplying E make F; I say that both C, E and D, F are prime to one another. \n      ",
         "For, since A, B are prime to one another, and A by multiplying itself has made C, therefore C, B are prime to one another. [<a href=\"/books/7/#prop.25\">VII. 25</a>] ",
@@ -32,21 +28,27 @@
         "Since then the two numbers A, C are prime to the two numbers B, E, both to each, therefore also the product of A, C is prime to the product of B, E. [<a href=\"/books/7/#prop.26\">VII. 26</a>] ",
         "And the product of A, C is D, and the product of B, E is F. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore D, F are prime to one another. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 7,
+  "next": {
+    "text": "Proposition 28.",
+    "url": "/books/7/prop.28"
+  },
+  "prev": {
+    "text": "Proposition 26.",
+    "url": "/books/7/prop.26"
+  }
 }

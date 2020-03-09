@@ -2,8 +2,7 @@
   "id": "elem.10.31",
   "kind": "proposition",
   "frag": "prop.31",
-  "title": "Proposition 31.",
-  "link": "",
+  "title": "BOOK X: Proposition 31.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       To find two medial straight lines commensurable in square only, containing a rational rectangle, and such that the square on the greater is greater than the square on the less by the square on a straight line commensurable in length with the greater.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.31.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let there be set out two rational straight lines A, B commensurable in square only and such that the square on A, being the greater, is greater than the square on B the less by the square on a straight line commensurable in length with A. [<a href=\"/books/10/#prop.29\">X. 29</a>] \n      ",
         "And let the square on C be equal to the rectangle A, B. ",
@@ -37,21 +33,27 @@
         "And since, as A is to B, so is C to D, and the square on A is greater than the square on B by the square on a straight line commensurable with A, therefore also the square on C is greater than the square on D by the square on a straight line commensurable with C. [<a href=\"/books/10/#prop.14\">X. 14</a>] ",
         "Therefore two medial straight lines C, D, commensurable in square only and containing a rational rectangle, have been found, and the square on C is greater than the square on D by the square on a straight line commensurable in length with C. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Similarly also it can be proved that the square on C exceeds the square on D by the square on a straight line incommensurable with C, when the square on A is greater than the square on B by the square on a straight line incommensurable with A. [<a href=\"/books/10/#prop.30\">X. 30</a>]"
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": {
+    "text": "Proposition 32.",
+    "url": "/books/10/prop.32"
+  },
+  "prev": {
+    "text": "Proposition 30.",
+    "url": "/books/10/prop.30"
+  }
 }

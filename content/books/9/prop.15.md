@@ -2,8 +2,7 @@
   "id": "elem.9.15",
   "kind": "proposition",
   "frag": "prop.15",
-  "title": "Proposition 15.",
-  "link": "",
+  "title": "BOOK IX: Proposition 15.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       If three numbers in continued proportion be the least of those which have the same ratio with them, any two whatever added together will be prime to the remaining number.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.9.15.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let A, B, C, three numbers in continued proportion, be the least of those which have the same ratio with them; I say that any two of the numbers A, B, C whatever added together are prime to the remaining number, namely A, B to C; B, C to A; and further A, C to B. \n      ",
         "For let two numbers DE, EF, the least of those which have the same ratio with A, B, C, be taken. [<a href=\"/books/8/#prop.2\">VIII. 2</a>] ",
@@ -42,21 +38,27 @@
         "Therefore, <foreign lang=\"la\">separando</foreign> again, the squares on DE, EF are prime to the product of DE, EF. ",
         "And the square on DE is A, the product of DE, EF is B, and the square on EF is C. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore A, C added together are prime to B. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 9,
+  "next": {
+    "text": "Proposition 16.",
+    "url": "/books/9/prop.16"
+  },
+  "prev": {
+    "text": "Proposition 14.",
+    "url": "/books/9/prop.14"
+  }
 }

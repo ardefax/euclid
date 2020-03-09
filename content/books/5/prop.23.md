@@ -2,8 +2,7 @@
   "id": "elem.5.23",
   "kind": "proposition",
   "frag": "prop.23",
-  "title": "Proposition 23.",
-  "link": "",
+  "title": "BOOK V: Proposition 23.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>If there be three magnitudes</var>, <var>and others equal to them in multitude</var>, <var>which taken two and two together are in the same ratio</var>, <var>and the proportion of them be perturbed</var>, <var>they will also be in the same ratio</var>\n       <foreign lang=\"la\">ex aequali</foreign>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.5.23.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let there be three magnitudes <var>A</var>, <var>B</var>, <var>C</var>, and others equal to them in multitude, which, taken two and two together, are in the same proportion, namely <var>D</var>, <var>E</var>, <var>F</var>; and let the proportion of them be perturbed, so that, as <var>A</var> is to <var>B</var>, so is <var>E</var> to <var>F</var>, and, as <var>B</var> is to <var>C</var>, so is <var>D</var> to <var>E</var>; I say that, as <var>A</var> is to <var>C</var>, so is <var>D</var> to <var>F</var>. \n      ",
         "Of <var>A</var>, <var>B</var>, <var>D</var> let equimultiples <var>G</var>, <var>H</var>, <var>K</var> be taken, and of <var>C</var>, <var>E</var>, <var>F</var> other, chance, equimultiples <var>L</var>, <var>M</var>, <var>N</var>. ",
@@ -39,21 +35,27 @@
         "And <var>G</var>, <var>K</var> are equimultiples of <var>A</var>, <var>D</var>, and <var>L</var>, <var>N</var> of <var>C</var>, <var>F</var>. ",
         "Therefore, as <var>A</var> is to <var>C</var>, so is <var>D</var> to <var>F</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 5,
+  "next": {
+    "text": "Proposition 24.",
+    "url": "/books/5/prop.24"
+  },
+  "prev": {
+    "text": "Proposition 22.",
+    "url": "/books/5/prop.22"
+  }
 }

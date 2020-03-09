@@ -2,8 +2,7 @@
   "id": "elem.7.33",
   "kind": "proposition",
   "frag": "prop.33",
-  "title": "Proposition 33.",
-  "link": "",
+  "title": "BOOK VII: Proposition 33.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       Given as many numbers as we please, to find the least of those which have the same ratio with them.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.7.33.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let A, B, C be the given numbers, as many as we please; thus it is required to find the least of those which have the same ratio with A, B, C. ",
         "A, B, C are either prime to one another or not. \n      ",
@@ -46,21 +42,27 @@
         "And it measures A, B, C: which is impossible, for by hypothesis D is the greatest common measure of A, B, C. ",
         "Therefore there cannot be any numbers less than E, F, G which are in the same ratio with A, B, C. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore E, F, G are the least of those which have the same ratio with A, B, C. Q. E. D.\n<note n=\"17. the numbers E, F, G measure the numbers A, B, C respectively,\" type=\"crit\" place=\"unspecified\" anchored=\"yes\">literally (as usual) <quote>each of the numbers E, F, G measures each of the numbers A, B, C.</quote>\n</note>"
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 7,
+  "next": {
+    "text": "Proposition 34.",
+    "url": "/books/7/prop.34"
+  },
+  "prev": {
+    "text": "Proposition 32.",
+    "url": "/books/7/prop.32"
+  }
 }

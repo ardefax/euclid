@@ -66,38 +66,111 @@ func main() {
 		}
 	}
 
+	setupNextPrevLinks(books)
+	if err := writeBooksContent(books, *dir); err != nil {
+		log.Fatal(err)
+	}
+}
+
+func setupNextPrevLinks(books []*Book) {
+	// Build out the prev/next links and book numbers TODO: improve?
+	var prevBook *Book
+	var prevSection *Section
 	for _, b := range books {
-		root := filepath.Join(*dir, strconv.Itoa(b.Number))
+		if prevSection != nil {
+			// Last proposition points to next book
+			prevSection.Next = &NavLink{
+				Text: b.Title,
+				URL: fmt.Sprintf("/books/%d", b.Number),
+			}
+		}
+		prevSection = nil
+
+		for _, s := range b.Sections {
+			if s.Kind != "list:proposition" {
+				continue
+			}
+			for _, ss := range s.Sections {
+				ss.Book = b.Number
+				if prevSection != nil {
+					prevSection.Next = &NavLink {
+						Text: ss.Title,
+						URL: fmt.Sprintf("/books/%d/%s", ss.Book, ss.Frag),
+					}
+					ss.Prev = &NavLink{
+						Text: prevSection.Title,
+						URL: fmt.Sprintf("/books/%d/%s", ss.Book, prevSection.Frag),
+					}
+				} else {
+					// First proposition points back to "this" book
+					ss.Prev = &NavLink {
+						Text: b.Title,
+						URL: fmt.Sprintf("/books/%d", ss.Book),
+					}
+				}
+				prevSection = ss
+			}
+		}
+
+		if prevBook != nil {
+			prevBook.Next = &NavLink{
+				Text: b.Title,
+				URL: fmt.Sprintf("/books/%d", b.Number),
+			}
+			b.Prev = &NavLink {
+				Text: prevBook.Title,
+				URL: fmt.Sprintf("/books/%d", prevBook.Number),
+			}
+		} else {
+			// First book goes back to the overview
+			b.Prev = &NavLink {
+				Text: "Overview",
+				URL: fmt.Sprintf("/books"),
+			}
+		}
+		prevBook = b
+	}
+	// Link to the about page for the last section of the last book
+	prevSection.Next = &NavLink{ Text: "About", URL: "/about", }
+}
+
+func writeBooksContent(books []*Book, dir string) error {
+	for _, b := range books {
+		root := filepath.Join(dir, strconv.Itoa(b.Number))
 		if err := os.MkdirAll(root, 0755); err != nil {
-			log.Fatal(err)
+			return err
 		}
 		for _, s := range b.Sections {
 			if s.Kind != "list:proposition" {
 				continue
 			}
-			for i, ss := range s.Sections {
-				if err := writeBookProp(&ss, root); err != nil {
-					log.Fatal(err)
+			for _, ss := range s.Sections {
+				// TODO More hacking on what's written on prop vs book pages
+				title := ss.Title
+				ss.Title = fmt.Sprintf("BOOK %s: %s", b.Roman, title)
+				if err := writeBookProp(ss, root); err != nil {
+					return err
 				}
 
 				// TODO Kinda hacky so that we set title-links and don't emit
 				// the non-theorem sections below
+				ss.Title = title
 				ss.Link = fmt.Sprintf("/books/%d/%s", b.Number, ss.Frag)
-				keep := make([]Section, 0)
+				keep := make([]*Section, 0)
 				for _, sss := range ss.Sections {
 					if sss.Kind == "theorem" {
 						keep = append(keep, sss)
 					}
 				}
 				ss.Sections = keep
-				s.Sections[i] = ss
 			}
 		}
 
 		if err := writeBookIndex(b, root); err != nil {
-			log.Fatal(err)
+			return err
 		}
 	}
+	return nil
 }
 
 func writeBookIndex(b *Book, dir string) error {
@@ -135,6 +208,14 @@ func writeBookProp(s *Section, dir string) error {
 	return enc.Encode(s);
 }
 
+// NavLink is a wrapper for a text label and URL.
+type NavLink struct {
+	// Text is the displayed content of the link, e.g. inside the <a>{{.Text}}</a>
+	Text string `json:"text"`
+	// URL is the link reference, e.g. <a href="{{.URL}}">
+	URL string `json:"url"`
+}
+
 // Book is one of Euclid's Elements books.
 type Book struct {
 	// Title of the book
@@ -144,16 +225,20 @@ type Book struct {
 	// Roman numeral string of the book number
 	Roman string `json:"roman"`
 	// Sections from the content and structure of a book
-	Sections []Section `json:"sections"`
+	Sections []*Section `json:"sections"`
 
 	// Hugo stuff
 
 	// Weight is the book Number, used by Hugo for sorting.
 	Weight int `json:"weight"`
 	// Type is used to filter top-level books, set to "book"
-	Type string `json:"type"`
+	Type string `json:"type,omitempty"`
 	// Layout is used to pick the right template file, set to "book"
-	Layout string `json:layout`
+	Layout string `json:"layout,omitempty"`
+	// Next is for setting up navigation in hugo templates, e.g links.
+	Next *NavLink `json:"next,omitempty"`
+	// Prev is for setting up navigation in hugo templates, e.g. links.
+	Prev *NavLink `json:"prev,omitempty"`
 }
 
 // Section is a generic part of the book
@@ -167,17 +252,23 @@ type Section struct {
 	Frag string `json:"frag"`
 	// Title is used for  section headings
 	Title string `json:"title"`
-	// Link is the direct link to the content page for this section (if it exists
-	Link string `json:"link"`
+	// Link is the direct link to the content page for this section (if it exists)
+	Link string `json:"link,omitempty"`
 	// Text is a list of paragraphs that may contain embedded HTML
 	Text []string `json:"text"`
 	// Sections are child sections, rendered after the above text.
-	Sections []Section `json:"sections"`
+	Sections []*Section `json:"sections"`
 
 	// Hugo stuff
 
 	// Layout is used to pick the right template file, should match Kind.
-	Layout string `json:layout`
+	Layout string `json:"layout,omitempty"`
+	// Book is for setting up navigation in hugo templates.
+	Book int `json:"book,omitempty"`
+	// Next is for setting up navigation in hugo templates
+	Next *NavLink `json:"next,omitempty"`
+	// Prev is for setting up navigation in hugo templates.
+	Prev *NavLink `json:"prev,omitempty"`
 }
 
 func (b *Book) parse(d1 Div1) error {
@@ -228,7 +319,7 @@ func (b *Book) parseSection(d2 Div2) error {
 		return fmt.Errorf("elem.%d: invalid d2.N: %q (Def|Post|CN|Prop)", b.Number, d2.N)
 	}
 
-	b.Sections = append(b.Sections, s)
+	b.Sections = append(b.Sections, &s)
 	return nil
 }
 
@@ -248,7 +339,7 @@ func (b *Book) parseSimple(d2 Div2, short, kind string) Section {
 		Kind: "list:" + kind,
 		Frag: short + "s",
 		Title: cleanContent(d2.Heads[0]),
-		Sections: make([]Section, len(d2.Divs)),
+		Sections: make([]*Section, len(d2.Divs)),
 	}
 
 	for _, p := range d2.Paras {
@@ -267,7 +358,7 @@ func (b *Book) parseSimple(d2 Div2, short, kind string) Section {
 			warn("%s: wrong # of d3.paras: %d (1:%s)", d3.ID, len(d3.Paras), kind)
 			text = append(text, cleanContent(d3.Paras[1]))
 		}
-		s.Sections[i] = Section{
+		s.Sections[i] = &Section{
 			ID: d3.ID,
 			Kind: kind,
 			Frag: fmt.Sprintf("%s.%s", short, d3.N),
@@ -286,7 +377,7 @@ func (b *Book) parseProps(d2 Div2, short string) Section {
 		Kind: "list:proposition",
 		Frag: fragify(short),
 		Title: cleanContent(d2.Heads[0]),
-		Sections: make([]Section, len(d2.Divs)),
+		Sections: make([]*Section, len(d2.Divs)),
 	}
 	for i, d3 := range d2.Divs {
 		// XXX Book II also uses type="proposition"
@@ -305,7 +396,7 @@ func (b *Book) parseProps(d2 Div2, short string) Section {
 				if len(d4.Paras) != 1 {
 					log.Fatalf("Expected 1 paragraph for the theorem, not %d", len(d4.Paras))
 				}
-				ss.Sections = append(ss.Sections, Section {
+				ss.Sections = append(ss.Sections, &Section{
 					ID: d3.ID + ".theorem", // TODO Rationalize ID strat better
 					// TODO Fragify theorem
 					Kind: "theorem",
@@ -324,12 +415,12 @@ func (b *Book) parseProps(d2 Div2, short string) Section {
 				for j, p := range d4.Paras {
 					sss.Text[j] = cleanContent(p)
 				}
-				ss.Sections = append(ss.Sections, sss)
+				ss.Sections = append(ss.Sections, &sss)
 			case "QED":
 				if len(d4.Paras) != 1 {
 					log.Fatalf("Expected 1 paragraph for the QED, not %d", len(d4.Paras))
 				}
-				ss.Sections = append(ss.Sections, Section{
+				ss.Sections = append(ss.Sections, &Section{
 					Kind: "qed",
 					// TODO Fragify QED
 					Text: []string{cleanContent(d4.Paras[0])},
@@ -341,7 +432,7 @@ func (b *Book) parseProps(d2 Div2, short string) Section {
 			}
 		}
 
-		s.Sections[i] = ss
+		s.Sections[i] = &ss
 	}
 	return s
 }

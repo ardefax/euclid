@@ -2,8 +2,7 @@
   "id": "elem.11.5",
   "kind": "proposition",
   "frag": "prop.5",
-  "title": "Proposition 5.",
-  "link": "",
+  "title": "BOOK XI: Proposition 5.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If a straight line be set up at right angles to three straight lines which meet one another, at their common point of section, the three straight lines are in one plane.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.11.5.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let a straight line AB be set up at right angles to the three straight lines BC, BD, BE, at their point of meeting at B; I say that BC, BD, BE are in one plane. \n      ",
         "For suppose they are not, but, if possible, let BD, BE be in the plane of reference and BC in one more elevated; let the plane through AB, BC be produced; it will thus make, as common section in the plane of reference, a straight line. [<a href=\"/books/11/#prop.3\">XI. 3</a>] ",
@@ -37,21 +33,27 @@
         "And they are in one plane: which is impossible. ",
         "Therefore the straight line BC is not in a more elevated plane; therefore the three straight lines BC, BD, BE are in one plane. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore, if a straight line be set up at right angles to three straight lines, at their point of meeting, the three straight lines are in one plane. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 11,
+  "next": {
+    "text": "Proposition 6.",
+    "url": "/books/11/prop.6"
+  },
+  "prev": {
+    "text": "Proposition 4.",
+    "url": "/books/11/prop.4"
+  }
 }

@@ -2,8 +2,7 @@
   "id": "elem.11.6",
   "kind": "proposition",
   "frag": "prop.6",
-  "title": "Proposition 6.",
-  "link": "",
+  "title": "BOOK XI: Proposition 6.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If two straight lines be at right angles to the same plane, the straight lines will be parallel.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.11.6.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the two straight lines AB, CD be at right angles to the plane of reference; I say that AB is parallel to CD. \n      ",
         "For let them meet the plane of reference at the points B, D, let the straight line BD be joined, let DE be drawn, in the plane of reference, at right angles to BD, let DE be made equal to AB, and let BE, AE, AD be joined. ",
@@ -37,21 +33,27 @@
         "But, in whatever plane DB, DA are, in that plane is AB also, for every triangle is in one plane; [<a href=\"/books/11/#prop.2\">XI. 2</a>] therefore the straight lines AB, BD, DC are in one plane. ",
         "And each of the angles ABD, BDC is right; therefore AB is parallel to CD. [<a href=\"/books/1/#prop.28\">I. 28</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 11,
+  "next": {
+    "text": "Proposition 7.",
+    "url": "/books/11/prop.7"
+  },
+  "prev": {
+    "text": "Proposition 5.",
+    "url": "/books/11/prop.5"
+  }
 }

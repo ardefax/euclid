@@ -2,8 +2,7 @@
   "id": "elem.10.98",
   "kind": "proposition",
   "frag": "prop.98",
-  "title": "Proposition 98.",
-  "link": "",
+  "title": "BOOK X: Proposition 98.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       The square on a first apotome of a medial straight line applied to a rational straight line produces as breadth a second apotome.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.98.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let AB be a first apotome of a medial straight line and CD a rational straight line, and to CD let there be applied CE equal to the square on AB, producing CF as breadth; I say that CF is a second apotome. ",
         "For let BG be the annex to AB;. therefore AG, GB are medial straight lines commensurable in square only which contain a rational rectangle. [<a href=\"/books/10/#prop.74\">X. 74</a>] \n      ",
@@ -42,21 +38,27 @@
         "Since the CM, MF are two unequal straight lines, and the rectangle CK, KM equal to the fourth part of the square on MF and deficient by a square figure has been applied to the greater, CM, and divides it into commensurable parts, therefore the square on CM is greater than the square on MF by the square on a straight line commensurable in length with CM. [<a href=\"/books/10/#prop.17\">X. 17</a>] ",
         "And the annex FM is commensurable in length with the rational straight line CD set out; therefore CF is a second apotome. [<a href=\"/books/10/#def.3.2\">X. Deff. III. 2</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": {
+    "text": "Proposition 99.",
+    "url": "/books/10/prop.99"
+  },
+  "prev": {
+    "text": "Proposition 97.",
+    "url": "/books/10/prop.97"
+  }
 }

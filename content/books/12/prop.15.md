@@ -2,8 +2,7 @@
   "id": "elem.12.15",
   "kind": "proposition",
   "frag": "prop.15",
-  "title": "Proposition 15.",
-  "link": "",
+  "title": "BOOK XII: Proposition 15.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       In equal cones and cylinders the bases are reciprocally proportional to the heights; and those cones and cylinders in which the bases are reciprocally proportional to the heights are equal.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.12.15.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let there be equal cones and cylinders of which the circles ABCD, EFGH are the bases; let AC, EG be the diameters of the bases, and KL, MN the axes, which are also the heights of the cones or cylinders; let the cylinders AO, EP be completed. ",
         "I say that in the cylinders AO, EP the bases are reciprocally proportional to the heights, that is, as the base ABCD is to the base EFGH, so is the height MN to the height KL. \n      ",
@@ -43,21 +39,27 @@
         "But, as the base ABCD is to the base EFGH, so is the cylinder AO to the cylinder ES, for they are of the same height; [<a href=\"/books/12/#prop.11\">XII. 11</a>] and, as the height MN is to QN, so is the cylinder EP to the cylinder ES; [<a href=\"/books/12/#prop.13\">XII. 13</a>] therefore, as the cylinder AO is to the cylinder ES, so is the cylinder EP to the cylinder ES. [<a href=\"/books/5/#prop.11\">V. 11</a>] ",
         "Therefore the cylinder AO is equal to the cylinder EP. [<a href=\"/books/5/#prop.9\">V. 9</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "And the same is true for the cones also. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 12,
+  "next": {
+    "text": "Proposition 16.",
+    "url": "/books/12/prop.16"
+  },
+  "prev": {
+    "text": "Proposition 14.",
+    "url": "/books/12/prop.14"
+  }
 }

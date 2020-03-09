@@ -2,8 +2,7 @@
   "id": "elem.13.2",
   "kind": "proposition",
   "frag": "prop.2",
-  "title": "Proposition 2.",
-  "link": "",
+  "title": "BOOK XIII: Proposition 2.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If the square on a straight line be five times the square on a segment of it, then, when the double of the said segment is cut in extreme and mean ratio, the greater segment is the remaining part of the original straight line.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.13.2.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the square on the straight line AB be five times the square on the segment AC of it, and let CD be double of AC; I say that, when CD is cut in extreme and mean ratio, the greater segment is CB. \n      ",
         "Let the squares AF, CG be described on AB, CD respectively, let the figure in AF be drawn, and let BE be drawn through. ",
@@ -39,21 +35,27 @@
         "But DC is greater than CB; therefore CB is also greater than BD. ",
         "Therefore, when the straight line CD is cut in extreme and mean ratio, CB is the greater segment. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 13,
+  "next": {
+    "text": "Proposition 3.",
+    "url": "/books/13/prop.3"
+  },
+  "prev": {
+    "text": "Proposition 1.",
+    "url": "/books/13/prop.1"
+  }
 }

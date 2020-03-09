@@ -2,8 +2,7 @@
   "id": "elem.8.20",
   "kind": "proposition",
   "frag": "prop.20",
-  "title": "Proposition 20.",
-  "link": "",
+  "title": "BOOK VIII: Proposition 20.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       If one mean proportional number fall between two numbers, the numbers will be similar plane numbers.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.8.20.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let one mean proportional number C fall between the two numbers A, B; I say that A, B are similar plane numbers. ",
         "Let D, E, the least numbers of those which have the same ratio with A, C, be taken; [<a href=\"/books/7/#prop.33\">VII. 33</a>] therefore D measures A the same number of times that E measures C. [<a href=\"/books/7/#prop.20\">VII. 20</a>] ",
@@ -38,21 +34,27 @@
         "But, as C is to B, so is D to E; therefore also, as D is to E, so is F to G. ",
         "And alternately, as D is to F, so is E to G. [<a href=\"/books/7/#prop.13\">VII. 13</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore A, B are similar plane numbers; for their sides are proportional. Q. E. D.\n<note n=\"25, 27\" type=\"crit\" place=\"unspecified\" anchored=\"yes\">\n        <p>25. <lemma from=\"ROOT\" to=\"DITTO\" targOrder=\"U\">For, since F</lemma>......27. <lemma from=\"ROOT\" to=\"DITTO\" targOrder=\"U\">C to B.</lemma> The text has clearly suffered corruption here. It is not necessary to infer from other facts that, as D is to E, so is A to C; for this is part of the hypotheses (ll. 6, 7). Again, there is no explanation of the statement (l. 25) that F by multiplying E has made C. It is the statement and explanation of this latter fact which are alone wanted; after which the proof proceeds as in l. 28. We might therefore substitute for ll. 25-28 the following.</p>\n        <p>“For, since E measures C the same number of times that D measures A [l. 8], that is, according to the units in F [l. 10], therefore F by multiplying E has made C. </p>\n        <p>And, since E by multiplying F, G,”\n etc. etc.</p>\n       </note>"
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 8,
+  "next": {
+    "text": "Proposition 21.",
+    "url": "/books/8/prop.21"
+  },
+  "prev": {
+    "text": "Proposition 19.",
+    "url": "/books/8/prop.19"
+  }
 }

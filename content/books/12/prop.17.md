@@ -2,8 +2,7 @@
   "id": "elem.12.17",
   "kind": "proposition",
   "frag": "prop.17",
-  "title": "Proposition 17.",
-  "link": "",
+  "title": "BOOK XII: Proposition 17.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Given two spheres about the same centre, to inscribe in the greater sphere a polyhedral solid which does not touch the lesser sphere at its surface.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.12.17.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let two spheres be conceived about the same centre A; thus it is required to inscribe in the greater sphere a polyhedral solid which does not touch the lesser sphere at its surface. \n      ",
         "Let the spheres be cut by any plane through the centre; then the sections will be circles, inasmuch as the sphere was produced by the diameter remaining fixed and the semicircle being carried round it; [<a href=\"/books/11/#def.14\">XI. Def. 14</a>] hence, in whatever position we conceive the semicircle to be, the plane carried through it will produce a circle on the circumference of the sphere. ",
@@ -67,21 +63,27 @@
         "Therefore AX is greater than AZ; therefore AX is much greater than AG. ",
         "And AX is the perpendicular on one base of the polyhedron, and AG on the surface of the lesser sphere; hence the polyhedron will not touch the lesser sphere on its surface. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore, given two spheres about the same centre, a polyhedral solid has been inscribed in the greater sphere which does not touch the lesser sphere at its surface. Q. E. F. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 12,
+  "next": {
+    "text": "Proposition 18.",
+    "url": "/books/12/prop.18"
+  },
+  "prev": {
+    "text": "Proposition 16.",
+    "url": "/books/12/prop.16"
+  }
 }

@@ -2,8 +2,7 @@
   "id": "elem.3.31",
   "kind": "proposition",
   "frag": "prop.31",
-  "title": "Proposition 31.",
-  "link": "",
+  "title": "BOOK III: Proposition 31.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>In a circle the angle in the semicircle is right</var>, <var>that in a greater segment less than a right angle</var>, <var>and that in a less segment greater than a right angle; and further the angle of the greater segment is greater than a right angle</var>, <var>and the angle of the less segment less than a right angle</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.3.31.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABCD</var> be a circle, let <var>BC</var> be its diameter, and <var>E</var> its centre, and let <var>BA</var>, <var>AC</var>, <var>AD</var>, <var>DC</var> be joined; I say that the angle <var>BAC</var> in the semicircle <var>BAC</var> is right, the angle <var>ABC</var> in the segment <var>ABC</var> greater than the semicircle is less  than a right angle, and the angle <var>ADC</var> in the segment <var>ADC</var> less than the semicircle is greater than a right angle. ",
         "Let <var>AE</var> be joined, and let <var>BA</var> be carried through to <var>F</var>. ",
@@ -37,21 +33,27 @@
         "This is at once manifest. For, since the angle contained by the straight lines <var>BA</var>, <var>AC</var> is right, the angle contained by the circumference <var>ABC</var> and the straight line <var>AC</var> is greater than a right angle.\n      ",
         "Again, since the angle contained by the straight lines <var>AC</var>, <var>AF</var> is right, the angle contained by the straight line <var>CA</var> and the circumference <var>ADC</var> is less than a right angle.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 3,
+  "next": {
+    "text": "Proposition 32.",
+    "url": "/books/3/prop.32"
+  },
+  "prev": {
+    "text": "Proposition 30.",
+    "url": "/books/3/prop.30"
+  }
 }

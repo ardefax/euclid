@@ -2,8 +2,7 @@
   "id": "elem.6.20",
   "kind": "proposition",
   "frag": "prop.20",
-  "title": "Proposition 20.",
-  "link": "",
+  "title": "BOOK VI: Proposition 20.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>Similar polygons are divided into similar triangles</var>, <var>and into triangles equal in multitude and in the same ratio as the wholes</var>, <var>and the polygon has to the polygon a ratio duplicate of that which the corresponding side has to the corresponding</var>\n       <var>side</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.6.20.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABCDE</var>, <var>FGHKL</var> be similar polygons, and let <var>AB</var> correspond to <var>FG</var>; I say that the polygons <var>ABCDE</var>, <var>FGHKL</var> are divided into similar triangles, and into triangles equal in multitude and in the same ratio as the wholes, and the polygon <var>ABCDE</var> has to the polygon <var>FGHKL</var> a ratio duplicate of that which <var>AB</var> has to <var>FG</var>. ",
         "Let <var>BE</var>, <var>EC</var>, <var>GL</var>, <var>LH</var> be joined. \n      ",
@@ -49,21 +45,27 @@
         "But the triangle <var>ABE</var> has to the triangle <var>FGL</var> a ratio duplicate of that which the corresponding side <var>AB</var> has to the corresponding side <var>FG</var>; for similar triangles are in the duplicate ratio of the corresponding sides. [<a href=\"/books/6/#prop.19\">VI. 19</a>] ",
         "Therefore the polygon <var>ABCDE</var> also has to the polygon <var>FGHKL</var> a ratio duplicate of that which the corresponding side <var>AB</var> has to the corresponding side <var>FG</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 6,
+  "next": {
+    "text": "Proposition 21.",
+    "url": "/books/6/prop.21"
+  },
+  "prev": {
+    "text": "Proposition 19.",
+    "url": "/books/6/prop.19"
+  }
 }

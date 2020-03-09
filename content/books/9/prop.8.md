@@ -2,8 +2,7 @@
   "id": "elem.9.8",
   "kind": "proposition",
   "frag": "prop.8",
-  "title": "Proposition 8.",
-  "link": "",
+  "title": "BOOK IX: Proposition 8.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       If as many numbers as we please beginning from an unit be in continued proportion, the third from the unit will be square, as will also those which successively leave out one; the fourth will be cube, as will also all those which leave out two; and the seventh will be at once cube and square, as will also those which leave out five.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.9.8.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let there be as many numbers as we please, A, B, C, D, E, F, beginning from an unit and in continued proportion; I say that B, the third from the unit, is square, as are also all those which leave out one; C, the fourth, is cube, as are also all those which leave out two; and F, the seventh, is at once cube and square, as are also all those which leave out five. \n      ",
         "For since, as the unit is to A, so is A to B, therefore the unit measures the number A the same number of times that A measures B. [<a href=\"/books/7/#def.20\">VII. Def. 20</a>] ",
@@ -40,21 +36,27 @@
         "And, since C, D, E, F are in continued proportion, and C is cube, therefore F is also cube. [<a href=\"/books/8/#prop.23\">VIII. 23</a>] ",
         "But it was also proved square; therefore the seventh from the unit is both cube and square. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Similarly we can prove that all the numbers which leave out five are also both cube and square. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 9,
+  "next": {
+    "text": "Proposition 9.",
+    "url": "/books/9/prop.9"
+  },
+  "prev": {
+    "text": "Proposition 7.",
+    "url": "/books/9/prop.7"
+  }
 }

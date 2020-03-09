@@ -2,8 +2,7 @@
   "id": "elem.1.34",
   "kind": "proposition",
   "frag": "prop.34",
-  "title": "Proposition 34.",
-  "link": "",
+  "title": "BOOK I: Proposition 34.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "In parallelogrammic areas the opposite sides and angles are equal to one another, and the diameter bisects the areas."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.1.34.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ACDB</var> be a parallelogrammic area, and <var>BC</var> its diameter; I say that the opposite sides and angles of the parallelogram <var>ACDB</var> are equal to one another, and the diameter <var>BC</var> bisects it. ",
         "For, since <var>AB</var> is parallel to <var>CD</var>, and the straight line <var>BC</var> has fallen  upon them, the alternate angles <var>ABC</var>, <var>BCD</var> are equal to one another. [<a href=\"/books/1/#prop.29\">I. 29</a>]",
@@ -35,21 +31,27 @@
         "For, since <var>AB</var> is equal to <var>CD</var>, and <var>BC</var> is common, the two sides <var>AB</var>, <var>BC</var> are equal to the two sides <var>DC</var>, <var>CB</var> respectively; and the angle <var>ABC</var> is equal to the angle <var>BCD</var>; therefore the base <var>AC</var> is also equal to <var>DB</var>, <lb n=\"40\"/>and the triangle <var>ABC</var> is equal to the triangle <var>DCB</var>. [<a href=\"/books/1/#prop.4\">I. 4</a>]",
         "Therefore the diameter <var>BC</var> bisects the parallelogram <var>ACDB</var>."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 1,
+  "next": {
+    "text": "Proposition 35.",
+    "url": "/books/1/prop.35"
+  },
+  "prev": {
+    "text": "Proposition 33.",
+    "url": "/books/1/prop.33"
+  }
 }

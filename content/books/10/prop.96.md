@@ -2,8 +2,7 @@
   "id": "elem.10.96",
   "kind": "proposition",
   "frag": "prop.96",
-  "title": "Proposition 96.",
-  "link": "",
+  "title": "BOOK X: Proposition 96.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If an area be contained by a rational straight line and a sixth apotome, the <quote>side</quote>\n of the area is a straight line which produces with a medial area a medial whole. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.96.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the area AB be contained by the rational straight line AC and the sixth apotome AD; I say that the <quote>side</quote>\n of the area AB is a straight line which produces with a medial area a medial whole. \n      ",
         "For let DG be the annex to AD; therefore AG, GD are rational straight lines commensurable in square only, neither of them is commensurable in length with the rational straight line AC set out, and the square on the whole AG is greater than the square on the annex DG by the square on a straight line incommensurable in length with AG. [<a href=\"/books/10/#def.3.6\">X. Deff. III. 6</a>] ",
@@ -44,21 +40,27 @@
         "And, since AI is incommensurable with FK, therefore the square on LP is also incommensurable with the square on PN; therefore LP, PN are straight lines incommensurable in square which make the sum of the squares on them medial, twice the rectangle contained by them medial, and further the squares on them incommensurable with twice the rectangle contained by them. ",
         "Therefore LN is the irrational straight line called that which produces with a medial area a medial whole; [<a href=\"/books/10/#prop.78\">X. 78</a>] and it is the <quote>side</quote>\n of the area AB.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore the <quote>side</quote>\n of the area is a straight line which produces with a medial area a medial whole. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": {
+    "text": "Proposition 97.",
+    "url": "/books/10/prop.97"
+  },
+  "prev": {
+    "text": "Proposition 95.",
+    "url": "/books/10/prop.95"
+  }
 }

@@ -2,8 +2,7 @@
   "id": "elem.6.22",
   "kind": "proposition",
   "frag": "prop.22",
-  "title": "Proposition 22.",
-  "link": "",
+  "title": "BOOK VI: Proposition 22.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>If four straight lines be proportional</var>, <var>the rectilineal figures similar and similarly described upon them will also be proportional</var>; <var>and</var>, <var>if the rectilineal figures similar and similarly described upon them be proportional</var>, <var>the straight lines will themselves also be proportional</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.6.22.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let the four straight lines <var>AB</var>, <var>CD</var>, <var>EF</var>, <var>GH</var> be proportional, so that, as <var>AB</var> is to <var>CD</var>, so is <var>EF</var> to <var>GH</var>, and let there be described on <var>AB</var>, <var>CD</var> the similar and similarly situated rectilineal figures <var>KAB</var>, <var>LCD</var>, and on <var>EF</var>, <var>GH</var> the similar and similarly situated rectilineal figures <var>MF</var>, <var>NH</var>; I say that, as <var>KAB</var> is to <var>LCD</var>, so is <var>MF</var> to <var>NH</var>. ",
         "For let there be taken a third proportional <var>O</var> to <var>AB</var>, <var>CD</var>, and a third proportional <var>P</var> to <var>EF</var>, <var>GH</var>. [<a href=\"/books/6/#prop.11\">VI. 11</a>] ",
@@ -37,21 +33,27 @@
         "But it is also similar and similarly situated to it; therefore <var>GH</var> is equal to <var>QR</var>.\n       ",
         "And, since, as <var>AB</var> is to <var>CD</var>, so is <var>EF</var> to <var>QR</var>, while <var>QR</var> is equal to <var>GH</var>, therefore, as <var>AB</var> is to <var>CD</var>, so is <var>EF</var> to <var>GH</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 6,
+  "next": {
+    "text": "Proposition 23.",
+    "url": "/books/6/prop.23"
+  },
+  "prev": {
+    "text": "Proposition 21.",
+    "url": "/books/6/prop.21"
+  }
 }

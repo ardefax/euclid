@@ -2,8 +2,7 @@
   "id": "elem.13.15",
   "kind": "proposition",
   "frag": "prop.15",
-  "title": "Proposition 15.",
-  "link": "",
+  "title": "BOOK XIII: Proposition 15.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "To construct a cube and comprehend it in a sphere, like the pyramid; and to prove that the square on the diameter of the sphere is triple of the square on the side of the cube.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.13.15.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let the diameter AB of the given sphere be set out, and let it be cut at C so that AC is double of CB; let the semicircle ADB be described on AB, let CD be drawn from C at right angles to AB, and let DB be joined; let the square EFGH having its side equal to DB be set out, from E, F, G, H let EK, FL, GM, HN be drawn at right angles to the plane of the square EFGH, from EK, FL, GM, HN let EK, FL, GM, HN respectively be cut off equal to one of the straight lines EF, FG, GH, HE, and let KL, LM, MN, NK be joined; therefore the cube FN has been constructed which is contained by six equal squares. \n      ",
         "It is then required to comprehend it in the given sphere, and to prove that the square on the diameter of the sphere is triple of the square on the side of the cube. ",
@@ -40,21 +36,27 @@
         "And KE was made equal to DB; therefore KG is also equal to AB. ",
         "And AB is the diameter of the given sphere; therefore KG is also equal to the diameter of the given sphere. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore the cube has been comprehended in the given sphere; and it has been demonstrated at the same time that the square on the diameter of the sphere is triple of the square on the side of the cube. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 13,
+  "next": {
+    "text": "Proposition 16.",
+    "url": "/books/13/prop.16"
+  },
+  "prev": {
+    "text": "Proposition 14.",
+    "url": "/books/13/prop.14"
+  }
 }

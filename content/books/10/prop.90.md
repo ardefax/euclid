@@ -2,8 +2,7 @@
   "id": "elem.10.90",
   "kind": "proposition",
   "frag": "prop.90",
-  "title": "Proposition 90.",
-  "link": "",
+  "title": "BOOK X: Proposition 90.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "To find the sixth apotome. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.90.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let a rational straight line A be set out, and three numbers E, BC, CD not having to one another the ratio which a square number has to a square number; and further let CB also not have to BD the ratio which a square number has to a square number. \n      ",
         "Let it be contrived that, as E is to BC, so is the square on A to the square on FG, and, as BC is to CD, so is the square on FG to the square on GH. [<a href=\"/books/10/#6.p.1\">X. 6, Por.</a>] ",
@@ -44,21 +40,27 @@
         "And neither of the straight lines FG, GH is commensurable with the rational straight line A set out. ",
         "Therefore FH is a sixth apotome. [<a href=\"/books/10/#def.3.6\">X. Deff. III. 6</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore the sixth apotome FH has been found. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": {
+    "text": "Proposition 91.",
+    "url": "/books/10/prop.91"
+  },
+  "prev": {
+    "text": "Proposition 89.",
+    "url": "/books/10/prop.89"
+  }
 }

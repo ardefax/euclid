@@ -2,8 +2,7 @@
   "id": "elem.8.23",
   "kind": "proposition",
   "frag": "prop.23",
-  "title": "Proposition 23.",
-  "link": "",
+  "title": "BOOK VIII: Proposition 23.",
   "text": null,
   "sections": [
     {
@@ -11,38 +10,41 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       If four numbers be in continued proportion, and the first be cube, the fourth will also be cube.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.8.23.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let A, B, C, D be four numbers in continued proportion, and let A be cube; I say that D is also cube. \n      ",
         "For, since between A, D there are two mean proportional numbers B, C, therefore A, D are similar solid numbers. [<a href=\"/books/8/#prop.21\">VIII. 21</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "But A is cube; therefore D is also cube. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 8,
+  "next": {
+    "text": "Proposition 24.",
+    "url": "/books/8/prop.24"
+  },
+  "prev": {
+    "text": "Proposition 22.",
+    "url": "/books/8/prop.22"
+  }
 }

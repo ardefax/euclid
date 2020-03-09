@@ -2,8 +2,7 @@
   "id": "elem.10.89",
   "kind": "proposition",
   "frag": "prop.89",
-  "title": "Proposition 89.",
-  "link": "",
+  "title": "BOOK X: Proposition 89.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "To find the fifth apotome. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.89.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let a rational straight line A be set out, and let CG be commensurable in length with A; therefore CG is rational. ",
         "Let two numbers DF, FE be set out such that DE again has not to either of the numbers DF, FE the ratio which a square number has to a square number; and let it be contrived that, as FE is to ED, so is the square on CG to the square on GB. \n      ",
@@ -37,21 +33,27 @@
         "And the square on BG is greater than the square on GC by the square on H; therefore the square on GB is greater than the square on GC by the square on a straight line incommensurable in length with GB. ",
         "And the annex CG is commensurable in length with the rational straight line A set out; therefore BC is a fifth apotome. [<a href=\"/books/10/#def.3.5\">X. Deff. III. 5</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore the fifth apotome BC has been found. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": {
+    "text": "Proposition 90.",
+    "url": "/books/10/prop.90"
+  },
+  "prev": {
+    "text": "Proposition 88.",
+    "url": "/books/10/prop.88"
+  }
 }

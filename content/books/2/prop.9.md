@@ -2,8 +2,7 @@
   "id": "elem.2.9",
   "kind": "proposition",
   "frag": "prop.9",
-  "title": "Proposition 9.",
-  "link": "",
+  "title": "BOOK II: Proposition 9.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>If a straight line be cut into equal and unequal segments</var>, <var>the squares on the unequal segments of the whole are double of the square on the half and of the square on the straight line between the points of section</var>."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.2.9.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let a straight line <var>AB</var> be cut into equal segments at <var>C</var>, and into unequal segments at <var>D</var>;",
         "I say that the squares on <var>AD</var>, <var>DB</var> are double of the squares on <var>AC</var>, <var>CD</var>. ",
@@ -44,21 +40,27 @@
         "But the squares on <var>AD</var>, <var>DF</var> are equal to the square on <var>AF</var>, for the angle at <var>D</var> is right; [<a href=\"/books/1/#prop.47\">I. 47</a>] therefore the squares on <var>AD</var>, <var>DF</var> are double of the squares on <var>AC</var>, <var>CD</var>. ",
         "And <var>DF</var> is equal to <var>DB</var>; therefore the squares on <var>AD</var>, <var>DB</var> are double of the squares on <var>AC</var>, <var>CD</var>."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 2,
+  "next": {
+    "text": "Proposition 10.",
+    "url": "/books/2/prop.10"
+  },
+  "prev": {
+    "text": "Proposition 8.",
+    "url": "/books/2/prop.8"
+  }
 }

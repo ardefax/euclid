@@ -2,8 +2,7 @@
   "id": "elem.3.9",
   "kind": "proposition",
   "frag": "prop.9",
-  "title": "Proposition 9.",
-  "link": "",
+  "title": "BOOK III: Proposition 9.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>If a point be taken within a circle</var>, <var>and more than two equal straight lines fall from the point on the circle</var>, <var>the point taken is the centre of the circle</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.3.9.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABC</var> be a circle and <var>D</var> a point within it, and from <var>D</var> let more than two equal straight lines, namely <var>DA</var>, <var>DB</var>, <var>DC</var>, fall on the circle <var>ABC</var>; I say that the point <var>D</var> is the centre of the circle <var>ABC</var>. \n      ",
         "For let <var>AB</var>, <var>BC</var> be joined and bisected at the points <var>E</var>, <var>F</var>, and let <var>ED</var>, <var>FD</var> be joined and drawn through to the points <var>G</var>, <var>K</var>, <var>H</var>, <var>L</var>. ",
@@ -33,21 +29,27 @@
         "For the same reason the centre of the circle <var>ABC</var> is also on <var>HL</var>.\n      ",
         "And the straight lines <var>GK</var>, <var>HL</var> have no other point common but the point <var>D</var>; therefore the point <var>D</var> is the centre of the circle <var>ABC</var>.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 3,
+  "next": {
+    "text": "Proposition 10.",
+    "url": "/books/3/prop.10"
+  },
+  "prev": {
+    "text": "Proposition 8.",
+    "url": "/books/3/prop.8"
+  }
 }

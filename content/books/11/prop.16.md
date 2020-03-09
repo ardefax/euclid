@@ -2,8 +2,7 @@
   "id": "elem.11.16",
   "kind": "proposition",
   "frag": "prop.16",
-  "title": "Proposition 16.",
-  "link": "",
+  "title": "BOOK XI: Proposition 16.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If two parallel planes be cut by any plane, their common sections are parallel.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.11.16.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the two parallel planes AB, CD be cut by the plane EFGH, and let EF, GH be their common sections; I say that EF is parallel to GH. \n      ",
         "For, if not, EF, GH will, when produced, meet either in the direction of F, H or of E, G. ",
@@ -36,21 +32,27 @@
         "But straight lines which do not meet in either direction are parallel. [<a href=\"/books/1/#def.23\">I. Def. 23</a>] ",
         "Therefore EF is parallel to GH. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 11,
+  "next": {
+    "text": "Proposition 17.",
+    "url": "/books/11/prop.17"
+  },
+  "prev": {
+    "text": "Proposition 15.",
+    "url": "/books/11/prop.15"
+  }
 }

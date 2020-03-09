@@ -2,8 +2,7 @@
   "id": "elem.7.36",
   "kind": "proposition",
   "frag": "prop.36",
-  "title": "Proposition 36.",
-  "link": "",
+  "title": "BOOK VII: Proposition 36.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       Given three numbers, to find the least number which they measure.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.7.36.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let A, B, C be the three given numbers; thus it is required to find the least number which they measure. \n      ",
         "Let D, the least number measured by the two numbers A, B, be taken. [<a href=\"/books/7/#prop.34\">VII. 34</a>] ",
@@ -49,21 +45,27 @@
         "But E is the least number measured by C, D; therefore E measures F, the greater the less: which is impossible. ",
         "Therefore A, B, C will not measure any number which is less than E. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore E is the least that is measured by A, B, C. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 7,
+  "next": {
+    "text": "Proposition 37.",
+    "url": "/books/7/prop.37"
+  },
+  "prev": {
+    "text": "Proposition 35.",
+    "url": "/books/7/prop.35"
+  }
 }

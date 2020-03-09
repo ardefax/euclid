@@ -2,8 +2,7 @@
   "id": "elem.1.9",
   "kind": "proposition",
   "frag": "prop.9",
-  "title": "Proposition 9.",
-  "link": "",
+  "title": "BOOK I: Proposition 9.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "To bisect a given rectilineal angle."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.1.9.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let the angle <var>BAC</var> be the given rectilineal angle.",
         "Thus it is required to bisect it.",
@@ -33,21 +29,27 @@
         "And the base <var>DF</var> is equal to the base <var>EF</var>; therefore the angle <var>DAF</var> is equal to the angle <var>EAF</var>. [<a href=\"/books/1/#prop.8\">I. 8</a>]",
         "Therefore the given rectilineal angle <var>BAC</var> has been bisected by the straight line <var>AF</var>."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Q. E. F."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 1,
+  "next": {
+    "text": "Proposition 10.",
+    "url": "/books/1/prop.10"
+  },
+  "prev": {
+    "text": "Proposition 8.",
+    "url": "/books/1/prop.8"
+  }
 }

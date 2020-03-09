@@ -2,8 +2,7 @@
   "id": "elem.4.9",
   "kind": "proposition",
   "frag": "prop.9",
-  "title": "Proposition 9.",
-  "link": "",
+  "title": "BOOK IV: Proposition 9.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>About a given square to circumscribe a circle</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.4.9.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABCD</var> be the given square; thus it is required to circumscribe a circle about the square <var>ABCD</var>. \n      ",
         "For let <var>AC</var>, <var>BD</var> be joined, and let them cut one another at <var>E</var>. ",
@@ -36,21 +32,27 @@
         "Therefore the circle described with centre <var>E</var> and distance one of the straight lines <var>EA</var>, <var>EB</var>, <var>EC</var>, <var>ED</var> will pass also through the remaining points; and it will have been circumscribed about the square <var>ABCD</var>. ",
         "Let it be circumscribed, as <var>ABCD</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore about the given square a circle has been circumscribed. Q. E. F."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 4,
+  "next": {
+    "text": "Proposition 10.",
+    "url": "/books/4/prop.10"
+  },
+  "prev": {
+    "text": "Proposition 8.",
+    "url": "/books/4/prop.8"
+  }
 }

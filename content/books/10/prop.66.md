@@ -2,8 +2,7 @@
   "id": "elem.10.66",
   "kind": "proposition",
   "frag": "prop.66",
-  "title": "Proposition 66.",
-  "link": "",
+  "title": "BOOK X: Proposition 66.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "A straight line commensurable in length with a binomial straight line is itself also binomial and the same in order. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.66.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let AB be binomial, and let CD be commensurable in length with AB;  I say that CD is binomial and the same in order with AB. ",
         "For, since AB is binomial, let it be divided into its terms at E, and let AE be the greater term; therefore AE, EB are rational straight lines commensurable in square only. [<a href=\"/books/10/#prop.36\">X. 36</a>] ",
@@ -45,21 +41,27 @@
         "But, if EB is so commensurable, so is FD also, and each of the straight lines AB, CD will be a fifth binomial. [<a href=\"/books/10/#def.2.5\">X. Deff. II. 5</a>] ",
         "But, if neither of the straight lines AE, EB is so commensurable, neither of the straight lines CF, FD is commensurable with the rational straight line set out, and each of the straight lines AB, CD will be a sixth binomial. [<a href=\"/books/10/#def.2.6\">X. Deff. II. 6</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Hence a straight line commensurable in length with a binomial straight line is binomial and the same in order. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": {
+    "text": "Proposition 67.",
+    "url": "/books/10/prop.67"
+  },
+  "prev": {
+    "text": "Proposition 65.",
+    "url": "/books/10/prop.65"
+  }
 }

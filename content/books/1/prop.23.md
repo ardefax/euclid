@@ -2,8 +2,7 @@
   "id": "elem.1.23",
   "kind": "proposition",
   "frag": "prop.23",
-  "title": "Proposition 23.",
-  "link": "",
+  "title": "BOOK I: Proposition 23.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "On a given straight line and at a point on it to construct a rectilineal angle equal to a given rectilineal angle."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.1.23.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>AB</var> be the given straight line, <var>A</var> the point on it, and the angle <var>DCE</var> the given rectilineal angle;",
         "thus it is required to construct on the given straight line <var>AB</var>, and at the point <var>A</var> on it, a rectilineal angle equal to the given rectilineal angle <var>DCE</var>. ",
@@ -31,21 +27,27 @@
         "Then, since the two sides <var>DC</var>, <var>CE</var> are equal to the two sides <var>FA</var>, <var>AG</var> respectively, and the base <var>DE</var> is equal to the base <var>FG</var>, the angle <var>DCE</var> is equal to the angle <var>FAG</var>. [<a href=\"/books/1/#prop.8\">I. 8</a>]",
         "Therefore on the given straight line <var>AB</var>, and at the point <var>A</var> on it, the rectilineal angle <var>FAG</var> has been constructed equal to the given rectilineal angle <var>DCE</var>."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Q. E. F."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 1,
+  "next": {
+    "text": "Proposition 24.",
+    "url": "/books/1/prop.24"
+  },
+  "prev": {
+    "text": "Proposition 22.",
+    "url": "/books/1/prop.22"
+  }
 }

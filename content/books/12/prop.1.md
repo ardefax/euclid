@@ -2,8 +2,7 @@
   "id": "elem.12.1",
   "kind": "proposition",
   "frag": "prop.1",
-  "title": "Proposition 1.",
-  "link": "",
+  "title": "BOOK XII: Proposition 1.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       Similar polygons inscribed in circles are to one another as the squares on the diameters.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.12.1.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let ABC, FGH be circles, let ABCDE, FGHKL be similar polygons inscribed in them, and let BM, GN be diameters of the circles; I say that, as the square on BM is to the square on GN, so is the polygon ABCDE to the polygon FGHKL. \n      ",
         "For let BE, AM, GL, FN be joined. ",
@@ -36,21 +32,27 @@
         "Therefore, proportionally, as BM is to GN, so is BA to GF. [<a href=\"/books/6/#prop.4\">VI. 4</a>] ",
         "But the ratio of the square on BM to the square on GN is duplicate of the ratio of BM to GN, and the ratio of the polygon ABCDE to the polygon FGHKL is duplicate of the ratio of BA to GF; [<a href=\"/books/6/#prop.20\">VI. 20</a>] therefore also, as the square on BM is to the square on GN, so is the polygon ABCDE to the polygon FGHKL. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 12,
+  "next": {
+    "text": "Proposition 2.",
+    "url": "/books/12/prop.2"
+  },
+  "prev": {
+    "text": "BOOK XII",
+    "url": "/books/12"
+  }
 }

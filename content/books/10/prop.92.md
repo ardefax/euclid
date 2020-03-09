@@ -2,8 +2,7 @@
   "id": "elem.10.92",
   "kind": "proposition",
   "frag": "prop.92",
-  "title": "Proposition 92.",
-  "link": "",
+  "title": "BOOK X: Proposition 92.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If an area be contained by a rational straight line and a second apotome, the <quote>side</quote>\n of the area is a first apotome of a medial straight line. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.92.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the area AB be contained by the rational straight line AC and the second apotome AD; I say that the <quote>side</quote>\n of the area AB is a first apotome of a medial straight line. \n      ",
         "For let DG be the annex to AD; therefore AG, GD are rational straight lines commensurable in square only, [<a href=\"/books/10/#prop.73\">X. 73</a>] and the annex DG is commensurable with the rational straight line AC set out, while the square on the whole AG is greater than the square on the annex GD by the square on a straight line commensurable in length with AG. [<a href=\"/books/10/#def.3.2\">X. Deff. III. 2</a>] ",
@@ -49,21 +45,27 @@
         "Therefore LP, PN are medial straight lines commensurable in square only which contain a rational rectangle; therefore LN is a first apotome of a medial straight line. [<a href=\"/books/10/#prop.74\">X. 74</a>] ",
         "And it is the <quote>side</quote>\n of the area AB. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore the <quote>side</quote>\n of the area AB is a first apotome of a medial straight line. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": {
+    "text": "Proposition 93.",
+    "url": "/books/10/prop.93"
+  },
+  "prev": {
+    "text": "Proposition 91.",
+    "url": "/books/10/prop.91"
+  }
 }

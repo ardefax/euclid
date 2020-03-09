@@ -2,8 +2,7 @@
   "id": "elem.1.5",
   "kind": "proposition",
   "frag": "prop.5",
-  "title": "Proposition 5.",
-  "link": "",
+  "title": "BOOK I: Proposition 5.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "In isosceles triangles the angles at the base are equal to one another, and, if the equal straight lines be produced further, the angles under the base will be equal to one another."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.1.5.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABC</var> be an isosceles triangle having the side <var>AB</var>\n        equal to the side <var>AC</var>; and let the straight lines <var>BD</var>, <var>CE</var> be produced further in a straight line with <var>AB</var>, <var>AC</var>. [<a href=\"/books/1/#post.2\">Post. 2</a>]",
         "I say that the angle <var>ABC</var> is equal to the angle <var>ACB</var>, and the angle <var>CBD</var> to the angle <var>BCE</var>. ",
@@ -33,21 +29,27 @@
         "But <var>FC</var> was also proved equal to <var>GB</var>; therefore the two sides <var>BF</var>, <var>FC</var> are equal to the two sides <var>CG</var>, <var>GB</var> respectively; and the angle <var>BFC</var> is equal to the angle <var>CGB</var>, while the base <var>BC</var> is common to them; therefore the triangle <var>BFC</var> is also equal to the triangle <var>CGB</var>, and the remaining angles will be equal to the remaining angles respectively, namely those which the equal sides subtend; therefore the angle <var>FBC</var> is equal to the angle <var>GCB</var>, and the angle <var>BCF</var> to the angle <var>CBG</var>.\n        ",
         "Accordingly, since the whole angle <var>ABG</var> was proved equal to the angle <var>ACF</var>, and in these the angle <var>CBG</var> is equal to the angle <var>BCF</var>, the remaining angle <var>ABC</var> is equal to the remaining angle <var>ACB</var>; and they are at the base of the triangle <var>ABC</var>. But the angle <var>FBC</var> was also proved equal to the angle <var>GCB</var>; and they are under the base."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 1,
+  "next": {
+    "text": "Proposition 6.",
+    "url": "/books/1/prop.6"
+  },
+  "prev": {
+    "text": "Proposition 4.",
+    "url": "/books/1/prop.4"
+  }
 }

@@ -2,8 +2,7 @@
   "id": "elem.10.61",
   "kind": "proposition",
   "frag": "prop.61",
-  "title": "Proposition 61.",
-  "link": "",
+  "title": "BOOK X: Proposition 61.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "The square on the first bimedial straight line applied to a rational straight line produces as breadth the second binomial. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.61.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let AB be a first bimedial straight line divided into its medials at C, of which medials AC is the greater; let a rational straight line DE be set out, and let there be applied to DE the parallelogram DF equal to the square on AB, producing DG as its breadth; I say that DG is a second binominal straight line. \n      ",
         "For let the same construction as before be made. ",
@@ -39,21 +35,27 @@
         "And the rectangle DK, KM is equal to the square on MN; therefore the square on DM is greater than the square on MG by the square on a straight line commensurable with DM. [<a href=\"/books/10/#prop.17\">X. 17</a>] ",
         "And MG is commensurable is length with DE. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore DG is a second binomial straight line. [<a href=\"/books/10/#def.2.2\">X. Deff. II. 2</a>]"
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": {
+    "text": "Proposition 62.",
+    "url": "/books/10/prop.62"
+  },
+  "prev": {
+    "text": "Proposition 60.",
+    "url": "/books/10/prop.60"
+  }
 }

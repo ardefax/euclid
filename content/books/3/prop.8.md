@@ -2,8 +2,7 @@
   "id": "elem.3.8",
   "kind": "proposition",
   "frag": "prop.8",
-  "title": "Proposition 8.",
-  "link": "",
+  "title": "BOOK III: Proposition 8.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>If a point be taken outside a circle and from the point straight lines be drawn through to the circle</var>, <var>one of which is through the centre and the others are drawn at random</var>, <var>then</var>, <var>of the straight lines which fall on the concave circumference</var>, <var>that through the centre is greatest</var>, <var>while of the rest</var>\n       <var>the nearer to that through the centre is always greater than the more remote</var>, <var>but</var>, <var>of the straight lines falling on the convex circumference</var>, <var>that between the point and the diameter is least</var>, <var>while of the rest the nearer to the least is always less than the more remote</var>, <var>and only two equal straight lines will fall on the circle from the point</var>, <var>one on each side of the least</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.3.8.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABC</var> be a circle, and let a point <var>D</var> be taken outside <var>ABC</var>; let there be drawn through from it straight lines <var>DA</var>, <var>DE</var>, <var>DF</var>, <var>DC</var>, and let <var>DA</var> be through the centre; I say that, of the straight lines falling on the concave circumference <var>AEFC</var>, the straight line <var>DA</var> through the centre is greatest,  while <var>DE</var> is greater than <var>DF</var> and <var>DF</var> than <var>DC</var>.; but, of the straight lines falling on the convex circumference <var>HLKG</var>, the straight line <var>DG</var> between the point and the diameter <var>AG</var> is least; and the nearer to the least <var>DG</var> is always less than the more remote, namely <var>DK</var> than <var>DL</var>, and <var>DL</var> than <var>DH</var>. ",
         "For let the centre of the circle <var>ABC</var> be taken [<a href=\"/books/3/#prop.1\">III. 1</a>], and let it be <var>M</var>; let <var>ME</var>, <var>MF</var>, <var>MC</var>, <var>MK</var>, <var>ML</var>, <var>MH</var> be joined. ",
@@ -42,21 +38,27 @@
         "while <var>DK</var> is equal to <var>DB</var>, <var>DB</var> is also equal to <var>DN</var>, that is, the nearer to the least <var>DG</var> equal to the more remote: which was proved impossible. ",
         "Therefore no more than two equal straight lines will fall on the circle <var>ABC</var> from the point <var>D</var>, one on each side of <var>DG</var> the least. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 3,
+  "next": {
+    "text": "Proposition 9.",
+    "url": "/books/3/prop.9"
+  },
+  "prev": {
+    "text": "Proposition 7.",
+    "url": "/books/3/prop.7"
+  }
 }

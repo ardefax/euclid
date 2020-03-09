@@ -2,8 +2,7 @@
   "id": "elem.11.38",
   "kind": "proposition",
   "frag": "prop.38",
-  "title": "Proposition 38.",
-  "link": "",
+  "title": "BOOK XI: Proposition 38.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If the sides of the opposite planes of a cube be bisected, and planes be carried through the points of section, the common section of the planes and the diameter of the cube bisect one another.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.11.38.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the sides of the opposite planes CF, AH of the cube AF be bisected at the points K, L, M, N, O, Q, P, R, and through the points of section let the planes KN, OR be carried; let US be the common section of the planes, and DG the diameter of the cube AF. ",
         "I say that UT is equal to TS, and DT to TG. ",
@@ -38,21 +34,27 @@
         "Therefore DTU, GTS are two triangles which have two angles equal to two angles, and one side equal to one side, namely that subtending one of the equal angles, that is, DU equal to GS, for they are the halves of DE, BG; therefore they will also have the remaining sides equal to the remaining sides. [<a href=\"/books/1/#prop.26\">I. 26</a>] ",
         "Therefore DT is equal to TG, and UT to TS. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 11,
+  "next": {
+    "text": "Proposition 39.",
+    "url": "/books/11/prop.39"
+  },
+  "prev": {
+    "text": "Proposition 37.",
+    "url": "/books/11/prop.37"
+  }
 }

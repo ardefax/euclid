@@ -2,8 +2,7 @@
   "id": "elem.11.11",
   "kind": "proposition",
   "frag": "prop.11",
-  "title": "Proposition 11.",
-  "link": "",
+  "title": "BOOK XI: Proposition 11.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       From a given elevated point to draw a straight line perpendicular to a given plane.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.11.11.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let A be the given elevated point, and the plane of reference the given plane; thus it is required to draw from the point A a straight line perpendicular to the plane of reference. ",
         "Let any straight line BC be drawn, at random, in the plane of reference, and let AD be drawn from the point A perpendicular to BC. [<a href=\"/books/1/#prop.12\">I. 12</a>] \n      ",
@@ -37,21 +33,27 @@
         "But, if a straight line be set up at right angles to two straight lines which cut one another, at the point of section, it will also be at right angles to the plane through them; [<a href=\"/books/11/#prop.4\">XI. 4</a>] therefore FA is at right angles to the plane through ED, GH. ",
         "But the plane through ED, GH is the plane of reference; therefore AF is at right angles to the plane of reference. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore from the given elevated point A the straight line AF has been drawn perpendicular to the plane of reference. Q. E. F."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 11,
+  "next": {
+    "text": "Proposition 12.",
+    "url": "/books/11/prop.12"
+  },
+  "prev": {
+    "text": "Proposition 10.",
+    "url": "/books/11/prop.10"
+  }
 }

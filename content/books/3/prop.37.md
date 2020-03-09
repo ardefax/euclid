@@ -2,8 +2,7 @@
   "id": "elem.3.37",
   "kind": "proposition",
   "frag": "prop.37",
-  "title": "Proposition 37.",
-  "link": "",
+  "title": "BOOK III: Proposition 37.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>If a point be taken outside a circle and from the point there fall on the circle two straight lines</var>, <var>if one of them cut the circle</var>, <var>and the other fall on it</var>, <var>and if further the rectangle contained by the whole of the straight line which cuts the circle and the straight line intercepted on it outside between the point and the convex circumference be equal to the square on the straight line which falls on the circle</var>, <var>the straight line which falls on it will touch the circle</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.3.37.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let a point <var>D</var> be taken outside the circle <var>ABC</var>; from <var>D</var> let the two straight lines <var>DCA</var>, <var>DB</var> fall on the circle <var>ACB</var>; let <var>DCA</var> cut the circle and <var>DB</var> fall on it; and let the rectangle <var>AD</var>, <var>DC</var> be equal to the square on <var>DB</var>. \n      ",
         "I say that <var>DB</var> touches the circle <var>ABC</var>. ",
@@ -36,21 +32,27 @@
         "And <var>FB</var> produced is a diameter; and the straight line drawn at right angles to the diameter of a circle, from its extremity, touches the circle; [<a href=\"/books/3/#16.p.1\">III. 16, Por.</a>] therefore <var>DB</var> touches the circle.\n      ",
         "Similarly this can be proved to be the case even if the centre be on <var>AC</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 3,
+  "next": {
+    "text": "BOOK IV",
+    "url": "/books/4"
+  },
+  "prev": {
+    "text": "Proposition 36.",
+    "url": "/books/3/prop.36"
+  }
 }

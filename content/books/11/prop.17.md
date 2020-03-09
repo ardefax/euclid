@@ -2,8 +2,7 @@
   "id": "elem.11.17",
   "kind": "proposition",
   "frag": "prop.17",
-  "title": "Proposition 17.",
-  "link": "",
+  "title": "BOOK XI: Proposition 17.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If two straight lines be cut by parallel planes, they will be cut in the same ratios.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.11.17.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the two straight lines AB, CD be cut by the parallel planes GH, KL, MN at the points A, E, B and C, F, D; I say that, as the straight line AE is to EB, so is CF to FD. \n      ",
         "For let AC, BD, AD be joined, let AD meet the plane KL at the point O, and let EO, OF be joined. ",
@@ -33,21 +29,27 @@
         "Again, since the straight line OF has been drawn parallel to AC, one of the sides of the triangle ADC, proportionally, as AO is to OD, so is CF to FD. [id.] ",
         "But it was also proved that, as AO is to OD, so is AE to EB; therefore also, as AE is to EB, so is CF to FD. [<a href=\"/books/5/#prop.11\">V. 11</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 11,
+  "next": {
+    "text": "Proposition 18.",
+    "url": "/books/11/prop.18"
+  },
+  "prev": {
+    "text": "Proposition 16.",
+    "url": "/books/11/prop.16"
+  }
 }

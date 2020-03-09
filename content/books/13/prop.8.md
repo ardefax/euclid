@@ -2,8 +2,7 @@
   "id": "elem.13.8",
   "kind": "proposition",
   "frag": "prop.8",
-  "title": "Proposition 8.",
-  "link": "",
+  "title": "BOOK XIII: Proposition 8.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If in an equilateral and equiangular pentagon straight lines subtend two angles taken in order, they cut one another in extreme and mean ratio, and their greater segments are equal to the side of the pentagon.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.13.8.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For in the equilateral and equiangular pentagon ABCDE let the straight lines AC, BE, cutting one another at the point H, subtend two angles taken in order, the angles at A, B; I say that each of them has been cut in extreme and mean ratio at the point H, and their greater segments are equal to the side of the pentagon. \n      ",
         "For let the circle ABCDE be circumscribed about the pentagon ABCDE. [<a href=\"/books/4/#prop.14\">IV. 14</a>] ",
@@ -37,21 +33,27 @@
         "And BE is greater than EH; therefore EH is also greater than HB. [<a href=\"/books/5/#prop.14\">V. 14</a>] ",
         "Therefore BE has been cut in extreme and mean ratio at H, and the greater segment HE is equal to the side of the pentagon. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Similarly we can prove that AC has also been cut in extreme and mean ratio at H, and its greater segment CH is equal to the side of the pentagon. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 13,
+  "next": {
+    "text": "Proposition 9.",
+    "url": "/books/13/prop.9"
+  },
+  "prev": {
+    "text": "Proposition 7.",
+    "url": "/books/13/prop.7"
+  }
 }

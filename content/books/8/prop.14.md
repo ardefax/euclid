@@ -2,8 +2,7 @@
   "id": "elem.8.14",
   "kind": "proposition",
   "frag": "prop.14",
-  "title": "Proposition 14.",
-  "link": "",
+  "title": "BOOK VIII: Proposition 14.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       If a square measure a square, the side will also measure the side; and, if the side measure the side, the square will also measure the square.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.8.14.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let A, B be square numbers, let C, D be their sides, and let A measure B; I say that C also measures D. \n      ",
         "For let C by multiplying D make E; therefore A, E, B are continuously proportional in the ratio of C to D. [<a href=\"/books/8/#prop.11\">VIII. 11</a>] ",
@@ -34,21 +30,27 @@
         "And since, as C is to D, so is A to E, and C measures D, therefore A also measures E. [<a href=\"/books/7/#def.20\">VII. Def. 20</a>] ",
         "And A, E, B are continuously proportional; therefore A also measures B. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 8,
+  "next": {
+    "text": "Proposition 15.",
+    "url": "/books/8/prop.15"
+  },
+  "prev": {
+    "text": "Proposition 13.",
+    "url": "/books/8/prop.13"
+  }
 }

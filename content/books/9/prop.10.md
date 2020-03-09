@@ -2,8 +2,7 @@
   "id": "elem.9.10",
   "kind": "proposition",
   "frag": "prop.10",
-  "title": "Proposition 10.",
-  "link": "",
+  "title": "BOOK IX: Proposition 10.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       If as many numbers as we please beginning from an unit be in continued proportion, and the number after the unit be not square, neither will any other be square except the third from the unit and all those which leave out one. And, if the number after the unit be not cube, neither will any other be cube except the fourth from the unit and all those which leave out two.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.9.10.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let there be as many numbers as we please, A, B, C, D, E, F, beginning from an unit and in continued proportion, and let A, the number after the unit, not be square; I say that neither will any other be square except the third from the unit &lt;and those which leave out one&gt;. \n      ",
         "For, if possible, let C be square. ",
@@ -43,21 +39,27 @@
         "Therefore A is also cube: which is contrary to the hypothesis. ",
         "Therefore D is not cube. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Similarly we can prove that neither is any other of the numbers cube except the fourth from the unit and those which leave out two. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 9,
+  "next": {
+    "text": "Proposition 11.",
+    "url": "/books/9/prop.11"
+  },
+  "prev": {
+    "text": "Proposition 9.",
+    "url": "/books/9/prop.9"
+  }
 }

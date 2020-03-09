@@ -2,8 +2,7 @@
   "id": "elem.12.2",
   "kind": "proposition",
   "frag": "prop.2",
-  "title": "Proposition 2.",
-  "link": "",
+  "title": "BOOK XII: Proposition 2.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       Circles are to one another as the squares on the diameters.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.12.2.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let ABCD, EFGH be circles, and BD, FH their diameters; I say that, as the circle ABCD is to the circle EFGH, so is the square on BD to the square on FH. \n      ",
         "For, if the square on BD is not to the square on FH as the circle ABCD is to the circle EFGH, then, as the square on BD is to the square on FH, so will the circle ABCD be either to some less area than the circle EFGH, or to a greater. ",
@@ -47,21 +43,27 @@
         "Therefore, as the square on BD is to the square on FH, so is not the circle ABCD to any area greater than the circle EFGH. ",
         "And it was proved that neither is it in that ratio to any area less than the circle EFGH; therefore, as the square on BD is to the square on FH, so is the circle ABCD to the circle EFGH. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 12,
+  "next": {
+    "text": "Proposition 3.",
+    "url": "/books/12/prop.3"
+  },
+  "prev": {
+    "text": "Proposition 1.",
+    "url": "/books/12/prop.1"
+  }
 }

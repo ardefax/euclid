@@ -2,8 +2,7 @@
   "id": "elem.10.35",
   "kind": "proposition",
   "frag": "prop.35",
-  "title": "Proposition 35.",
-  "link": "",
+  "title": "BOOK X: Proposition 35.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "To find two straight lines incommensurable in square which make the sum of the squares on them medial and the rectangle contained by them medial and moreover incommensurable with the sum of the squares on them. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.35.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let there be set out two medial straight lines AB, BC commensurable in square only, containing a medial rectangle, and such that the square on AB is greater than the square on BC by the square on a straight line incommensurable with AB; [<a href=\"/books/10/#prop.32\">X. 32</a>\n, ad fin.] let the semicircle ADB be described on AB, and let the rest of the construction be as above. \n      ",
         "Then, since AF is incommensurable in length with FB, [<a href=\"/books/10/#prop.18\">X. 18</a>\n] AD is also incommensurable in square with DB. [<a href=\"/books/10/#prop.11\">X. 11</a>\n] ",
@@ -34,21 +30,27 @@
         "And, since AB is incommensurable in length with BC, while CB is commensurable with BE, therefore AB is also incommensurable in length with BE, [<a href=\"/books/10/#prop.13\">X. 13</a>\n] so that the square on AB is also incommensurable with the rectangle AB, BE. [<a href=\"/books/10/#prop.11\">X. 11</a>\n] ",
         "But the squares on AD, DB are equal to the square on AB, [<a href=\"/books/1/#prop.47\">I. 47</a>\n] and the rectangle AB, FD, that is, the rectangle AD, DB, is equal to the rectangle AB, BE; therefore the sum of the squares on AD, DB is incommensurable with the rectangle AD, DB. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore two straight lines AD, DB incommensurable in square have been found which make the sum of the squares on them medial and the rectangle contained by them medial and moreover incommensurable with the sum of the squares on them. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": {
+    "text": "Proposition 36.",
+    "url": "/books/10/prop.36"
+  },
+  "prev": {
+    "text": "Proposition 34.",
+    "url": "/books/10/prop.34"
+  }
 }

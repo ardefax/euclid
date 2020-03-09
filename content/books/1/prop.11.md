@@ -2,8 +2,7 @@
   "id": "elem.1.11",
   "kind": "proposition",
   "frag": "prop.11",
-  "title": "Proposition 11.",
-  "link": "",
+  "title": "BOOK I: Proposition 11.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "To draw a straight line at right angles to a given straight line from a given point on it."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.1.11.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>AB</var> be the given straight line, and <var>C</var> the given point on it. ",
         "Thus it is required to draw from the point <var>C</var> a straight line at right angles to the straight line <var>AB</var>.",
@@ -33,21 +29,27 @@
         "But, when a straight line set up on a straight line makes the adjacent angles equal to one another, each of the equal angles is right; [<a href=\"/books/1/#def.10\">Def. 10</a>] therefore each of the angles <var>DCF</var>, <var>FCE</var> is right.",
         "Therefore the straight line <var>CF</var> has been drawn at right angles to the given straight line <var>AB</var> from the given point <var>C</var> on it."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Q. E. F."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 1,
+  "next": {
+    "text": "Proposition 12.",
+    "url": "/books/1/prop.12"
+  },
+  "prev": {
+    "text": "Proposition 10.",
+    "url": "/books/1/prop.10"
+  }
 }

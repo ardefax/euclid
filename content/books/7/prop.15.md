@@ -2,8 +2,7 @@
   "id": "elem.7.15",
   "kind": "proposition",
   "frag": "prop.15",
-  "title": "Proposition 15.",
-  "link": "",
+  "title": "BOOK VII: Proposition 15.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       If an unit measure any number, and another number measure any other number the same number of times, alternately also, the unit will measure the third number the same number of times that the second measures the fourth.\n       \n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.7.15.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the unit A measure any number BC, and let another number D measure any other number EF the same number of times; I say that, alternately also, the unit A measures the number D the same number of times that BC measures EF. \n      ",
         "For, since the unit A measures the number BC the same number of times that D measures EF, therefore, as many units as there are in BC, so many numbers equal to D are there in EF also. ",
@@ -34,21 +30,27 @@
         "But the unit BG is equal to the unit A, and the number EK to the number D. ",
         "Therefore, as the unit A is to the number D, so is BC to EF. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore the unit A measures the number D the same number of times that BC measures EF. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 7,
+  "next": {
+    "text": "Proposition 16.",
+    "url": "/books/7/prop.16"
+  },
+  "prev": {
+    "text": "Proposition 14.",
+    "url": "/books/7/prop.14"
+  }
 }

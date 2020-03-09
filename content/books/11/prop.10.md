@@ -2,8 +2,7 @@
   "id": "elem.11.10",
   "kind": "proposition",
   "frag": "prop.10",
-  "title": "Proposition 10.",
-  "link": "",
+  "title": "BOOK XI: Proposition 10.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If two straight lines meeting one another be parallel to two straight lines meeting one another not in the same plane, they will contain equal angles.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.11.10.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the two straight lines AB, BC meeting one another be parallel to the two straight lines DE, EF meeting one another, not in the same plane; I say that the angle ABC is equal to the angle DEF. \n      ",
         "For let BA, BC, ED, EF be cut off equal to one another, and let AD, CF, BE, AC, DF be joined. ",
@@ -34,21 +30,27 @@
         "And AC, DF join them; therefore AC is also equal and parallel to DF. [<a href=\"/books/1/#prop.33\">I. 33</a>] ",
         "Now, since the two sides AB, BC are equal to the two sides DE, EF, and the base AC is equal to the base DF, therefore the angle ABC is equal to the angle DEF. [<a href=\"/books/1/#prop.8\">I. 8</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 11,
+  "next": {
+    "text": "Proposition 11.",
+    "url": "/books/11/prop.11"
+  },
+  "prev": {
+    "text": "Proposition 9.",
+    "url": "/books/11/prop.9"
+  }
 }

@@ -2,8 +2,7 @@
   "id": "elem.10.87",
   "kind": "proposition",
   "frag": "prop.87",
-  "title": "Proposition 87.",
-  "link": "",
+  "title": "BOOK X: Proposition 87.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "To find the third apotome. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.87.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let a rational straight line A be set out, let three numbers E, BC, CD be set out which have not to one another the ratio which a square number has to a square number, but let CB have to BD the ratio which a square number has to a square number. \n      ",
         "Let it be contrived that, as E is to BC, so is the square on A to the square on FG, and, as BC is to CD, so is the square on FG to the square on GH. [<a href=\"/books/10/#6.p.1\">X. 6, Por.</a>] ",
@@ -44,21 +40,27 @@
         "Therefore FG is commensurable in length with K, [<a href=\"/books/10/#prop.9\">X. 9</a>] and the square on FG is greater than the square on GH by the square on a straight line commensurable with FG. ",
         "And neither of the straight lines FG, GH is commensurable in length with the rational straight line A set out; therefore FH is a third apotome. [<a href=\"/books/10/#def.3.3\">X. Deff. III. 3</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore the third apotome FH has been found. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": {
+    "text": "Proposition 88.",
+    "url": "/books/10/prop.88"
+  },
+  "prev": {
+    "text": "Proposition 86.",
+    "url": "/books/10/prop.86"
+  }
 }

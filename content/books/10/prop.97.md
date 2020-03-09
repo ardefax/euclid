@@ -2,8 +2,7 @@
   "id": "elem.10.97",
   "kind": "proposition",
   "frag": "prop.97",
-  "title": "Proposition 97.",
-  "link": "",
+  "title": "BOOK X: Proposition 97.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       The square on an apotome applied to a rational straight line produces as breadth a first apotome.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.97.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let AB be an apotome, and CD rational, and to CD let there be applied CE equal to the square on AB and producing CF as breadth; I say that CF is a first apotome. \n      ",
         "For let BG be the annex to AB; therefore AG, GB are rational straight lines commensurable in square only. [<a href=\"/books/10/#prop.73\">X. 73</a>] ",
@@ -46,21 +42,27 @@
         "Since then CM, MF are two unequal straight lines, and to CM there has been applied the rectangle CK, KM equal to the fourth part of the square on FM and deficient by a square figure, while CK is commensurable with KM, therefore the square on CM is greater than the square on MF by the square on a straight line commensurable in length with CM. [<a href=\"/books/10/#prop.17\">X. 17</a>] ",
         "And CM is commensurable in length with the rational straight line CD set out; therefore CF is a first apotome. [<a href=\"/books/10/#def.3.1\">X. Deff. III. 1</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": {
+    "text": "Proposition 98.",
+    "url": "/books/10/prop.98"
+  },
+  "prev": {
+    "text": "Proposition 96.",
+    "url": "/books/10/prop.96"
+  }
 }

@@ -2,8 +2,7 @@
   "id": "elem.10.58",
   "kind": "proposition",
   "frag": "prop.58",
-  "title": "Proposition 58.",
-  "link": "",
+  "title": "BOOK X: Proposition 58.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       If an area be contained by a rational straight line and the fifth binomial, the <quote>side</quote>\n of the area is the irrational straight line called the side of a rational plus a medial area.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.58.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the area AC be contained by the rational straight line AB and the fifth binomial AD divided into its terms at E, so that AE is the greater term; I say that the <quote>side</quote>\n of the area AC is the irrational straight line called the side of a rational plus a medial area. ",
         "For let the same construction be made as before shown; it is then manifest that MO is the <quote>side</quote>\n of the area AC.\n       \n      ",
@@ -36,21 +32,27 @@
         "And EK is rational; therefore EL, that is, MR, that is, the rectangle MN, NO, is also rational. [<a href=\"/books/10/#prop.19\">X. 19</a>] ",
         "Therefore MN, NO are straight lines incommensurable in square which make the sum of the squares on them medial, but the rectangle contained by them rational. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore MO is the side of a rational plus a medial area [<a href=\"/books/10/#prop.40\">X. 40</a>] and is the <quote>side</quote>\n of the area AC. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": {
+    "text": "Proposition 59.",
+    "url": "/books/10/prop.59"
+  },
+  "prev": {
+    "text": "Proposition 57.",
+    "url": "/books/10/prop.57"
+  }
 }

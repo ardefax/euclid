@@ -8,7 +8,6 @@
       "kind": "list:proposition",
       "frag": "props",
       "title": "PROPOSITIONS",
-      "link": "",
       "text": null,
       "sections": [
         {
@@ -24,15 +23,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If two similar plane numbers by multiplying one another make some number, the product will be square.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 9,
+          "next": {
+            "text": "Proposition 2.",
+            "url": "/books/9/prop.2"
+          },
+          "prev": {
+            "text": "BOOK IX",
+            "url": "/books/9"
+          }
         },
         {
           "id": "elem.9.2",
@@ -47,15 +53,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If two numbers by multiplying one another make a square number, they are similar plane numbers.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 9,
+          "next": {
+            "text": "Proposition 3.",
+            "url": "/books/9/prop.3"
+          },
+          "prev": {
+            "text": "Proposition 1.",
+            "url": "/books/9/prop.1"
+          }
         },
         {
           "id": "elem.9.3",
@@ -70,15 +83,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If a cube number by multiplying itself make some number, the product will be cube.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 9,
+          "next": {
+            "text": "Proposition 4.",
+            "url": "/books/9/prop.4"
+          },
+          "prev": {
+            "text": "Proposition 2.",
+            "url": "/books/9/prop.2"
+          }
         },
         {
           "id": "elem.9.4",
@@ -93,15 +113,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If a cube number by multiplying a cube number make some number, the product will be cube.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 9,
+          "next": {
+            "text": "Proposition 5.",
+            "url": "/books/9/prop.5"
+          },
+          "prev": {
+            "text": "Proposition 3.",
+            "url": "/books/9/prop.3"
+          }
         },
         {
           "id": "elem.9.5",
@@ -116,15 +143,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If a cube number by multiplying any number make a cube number, the multiplied number will also be cube.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 9,
+          "next": {
+            "text": "Proposition 6.",
+            "url": "/books/9/prop.6"
+          },
+          "prev": {
+            "text": "Proposition 4.",
+            "url": "/books/9/prop.4"
+          }
         },
         {
           "id": "elem.9.6",
@@ -139,15 +173,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If a number by multiplying itself make a cube number, it will itself also be cube.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 9,
+          "next": {
+            "text": "Proposition 7.",
+            "url": "/books/9/prop.7"
+          },
+          "prev": {
+            "text": "Proposition 5.",
+            "url": "/books/9/prop.5"
+          }
         },
         {
           "id": "elem.9.7",
@@ -162,15 +203,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If a composite number by multiplying any number make some number, the product will be solid.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 9,
+          "next": {
+            "text": "Proposition 8.",
+            "url": "/books/9/prop.8"
+          },
+          "prev": {
+            "text": "Proposition 6.",
+            "url": "/books/9/prop.6"
+          }
         },
         {
           "id": "elem.9.8",
@@ -185,15 +233,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If as many numbers as we please beginning from an unit be in continued proportion, the third from the unit will be square, as will also those which successively leave out one; the fourth will be cube, as will also all those which leave out two; and the seventh will be at once cube and square, as will also those which leave out five.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 9,
+          "next": {
+            "text": "Proposition 9.",
+            "url": "/books/9/prop.9"
+          },
+          "prev": {
+            "text": "Proposition 7.",
+            "url": "/books/9/prop.7"
+          }
         },
         {
           "id": "elem.9.9",
@@ -208,15 +263,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If as many numbers as we please beginning from an unit be in continued proportion, and the number after the unit be square, all the rest will also be square. And, if the number after the unit be cube, all the rest will also be cube.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 9,
+          "next": {
+            "text": "Proposition 10.",
+            "url": "/books/9/prop.10"
+          },
+          "prev": {
+            "text": "Proposition 8.",
+            "url": "/books/9/prop.8"
+          }
         },
         {
           "id": "elem.9.10",
@@ -231,15 +293,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If as many numbers as we please beginning from an unit be in continued proportion, and the number after the unit be not square, neither will any other be square except the third from the unit and all those which leave out one. And, if the number after the unit be not cube, neither will any other be cube except the fourth from the unit and all those which leave out two.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 9,
+          "next": {
+            "text": "Proposition 11.",
+            "url": "/books/9/prop.11"
+          },
+          "prev": {
+            "text": "Proposition 9.",
+            "url": "/books/9/prop.9"
+          }
         },
         {
           "id": "elem.9.11",
@@ -254,15 +323,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If as many numbers as we please beginning from an unit be in continued proportion, the less measures the greater according to some one of the numbers which have place among the proportional numbers.\n       \n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 9,
+          "next": {
+            "text": "Proposition 12.",
+            "url": "/books/9/prop.12"
+          },
+          "prev": {
+            "text": "Proposition 10.",
+            "url": "/books/9/prop.10"
+          }
         },
         {
           "id": "elem.9.12",
@@ -277,15 +353,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If as many numbers as we please beginning from an unit be in continued proportion, by however many prime numbers the last is measured, the next to the unit will also be measured by the same.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 9,
+          "next": {
+            "text": "Proposition 13.",
+            "url": "/books/9/prop.13"
+          },
+          "prev": {
+            "text": "Proposition 11.",
+            "url": "/books/9/prop.11"
+          }
         },
         {
           "id": "elem.9.13",
@@ -300,15 +383,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "If as many numbers as we please beginning from an unit be in continued proportion, and the number after the unit be prime, the greatest will not be measured by any except those which have a place among the proportional numbers. "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 9,
+          "next": {
+            "text": "Proposition 14.",
+            "url": "/books/9/prop.14"
+          },
+          "prev": {
+            "text": "Proposition 12.",
+            "url": "/books/9/prop.12"
+          }
         },
         {
           "id": "elem.9.14",
@@ -323,15 +413,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If a number be the least that is measured by prime numbers, it will not be measured by any other prime number except those originally measuring it.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 9,
+          "next": {
+            "text": "Proposition 15.",
+            "url": "/books/9/prop.15"
+          },
+          "prev": {
+            "text": "Proposition 13.",
+            "url": "/books/9/prop.13"
+          }
         },
         {
           "id": "elem.9.15",
@@ -346,15 +443,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If three numbers in continued proportion be the least of those which have the same ratio with them, any two whatever added together will be prime to the remaining number.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 9,
+          "next": {
+            "text": "Proposition 16.",
+            "url": "/books/9/prop.16"
+          },
+          "prev": {
+            "text": "Proposition 14.",
+            "url": "/books/9/prop.14"
+          }
         },
         {
           "id": "elem.9.16",
@@ -369,15 +473,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If two numbers be prime to one another, the second will not be to any other number as the first is to the second.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 9,
+          "next": {
+            "text": "Proposition 17.",
+            "url": "/books/9/prop.17"
+          },
+          "prev": {
+            "text": "Proposition 15.",
+            "url": "/books/9/prop.15"
+          }
         },
         {
           "id": "elem.9.17",
@@ -392,15 +503,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If there be as many numbers as we please in continued proportion, and the extremes of them be prime to one another, the last will not be to any other number as the first to the second.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 9,
+          "next": {
+            "text": "Proposition 18.",
+            "url": "/books/9/prop.18"
+          },
+          "prev": {
+            "text": "Proposition 16.",
+            "url": "/books/9/prop.16"
+          }
         },
         {
           "id": "elem.9.18",
@@ -415,15 +533,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       Given two numbers, to investigate whether it is possible to find a third proportional to them.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 9,
+          "next": {
+            "text": "Proposition 19.",
+            "url": "/books/9/prop.19"
+          },
+          "prev": {
+            "text": "Proposition 17.",
+            "url": "/books/9/prop.17"
+          }
         },
         {
           "id": "elem.9.19",
@@ -438,15 +563,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       Given three numbers, to investigate when it is possible to find a fourth proportional to them.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 9,
+          "next": {
+            "text": "Proposition 20.",
+            "url": "/books/9/prop.20"
+          },
+          "prev": {
+            "text": "Proposition 18.",
+            "url": "/books/9/prop.18"
+          }
         },
         {
           "id": "elem.9.20",
@@ -461,15 +593,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       Prime numbers are more than any assigned multitude of prime numbers.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 9,
+          "next": {
+            "text": "Proposition 21.",
+            "url": "/books/9/prop.21"
+          },
+          "prev": {
+            "text": "Proposition 19.",
+            "url": "/books/9/prop.19"
+          }
         },
         {
           "id": "elem.9.21",
@@ -484,15 +623,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If as many even numbers as we please be added together, the whole is even.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 9,
+          "next": {
+            "text": "Proposition 22.",
+            "url": "/books/9/prop.22"
+          },
+          "prev": {
+            "text": "Proposition 20.",
+            "url": "/books/9/prop.20"
+          }
         },
         {
           "id": "elem.9.22",
@@ -507,15 +653,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If as many odd numbers as we please be added together, and their multitude be even, the whole will be even.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 9,
+          "next": {
+            "text": "Proposition 23.",
+            "url": "/books/9/prop.23"
+          },
+          "prev": {
+            "text": "Proposition 21.",
+            "url": "/books/9/prop.21"
+          }
         },
         {
           "id": "elem.9.23",
@@ -530,15 +683,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If as many odd numbers as we please be added together, and their multitude be odd, the whole will also be odd.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 9,
+          "next": {
+            "text": "Proposition 24.",
+            "url": "/books/9/prop.24"
+          },
+          "prev": {
+            "text": "Proposition 22.",
+            "url": "/books/9/prop.22"
+          }
         },
         {
           "id": "elem.9.24",
@@ -553,15 +713,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If from an even number an even number be subtracted, the remainder will be even.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 9,
+          "next": {
+            "text": "Proposition 25.",
+            "url": "/books/9/prop.25"
+          },
+          "prev": {
+            "text": "Proposition 23.",
+            "url": "/books/9/prop.23"
+          }
         },
         {
           "id": "elem.9.25",
@@ -576,15 +743,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If from an even number an odd number be subtracted, the remainder will be odd.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 9,
+          "next": {
+            "text": "Proposition 26.",
+            "url": "/books/9/prop.26"
+          },
+          "prev": {
+            "text": "Proposition 24.",
+            "url": "/books/9/prop.24"
+          }
         },
         {
           "id": "elem.9.26",
@@ -599,15 +773,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If from an odd number an odd number be subtracted, the remainder will be even.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 9,
+          "next": {
+            "text": "Proposition 27.",
+            "url": "/books/9/prop.27"
+          },
+          "prev": {
+            "text": "Proposition 25.",
+            "url": "/books/9/prop.25"
+          }
         },
         {
           "id": "elem.9.27",
@@ -622,15 +803,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If from an odd number an even number be subtracted, the remainder will be odd.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 9,
+          "next": {
+            "text": "Proposition 28.",
+            "url": "/books/9/prop.28"
+          },
+          "prev": {
+            "text": "Proposition 26.",
+            "url": "/books/9/prop.26"
+          }
         },
         {
           "id": "elem.9.28",
@@ -645,15 +833,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If an odd number by multiplying an even number make some number, the product will be even.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 9,
+          "next": {
+            "text": "Proposition 29.",
+            "url": "/books/9/prop.29"
+          },
+          "prev": {
+            "text": "Proposition 27.",
+            "url": "/books/9/prop.27"
+          }
         },
         {
           "id": "elem.9.29",
@@ -668,15 +863,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If an odd number by multiplying an odd number make some number, the product will be odd.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 9,
+          "next": {
+            "text": "Proposition 30.",
+            "url": "/books/9/prop.30"
+          },
+          "prev": {
+            "text": "Proposition 28.",
+            "url": "/books/9/prop.28"
+          }
         },
         {
           "id": "elem.9.30",
@@ -691,15 +893,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If an odd number measure an even number, it will also measure the half of it.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 9,
+          "next": {
+            "text": "Proposition 31.",
+            "url": "/books/9/prop.31"
+          },
+          "prev": {
+            "text": "Proposition 29.",
+            "url": "/books/9/prop.29"
+          }
         },
         {
           "id": "elem.9.31",
@@ -714,15 +923,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If an odd number be prime to any number, it will also be prime to the double of it.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 9,
+          "next": {
+            "text": "Proposition 32.",
+            "url": "/books/9/prop.32"
+          },
+          "prev": {
+            "text": "Proposition 30.",
+            "url": "/books/9/prop.30"
+          }
         },
         {
           "id": "elem.9.32",
@@ -737,15 +953,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       Each of the numbers which are continually doubled beginning from a dyad is even-times even only.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 9,
+          "next": {
+            "text": "Proposition 33.",
+            "url": "/books/9/prop.33"
+          },
+          "prev": {
+            "text": "Proposition 31.",
+            "url": "/books/9/prop.31"
+          }
         },
         {
           "id": "elem.9.33",
@@ -760,15 +983,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If a number have its half odd, it is even-times odd only.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 9,
+          "next": {
+            "text": "Proposition 34.",
+            "url": "/books/9/prop.34"
+          },
+          "prev": {
+            "text": "Proposition 32.",
+            "url": "/books/9/prop.32"
+          }
         },
         {
           "id": "elem.9.34",
@@ -783,15 +1013,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "If a number neither be one of those which are continually doubled from a dyad, nor have its half odd, it is both eventimes even and even-times odd. "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 9,
+          "next": {
+            "text": "Proposition 35.",
+            "url": "/books/9/prop.35"
+          },
+          "prev": {
+            "text": "Proposition 33.",
+            "url": "/books/9/prop.33"
+          }
         },
         {
           "id": "elem.9.35",
@@ -806,15 +1043,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If as many numbers as we please be in continued proportion, and there be subtracted from the second and the last numbers equal to the first, then, as the excess of the second is to the first, so will the excess of the last be to all those before it.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 9,
+          "next": {
+            "text": "Proposition 36.",
+            "url": "/books/9/prop.36"
+          },
+          "prev": {
+            "text": "Proposition 34.",
+            "url": "/books/9/prop.34"
+          }
         },
         {
           "id": "elem.9.36",
@@ -829,21 +1073,35 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If as many numbers as we please beginning from an unit be set out continuously in double proportion, until the sum of all becomes prime, and if the sum multiplied into the last make some number, the product will be perfect.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 9,
+          "next": {
+            "text": "BOOK X",
+            "url": "/books/10"
+          },
+          "prev": {
+            "text": "Proposition 35.",
+            "url": "/books/9/prop.35"
+          }
         }
-      ],
-      "Layout": ""
+      ]
     }
   ],
   "weight": 9,
   "type": "book",
-  "Layout": "book"
+  "layout": "book",
+  "next": {
+    "text": "BOOK X",
+    "url": "/books/10"
+  },
+  "prev": {
+    "text": "BOOK VIII",
+    "url": "/books/8"
+  }
 }

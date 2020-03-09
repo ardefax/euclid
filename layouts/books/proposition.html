@@ -1,7 +1,7 @@
 {{ partial "header" . }}
 
 <main class="books-proposition {{ partial "main-class" . | chomp}}">
-  <h1>BOOK #: {{ .Title }}</h1>
+  <h1>{{ .Title }}</h1>
 
   {{/* TODO This splitting of the theorem from the proof it inject the figure is lame */}}
   {{ with index .Params.sections 0 }}
@@ -26,4 +26,20 @@
 </main>
 <script type="text/javascript" src="/figure.js"></script>
 
-{{ partial "footer" . }}
+<footer class="books-proposition">
+  <nav>
+    {{ if .Params.prev }}
+    <a class="prev-prop" href="{{ .Params.prev.url }}">{{ .Params.prev.text }}</a>
+    {{ else }}
+    <span>TODO: Current Book</span>
+    {{ end }}
+    {{ if .Params.next }}
+    <a class="next-prop" href="{{ .Params.next.url }}">{{ .Params.next.text }}</a>
+    {{ else }}
+    <span>TODO: Next Book</span>
+    {{ end }}
+  </nav>
+  {{ partial "copyright" . }}
+</footer>
+</body>
+</html>

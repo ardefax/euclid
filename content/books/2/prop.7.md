@@ -2,8 +2,7 @@
   "id": "elem.2.7",
   "kind": "proposition",
   "frag": "prop.7",
-  "title": "Proposition 7.",
-  "link": "",
+  "title": "BOOK II: Proposition 7.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>If a straight line be cut at random</var>, <var>the square on the whole and that on one of the segments both together are equal to twice the rectangle contained by the whole and the said segment and the square on the remaining segment</var>."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.2.7.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let a straight line <var>AB</var> be cut at random at the point <var>C</var>;",
         "I say that the squares on <var>AB</var>, <var>BC</var> are equal to twice the rectangle contained by <var>AB</var>, <var>BC</var> and the square on <var>CA</var>.",
@@ -35,21 +31,27 @@
         "Let <var>DG</var>, which is the square on <var>AC</var>, be added to each; therefore the gnomon <var>KLM</var> and the squares <var>BG</var>, <var>GD</var> are equal to twice the rectangle contained by <var>AB</var>, <var>BC</var> and the square on <var>AC</var>.",
         "But the gnomon <var>KLM</var> and the squares <var>BG</var>, <var>GD</var> are the whole <var>ADEB</var> and <var>CF</var>, which are squares described on <var>AB</var>, <var>BC</var>; therefore the squares on <var>AB</var>, <var>BC</var> are equal to twice the rectangle contained by <var>AB</var>, <var>BC</var> together with the square on <var>AC</var>."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 2,
+  "next": {
+    "text": "Proposition 8.",
+    "url": "/books/2/prop.8"
+  },
+  "prev": {
+    "text": "Proposition 6.",
+    "url": "/books/2/prop.6"
+  }
 }

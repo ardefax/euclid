@@ -2,8 +2,7 @@
   "id": "elem.7.2",
   "kind": "proposition",
   "frag": "prop.2",
-  "title": "Proposition 2.",
-  "link": "",
+  "title": "BOOK VII: Proposition 2.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       Given two numbers not prime to one another, to find their greatest common measure.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.7.2.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let AB, CD be the two given numbers not prime to one another. ",
         "Thus it is required to find the greatest common measure of AB, CD. ",
@@ -47,21 +43,27 @@
         "But AE measures DF; therefore G will also measure DF. ",
         "But it also measures the whole DC; therefore it will also measure the remainder CF, that is, the greater will measure the less: which is impossible. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore no number which is greater than CF will measure the numbers AB, CD; therefore <hi rend=\"ital\">CF</hi> is the greatest common measure of <hi rend=\"ital\">AB</hi>, <hi rend=\"ital\">CD</hi>.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 7,
+  "next": {
+    "text": "Proposition 3.",
+    "url": "/books/7/prop.3"
+  },
+  "prev": {
+    "text": "Proposition 1.",
+    "url": "/books/7/prop.1"
+  }
 }

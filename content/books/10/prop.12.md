@@ -2,8 +2,7 @@
   "id": "elem.10.12",
   "kind": "proposition",
   "frag": "prop.12",
-  "title": "Proposition 12.",
-  "link": "",
+  "title": "BOOK X: Proposition 12.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Magnitudes commensurable with the same magnitude are commensurable with one another also. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.12.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let each of the magnitudes A, B be commensurable with C; I say that A is also commensurable with B. \n      ",
         "For, since A is commensurable with C, therefore A has to C the ratio which a number has to a number. [<a href=\"/books/10/#prop.5\">X. 5</a>] ",
@@ -36,21 +32,27 @@
         "But also, as A is to C, so is H to K; therefore, <foreign lang=\"la\">ex aequali</foreign>, as A is to B, so is H to L. [<a href=\"/books/5/#prop.22\">V. 22</a>] ",
         "Therefore A has to B the ratio which a number has to a number; therefore A is commensurable with B. [<a href=\"/books/10/#prop.6\">X. 6</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": {
+    "text": "Proposition 13.",
+    "url": "/books/10/prop.13"
+  },
+  "prev": {
+    "text": "Proposition 11.",
+    "url": "/books/10/prop.11"
+  }
 }

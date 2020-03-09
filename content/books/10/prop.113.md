@@ -2,8 +2,7 @@
   "id": "elem.10.113",
   "kind": "proposition",
   "frag": "prop.113",
-  "title": "Proposition 113.",
-  "link": "",
+  "title": "BOOK X: Proposition 113.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "The square on a rational straight line, if applied to an apotome, produces as, breadth the binomial straight line the terms of which are commensurable with the terms of the apotome and in the same ratio; and further the binomial so arising has the same order as the apotome. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.113.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let A be a rational straight line and BD an apotome, and let the rectangle BD, KH be equal to the square on A, so that the square on the rational straight line A when applied to the apotome BD produces KH as breadth; I say that KH is a binomial straight line the terms of which are commensurable with the terms of BD and in the same ratio; and further KH has the same order as BD. \n      ",
         "For let DC be the annex to BD; therefore BC, CD are rational straight lines commensurable in square only. [<a href=\"/books/10/#prop.73\">X. 73</a>] ",
@@ -47,21 +43,27 @@
         "But, if the square on BC is greater than the square on CD by the square on a straight line incommensurable with BC, the square on KF is also greater than the square on FH by the square on a straight line incommensurable with KF. [<a href=\"/books/10/#prop.14\">X. 14</a>] ",
         "And, if BC is commensurable with the rational straight line set out, so also is KF; if CD is so commensurable, in length with the rational straight line set out, so also is FH; but, if neither of the straight lines BC, CD, then neither of the straight lines KF, FH. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore KH is a binomial straight line, the terms of which KF, FH are commensurable with the terms BC, CD of the apotome and in the same ratio, and further KH has the same order as BD. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": {
+    "text": "Proposition 114.",
+    "url": "/books/10/prop.114"
+  },
+  "prev": {
+    "text": "Proposition 112.",
+    "url": "/books/10/prop.112"
+  }
 }

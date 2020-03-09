@@ -2,8 +2,7 @@
   "id": "elem.10.51",
   "kind": "proposition",
   "frag": "prop.51",
-  "title": "Proposition 51.",
-  "link": "",
+  "title": "BOOK X: Proposition 51.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "To find the fourth binomial straight line. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.51.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let two numbers AC, CB be set out such that AB neither has to BC, nor yet to AC, the ratio which a square number has to a square number. ",
         "Let a rational straight line D be set out, and let EF be commensurable in length with D; therefore EF is also rational. ",
@@ -37,21 +33,27 @@
         "Therefore EF is incommensurable in length with H; [<a href=\"/books/10/#prop.9\">X. 9</a>] therefore the square on EF is greater than the square on GF by the square on a straight line incommensurable with EF. ",
         "And EF, FG are rational straight lines commensurable in square only, and EF is commensurable in length with D. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore EG is a fourth binomial straight line. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": {
+    "text": "Proposition 52.",
+    "url": "/books/10/prop.52"
+  },
+  "prev": {
+    "text": "Proposition 50.",
+    "url": "/books/10/prop.50"
+  }
 }

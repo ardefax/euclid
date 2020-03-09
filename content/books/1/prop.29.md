@@ -2,8 +2,7 @@
   "id": "elem.1.29",
   "kind": "proposition",
   "frag": "prop.29",
-  "title": "Proposition 29.",
-  "link": "",
+  "title": "BOOK I: Proposition 29.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "A straight line falling on parallel straight lines makes the alternate angles equal to one another, the exterior angle equal to the interior and opposite angle, and the interior angles on the same side equal to two right angles. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.1.29.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the straight line <var>EF</var> fall on the parallel straight lines <var>AB</var>, <var>CD</var>;",
         "I say that it makes the alternate angles <var>AGH</var>, <var>GHD</var> equal, the exterior angle <var>EGB</var> equal to the interior and opposite angle <var>GHD</var>, and the interior angles on the same side, namely <var>BGH</var>, <var>GHD</var>, equal to two right angles.",
@@ -37,21 +33,27 @@
         "Let the angle <var>BGH</var> be added to each; therefore the angles <var>EGB</var>, <var>BGH</var> are equal to the <lb n=\"35\"/>angles <var>BGH</var>, <var>GHD</var>. [<a href=\"/books/1/#cn.2\">C.N. 2</a>]",
         "But the angles <var>EGB</var>, <var>BGH</var> are equal to two right angles; [<a href=\"/books/1/#prop.13\">I. 13</a>] therefore the angles <var>BGH</var>, <var>GHD</var> are also equal to two right angles."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 1,
+  "next": {
+    "text": "Proposition 30.",
+    "url": "/books/1/prop.30"
+  },
+  "prev": {
+    "text": "Proposition 28.",
+    "url": "/books/1/prop.28"
+  }
 }

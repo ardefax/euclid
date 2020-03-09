@@ -2,8 +2,7 @@
   "id": "elem.13.13",
   "kind": "proposition",
   "frag": "prop.13",
-  "title": "Proposition 13.",
-  "link": "",
+  "title": "BOOK XIII: Proposition 13.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "To construct a pyramid, to comprehend it in a given sphere, and to prove that the square on the diameter of the sphere is one and a half times the square on the side of the pyramid.\n       "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.13.13.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let the diameter AB of the given sphere be set out, and let it be cut at the point C so that AC is double of CB; let the semicircle ADB be described on AB, let CD be drawn from the point C at right angles to AB, and let DA be joined; let the circle EFG which has its radius equal to DC be set out, let the equilateral triangle EFG be inscribed in the circle EFG, [<a href=\"/books/4/#prop.2\">IV. 2</a>] let the centre of the circle, the point H, be taken, [<a href=\"/books/3/#prop.1\">III. 1</a>] let EH, HF, HG be joined; from the point H let HK be set up at right angles to the plane of the circle EFG, [<a href=\"/books/11/#prop.12\">XI. 12</a>] let HK equal to the straight line AC be cut off from HK, and let KE, KF, KG be joined. \n      ",
         "Now, since KH is at right angles to the plane of the circle EFG, therefore it will also make right angles with all the straight lines which meet it and are in the plane of the circle EFG. [<a href=\"/books/11/#def.3\">XI. Def. 3</a>] ",
@@ -48,21 +44,27 @@
         "Therefore the square on BA is also one and a half times the square on AD. ",
         "And BA is the diameter of the given sphere, and AD is equal to the side of the pyramid. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore the square on the diameter of the sphere is one and a half times the square on the side of the pyramid. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 13,
+  "next": {
+    "text": "Proposition 14.",
+    "url": "/books/13/prop.14"
+  },
+  "prev": {
+    "text": "Proposition 12.",
+    "url": "/books/13/prop.12"
+  }
 }

@@ -2,8 +2,7 @@
   "id": "elem.13.5",
   "kind": "proposition",
   "frag": "prop.5",
-  "title": "Proposition 5.",
-  "link": "",
+  "title": "BOOK XIII: Proposition 5.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If a straight line be cut in extreme and mean ratio, and there be added to it a straight line equal to the greater segment, the whole straight line has been cut in extreme and mean ratio, and the original straight line is the greater segment.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.13.5.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the straight line AB be cut in extreme and mean ratio at the point C, let AC be the greater segment, and let AD be equal to AC. \n      ",
         "I say that the straight line DB has been cut in extreme and mean ratio at A, and the original straight line AB is the greater segment. ",
@@ -36,21 +32,27 @@
         "Therefore, as DB is to BA, so is BA to AD. [<a href=\"/books/6/#prop.17\">VI. 17</a>] ",
         "And DB is greater than BA; therefore BA is also greater than AD. [<a href=\"/books/5/#prop.14\">V. 14</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore DB has been cut in extreme and mean ratio at A, and AB is the greater segment. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 13,
+  "next": {
+    "text": "Proposition 6.",
+    "url": "/books/13/prop.6"
+  },
+  "prev": {
+    "text": "Proposition 4.",
+    "url": "/books/13/prop.4"
+  }
 }

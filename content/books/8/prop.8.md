@@ -2,8 +2,7 @@
   "id": "elem.8.8",
   "kind": "proposition",
   "frag": "prop.8",
-  "title": "Proposition 8.",
-  "link": "",
+  "title": "BOOK VIII: Proposition 8.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       If between two numbers there fall numbers in continued proportion with them, then, however many numbers fall between them in continued proportion, so many will also fall in continued proportion between the numbers which have the same ratio with the original numbers.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.8.8.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let the numbers C, D fall between the two numbers A, B in continued proportion with them, and let E be made in the same ratio to F as A is to B; I say that, as many numbers as have fallen between A, B in continued proportion, so many will also fall between E, F in continued proportion. \n      ",
         "For, as many as A, B, C, D are in multitude, let so many numbers G, H, K, L, the least of those which have the same ratio with A, C, D, B, be taken; [<a href=\"/books/7/#prop.33\">VII. 33</a>] therefore the extremes of them G, L are prime to one another. [<a href=\"/books/8/#prop.3\">VIII. 3</a>] ",
@@ -36,21 +32,27 @@
         "But G, H, K, L are in the same ratio with A, C, D, B; therefore A, C, D, B are also in the same ratio with E, M, N, F. ",
         "But A, C, D, B are in continued proportion; therefore E, M, N, F are also in continued proportion. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore, as many numbers as have fallen between A, B in continued proportion with them, so many numbers have also fallen between E, F in continued proportion. Q. E. D.\n<note n=\"1\" type=\"crit\" place=\"unspecified\" anchored=\"yes\">1. <lemma from=\"ROOT\" to=\"DITTO\" targOrder=\"U\">fall.</lemma> The Greek word is <foreign lang=\"greek\">ἐμπίπτειν</foreign>, <quote>fall in</quote>\n=<quote>can be interpolated.</quote>\n</note>"
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 8,
+  "next": {
+    "text": "Proposition 9.",
+    "url": "/books/8/prop.9"
+  },
+  "prev": {
+    "text": "Proposition 7.",
+    "url": "/books/8/prop.7"
+  }
 }

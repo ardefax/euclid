@@ -2,8 +2,7 @@
   "id": "elem.1.33",
   "kind": "proposition",
   "frag": "prop.33",
-  "title": "Proposition 33.",
-  "link": "",
+  "title": "BOOK I: Proposition 33.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "The straight lines joining equal and parallel straight lines (at the extremities which are) in the same directions (respectively) are themselves also equal and parallel."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.1.33.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>AB</var>, <var>CD</var> be equal and parallel, and let the straight  lines <var>AC</var>, <var>BD</var> join them (at the extremities which are) in the same directions (respectively); I say that <var>AC</var>, <var>BD</var> are also equal and parallel.",
         "Let <var>BC</var> be joined. ",
@@ -32,21 +28,27 @@
         "And, since the straight line <var>BC</var> falling on the two straight lines <var>AC</var>, <var>BD</var> has made the alternate angles equal to one another, <var>AC</var> is parallel to <var>BD</var>. [<a href=\"/books/1/#prop.27\">I. 27</a>]",
         "And it was also proved equal to it."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 1,
+  "next": {
+    "text": "Proposition 34.",
+    "url": "/books/1/prop.34"
+  },
+  "prev": {
+    "text": "Proposition 32.",
+    "url": "/books/1/prop.32"
+  }
 }

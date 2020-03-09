@@ -2,8 +2,7 @@
   "id": "elem.10.11",
   "kind": "proposition",
   "frag": "prop.11",
-  "title": "Proposition 11.",
-  "link": "",
+  "title": "BOOK X: Proposition 11.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If four magnitudes be proportional, and the first be commensurable with the second, the third will also be commensurable with the fourth; and, if the first be incommensurable with the second, the third will also be incommensurable with the fourth. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.11.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let A, B, C, D be four magnitudes in proportion, so that, as A is to B, so is C to D, and let A be commensurable with B;  I say that C will also be commensurable with D. ",
         "For, since A is commensurable with B, therefore A has to B the ratio which a number has to a number. [<a href=\"/books/10/#prop.5\">X. 5</a>] ",
@@ -32,21 +28,27 @@
         "For, since A is incommensurable with B, therefore A has not to B the ratio which a number has to a number. [<a href=\"/books/10/#prop.7\">X. 7</a>] ",
         "And, as A is to B, so is C to D; therefore neither has C to D the ratio which a number has to a number; therefore C is incommensurable with D. [<a href=\"/books/10/#prop.8\">X. 8</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": {
+    "text": "Proposition 12.",
+    "url": "/books/10/prop.12"
+  },
+  "prev": {
+    "text": "Proposition 10.",
+    "url": "/books/10/prop.10"
+  }
 }

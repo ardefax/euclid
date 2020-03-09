@@ -2,8 +2,7 @@
   "id": "elem.10.28",
   "kind": "proposition",
   "frag": "prop.28",
-  "title": "Proposition 28.",
-  "link": "",
+  "title": "BOOK X: Proposition 28.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "To find medial straight lines commensurable in square only which contain a medial rectangle. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.28.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let the rational straight lines A, B, C commensurable in square only be set out; let D be taken a mean proportional between A, B, [<a href=\"/books/6/#prop.13\">VI. 13</a>] and let it be contrived that, as <hi rend=\"ital\">B</hi> is to <hi rend=\"ital\">C</hi>, so is <hi rend=\"ital\">D</hi> to <hi rend=\"ital\">E</hi>. [<a href=\"/books/6/#prop.12\">VI. 12</a>]\n       \n      ",
         "Since A, B are rational straight lines commensurable in square only, therefore the rectangle A, B, that is, the square on D [<a href=\"/books/6/#prop.17\">VI. 17</a>], is medial. [<a href=\"/books/10/#prop.21\">X. 21</a>] ",
@@ -36,21 +32,27 @@
         "But, as B is to D, so is D to A; therefore also, as D is to A, so is C to E; therefore the rectangle A, C is equal to the rectangle D, E. [<a href=\"/books/6/#prop.16\">VI. 16</a>] ",
         "But the rectangle A, C is medial; [<a href=\"/books/10/#prop.21\">X. 21</a>] therefore the rectangle D, E is also medial. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore medial straight lines commensurable in square only have been found which contain a medial rectangle. Q. E. D.\n "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": {
+    "text": "Proposition 29.",
+    "url": "/books/10/prop.29"
+  },
+  "prev": {
+    "text": "Proposition 27.",
+    "url": "/books/10/prop.27"
+  }
 }

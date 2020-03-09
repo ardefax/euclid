@@ -2,8 +2,7 @@
   "id": "elem.1.20",
   "kind": "proposition",
   "frag": "prop.20",
-  "title": "Proposition 20.",
-  "link": "",
+  "title": "BOOK I: Proposition 20.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "In any triangle two sides taken together in any manner are greater than the remaining one."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.1.20.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let <var>ABC</var> be a triangle; I say that in the triangle <var>ABC</var> two sides taken together in any manner are greater than the remaining one, namely <var>BA</var>, <var>AC</var> greater than <var>BC</var>, <var>AB</var>, <var>BC</var> greater than <var>AC</var>, <var>BC</var>, <var>CA</var> greater than <var>AB</var>.",
         "For let <var>BA</var> be drawn through to the point <var>D</var>, let <var>DA</var> be made equal to <var>CA</var>, and let <var>DC</var> be joined.",
@@ -32,21 +28,27 @@
         "But <var>DA</var> is equal to <var>AC</var>; therefore <var>BA</var>, <var>AC</var> are greater than <var>BC</var>.",
         "Similarly we can prove that <var>AB</var>, <var>BC</var> are also greater than <var>CA</var>, and <var>BC</var>, <var>CA</var> than <var>AB</var>."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 1,
+  "next": {
+    "text": "Proposition 21.",
+    "url": "/books/1/prop.21"
+  },
+  "prev": {
+    "text": "Proposition 19.",
+    "url": "/books/1/prop.19"
+  }
 }

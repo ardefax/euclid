@@ -2,8 +2,7 @@
   "id": "elem.10.80",
   "kind": "proposition",
   "frag": "prop.80",
-  "title": "Proposition 80.",
-  "link": "",
+  "title": "BOOK X: Proposition 80.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "To a first apotome of a medial straight line only one medial straight line can be annexed which is commensurable with the whole in square only and which contains with the whole a rational rectangle. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.80.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let AB be a first apotome of a medial straight line, and let BC be an annex to AB; therefore AC, CB are medial straight lines commensurable in square only and such that the rectangle AC, CB which they contain is rational; [<a href=\"/books/10/#prop.74\">X. 74</a>] I say that no other medial straight line can be annexed to AB which is commensurable with the whole in square only and which contains with the whole a rational area. ",
         "For, if possible, let DB also be so annexed; therefore AD, DB are medial straight lines commensurable in square only and such that the rectangle AD, DB which they contain is rational. [<a href=\"/books/10/#prop.74\">X. 74</a>] \n      ",
@@ -31,21 +27,27 @@
         "But twice the rectangle AD, DB exceeds twice the rectangle AC, CB by a rational area, for both are rational. ",
         "Therefore the squares on AD, DB also exceed the squares on AC, CB by a rational area. which is impossible, for both are medial [<a href=\"#elem.10.15 elem.10.23.p.1\">X. 15 and 23, Por.</a>], and a medial area does not exceed a medial by a rational area. [<a href=\"/books/10/#prop.26\">X. 26</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": {
+    "text": "Proposition 81.",
+    "url": "/books/10/prop.81"
+  },
+  "prev": {
+    "text": "Proposition 79.",
+    "url": "/books/10/prop.79"
+  }
 }

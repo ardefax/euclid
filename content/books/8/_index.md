@@ -8,7 +8,6 @@
       "kind": "list:proposition",
       "frag": "props",
       "title": "PROPOSITIONS",
-      "link": "",
       "text": null,
       "sections": [
         {
@@ -24,15 +23,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If there be as many numbers as we please in continued proportion, and the extremes of them be prime to one another, the numbers are the least of those which have the same ratio with them.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 8,
+          "next": {
+            "text": "Proposition 2.",
+            "url": "/books/8/prop.2"
+          },
+          "prev": {
+            "text": "BOOK VIII",
+            "url": "/books/8"
+          }
         },
         {
           "id": "elem.8.2",
@@ -47,15 +53,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       To find numbers in continued proportion, as many as may be prescribed, and the least that are in a given ratio.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 8,
+          "next": {
+            "text": "Proposition 3.",
+            "url": "/books/8/prop.3"
+          },
+          "prev": {
+            "text": "Proposition 1.",
+            "url": "/books/8/prop.1"
+          }
         },
         {
           "id": "elem.8.3",
@@ -70,15 +83,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "If as many numbers as we please in continued proportion be the least of those which have the same ratio with them, the extremes of them are prime to one another. "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 8,
+          "next": {
+            "text": "Proposition 4.",
+            "url": "/books/8/prop.4"
+          },
+          "prev": {
+            "text": "Proposition 2.",
+            "url": "/books/8/prop.2"
+          }
         },
         {
           "id": "elem.8.4",
@@ -93,15 +113,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       Given as many ratios as we please in least numbers, to find numbers in continued proportion which are the least in the given ratios.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 8,
+          "next": {
+            "text": "Proposition 5.",
+            "url": "/books/8/prop.5"
+          },
+          "prev": {
+            "text": "Proposition 3.",
+            "url": "/books/8/prop.3"
+          }
         },
         {
           "id": "elem.8.5",
@@ -116,15 +143,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       Plane numbers have to one another the ratio compounded of the ratios of their sides.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 8,
+          "next": {
+            "text": "Proposition 6.",
+            "url": "/books/8/prop.6"
+          },
+          "prev": {
+            "text": "Proposition 4.",
+            "url": "/books/8/prop.4"
+          }
         },
         {
           "id": "elem.8.6",
@@ -139,15 +173,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If there be as many numbers as we please in continued proportion, and the first do not measure the second, neither will any other measure any other.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 8,
+          "next": {
+            "text": "Proposition 7.",
+            "url": "/books/8/prop.7"
+          },
+          "prev": {
+            "text": "Proposition 5.",
+            "url": "/books/8/prop.5"
+          }
         },
         {
           "id": "elem.8.7",
@@ -162,15 +203,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If there be as many numbers as we please in continued proportion, and the first measure the last, it will measure the second also.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 8,
+          "next": {
+            "text": "Proposition 8.",
+            "url": "/books/8/prop.8"
+          },
+          "prev": {
+            "text": "Proposition 6.",
+            "url": "/books/8/prop.6"
+          }
         },
         {
           "id": "elem.8.8",
@@ -185,15 +233,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If between two numbers there fall numbers in continued proportion with them, then, however many numbers fall between them in continued proportion, so many will also fall in continued proportion between the numbers which have the same ratio with the original numbers.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 8,
+          "next": {
+            "text": "Proposition 9.",
+            "url": "/books/8/prop.9"
+          },
+          "prev": {
+            "text": "Proposition 7.",
+            "url": "/books/8/prop.7"
+          }
         },
         {
           "id": "elem.8.9",
@@ -208,15 +263,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If two numbers be prime to one another, and numbers fall between them in continued proportion, then, however many numbers fall between them in continued proportion, so many will also fall between each of them and an unit in continued proportion.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 8,
+          "next": {
+            "text": "Proposition 10.",
+            "url": "/books/8/prop.10"
+          },
+          "prev": {
+            "text": "Proposition 8.",
+            "url": "/books/8/prop.8"
+          }
         },
         {
           "id": "elem.8.10",
@@ -231,15 +293,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If numbers fall between each of two numbers and an unit in continued proportion, however many numbers fall between each of them and an unit in continued proportion, so many also will fall between the numbers themselves in continued proportion.\n       \n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 8,
+          "next": {
+            "text": "Proposition 11.",
+            "url": "/books/8/prop.11"
+          },
+          "prev": {
+            "text": "Proposition 9.",
+            "url": "/books/8/prop.9"
+          }
         },
         {
           "id": "elem.8.11",
@@ -254,15 +323,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       Between two square numbers there is one mean proportional number, and the square has to the square the ratio duplicate of that which the side has to the side.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 8,
+          "next": {
+            "text": "Proposition 12.",
+            "url": "/books/8/prop.12"
+          },
+          "prev": {
+            "text": "Proposition 10.",
+            "url": "/books/8/prop.10"
+          }
         },
         {
           "id": "elem.8.12",
@@ -277,15 +353,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       Between two cube numbers there are two mean proportional numbers, and the cube has to the cube the ratio triplicate of that which the side has to the side.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 8,
+          "next": {
+            "text": "Proposition 13.",
+            "url": "/books/8/prop.13"
+          },
+          "prev": {
+            "text": "Proposition 11.",
+            "url": "/books/8/prop.11"
+          }
         },
         {
           "id": "elem.8.13",
@@ -300,15 +383,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If there be as many numbers as we please in continued proportion, and each by multiplying itself make some number, the products will be proportional; and, if the original numbers by multiplying the products make certain numbers, the latter will also be proportional.\n       \n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 8,
+          "next": {
+            "text": "Proposition 14.",
+            "url": "/books/8/prop.14"
+          },
+          "prev": {
+            "text": "Proposition 12.",
+            "url": "/books/8/prop.12"
+          }
         },
         {
           "id": "elem.8.14",
@@ -323,15 +413,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If a square measure a square, the side will also measure the side; and, if the side measure the side, the square will also measure the square.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 8,
+          "next": {
+            "text": "Proposition 15.",
+            "url": "/books/8/prop.15"
+          },
+          "prev": {
+            "text": "Proposition 13.",
+            "url": "/books/8/prop.13"
+          }
         },
         {
           "id": "elem.8.15",
@@ -346,15 +443,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If a cube number measure a cube number, the side will also measure the side; and, if the side measure the side, the cube will also measure the cube.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 8,
+          "next": {
+            "text": "Proposition 16.",
+            "url": "/books/8/prop.16"
+          },
+          "prev": {
+            "text": "Proposition 14.",
+            "url": "/books/8/prop.14"
+          }
         },
         {
           "id": "elem.8.16",
@@ -369,15 +473,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If a square number do not measure a square number, neither will the side measure the side; and, if the side do not measure the side, neither will the square measure the square.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 8,
+          "next": {
+            "text": "Proposition 17.",
+            "url": "/books/8/prop.17"
+          },
+          "prev": {
+            "text": "Proposition 15.",
+            "url": "/books/8/prop.15"
+          }
         },
         {
           "id": "elem.8.17",
@@ -392,15 +503,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If a cube number do not measure a cube number, neither will the side measure the side; and, if the side do not measure the side, neither will the cube measure the cube.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 8,
+          "next": {
+            "text": "Proposition 18.",
+            "url": "/books/8/prop.18"
+          },
+          "prev": {
+            "text": "Proposition 16.",
+            "url": "/books/8/prop.16"
+          }
         },
         {
           "id": "elem.8.18",
@@ -415,15 +533,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       Between two similar plane numbers there is one mean proportional number; and the plane number has to the plane number the ratio duplicate of that which the corresponding side has to the corresponding side.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 8,
+          "next": {
+            "text": "Proposition 19.",
+            "url": "/books/8/prop.19"
+          },
+          "prev": {
+            "text": "Proposition 17.",
+            "url": "/books/8/prop.17"
+          }
         },
         {
           "id": "elem.8.19",
@@ -438,15 +563,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       Between two similar solid numbers there fall two mean proportional numbers; and the solid number has to the similar solid number the ratio triplicate of that which the corresponding side has to the corresponding side.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 8,
+          "next": {
+            "text": "Proposition 20.",
+            "url": "/books/8/prop.20"
+          },
+          "prev": {
+            "text": "Proposition 18.",
+            "url": "/books/8/prop.18"
+          }
         },
         {
           "id": "elem.8.20",
@@ -461,15 +593,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If one mean proportional number fall between two numbers, the numbers will be similar plane numbers.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 8,
+          "next": {
+            "text": "Proposition 21.",
+            "url": "/books/8/prop.21"
+          },
+          "prev": {
+            "text": "Proposition 19.",
+            "url": "/books/8/prop.19"
+          }
         },
         {
           "id": "elem.8.21",
@@ -484,15 +623,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If two mean proportional numbers fall between two numbers, the numbers are similar solid numbers.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 8,
+          "next": {
+            "text": "Proposition 22.",
+            "url": "/books/8/prop.22"
+          },
+          "prev": {
+            "text": "Proposition 20.",
+            "url": "/books/8/prop.20"
+          }
         },
         {
           "id": "elem.8.22",
@@ -507,15 +653,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If three numbers be in continued proportion, and the first be square, the third will also be square.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 8,
+          "next": {
+            "text": "Proposition 23.",
+            "url": "/books/8/prop.23"
+          },
+          "prev": {
+            "text": "Proposition 21.",
+            "url": "/books/8/prop.21"
+          }
         },
         {
           "id": "elem.8.23",
@@ -530,15 +683,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If four numbers be in continued proportion, and the first be cube, the fourth will also be cube.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 8,
+          "next": {
+            "text": "Proposition 24.",
+            "url": "/books/8/prop.24"
+          },
+          "prev": {
+            "text": "Proposition 22.",
+            "url": "/books/8/prop.22"
+          }
         },
         {
           "id": "elem.8.24",
@@ -553,15 +713,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If two numbers have to one another the ratio which a square number has to a square number, and the first be square, the second will also be square.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 8,
+          "next": {
+            "text": "Proposition 25.",
+            "url": "/books/8/prop.25"
+          },
+          "prev": {
+            "text": "Proposition 23.",
+            "url": "/books/8/prop.23"
+          }
         },
         {
           "id": "elem.8.25",
@@ -576,15 +743,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If two numbers have to one another the ratio which a cube number has to a cube number, and the first be cube, the second will also be cube.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 8,
+          "next": {
+            "text": "Proposition 26.",
+            "url": "/books/8/prop.26"
+          },
+          "prev": {
+            "text": "Proposition 24.",
+            "url": "/books/8/prop.24"
+          }
         },
         {
           "id": "elem.8.26",
@@ -599,15 +773,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       Similar plane numbers have to one another the ratio which a square number has to a square number.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 8,
+          "next": {
+            "text": "Proposition 27.",
+            "url": "/books/8/prop.27"
+          },
+          "prev": {
+            "text": "Proposition 25.",
+            "url": "/books/8/prop.25"
+          }
         },
         {
           "id": "elem.8.27",
@@ -622,21 +803,35 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       Similar solid numbers have to one another the ratio which a cube number has to a cube number.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 8,
+          "next": {
+            "text": "BOOK IX",
+            "url": "/books/9"
+          },
+          "prev": {
+            "text": "Proposition 26.",
+            "url": "/books/8/prop.26"
+          }
         }
-      ],
-      "Layout": ""
+      ]
     }
   ],
   "weight": 8,
   "type": "book",
-  "Layout": "book"
+  "layout": "book",
+  "next": {
+    "text": "BOOK IX",
+    "url": "/books/9"
+  },
+  "prev": {
+    "text": "BOOK VII",
+    "url": "/books/7"
+  }
 }

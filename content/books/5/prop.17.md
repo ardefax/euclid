@@ -2,8 +2,7 @@
   "id": "elem.5.17",
   "kind": "proposition",
   "frag": "prop.17",
-  "title": "Proposition 17.",
-  "link": "",
+  "title": "BOOK V: Proposition 17.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>If magnitudes be proportional</var>\n       <foreign lang=\"la\">componendo</foreign>, <var>they will also be proportional</var>\n       <foreign lang=\"la\">separando</foreign>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.5.17.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>AB</var>, <var>BE</var>, <var>CD</var>, <var>DF</var> be magnitudes proportional <foreign lang=\"la\">componendo</foreign>, so that, as <var>AB</var> is to <var>BE</var>, so is <var>CD</var> to <var>DF</var>; I say that they will also be proportional <foreign lang=\"la\">separando</foreign>, that is, as <var>AE</var> is to <var>EB</var>, so is <var>CF</var> to <var>DF</var>. ",
         "For of <var>AE</var>, <var>EB</var>, <var>CF</var>, <var>FD</var> let equimultiples <var>GH</var>, <var>HK</var>, <var>LM</var>, <var>MN</var> be taken, and of <var>EB</var>, <var>FD</var> other, chance, equimultiples, <var>KO</var>, <var>NP</var>. ",
@@ -39,21 +35,27 @@
         "Similarly we can prove that, if <var>GH</var> be equal to <var>KO</var>, <var>LM</var> will also be equal to <var>NP</var>, and if less, less. ",
         "And <var>GH</var>, <var>LM</var> are equimultiples of <var>AE</var>, <var>CF</var>, while <var>KO</var>, <var>NP</var> are other, chance, equimultiples of <var>EB</var>, <var>FD</var>; therefore, as <var>AE</var> is to <var>EB</var>, so is <var>CF</var> to <var>FD</var>.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 5,
+  "next": {
+    "text": "Proposition 18.",
+    "url": "/books/5/prop.18"
+  },
+  "prev": {
+    "text": "Proposition 16.",
+    "url": "/books/5/prop.16"
+  }
 }

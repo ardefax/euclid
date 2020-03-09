@@ -2,8 +2,7 @@
   "id": "elem.8.6",
   "kind": "proposition",
   "frag": "prop.6",
-  "title": "Proposition 6.",
-  "link": "",
+  "title": "BOOK VIII: Proposition 6.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       If there be as many numbers as we please in continued proportion, and the first do not measure the second, neither will any other measure any other.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.8.6.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let there be as many numbers as we please, A, B, C, D, E, in continued proportion, and let A not measure B; I say that neither will any other measure any other. \n      ",
         "Now it is manifest that A, B, C, D, E do not measure one another in order; for A does not even measure B. ",
@@ -35,21 +31,27 @@
         "Now F, H are prime to one another. [<a href=\"/books/8/#prop.3\">VIII. 3</a>] ",
         "And, as F is to H, so is A to C; therefore neither does A measure C. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Similarly we can prove that neither will any other measure any other. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 8,
+  "next": {
+    "text": "Proposition 7.",
+    "url": "/books/8/prop.7"
+  },
+  "prev": {
+    "text": "Proposition 5.",
+    "url": "/books/8/prop.5"
+  }
 }

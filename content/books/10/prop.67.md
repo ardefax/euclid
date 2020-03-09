@@ -2,8 +2,7 @@
   "id": "elem.10.67",
   "kind": "proposition",
   "frag": "prop.67",
-  "title": "Proposition 67.",
-  "link": "",
+  "title": "BOOK X: Proposition 67.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "A straight line commensurable in length with a bimedial straight line is itself also bimedial and the same in order. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.67.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let AB be bimedial, and let CD be commensurable in length with AB; I say that CD is bimedial and the same in order with AB. \n      ",
         "For, since AB is bimedial, let it be divided into its medials at E; therefore AE, EB are medial straight lines commensurable in square only. [<a href=\"#elem.10.37 elem.10.38\">X. 37, 38</a>] ",
@@ -37,21 +33,27 @@
         "But the square on AE is commensurable with the square on CF; therefore the rectangle AE, EB is also commensurable with the rectangle CF, FD. ",
         "If therefore the rectangle AE, EB is rational, the rectangle CF, FD is also rational, [and for this reason CD is a first bimedial]; [<a href=\"/books/10/#prop.37\">X. 37</a>] but if medial, medial, [<a href=\"/books/10/#23.p.1\">X. 23, Por.</a>] and each of the straight lines AB, CD is a second bimedial. [<a href=\"/books/10/#prop.38\">X. 38</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "And for this reason CD will be the same in order with AB. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": {
+    "text": "Proposition 68.",
+    "url": "/books/10/prop.68"
+  },
+  "prev": {
+    "text": "Proposition 66.",
+    "url": "/books/10/prop.66"
+  }
 }

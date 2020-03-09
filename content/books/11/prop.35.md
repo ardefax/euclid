@@ -2,8 +2,7 @@
   "id": "elem.11.35",
   "kind": "proposition",
   "frag": "prop.35",
-  "title": "Proposition 35.",
-  "link": "",
+  "title": "BOOK XI: Proposition 35.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If there be two equal plane angles, and on their vertices there be set up elevated straight lines containing equal angles with the original straight lines respectively, if on the elevated straight lines points be taken at random and perpendiculars be drawn from them to the planes in which the original angles are, and if from the points so arising in the planes straight lines be joined to the vertices of the original angles, they will contain, with the elevated straight lines, equal angles. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.11.35.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let the angles BAC, EDF be two equal rectilineal angles, and from the points A, D let the elevated straight lines AG, DM be set up containing, with the original straight lines, equal angles respectively, namely, the angle MDE to the angle GAB and the angle MDF to the angle GAC, let points G, M be taken at random on AG, DM, let GL, MN be drawn from the points G, M perpendicular to the planes through BA, AC and ED, DF, and let them meet the planes at L, N, and let LA, ND be joined; I say that the angle GAL is equal to the angle MDN. \n      ",
         "Let AH be made equal to DM, and let HK be drawn through the point H parallel to GL. ",
@@ -50,21 +46,27 @@
         "But the squares on AK, KH are equal to the square on AH, for the angle AKH is right; [<a href=\"/books/1/#prop.47\">I. 47</a>] and the squares on DN, NM are equal to the square on DM, for the angle DNM is right; [<a href=\"/books/1/#prop.47\">I. 47</a>] therefore the squares on AK, KH are equal to the squares on DN, NM; and of these the square on AK is equal to the square on DN; therefore the remaining square on KH is equal to the square on NM; therefore HK is equal to MN. ",
         "And, since the two sides HA, AK are equal to the two sides MD, DN respectively, and the base HK was proved equal to the base MN, therefore the angle HAK is equal to the angle MDN. [<a href=\"/books/1/#prop.8\">I. 8</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 11,
+  "next": {
+    "text": "Proposition 36.",
+    "url": "/books/11/prop.36"
+  },
+  "prev": {
+    "text": "Proposition 34.",
+    "url": "/books/11/prop.34"
+  }
 }

@@ -2,8 +2,7 @@
   "id": "elem.13.12",
   "kind": "proposition",
   "frag": "prop.12",
-  "title": "Proposition 12.",
-  "link": "",
+  "title": "BOOK XIII: Proposition 12.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If an equilateral triangle be inscribed in a circle, the square on the side of the triangle is triple of the square on the radius of the circle.\n       "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.13.12.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let ABC be a circle, and let the equilateral triangle ABC be inscribed in it; I say that the square on one side of the triangle ABC is triple of the square on the radius of the circle. \n      ",
         "For let the centre D of the circle ABC be taken, let AD be joined and carried through to E, and let BE be joined. ",
@@ -34,21 +30,27 @@
         "Therefore, <foreign lang=\"la\">separando</foreign>, the square on AB is triple of the square on BE. ",
         "But BE is equal to DE; therefore the square on AB is triple of the square on DE. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore the square on the side of the triangle is triple of the square on the radius. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 13,
+  "next": {
+    "text": "Proposition 13.",
+    "url": "/books/13/prop.13"
+  },
+  "prev": {
+    "text": "Proposition 11.",
+    "url": "/books/13/prop.11"
+  }
 }

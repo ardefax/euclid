@@ -2,8 +2,7 @@
   "id": "elem.10.81",
   "kind": "proposition",
   "frag": "prop.81",
-  "title": "Proposition 81.",
-  "link": "",
+  "title": "BOOK X: Proposition 81.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "To a second apotome of a medial straight line only one medial straight line can be annexed which is commensurable with the whole in square only and which contains with the whole a medial rectangle. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.81.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let AB be a second apotome of a medial straight line and BC an annex to AB; therefore AC, CB are medial straight lines commensurable in square only and such that the rectangle AC, CB which they contain is medial. [<a href=\"/books/10/#prop.75\">X. 75</a>] \n      ",
         "I say that no other medial straight line can be annexed to AB which is commensurable with the whole in square only and which contains with the whole a medial rectangle. ",
@@ -45,21 +41,27 @@
         "And both are rational; therefore EM, MH are rational straight lines commensurable in square only; therefore EH is an apotome, and HM an annex to it. [<a href=\"/books/10/#prop.73\">X. 73</a>] ",
         "Similarly we can prove that HN is also an annex to it; therefore to an apotome different straight lines are annexed which are commensurable with the wholes in square only: which is impossible. [<a href=\"/books/10/#prop.79\">X. 79</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": {
+    "text": "Proposition 82.",
+    "url": "/books/10/prop.82"
+  },
+  "prev": {
+    "text": "Proposition 80.",
+    "url": "/books/10/prop.80"
+  }
 }

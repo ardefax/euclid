@@ -2,8 +2,7 @@
   "id": "elem.11.4",
   "kind": "proposition",
   "frag": "prop.4",
-  "title": "Proposition 4.",
-  "link": "",
+  "title": "BOOK XI: Proposition 4.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If a straight line be set up at right angles to two straight lines which cut one another, at their common point of section, it will also be at right angles to the plane through them.\n       "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.11.4.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let a straight line EF be set up at right angles to the two straight lines AB, CD, which cut one another at the point E, from E; I say that EF is also at right angles to the plane through AB, CD. \n      ",
         "For let AE, EB, CE, ED be cut off equal to one another, and let any straight line GEH be drawn across through E, at random; let AD, CB be joined, and further let FA, FG, FD, FC, FH, FB be joined from the point F taken at random &lt;on EF&gt;. ",
@@ -43,21 +39,27 @@
         "But the plane of reference is the plane through the straight lines AB, CD. ",
         "Therefore FE is at right angles to the plane through AB, CD. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 11,
+  "next": {
+    "text": "Proposition 5.",
+    "url": "/books/11/prop.5"
+  },
+  "prev": {
+    "text": "Proposition 3.",
+    "url": "/books/11/prop.3"
+  }
 }

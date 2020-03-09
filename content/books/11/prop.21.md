@@ -2,8 +2,7 @@
   "id": "elem.11.21",
   "kind": "proposition",
   "frag": "prop.21",
-  "title": "Proposition 21.",
-  "link": "",
+  "title": "BOOK XI: Proposition 21.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       Any solid angle is contained by plane angles less than four right angles.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.11.21.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let the angle at A be a solid angle contained by the plane angles BAC, CAD, DAB; I say that the angles BAC, CAD, DAB are less than four right angles. ",
         "For let points B, C, D be taken at random on the straight lines AB, AC, AD respectively, and let BC, CD, DB be joined. \n      ",
@@ -32,21 +28,27 @@
         "But the three angles CBD, BDC, BCD are equal to two right angles; [<a href=\"/books/1/#prop.32\">I. 32</a>] therefore the six angles CBA, ABD, BCA, ACD, CDA, ADB are greater than two right angles. ",
         "And, since the three angles of each of the triangles ABC, ACD, ADB are equal to two right angles, therefore the nine angles of the three triangles, the angles CBA, ACB, BAC, ACD, CDA, CAD, ADB, DBA, BAD are equal to six right angles; and of them the six angles ABC, BCA, ACD, CDA, ADB, DBA are greater than two right angles; therefore the remaining three angles BAC, CAD, DAB containing the solid angle are less than four right angles. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 11,
+  "next": {
+    "text": "Proposition 22.",
+    "url": "/books/11/prop.22"
+  },
+  "prev": {
+    "text": "Proposition 20.",
+    "url": "/books/11/prop.20"
+  }
 }

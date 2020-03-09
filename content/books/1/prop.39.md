@@ -2,8 +2,7 @@
   "id": "elem.1.39",
   "kind": "proposition",
   "frag": "prop.39",
-  "title": "Proposition 39.",
-  "link": "",
+  "title": "BOOK I: Proposition 39.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Equal triangles which are on the same base and on the same side are also in the same parallels."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.1.39.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABC</var>, <var>DBC</var> be equal triangles which are on the same base <var>BC</var> and on the same side of it; [I say that they are also in the same parallels.]",
         "And [For] let <var>AD</var> be joined; I say that <var>AD</var> is parallel to <var>BC</var>.",
@@ -33,21 +29,27 @@
         "Therefore <var>AE</var> is not parallel to <var>BC</var>. ",
         "Similarly we can prove that neither is any other straight line except <var>AD</var>; therefore <var>AD</var> is parallel to <var>BC</var>."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 1,
+  "next": {
+    "text": "Proposition 40.",
+    "url": "/books/1/prop.40"
+  },
+  "prev": {
+    "text": "Proposition 38.",
+    "url": "/books/1/prop.38"
+  }
 }

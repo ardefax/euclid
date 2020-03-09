@@ -2,8 +2,7 @@
   "id": "elem.12.8",
   "kind": "proposition",
   "frag": "prop.8",
-  "title": "Proposition 8.",
-  "link": "",
+  "title": "BOOK XII: Proposition 8.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       Similar pyramids which have triangular bases are in the triplicate ratio of their corresponding sides.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.12.8.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let there be similar and similarly situated pyramids of which the triangles ABC, DEF, are the bases and the points G, H the vertices; I say that the pyramid ABCG has to the pyramid DEFH the ratio triplicate of that which BC has to EF. \n      ",
         "For let the parallelepipedal solids BGML, EHQP be completed. ",
@@ -37,21 +33,27 @@
         "Therefore the solid BGML has to the solid EHQP the ratio triplicate of that which the corresponding side BC has to the corresponding side EF. ",
         "But, as the solid BGML is to the solid EHQP, so is the pyramid ABCG to the pyramid DEFH, inasmuch as the pyramid is a sixth part of the solid, because the prism which is half of the parallelepipedal solid [<a href=\"/books/11/#prop.28\">XI. 28</a>] is also triple of the pyramid. [<a href=\"/books/12/#prop.7\">XII. 7</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore the pyramid ABCG also has to the pyramid DEFH the ratio triplicate of that which BC has to EF. Q. E. D. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 12,
+  "next": {
+    "text": "Proposition 9.",
+    "url": "/books/12/prop.9"
+  },
+  "prev": {
+    "text": "Proposition 7.",
+    "url": "/books/12/prop.7"
+  }
 }

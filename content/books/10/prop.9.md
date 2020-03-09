@@ -2,8 +2,7 @@
   "id": "elem.10.9",
   "kind": "proposition",
   "frag": "prop.9",
-  "title": "Proposition 9.",
-  "link": "",
+  "title": "BOOK X: Proposition 9.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "The squares on straight lines commensurable in length have to one another the ratio which a square number has to a square number; and squares which have to one another the ratio which a square number has to a square number will also have their sides commensurable in length. <title>But the squares on straight lines incommensurable in length have not to one another the ratio which a square number has to a square number; and squares which have not to one another the ratio which a square number has to a square number will not have their sides commensurable in length either</title>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.9.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let A, B be commensurable in length; I say that the square on A has to the square on B the ratio which a square number has to a square number. \n      ",
         "For, since A is commensurable in length with B, therefore A has to B the ratio which a number has to a number. [<a href=\"/books/10/#prop.5\">X. 5</a>] ",
@@ -39,21 +35,27 @@
         "For, if A is commensurable with B, the square on A will have to the square on B the ratio which a square number has to a square number. ",
         "But it has not; therefore A is not commensurable in length with B. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": {
+    "text": "Proposition 10.",
+    "url": "/books/10/prop.10"
+  },
+  "prev": {
+    "text": "Proposition 8.",
+    "url": "/books/10/prop.8"
+  }
 }

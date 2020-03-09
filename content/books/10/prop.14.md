@@ -2,8 +2,7 @@
   "id": "elem.10.14",
   "kind": "proposition",
   "frag": "prop.14",
-  "title": "Proposition 14.",
-  "link": "",
+  "title": "BOOK X: Proposition 14.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If four straight lines be proportional, and the square on the first be greater than the square on the second by the square on a straight line commensurable with the first, the square on the third will also be greater than the square on the fourth by\n       the square on a straight line commensurable with the third. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.14.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "And, if the square on the first be greater than the square on the second by the square on a straight line incommensurable with the first, the square on the third will also be greater than the square on the fourth by the square on a straight line in-\n       commensurable with the third. ",
         "Let A, B, C, D be four straight lines in proportion, so that, as A is to B, so is C to D; and let the square on A be greater than the square on B by the square on E, and let the square on C be greater than the square on D by the square on F; I say that, if A is commensurable with E, C is also commensurable with F, and, if A is incommensurable with E, C is also incommensurable with F. \n      ",
@@ -33,21 +29,27 @@
         "But, as A is to B, so also is C to D; therefore, <foreign lang=\"la\">ex aequali</foreign>, as A is to E, so is C to F. [<a href=\"/books/5/#prop.22\">V. 22</a>] ",
         "Therefore, if A is commensurable with E, C is also commensurable with F, and, if A is incommensurable with E, C is also incommensurable with F. [<a href=\"/books/10/#prop.11\">X. 11</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc.<note type=\"crit\" place=\"unspecified\" anchored=\"yes\">3, 5, 8, 10. Euclid speaks of the square on the first (third) being greater than the square on the second (fourth) by the square on a straight line commensurable (incommensurable) <quote>with itself (<foreign lang=\"greek\">ἑαυτῇ</foreign>),</quote>\n and similarly in all like phrases throughout the Book. For clearness' sake I substitute <quote>the first,</quote>\n <quote>the third,</quote>\n or whatever it may be, for <quote>itself</quote>\n in these cases.</note>"
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": {
+    "text": "Proposition 15.",
+    "url": "/books/10/prop.15"
+  },
+  "prev": {
+    "text": "Proposition 13.",
+    "url": "/books/10/prop.13"
+  }
 }

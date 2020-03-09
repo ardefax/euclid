@@ -2,8 +2,7 @@
   "id": "elem.3.19",
   "kind": "proposition",
   "frag": "prop.19",
-  "title": "Proposition 19.",
-  "link": "",
+  "title": "BOOK III: Proposition 19.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>If a straight line touch a circle</var>, <var>and from the point of contact a straight line be drawn at right angles to the tangent</var>, <var>the centre of the circle will be on the straight line so drawn</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.3.19.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let a straight line <var>DE</var> touch the circle <var>ABC</var> at the point <var>C</var>, and from <var>C</var> let <var>CA</var> be drawn at right angles to <var>DE</var>; I say that the centre of the circle is on <var>AC</var>. ",
         "For suppose it is not, but, if  possible, let <var>F</var> be the centre, and let <var>CF</var> be joined. ",
@@ -32,21 +28,27 @@
         "Therefore <var>F</var> is not the centre of the circle <var>ABC</var>. ",
         "Similarly we can prove that neither is any other point except a point on <var>AC</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 3,
+  "next": {
+    "text": "Proposition 20.",
+    "url": "/books/3/prop.20"
+  },
+  "prev": {
+    "text": "Proposition 18.",
+    "url": "/books/3/prop.18"
+  }
 }

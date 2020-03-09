@@ -2,8 +2,7 @@
   "id": "elem.3.1",
   "kind": "proposition",
   "frag": "prop.1",
-  "title": "Proposition 1.",
-  "link": "",
+  "title": "BOOK III: Proposition 1.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>To find the centre of a given circle</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.3.1.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABC</var> be the given circle; thus it is required to find the centre of the circle <var>ABC</var>. ",
         "Let a straight line <var>AB</var> be drawn through it at random, and let it be bisected at the point <var>D</var>; from <var>D</var> let <var>DC</var> be drawn at right angles to <var>AB</var> and let it be drawn through to <var>E</var>; let <var>CE</var> be bisected at <var>F</var>; I say that <var>F</var> is the centre of the circle <var>ABC</var>. \n      ",
@@ -32,21 +28,27 @@
         "But, when a straight line set up on a straight line makes the adjacent angles equal to one another, each of the equal angles is right; [<a href=\"/books/1/#def.10\">I. Def. 10</a>] therefore the angle <var>GDB</var> is right.\n       ",
         "But the angle <var>FDB</var> is also right; therefore the angle <var>FDB</var> is equal to the angle <var>GDB</var>, the greater to the less: which is impossible. Therefore <var>G</var> is not the centre of the circle <var>ABC</var>.\n       "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Similarly we can prove that neither is any other point except <var>F</var>. Therefore the point <var>F</var> is the centre of the circle <var>ABC</var>.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 3,
+  "next": {
+    "text": "Proposition 2.",
+    "url": "/books/3/prop.2"
+  },
+  "prev": {
+    "text": "BOOK III",
+    "url": "/books/3"
+  }
 }

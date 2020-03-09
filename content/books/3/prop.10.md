@@ -2,8 +2,7 @@
   "id": "elem.3.10",
   "kind": "proposition",
   "frag": "prop.10",
-  "title": "Proposition 10.",
-  "link": "",
+  "title": "BOOK III: Proposition 10.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>A circle does not cut a circle at more points than two</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.3.10.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For, if possible, let the circle <var>ABC</var> cut the circle <var>DEF</var> at more points than two, namely <var>B</var>, <var>C</var>, <var>F</var>, <var>H</var>; ",
         "let <var>BH</var>, <var>BG</var> be joined and bisected at the points <var>K</var>, <var>L</var>, and from <var>K</var>, <var>L</var> let <var>KC</var>, <var>LM</var> be drawn at right angles to <var>BH</var>, <var>BG</var> and carried through to the points <var>A</var>, <var>E</var>. \n      ",
@@ -32,21 +28,27 @@
         "But it was also proved to be on <var>AC</var>, and the straight lines <var>AC</var>, <var>NO</var> meet at no point except at <var>P</var>; therefore the point <var>P</var> is the centre of the circle <var>ABC</var>.\n      ",
         "Similarly we can prove that <var>P</var> is also the centre of the circle <var>DEF</var>; therefore the two circles <var>ABC</var>, <var>DEF</var> which cut one another have the same centre <var>P</var>: which is impossible. [<a href=\"/books/3/#prop.5\">III. 5</a>]\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D.\n<note n=\"1\" type=\"crit\" place=\"unspecified\" anchored=\"yes\">\n        <p>The word circle (<foreign lang=\"greek\">κύκλος</foreign>) is here employed in the unusual sense of the <var>circumference</var> (<foreign lang=\"greek\">περιφέρεια</foreign>) of a circle. Cf. note on <a href=\"/books/1/#def.15\">I. Def. 15</a>.</p>\n       </note>"
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 3,
+  "next": {
+    "text": "Proposition 11.",
+    "url": "/books/3/prop.11"
+  },
+  "prev": {
+    "text": "Proposition 9.",
+    "url": "/books/3/prop.9"
+  }
 }

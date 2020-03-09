@@ -2,8 +2,7 @@
   "id": "elem.10.16",
   "kind": "proposition",
   "frag": "prop.16",
-  "title": "Proposition 16.",
-  "link": "",
+  "title": "BOOK X: Proposition 16.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If two incommensurable magnitudes be added together, the whole will also be incommensurable with each of them; and, if the whole be incommensurable with one of them, the original magnitudes will also be incommensurable. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.16.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the two incommensurable magnitudes AB, BC be added together; I say that the whole AC is also incommensurable with each of the magnitudes AB, BC. ",
         "For, if CA, AB are not incommensurable, some magnitude will measure them. ",
@@ -43,21 +39,27 @@
         "Therefore CA, AB are commensurable; but they were also, by hypothesis, incommensurable: which is impossible. ",
         "Therefore no magnitude will measure AB, BC; therefore AB, BC are incommensurable. [<a href=\"/books/10/#def.1\">X. Def. 1</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": {
+    "text": "Proposition 17.",
+    "url": "/books/10/prop.17"
+  },
+  "prev": {
+    "text": "Proposition 15.",
+    "url": "/books/10/prop.15"
+  }
 }

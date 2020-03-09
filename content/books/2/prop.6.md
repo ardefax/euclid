@@ -2,8 +2,7 @@
   "id": "elem.2.6",
   "kind": "proposition",
   "frag": "prop.6",
-  "title": "Proposition 6.",
-  "link": "",
+  "title": "BOOK II: Proposition 6.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>If a straight line be bisected and a straight line be added to it in a straight line</var>, <var>the rectangle contained by the whole with the added straight line and the added straight line together with the square on the half is equal to the square on the straight line made up of the half and the added straight line</var>."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.2.6.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let a straight line <var>AB</var> be bisected at the point <var>C</var>, and let a straight line <var>BD</var> be added to it in a straight line;",
         "I say that the rectangle contained by <var>AD</var>, <var>DB</var> together with the square on <var>CB</var> is equal to the square on <var>CD</var>.",
@@ -33,21 +29,27 @@
         "Let <var>LG</var>, which is equal to the square on <var>BC</var>, be added to each; therefore the rectangle contained by <var>AD</var>, <var>DB</var> together with the square on <var>CB</var> is equal to the gnomon <var>NOP</var> and <var>LG</var>.",
         "But the gnomon <var>NOP</var> and <var>LG</var> are the whole square <var>CEFD</var>, which is described on <var>CD</var>; therefore the rectangle contained by <var>AD</var>, <var>DB</var> together with the square on <var>CB</var> is equal to the square on <var>CD</var>."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 2,
+  "next": {
+    "text": "Proposition 7.",
+    "url": "/books/2/prop.7"
+  },
+  "prev": {
+    "text": "Proposition 5.",
+    "url": "/books/2/prop.5"
+  }
 }

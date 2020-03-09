@@ -3,7 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ if not .IsHome }}Elements: {{ end }}{{ .Title }}</title>
+  {{/* Make a Title Bar property to avoid this nonsense */}}
+  {{ $title := .Title }}
+  {{ if not .IsHome }}
+    {{ $parts := split $title ": "}}
+    {{ if eq (len $parts) 1 }}
+      {{ $title = print (index $parts 0) " | Elements" }}
+    {{ else if (len $parts) 2 }}
+      {{ $title = print (index $parts 1) " | " (index $parts 0) " | Elements" }}
+    {{ end }}
+  {{ end }}
+  <title>{{ $title }} </title>
   <link rel="stylesheet" href="/root.css" type="text/css">
 </head>
 <body>

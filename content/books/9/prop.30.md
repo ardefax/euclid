@@ -2,8 +2,7 @@
   "id": "elem.9.30",
   "kind": "proposition",
   "frag": "prop.30",
-  "title": "Proposition 30.",
-  "link": "",
+  "title": "BOOK IX: Proposition 30.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       If an odd number measure an even number, it will also measure the half of it.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.9.30.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the odd number A measure the even number B; I say that it will also measure the half of it. \n      ",
         "For, since A measures B, let it measure it according to C; I say that C is not odd. ",
@@ -34,21 +30,27 @@
         "Therefore C is not odd; therefore C is even. ",
         "Thus A measures B an even number of times. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For this reason then it also measures the half of it. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 9,
+  "next": {
+    "text": "Proposition 31.",
+    "url": "/books/9/prop.31"
+  },
+  "prev": {
+    "text": "Proposition 29.",
+    "url": "/books/9/prop.29"
+  }
 }

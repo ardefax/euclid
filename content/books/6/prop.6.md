@@ -2,8 +2,7 @@
   "id": "elem.6.6",
   "kind": "proposition",
   "frag": "prop.6",
-  "title": "Proposition 6.",
-  "link": "",
+  "title": "BOOK VI: Proposition 6.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>If two triangles have one angle equal to one angle and the sides about the equal angles proportional</var>, <var>the triangles will be equiangular and will have those angles equal which the corresponding sides subtend</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.6.6.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABC</var>, <var>DEF</var> be two triangles having one angle <var>BAC</var> equal to one angle <var>EDF</var> and the sides about the equal angles proportional, so that, as <var>BA</var> is to <var>AC</var>, so is <var>ED</var> to <var>DF</var>; I say that the triangle <var>ABC</var> is equiangular with the triangle <var>DEF</var>, and will have the angle <var>ABC</var> equal to the angle <var>DEF</var>, and the angle <var>ACB</var> to the angle <var>DFE</var>. ",
         "For on the straight line <var>DF</var>, and at the points <var>D</var>, <var>F</var> on it, let there be constructed the angle <var>FDG</var> equal to either of the angles <var>BAC</var>, <var>EDF</var>, and the angle <var>DFG</var> equal to the angle <var>ACB</var>; [<a href=\"/books/1/#prop.23\">I. 23</a>] therefore the remaining angle at <var>B</var> is equal to the remaining angle at <var>G</var>. [<a href=\"/books/1/#prop.32\">I. 32</a>]\n       ",
@@ -35,21 +31,27 @@
         "But the angle <var>DFG</var> is equal to the angle <var>ACB</var>; therefore the angle <var>ACB</var> is also equal to the angle <var>DFE</var>. ",
         "And, by hypothesis, the angle <var>BAC</var> is also equal to the angle <var>EDF</var>; therefore the remaining angle at <var>B</var> is also equal to the remaining angle at <var>E</var>; [<a href=\"/books/1/#prop.32\">I. 32</a>] therefore the triangle <var>ABC</var> is equiangular with the triangle <var>DEF</var>.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 6,
+  "next": {
+    "text": "Proposition 7.",
+    "url": "/books/6/prop.7"
+  },
+  "prev": {
+    "text": "Proposition 5.",
+    "url": "/books/6/prop.5"
+  }
 }

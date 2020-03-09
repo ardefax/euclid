@@ -2,8 +2,7 @@
   "id": "elem.3.6",
   "kind": "proposition",
   "frag": "prop.6",
-  "title": "Proposition 6.",
-  "link": "",
+  "title": "BOOK III: Proposition 6.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>If two circles touch one another</var>, <var>they will not have the same centre</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.3.6.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the two circles <var>ABC</var>, <var>CDE</var> touch one another at the point <var>C</var>; I say that they will not have the same centre. \n      ",
         "For, if possible, let it be <var>F</var>; let <var>FC</var> be joined, and let <var>FEB</var> be drawn through at random. ",
@@ -32,21 +28,27 @@
         "But <var>FC</var> was proved equal to <var>FB</var>; therefore <var>FE</var> is also equal to <var>FB</var>, the less to the greater: which is impossible.\n      ",
         "Therefore <var>F</var> is not the centre of the circles <var>ABC</var>, <var>CDE</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 3,
+  "next": {
+    "text": "Proposition 7.",
+    "url": "/books/3/prop.7"
+  },
+  "prev": {
+    "text": "Proposition 5.",
+    "url": "/books/3/prop.5"
+  }
 }

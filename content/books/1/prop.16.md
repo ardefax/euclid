@@ -2,8 +2,7 @@
   "id": "elem.1.16",
   "kind": "proposition",
   "frag": "prop.16",
-  "title": "Proposition 16.",
-  "link": "",
+  "title": "BOOK I: Proposition 16.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "In any triangle, if one of the sides be produced, the exterior angle is greater than either of the interior and opposite angles."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.1.16.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABC</var> be a triangle, and let one side of it <var>BC</var> be produced to <var>D</var>; ",
         "I say that the exterior angle <var>ACD</var> is greater than either of the interior and opposite angles <var>CBA</var>, <var>BAC</var>.",
@@ -33,21 +29,27 @@
         "But the angle <var>ECD</var> is greater than the angle <var>ECF</var>; [<title>C. N</title>. 5] therefore the angle <var>ACD</var> is greater than the angle <var>BAE</var>.",
         "Similarly also, if <var>BC</var> be bisected, the angle <var>BCG</var>, that is, the angle <var>ACD</var> [<a href=\"/books/1/#prop.15\">I. 15</a>], can be proved greater than the angle <var>ABC</var> as well."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 1,
+  "next": {
+    "text": "Proposition 17.",
+    "url": "/books/1/prop.17"
+  },
+  "prev": {
+    "text": "Proposition 15.",
+    "url": "/books/1/prop.15"
+  }
 }

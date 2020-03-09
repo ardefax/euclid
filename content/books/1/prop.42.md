@@ -2,8 +2,7 @@
   "id": "elem.1.42",
   "kind": "proposition",
   "frag": "prop.42",
-  "title": "Proposition 42.",
-  "link": "",
+  "title": "BOOK I: Proposition 42.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "To construct, in a given rectilineal angle, a parallelogram equal to a given triangle."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.1.42.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABC</var> be the given triangle, and <var>D</var> the given rectilineal angle; thus it is required to construct in the rectilineal angle <var>D</var> a parallelogram equal to the triangle <var>ABC</var>. ",
         "Let <var>BC</var> be bisected at <var>E</var>, and let <var>AE</var> be joined; on the straight line <var>EC</var>, and at the point <var>E</var> on it, let the angle <var>CEF</var> be constructed equal to the angle <var>D</var>; [<a href=\"/books/1/#prop.23\">I. 23</a>] through <var>A</var> let <var>AG</var> be drawn parallel to <var>EC</var>, and [<a href=\"/books/1/#prop.31\">I. 31</a>] through <var>C</var> let <var>CG</var> be drawn parallel to <var>EF</var>.",
@@ -33,21 +29,27 @@
         "And it has the angle <var>CEF</var> equal to the given angle <var>D</var>.",
         ""
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Q. E. F."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 1,
+  "next": {
+    "text": "Proposition 43.",
+    "url": "/books/1/prop.43"
+  },
+  "prev": {
+    "text": "Proposition 41.",
+    "url": "/books/1/prop.41"
+  }
 }

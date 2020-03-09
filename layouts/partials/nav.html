@@ -1,5 +1,10 @@
 <nav>
   <a class="home" href="/">O</a>
   {{ range where .Site.Pages "Type" "book" }}
-  <a href="{{ .RelPermalink }}"{{ if eq $.Permalink .Permalink }} class="current-page"{{ end }}>{{ .Params.roman }}</a>{{ end }}
+  {{ $cls := "" }}
+  {{ if eq $.Permalink .Permalink }}
+    {{ $cls = "current-page" }}
+  {{ else if eq $.Params.book .Params.number }}
+    {{ $cls = "current-book" }}
+  {{ end }}<a href="{{ .RelPermalink }}" class="{{ $cls }}">{{ .Params.roman }}</a>{{ end }}
 </nav>

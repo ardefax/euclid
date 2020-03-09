@@ -2,8 +2,7 @@
   "id": "elem.6.3",
   "kind": "proposition",
   "frag": "prop.3",
-  "title": "Proposition 3.",
-  "link": "",
+  "title": "BOOK VI: Proposition 3.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>If an angle of a triangle be bisected and the straight line cutting the angle cut the base also</var>, <var>the segments of the base will have the same ratio as the remaining sides of the triangle; and</var>, <var>if the segments of the base have the same ratio as the remaining sides of the triangle</var>, <var>the straight line joined from the vertex to the point of section will bisect the angle of the triangle</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.6.3.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABC</var> be a triangle, and let the angle <var>BAC</var> be bisected by the straight line <var>AD</var>; I say that, as <var>BD</var> is to <var>CD</var>, so is <var>BA</var> to <var>AC</var>. ",
         "For let <var>CE</var> be drawn through <var>C</var> parallel to <var>DA</var>, and let <var>BA</var>\n        be carried through and meet it at <var>E</var>. ",
@@ -39,21 +35,27 @@
         "But the angle <var>AEC</var> is equal to the exterior angle <var>BAD</var>, [<a href=\"/books/1/#prop.29\">I. 29</a>] and the angle <var>ACE</var> is equal to the alternate angle <var>CAD</var>; [<var>id</var>.] therefore the angle <var>BAD</var> is also equal to the angle <var>CAD</var>.\n      ",
         "Therefore the angle <var>BAC</var> has been bisected by the straight line <var>AD</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 6,
+  "next": {
+    "text": "Proposition 4.",
+    "url": "/books/6/prop.4"
+  },
+  "prev": {
+    "text": "Proposition 2.",
+    "url": "/books/6/prop.2"
+  }
 }

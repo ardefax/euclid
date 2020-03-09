@@ -2,8 +2,7 @@
   "id": "elem.6.24",
   "kind": "proposition",
   "frag": "prop.24",
-  "title": "Proposition 24.",
-  "link": "",
+  "title": "BOOK VI: Proposition 24.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>In any parallelogram the parallelograms about the diameter are similar both to the whole and to one another</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.6.24.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABCD</var> be a parallelogram, and <var>AC</var> its diameter, and let <var>EG</var>, <var>HK</var> be parallelograms about <var>AC</var>; I say that each of the parallelograms <var>EG</var>, <var>HK</var> is similar both to the whole <var>ABCD</var> and to the other. \n      ",
         "For, since <var>EF</var> has been drawn parallel to <var>BC</var>, one of the sides of the triangle <var>ABC</var>, proportionally, as <var>BE</var> is to <var>EA</var>, so is <var>CF</var> to <var>FA</var>. [<a href=\"/books/6/#prop.2\">VI. 2</a>]\n      ",
@@ -38,21 +34,27 @@
         "For the same reason the parallelogram <var>ABCD</var> is also similar to the parallelogram <var>KH</var>; therefore each of the parallelograms <var>EG</var>, <var>HK</var> is similar to <var>ABCD</var>. ",
         "But figures similar to the same rectilineal figure are also similar to one another; [<a href=\"/books/6/#prop.21\">VI. 21</a>] therefore the parallelogram <var>EG</var> is also similar to the parallelogram <var>HK</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 6,
+  "next": {
+    "text": "Proposition 25.",
+    "url": "/books/6/prop.25"
+  },
+  "prev": {
+    "text": "Proposition 23.",
+    "url": "/books/6/prop.23"
+  }
 }

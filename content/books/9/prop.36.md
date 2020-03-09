@@ -2,8 +2,7 @@
   "id": "elem.9.36",
   "kind": "proposition",
   "frag": "prop.36",
-  "title": "Proposition 36.",
-  "link": "",
+  "title": "BOOK IX: Proposition 36.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       If as many numbers as we please beginning from an unit be set out continuously in double proportion, until the sum of all becomes prime, and if the sum multiplied into the last make some number, the product will be perfect.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.9.36.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let as many numbers as we please, A, B, C, D, beginning from an unit be set out in double proportion, until the sum of all becomes prime, let E be equal to the sum, and let E by multiplying D make FG; I say that FG is perfect. ",
         "For, however many A, B, C, D are in multitude, let so many E, HK, L, M be taken in double proportion beginning from E; therefore, <foreign lang=\"la\">ex aequali</foreign>, as A is to D, so is E to M. [<a href=\"/books/7/#prop.14\">VII. 14</a>] ",
@@ -57,21 +53,27 @@
         "And Q is the same with B; therefore L is also the same with P; which is impossible, for by hypothesis P is not the same with any of the numbers set out. ",
         "Therefore no number will measure FG except A, B, C, D, E, HK, L, M and the unit. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "And FG was proved equal to A, B, C, D, E, HK, L, M and the unit; and a perfect number is that which is equal to its own parts; [<a href=\"/books/7/#def.22\">VII. Def. 22</a>] therefore FG is perfect. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 9,
+  "next": {
+    "text": "BOOK X",
+    "url": "/books/10"
+  },
+  "prev": {
+    "text": "Proposition 35.",
+    "url": "/books/9/prop.35"
+  }
 }

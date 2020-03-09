@@ -2,8 +2,7 @@
   "id": "elem.7.22",
   "kind": "proposition",
   "frag": "prop.22",
-  "title": "Proposition 22.",
-  "link": "",
+  "title": "BOOK VII: Proposition 22.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       The least numbers of those which have the same ratio with them are prime to one another.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.7.22.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let A, B be the least numbers of those which have the same ratio with them; I say that A, B are prime to one another. \n      ",
         "For, if they are not prime to one another, some number will measure them. ",
@@ -34,21 +30,27 @@
         "Thus the number C by multiplying the two numbers D, E has made A, B; therefore, as D is to E, so is A to B; [<a href=\"/books/7/#prop.17\">VII. 17</a>] therefore D, E are in the same ratio with A, B, being less than they: which is impossible. ",
         "Therefore no number will measure the numbers A, B. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore A, B are prime to one another. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 7,
+  "next": {
+    "text": "Proposition 23.",
+    "url": "/books/7/prop.23"
+  },
+  "prev": {
+    "text": "Proposition 21.",
+    "url": "/books/7/prop.21"
+  }
 }
