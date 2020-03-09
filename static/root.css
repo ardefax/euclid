@@ -119,11 +119,9 @@ main.books-proposition figure figcaption {
   font-weight: bold;
 }
 
-footer.books-proposition nav * { /*TODO: relies on empty spans */
+footer.books-proposition nav * {
   width: 50%;
 }
-
-
 
 /*
  * Colors
