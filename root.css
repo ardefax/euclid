@@ -1,0 +1,131 @@
+/*
+ * Structure
+ */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Optima,Candara,Calibri,Segoe,Segoe UI
+}
+
+main {
+  margin: 0 40px;
+  flex: 1 0 auto;
+}
+header, footer {
+  text-align: center;
+  flex-shrink: 0;
+}
+header {
+  margin-top: 20px;
+
+}
+footer {
+  margin-bottom: 20px;
+}
+footer .copyright {
+  margin-top: 20px;
+}
+
+/*
+ * Global
+ */
+h1 {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+p, ol, ul {
+  line-height: 1.4;
+}
+
+/*
+ * Navigation
+ */
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none; /* TODO Remove? */
+
+  /* Fixed width relative to the viewport so it doesn't jump when
+   * switching pages when there is/isn't a scrollbar */
+  width: calc(100vw - 20px);
+}
+nav a {
+  width: 7%; /* ~100/14 */
+  margin: auto 10px;
+  padding: 5px 0;
+  color: black;
+  font-weight: bold;
+}
+nav a.current-page,
+nav a.current-book {
+  background-color: lightGray; 
+}
+
+/*
+ * Home page
+ */
+
+
+/*
+ * Book pages
+ */
+
+section.proposition {
+  margin-bottom: 30px
+}
+section.theorem {
+  font-style: italic;
+}
+section.proof {
+  margin-left: 20px;
+}
+section.qed {
+  font-size: 13px;
+  font-weight: bold;
+  text-align: right;
+}
+section a.anchor {
+  text-decoration: none;
+  margin-right: 5px;
+  color: gray;
+}
+
+/*
+ * TODO Definition Pages
+ */
+
+/*
+ * TODO Proposition Pages
+ */
+
+main.books-proposition figure img#no-figure{
+  display: block;
+  margin: auto;
+  width: 30%;
+  min-width: 100px;
+  max-width: 250px;
+}
+main.books-proposition figure figcaption {
+  text-align: center;
+  font-weight: bold;
+}
+
+footer.books-proposition nav * {
+  width: 50%;
+}
+
+/*
+ * Colors
+ *
+ * Favicon Orange: #F6A623
+ * Favicon Yellow: #F8E81C
+ */

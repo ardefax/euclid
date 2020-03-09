@@ -1,0 +1,32 @@
+<!doctype html>
+<meta charset="UTF-8">
+<title>Figure Testing</title>
+<style type="text/css">
+  html, body, object, svg {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden; /*FF and Safari are dumb*/
+  }
+
+  body { /* Prevent accidental pans when on touch browers */
+    /* XXX: Can't apply this directly to the object tag, will probably need a wrapper div */
+    touch-action: none; /* TODO: Allow pinch-zoom after fixing coordinate calc */
+  }
+  * {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  circle.point { fill: black; }
+  g#input circle.point {
+    cursor: move; 
+  }
+</style>
+<body>
+  <div class="figure">
+    <object id="object-svg" type="image/svg+xml" data="b1.prop1.min.svg"></object>
+  </div>
+</body>
+<script type="text/javascript" src="/fig.js">

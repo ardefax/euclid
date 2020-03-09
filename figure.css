@@ -1,0 +1,21 @@
+svg {
+  background: #eee;
+  /* Prevent accidental pans when on touch browers */
+  /* TODO This does not seem to work when embedded via an `object` tag */
+  touch-action: none; /* TODO: Allow pinch-zoom after fixing coordinate calc */
+}
+* { /* TODO Figure out what this should be scoped to on touch browsers */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+circle.point {
+  fill: #555;
+}
+g#input .point {
+  fill: black;
+  cursor: move; 
+}
+g#input .point:hover {
+  fill: yellow;
+}
