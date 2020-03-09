@@ -260,7 +260,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "next": "/books/7/prop.2"
+          "next": {
+            "text": "Proposition 2.",
+            "url": "/books/7/prop.2"
+          },
+          "prev": {
+            "text": "BOOK VII",
+            "url": "/books/7"
+          }
         },
         {
           "id": "elem.7.2",
@@ -283,8 +290,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "next": "/books/7/prop.3",
-          "prev": "/books/7/prop.1"
+          "next": {
+            "text": "Proposition 3.",
+            "url": "/books/7/prop.3"
+          },
+          "prev": {
+            "text": "Proposition 1.",
+            "url": "/books/7/prop.1"
+          }
         },
         {
           "id": "elem.7.3",
@@ -307,8 +320,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "next": "/books/7/prop.4",
-          "prev": "/books/7/prop.2"
+          "next": {
+            "text": "Proposition 4.",
+            "url": "/books/7/prop.4"
+          },
+          "prev": {
+            "text": "Proposition 2.",
+            "url": "/books/7/prop.2"
+          }
         },
         {
           "id": "elem.7.4",
@@ -331,8 +350,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "next": "/books/7/prop.5",
-          "prev": "/books/7/prop.3"
+          "next": {
+            "text": "Proposition 5.",
+            "url": "/books/7/prop.5"
+          },
+          "prev": {
+            "text": "Proposition 3.",
+            "url": "/books/7/prop.3"
+          }
         },
         {
           "id": "elem.7.5",
@@ -355,8 +380,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "next": "/books/7/prop.6",
-          "prev": "/books/7/prop.4"
+          "next": {
+            "text": "Proposition 6.",
+            "url": "/books/7/prop.6"
+          },
+          "prev": {
+            "text": "Proposition 4.",
+            "url": "/books/7/prop.4"
+          }
         },
         {
           "id": "elem.7.6",
@@ -379,8 +410,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "next": "/books/7/prop.7",
-          "prev": "/books/7/prop.5"
+          "next": {
+            "text": "Proposition 7.",
+            "url": "/books/7/prop.7"
+          },
+          "prev": {
+            "text": "Proposition 5.",
+            "url": "/books/7/prop.5"
+          }
         },
         {
           "id": "elem.7.7",
@@ -403,8 +440,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "next": "/books/7/prop.8",
-          "prev": "/books/7/prop.6"
+          "next": {
+            "text": "Proposition 8.",
+            "url": "/books/7/prop.8"
+          },
+          "prev": {
+            "text": "Proposition 6.",
+            "url": "/books/7/prop.6"
+          }
         },
         {
           "id": "elem.7.8",
@@ -427,8 +470,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "next": "/books/7/prop.9",
-          "prev": "/books/7/prop.7"
+          "next": {
+            "text": "Proposition 9.",
+            "url": "/books/7/prop.9"
+          },
+          "prev": {
+            "text": "Proposition 7.",
+            "url": "/books/7/prop.7"
+          }
         },
         {
           "id": "elem.7.9",
@@ -451,8 +500,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "next": "/books/7/prop.10",
-          "prev": "/books/7/prop.8"
+          "next": {
+            "text": "Proposition 10.",
+            "url": "/books/7/prop.10"
+          },
+          "prev": {
+            "text": "Proposition 8.",
+            "url": "/books/7/prop.8"
+          }
         },
         {
           "id": "elem.7.10",
@@ -475,8 +530,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "next": "/books/7/prop.11",
-          "prev": "/books/7/prop.9"
+          "next": {
+            "text": "Proposition 11.",
+            "url": "/books/7/prop.11"
+          },
+          "prev": {
+            "text": "Proposition 9.",
+            "url": "/books/7/prop.9"
+          }
         },
         {
           "id": "elem.7.11",
@@ -499,8 +560,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "next": "/books/7/prop.12",
-          "prev": "/books/7/prop.10"
+          "next": {
+            "text": "Proposition 12.",
+            "url": "/books/7/prop.12"
+          },
+          "prev": {
+            "text": "Proposition 10.",
+            "url": "/books/7/prop.10"
+          }
         },
         {
           "id": "elem.7.12",
@@ -523,8 +590,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "next": "/books/7/prop.13",
-          "prev": "/books/7/prop.11"
+          "next": {
+            "text": "Proposition 13.",
+            "url": "/books/7/prop.13"
+          },
+          "prev": {
+            "text": "Proposition 11.",
+            "url": "/books/7/prop.11"
+          }
         },
         {
           "id": "elem.7.13",
@@ -547,8 +620,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "next": "/books/7/prop.14",
-          "prev": "/books/7/prop.12"
+          "next": {
+            "text": "Proposition 14.",
+            "url": "/books/7/prop.14"
+          },
+          "prev": {
+            "text": "Proposition 12.",
+            "url": "/books/7/prop.12"
+          }
         },
         {
           "id": "elem.7.14",
@@ -571,8 +650,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "next": "/books/7/prop.15",
-          "prev": "/books/7/prop.13"
+          "next": {
+            "text": "Proposition 15.",
+            "url": "/books/7/prop.15"
+          },
+          "prev": {
+            "text": "Proposition 13.",
+            "url": "/books/7/prop.13"
+          }
         },
         {
           "id": "elem.7.15",
@@ -595,8 +680,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "next": "/books/7/prop.16",
-          "prev": "/books/7/prop.14"
+          "next": {
+            "text": "Proposition 16.",
+            "url": "/books/7/prop.16"
+          },
+          "prev": {
+            "text": "Proposition 14.",
+            "url": "/books/7/prop.14"
+          }
         },
         {
           "id": "elem.7.16",
@@ -619,8 +710,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "next": "/books/7/prop.17",
-          "prev": "/books/7/prop.15"
+          "next": {
+            "text": "Proposition 17.",
+            "url": "/books/7/prop.17"
+          },
+          "prev": {
+            "text": "Proposition 15.",
+            "url": "/books/7/prop.15"
+          }
         },
         {
           "id": "elem.7.17",
@@ -643,8 +740,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "next": "/books/7/prop.18",
-          "prev": "/books/7/prop.16"
+          "next": {
+            "text": "Proposition 18.",
+            "url": "/books/7/prop.18"
+          },
+          "prev": {
+            "text": "Proposition 16.",
+            "url": "/books/7/prop.16"
+          }
         },
         {
           "id": "elem.7.18",
@@ -667,8 +770,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "next": "/books/7/prop.19",
-          "prev": "/books/7/prop.17"
+          "next": {
+            "text": "Proposition 19.",
+            "url": "/books/7/prop.19"
+          },
+          "prev": {
+            "text": "Proposition 17.",
+            "url": "/books/7/prop.17"
+          }
         },
         {
           "id": "elem.7.19",
@@ -691,8 +800,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "next": "/books/7/prop.20",
-          "prev": "/books/7/prop.18"
+          "next": {
+            "text": "Proposition 20.",
+            "url": "/books/7/prop.20"
+          },
+          "prev": {
+            "text": "Proposition 18.",
+            "url": "/books/7/prop.18"
+          }
         },
         {
           "id": "elem.7.20",
@@ -715,8 +830,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "next": "/books/7/prop.21",
-          "prev": "/books/7/prop.19"
+          "next": {
+            "text": "Proposition 21.",
+            "url": "/books/7/prop.21"
+          },
+          "prev": {
+            "text": "Proposition 19.",
+            "url": "/books/7/prop.19"
+          }
         },
         {
           "id": "elem.7.21",
@@ -739,8 +860,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "next": "/books/7/prop.22",
-          "prev": "/books/7/prop.20"
+          "next": {
+            "text": "Proposition 22.",
+            "url": "/books/7/prop.22"
+          },
+          "prev": {
+            "text": "Proposition 20.",
+            "url": "/books/7/prop.20"
+          }
         },
         {
           "id": "elem.7.22",
@@ -763,8 +890,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "next": "/books/7/prop.23",
-          "prev": "/books/7/prop.21"
+          "next": {
+            "text": "Proposition 23.",
+            "url": "/books/7/prop.23"
+          },
+          "prev": {
+            "text": "Proposition 21.",
+            "url": "/books/7/prop.21"
+          }
         },
         {
           "id": "elem.7.23",
@@ -787,8 +920,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "next": "/books/7/prop.24",
-          "prev": "/books/7/prop.22"
+          "next": {
+            "text": "Proposition 24.",
+            "url": "/books/7/prop.24"
+          },
+          "prev": {
+            "text": "Proposition 22.",
+            "url": "/books/7/prop.22"
+          }
         },
         {
           "id": "elem.7.24",
@@ -811,8 +950,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "next": "/books/7/prop.25",
-          "prev": "/books/7/prop.23"
+          "next": {
+            "text": "Proposition 25.",
+            "url": "/books/7/prop.25"
+          },
+          "prev": {
+            "text": "Proposition 23.",
+            "url": "/books/7/prop.23"
+          }
         },
         {
           "id": "elem.7.25",
@@ -835,8 +980,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "next": "/books/7/prop.26",
-          "prev": "/books/7/prop.24"
+          "next": {
+            "text": "Proposition 26.",
+            "url": "/books/7/prop.26"
+          },
+          "prev": {
+            "text": "Proposition 24.",
+            "url": "/books/7/prop.24"
+          }
         },
         {
           "id": "elem.7.26",
@@ -859,8 +1010,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "next": "/books/7/prop.27",
-          "prev": "/books/7/prop.25"
+          "next": {
+            "text": "Proposition 27.",
+            "url": "/books/7/prop.27"
+          },
+          "prev": {
+            "text": "Proposition 25.",
+            "url": "/books/7/prop.25"
+          }
         },
         {
           "id": "elem.7.27",
@@ -883,8 +1040,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "next": "/books/7/prop.28",
-          "prev": "/books/7/prop.26"
+          "next": {
+            "text": "Proposition 28.",
+            "url": "/books/7/prop.28"
+          },
+          "prev": {
+            "text": "Proposition 26.",
+            "url": "/books/7/prop.26"
+          }
         },
         {
           "id": "elem.7.28",
@@ -907,8 +1070,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "next": "/books/7/prop.29",
-          "prev": "/books/7/prop.27"
+          "next": {
+            "text": "Proposition 29.",
+            "url": "/books/7/prop.29"
+          },
+          "prev": {
+            "text": "Proposition 27.",
+            "url": "/books/7/prop.27"
+          }
         },
         {
           "id": "elem.7.29",
@@ -931,8 +1100,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "next": "/books/7/prop.30",
-          "prev": "/books/7/prop.28"
+          "next": {
+            "text": "Proposition 30.",
+            "url": "/books/7/prop.30"
+          },
+          "prev": {
+            "text": "Proposition 28.",
+            "url": "/books/7/prop.28"
+          }
         },
         {
           "id": "elem.7.30",
@@ -955,8 +1130,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "next": "/books/7/prop.31",
-          "prev": "/books/7/prop.29"
+          "next": {
+            "text": "Proposition 31.",
+            "url": "/books/7/prop.31"
+          },
+          "prev": {
+            "text": "Proposition 29.",
+            "url": "/books/7/prop.29"
+          }
         },
         {
           "id": "elem.7.31",
@@ -979,8 +1160,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "next": "/books/7/prop.32",
-          "prev": "/books/7/prop.30"
+          "next": {
+            "text": "Proposition 32.",
+            "url": "/books/7/prop.32"
+          },
+          "prev": {
+            "text": "Proposition 30.",
+            "url": "/books/7/prop.30"
+          }
         },
         {
           "id": "elem.7.32",
@@ -1003,8 +1190,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "next": "/books/7/prop.33",
-          "prev": "/books/7/prop.31"
+          "next": {
+            "text": "Proposition 33.",
+            "url": "/books/7/prop.33"
+          },
+          "prev": {
+            "text": "Proposition 31.",
+            "url": "/books/7/prop.31"
+          }
         },
         {
           "id": "elem.7.33",
@@ -1027,8 +1220,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "next": "/books/7/prop.34",
-          "prev": "/books/7/prop.32"
+          "next": {
+            "text": "Proposition 34.",
+            "url": "/books/7/prop.34"
+          },
+          "prev": {
+            "text": "Proposition 32.",
+            "url": "/books/7/prop.32"
+          }
         },
         {
           "id": "elem.7.34",
@@ -1051,8 +1250,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "next": "/books/7/prop.35",
-          "prev": "/books/7/prop.33"
+          "next": {
+            "text": "Proposition 35.",
+            "url": "/books/7/prop.35"
+          },
+          "prev": {
+            "text": "Proposition 33.",
+            "url": "/books/7/prop.33"
+          }
         },
         {
           "id": "elem.7.35",
@@ -1075,8 +1280,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "next": "/books/7/prop.36",
-          "prev": "/books/7/prop.34"
+          "next": {
+            "text": "Proposition 36.",
+            "url": "/books/7/prop.36"
+          },
+          "prev": {
+            "text": "Proposition 34.",
+            "url": "/books/7/prop.34"
+          }
         },
         {
           "id": "elem.7.36",
@@ -1099,8 +1310,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "next": "/books/7/prop.37",
-          "prev": "/books/7/prop.35"
+          "next": {
+            "text": "Proposition 37.",
+            "url": "/books/7/prop.37"
+          },
+          "prev": {
+            "text": "Proposition 35.",
+            "url": "/books/7/prop.35"
+          }
         },
         {
           "id": "elem.7.37",
@@ -1123,8 +1340,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "next": "/books/7/prop.38",
-          "prev": "/books/7/prop.36"
+          "next": {
+            "text": "Proposition 38.",
+            "url": "/books/7/prop.38"
+          },
+          "prev": {
+            "text": "Proposition 36.",
+            "url": "/books/7/prop.36"
+          }
         },
         {
           "id": "elem.7.38",
@@ -1147,8 +1370,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "next": "/books/7/prop.39",
-          "prev": "/books/7/prop.37"
+          "next": {
+            "text": "Proposition 39.",
+            "url": "/books/7/prop.39"
+          },
+          "prev": {
+            "text": "Proposition 37.",
+            "url": "/books/7/prop.37"
+          }
         },
         {
           "id": "elem.7.39",
@@ -1171,7 +1400,14 @@
           ],
           "layout": "proposition",
           "book": 7,
-          "prev": "/books/7/prop.38"
+          "next": {
+            "text": "BOOK VIII",
+            "url": "/books/8"
+          },
+          "prev": {
+            "text": "Proposition 38.",
+            "url": "/books/7/prop.38"
+          }
         }
       ]
     }
@@ -1179,6 +1415,12 @@
   "weight": 7,
   "type": "book",
   "layout": "book",
-  "next": "/books/8",
-  "prev": "/books/6"
+  "next": {
+    "text": "BOOK VIII",
+    "url": "/books/8"
+  },
+  "prev": {
+    "text": "BOOK VI",
+    "url": "/books/6"
+  }
 }

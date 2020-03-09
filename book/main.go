@@ -66,35 +66,79 @@ func main() {
 		}
 	}
 
+	setupNextPrevLinks(books)
+	if err := writeBooksContent(books, *dir); err != nil {
+		log.Fatal(err)
+	}
+}
+
+func setupNextPrevLinks(books []*Book) {
 	// Build out the prev/next links and book numbers TODO: improve?
 	var prevBook *Book
+	var prevSection *Section
 	for _, b := range books {
+		if prevSection != nil {
+			// Last proposition points to next book
+			prevSection.Next = &NavLink{
+				Text: b.Title,
+				URL: fmt.Sprintf("/books/%d", b.Number),
+			}
+		}
+		prevSection = nil
+
 		for _, s := range b.Sections {
 			if s.Kind != "list:proposition" {
 				continue
 			}
-			var prevSection *Section
 			for _, ss := range s.Sections {
 				ss.Book = b.Number
 				if prevSection != nil {
-					prevSection.Next = fmt.Sprintf("/books/%d/%s", ss.Book, ss.Frag)
-					ss.Prev = fmt.Sprintf("/books/%d/%s", ss.Book, prevSection.Frag)
+					prevSection.Next = &NavLink {
+						Text: ss.Title,
+						URL: fmt.Sprintf("/books/%d/%s", ss.Book, ss.Frag),
+					}
+					ss.Prev = &NavLink{
+						Text: prevSection.Title,
+						URL: fmt.Sprintf("/books/%d/%s", ss.Book, prevSection.Frag),
+					}
+				} else {
+					// First proposition points back to "this" book
+					ss.Prev = &NavLink {
+						Text: b.Title,
+						URL: fmt.Sprintf("/books/%d", ss.Book),
+					}
 				}
 				prevSection = ss
 			}
 		}
 
 		if prevBook != nil {
-			prevBook.Next = fmt.Sprintf("/books/%d", b.Number)
-			b.Prev = fmt.Sprintf("/books/%d", prevBook.Number)
+			prevBook.Next = &NavLink{
+				Text: b.Title,
+				URL: fmt.Sprintf("/books/%d", b.Number),
+			}
+			b.Prev = &NavLink {
+				Text: prevBook.Title,
+				URL: fmt.Sprintf("/books/%d", prevBook.Number),
+			}
+		} else {
+			// First book goes back to the overview
+			b.Prev = &NavLink {
+				Text: "Overview",
+				URL: fmt.Sprintf("/books"),
+			}
 		}
 		prevBook = b
 	}
+	// Link to the about page for the last section of the last book
+	prevSection.Next = &NavLink{ Text: "About", URL: "/about", }
+}
 
+func writeBooksContent(books []*Book, dir string) error {
 	for _, b := range books {
-		root := filepath.Join(*dir, strconv.Itoa(b.Number))
+		root := filepath.Join(dir, strconv.Itoa(b.Number))
 		if err := os.MkdirAll(root, 0755); err != nil {
-			log.Fatal(err)
+			return err
 		}
 		for _, s := range b.Sections {
 			if s.Kind != "list:proposition" {
@@ -105,7 +149,7 @@ func main() {
 				title := ss.Title
 				ss.Title = fmt.Sprintf("BOOK %s: %s", b.Roman, title)
 				if err := writeBookProp(ss, root); err != nil {
-					log.Fatal(err)
+					return err
 				}
 
 				// TODO Kinda hacky so that we set title-links and don't emit
@@ -123,9 +167,10 @@ func main() {
 		}
 
 		if err := writeBookIndex(b, root); err != nil {
-			log.Fatal(err)
+			return err
 		}
 	}
+	return nil
 }
 
 func writeBookIndex(b *Book, dir string) error {
@@ -163,6 +208,14 @@ func writeBookProp(s *Section, dir string) error {
 	return enc.Encode(s);
 }
 
+// NavLink is a wrapper for a text label and URL.
+type NavLink struct {
+	// Text is the displayed content of the link, e.g. inside the <a>{{.Text}}</a>
+	Text string `json:"text"`
+	// URL is the link reference, e.g. <a href="{{.URL}}">
+	URL string `json:"url"`
+}
+
 // Book is one of Euclid's Elements books.
 type Book struct {
 	// Title of the book
@@ -183,9 +236,9 @@ type Book struct {
 	// Layout is used to pick the right template file, set to "book"
 	Layout string `json:"layout,omitempty"`
 	// Next is for setting up navigation in hugo templates, e.g links.
-	Next string `json:"next,omitempty"`
+	Next *NavLink `json:"next,omitempty"`
 	// Prev is for setting up navigation in hugo templates, e.g. links.
-	Prev string `json:"prev,omitempty"`
+	Prev *NavLink `json:"prev,omitempty"`
 }
 
 // Section is a generic part of the book
@@ -213,9 +266,9 @@ type Section struct {
 	// Book is for setting up navigation in hugo templates.
 	Book int `json:"book,omitempty"`
 	// Next is for setting up navigation in hugo templates
-	Next string `json:"next,omitempty"`
+	Next *NavLink `json:"next,omitempty"`
 	// Prev is for setting up navigation in hugo templates.
-	Prev string `json:"prev,omitempty"`
+	Prev *NavLink `json:"prev,omitempty"`
 }
 
 func (b *Book) parse(d1 Div1) error {

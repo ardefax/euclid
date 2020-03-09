@@ -42,6 +42,12 @@
   ],
   "layout": "proposition",
   "book": 3,
-  "next": "/books/3/prop.29",
-  "prev": "/books/3/prop.27"
+  "next": {
+    "text": "Proposition 29.",
+    "url": "/books/3/prop.29"
+  },
+  "prev": {
+    "text": "Proposition 27.",
+    "url": "/books/3/prop.27"
+  }
 }
