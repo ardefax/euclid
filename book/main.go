@@ -1,4 +1,15 @@
-// book extracts content from the Heath version
+// book transforms the XML version of Heath's translation into the 
+// content used to generate the site. The output structure has the
+// following pattern
+//
+//	{{*dir}}/
+//	  {{book.Number}}/
+//	    _index.md
+//		{{ range where book.Sections "Kind" "list:proposition" }}
+//	      {{ range .Sections }} {{.frag}}.md {{ end }}
+//      {{ end }}
+//	
+//
 package main
 
 import (
@@ -17,7 +28,7 @@ import (
 
 var (
 	verbose = flag.Bool("v", false, "verbose debug spew")
-	dir = flag.String("d", "data", "output directory")
+	dir = flag.String("d", "content", "output directory")
 )
 
 func main() {
@@ -55,26 +66,73 @@ func main() {
 		}
 	}
 
-	if err := os.MkdirAll(*dir, 0755); err != nil {
-		log.Fatal(err)
-	}
 	for _, b := range books {
-		// Write the JSON as the markdown file frontmatter
-		// The layouts will do the heavy lifting of content generation
-		path := fmt.Sprintf(filepath.Join(*dir, "%d.md"), b.Number)
-		f, err := os.Create(path)
-		if err != nil {
+		root := filepath.Join(*dir, strconv.Itoa(b.Number))
+		if err := os.MkdirAll(root, 0755); err != nil {
 			log.Fatal(err)
+		}
+		for _, s := range b.Sections {
+			if s.Kind != "list:proposition" {
+				continue
+			}
+			for i, ss := range s.Sections {
+				if err := writeBookProp(&ss, root); err != nil {
+					log.Fatal(err)
+				}
+
+				// TODO Kinda hacky so that we set title-links and don't emit
+				// the non-theorem sections below
+				ss.Link = fmt.Sprintf("/books/%d/%s", b.Number, ss.Frag)
+				keep := make([]Section, 0)
+				for _, sss := range ss.Sections {
+					if sss.Kind == "theorem" {
+						keep = append(keep, sss)
+					}
+				}
+				ss.Sections = keep
+				s.Sections[i] = ss
+			}
 		}
 
-		enc := json.NewEncoder(f)
-		enc.SetEscapeHTML(false)
-		enc.SetIndent("", "  ")
-		debug("writing %s", path)
-		if err := enc.Encode(b); err != nil {
+		if err := writeBookIndex(b, root); err != nil {
 			log.Fatal(err)
 		}
 	}
+}
+
+func writeBookIndex(b *Book, dir string) error {
+	// Write the JSON as the markdown file frontmatter
+	// The layouts will do the heavy lifting of content generation
+	path := filepath.Join(dir, "_index.md")
+	f, err := os.Create(path)
+	if err != nil {
+		return err
+	}
+	b.Type = "book" // TODO do this more consistently 
+	b.Layout = "book" // TODO do this more consistently
+
+	enc := json.NewEncoder(f)
+	enc.SetEscapeHTML(false)
+	enc.SetIndent("", "  ")
+	debug("writing %s", path)
+	return enc.Encode(b); // TODO Remove proof/QED text here instead of in CSS
+}
+
+func writeBookProp(s *Section, dir string) error {
+	// Write the JSON as the markdown file frontmatter
+	// The layouts will do the heavy lifting of content generation
+	path := filepath.Join(dir, s.Frag + ".md")
+	f, err := os.Create(path)
+	if err != nil {
+		return err
+	}
+	s.Layout = s.Kind // TODO do this more consistently 
+
+	enc := json.NewEncoder(f)
+	enc.SetEscapeHTML(false)
+	enc.SetIndent("", "  ")
+	debug("writing %s", path)
+	return enc.Encode(s);
 }
 
 // Book is one of Euclid's Elements books.
@@ -92,6 +150,10 @@ type Book struct {
 
 	// Weight is the book Number, used by Hugo for sorting.
 	Weight int `json:"weight"`
+	// Type is used to filter top-level books, set to "book"
+	Type string `json:"type"`
+	// Layout is used to pick the right template file, set to "book"
+	Layout string `json:layout`
 }
 
 // Section is a generic part of the book
@@ -99,16 +161,23 @@ type Section struct {
 	// ID is used to uniquely referenece a section. Can be suffixed
 	// with an index to reference a specific text paragraph.
 	ID string `json:"id"`
-	// Kind is is the type of section
+	// Kind is is the kind of section
 	Kind string `json:"kind"`
 	// Frag is the url fragment that references this segment, sans the #
 	Frag string `json:"frag"`
 	// Title is used for  section headings
 	Title string `json:"title"`
+	// Link is the direct link to the content page for this section (if it exists
+	Link string `json:"link"`
 	// Text is a list of paragraphs that may contain embedded HTML
 	Text []string `json:"text"`
 	// Sections are child sections, rendered after the above text.
 	Sections []Section `json:"sections"`
+
+	// Hugo stuff
+
+	// Layout is used to pick the right template file, should match Kind.
+	Layout string `json:layout`
 }
 
 func (b *Book) parse(d1 Div1) error {
@@ -213,7 +282,7 @@ func (b *Book) parseSimple(d2 Div2, short, kind string) Section {
 // parseProps TODO doc
 func (b *Book) parseProps(d2 Div2, short string) Section {
 	s := Section{
-		ID: fmt.Sprintf("elem.%d.prop", b.Number),
+		ID: fmt.Sprintf("elem.%d.prop", b.Number), // TODO wrong for Book X
 		Kind: "list:proposition",
 		Frag: fragify(short),
 		Title: cleanContent(d2.Heads[0]),
@@ -248,6 +317,7 @@ func (b *Book) parseProps(d2 Div2, short string) Section {
 				}
 				sss := Section{
 					ID: d3.ID + ".proof", // TODO Rationalize ID strat better
+					// TODO Fragify proof
 					Kind: "proof",
 					Text: make([]string, len(d4.Paras)),
 				}
@@ -261,6 +331,7 @@ func (b *Book) parseProps(d2 Div2, short string) Section {
 				}
 				ss.Sections = append(ss.Sections, Section{
 					Kind: "qed",
+					// TODO Fragify QED
 					Text: []string{cleanContent(d4.Paras[0])},
 				})
 			case "porism": // TODO
@@ -311,7 +382,7 @@ var repls = []struct{
   re *regexp.Regexp
 } {
 	// Drop the middle `.` for the common notions
-	// Conver the common notions from elem.1.c.n.Y => /books/X/#cn.Y
+	// Convert the common notions from elem.1.c.n.Y => /books/X/#cn.Y
 	{ `<a href="/books/1/#cn.${1}">`, regexp.MustCompile(`<a href="#elem\.1\.c\.n\.([1-5])">`)},
 	// Convert the props from elem.X.Y => /books/X/#prop.Y
 	// TODO Figure out the sub-lemmas, etc.

@@ -1,0 +1,29 @@
+{{ partial "header" . }}
+
+<main class="books-proposition {{ partial "main-class" . | chomp}}">
+  <h1>BOOK #: {{ .Title }}</h1>
+
+  {{/* TODO This splitting of the theorem from the proof it inject the figure is lame */}}
+  {{ with index .Params.sections 0 }}
+  {{ partial "section" (dict "section" . "depth" 2) }}
+  {{ end }}
+
+  <figure>
+  {{/* QQQ Switch to class so that these can be partial-ized and used in more contexts? */}}
+  {{ $fig := print "static" .RelPermalink "figure.svg" }}
+  {{ if fileExists $fig }}
+    <object id="figure-svg" type="image/svg+xml" data="figure.svg"></object>
+  {{ else }}
+    <img id="no-figure" src="/placeholder-figure.svg"></img>
+    <figcaption>Figure not yet implemented</figcaption>
+  {{ end }}
+  </figure>
+
+  {{ range after 1 .Params.sections }}
+  {{ partial "section" (dict "section" . "depth" 2) }}
+  {{ end }}
+
+</main>
+<script type="text/javascript" src="/figure.js"></script>
+
+{{ partial "footer" . }}

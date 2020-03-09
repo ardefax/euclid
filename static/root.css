@@ -52,7 +52,7 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  list-style: none;
+  list-style: none; /* TODO Remove? */
 
   /* Fixed width relative to the viewport so it doesn't jump when
    * switching pages when there is/isn't a scrollbar */
@@ -97,6 +97,29 @@ section a.anchor {
   margin-right: 5px;
   color: gray;
 }
+
+/*
+ * TODO Definition Pages
+ */
+
+/*
+ * TODO Proposition Pages
+ */
+
+main.books-proposition figure img#no-figure{
+  display: block;
+  margin: auto;
+  width: 30%;
+  min-width: 100px;
+  max-width: 250px;
+}
+main.books-proposition figure figcaption {
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
 
 /*
  * Colors

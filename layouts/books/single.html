@@ -1,0 +1,9 @@
+{{ partial "header" . }}
+
+<main class="books-single {{ partial "main-class" . | chomp}}">
+  <h1>{{ .Title }}</h1>
+
+  {{ .Content }}
+</main>
+
+{{ partial "footer" . }}

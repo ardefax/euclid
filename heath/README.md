@@ -8,6 +8,6 @@ The `x` directory exists to do various transforms on the source text that _shoul
 work on both `books.xml` and `vol?.xml`, however, only the `books.xml` is consumed.
 
 The above transforms are driven by the `Makefile` in the root of the repo using
-the [saxon] XSLT transformer.
+the [saxon] XSLT transformer via the `xslt.sh` script in this directory.
 
 [saxon]: http://www.saxonica.com/documentation/index.html#!using-xsl/commandline
