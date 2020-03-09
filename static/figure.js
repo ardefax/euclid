@@ -418,9 +418,13 @@ class Ui {
   }
 }
 
-const object = document.getElementById('object-svg');
-object.addEventListener('load', function(evt) {
-  const svg = object.contentDocument.firstElementChild;
-  const ui = new Ui(svg);
-  ui.update({ id: "point" });
-}, false);
+const figure = document.getElementById('figure-svg');
+if (!!figure) {
+  figure.addEventListener('load', function(evt) {
+    const svg = figure.contentDocument.firstElementChild;
+    const ui = new Ui(svg);
+    ui.update({ id: "point" });
+  }, false);
+} else if (!document.getElementById("no-figure"))  {
+  console.warn("ui: expected figure or placeholder")
+}

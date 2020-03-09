@@ -106,6 +106,20 @@ section a.anchor {
  * TODO Proposition Pages
  */
 
+main.books-proposition figure img#no-figure{
+  display: block;
+  margin: auto;
+  width: 30%;
+  min-width: 100px;
+  max-width: 250px;
+}
+main.books-proposition figure figcaption {
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
 
 /*
  * Colors

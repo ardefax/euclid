@@ -4,7 +4,7 @@ svg {
   /* TODO This does not seem to work when embedded via an `object` tag */
   touch-action: none; /* TODO: Allow pinch-zoom after fixing coordinate calc */
 }
-* { /* TODO What to limit these to for touch browsers */
+* { /* TODO Figure out what this should be scoped to on touch browsers */
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   user-select: none;
@@ -12,10 +12,10 @@ svg {
 circle.point {
   fill: #555;
 }
-g#input circle.point {
+g#input .point {
   fill: black;
   cursor: move; 
 }
-g#input circle.point:hover {
+g#input .point:hover {
   fill: yellow;
 }
