@@ -21,8 +21,15 @@ BOOKS := \
   content/books/12/_index.md \
   content/books/13/_index.md
 
-.PHONY: all 
-all: $(BOOKS)
+.PHONY: all overview
+overview: content/books/_index.md
+content/books/_index.md:
+	@echo --- > $@
+	@echo title: Overview >> $@
+	@echo --- >> $@
+
+all: $(BOOKS) overview
+
 
 # Intermediate trick for multiple targets from single recipe
 # https://stackoverflow.com/a/10609434
