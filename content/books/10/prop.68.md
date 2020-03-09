@@ -2,8 +2,7 @@
   "id": "elem.10.68",
   "kind": "proposition",
   "frag": "prop.68",
-  "title": "Proposition 68.",
-  "link": "",
+  "title": "BOOK X: Proposition 68.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "A straight line commensurable with a major straight line is itself also major. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.68.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let AB be major, and let CD be commensurable with AB; I say that CD is major. ",
         "Let AB be divided at E; therefore AE, EB are straight lines incommensurable in square which make the sum of the squares on them rational, but the rectangle contained by them medial. [<a href=\"/books/10/#prop.39\">X. 39</a>] \n      ",
@@ -39,21 +35,21 @@
         "And twice the rectangle AE, EB is medial; therefore twice the rectangle CF, FD is also medial. [<a href=\"/books/10/#23.p.1\">X. 23, Por.</a>] ",
         "Therefore CF, FD are straight lines incommensurable in square which make, at the same time, the sum of the squares on them rational, but the rectangle contained by them medial; therefore the whole CD is the irrational straight line called major. [<a href=\"/books/10/#prop.39\">X. 39</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore a straight line commensurable with the major straight line is major. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": "/books/10/prop.69",
+  "prev": "/books/10/prop.67"
 }

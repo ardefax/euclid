@@ -2,8 +2,7 @@
   "id": "elem.4.6",
   "kind": "proposition",
   "frag": "prop.6",
-  "title": "Proposition 6.",
-  "link": "",
+  "title": "BOOK IV: Proposition 6.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>In a given circle to inscribe a square</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.4.6.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABCD</var> be the given circle; thus it is required to inscribe a square in the circle <var>ABCD</var>. ",
         "Let two diameters <var>AC</var>, <var>BD</var> of the circle <var>ABCD</var> be drawn at right angles to one another, and let <var>AB</var>, <var>BC</var>, <var>CD</var>, <var>DA</var> be joined. \n      ",
@@ -34,21 +30,21 @@
         "For the same reason each of the angles <var>ABC</var>, <var>BCD</var>, <var>CDA</var> is also right; therefore the quadrilateral <var>ABCD</var> is right-angled.\n      ",
         "But it was also proved equilateral; therefore it is a square; [<a href=\"/books/1/#def.22\">I. Def. 22</a>] and it has been inscribed in the circle <var>ABCD</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore in the given circle the square <var>ABCD</var> has been inscribed. Q. E. F."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 4,
+  "next": "/books/4/prop.7",
+  "prev": "/books/4/prop.5"
 }

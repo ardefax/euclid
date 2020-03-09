@@ -2,8 +2,7 @@
   "id": "elem.3.27",
   "kind": "proposition",
   "frag": "prop.27",
-  "title": "Proposition 27.",
-  "link": "",
+  "title": "BOOK III: Proposition 27.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>In equal circles angles standing on equal circumferences are equal to one another</var>, <var>whether they stand at the centres or at the circumferences</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.3.27.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For in equal circles <var>ABC</var>, <var>DEF</var>, on equal circumferences <var>BC</var>, <var>EF</var>, let the angles <var>BGC</var>, <var>EHF</var> stand at the centres <var>G</var>, <var>H</var>, and the angles <var>BAC</var>, <var>EDF</var> at the circumferences; I say that the angle <var>BGC</var> is equal to the angle <var>EHF</var>, and the angle <var>BAC</var> is equal to the angle <var>EDF</var>. \n      ",
         "For, if the angle <var>BGC</var> is unequal to the angle <var>EHF</var>, one of them is greater. Let the angle <var>BGC</var> be greater : and on the straight line <var>BG</var>, and at the point <var>G</var> on it, let the angle <var>BGK</var> be constructed equal to the angle <var>EHF</var>. [<a href=\"/books/1/#prop.23\">I. 23</a>] ",
@@ -32,21 +28,21 @@
         "Therefore the angle <var>BGC</var> is not unequal to the angle <var>EHF</var>; therefore it is equal to it.\n       ",
         "And the angle at <var>A</var> is half of the angle <var>BGC</var>, and the angle at <var>D</var> half of the angle <var>EHF</var>; [<a href=\"/books/3/#prop.20\">III. 20</a>] therefore the angle at <var>A</var> is also equal to the angle at <var>D</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 3,
+  "next": "/books/3/prop.28",
+  "prev": "/books/3/prop.26"
 }

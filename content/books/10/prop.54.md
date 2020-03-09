@@ -2,8 +2,7 @@
   "id": "elem.10.54",
   "kind": "proposition",
   "frag": "prop.54",
-  "title": "Proposition 54.",
-  "link": "",
+  "title": "BOOK X: Proposition 54.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If an area be contained by a rational straight line and the first binomial, the <quote>side</quote>\n of the area is the irrational straight line which is called binomial. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.54.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the area AC be contained by the rational straight line AB and the first binomial AD; I say that the <quote>side</quote>\n of the area AC is the irrational straight line which is called binomial. ",
         "For, since AD is a first binomial straight line, let it be divided into its terms at E, and let AE be the greater term. ",
@@ -48,21 +44,21 @@
         "But PN is equal to MN, and NR to NO; therefore MN is incommensurable with NO. ",
         "And the square on MN is commensurable with the square on NO, and each is rational; therefore MN, NO are rational straight lines commensurable in square only. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore MO is binomial [<a href=\"/books/10/#prop.36\">X. 36</a>] and the <quote>side</quote>\n of AC. Q. E. D.\n<note n=\"2\" type=\"crit\" place=\"unspecified\" anchored=\"yes\">2. <quote>side.</quote>\n I use the word <quote>side</quote>\n in the sense explained in the note on <a href=\"/books/10/#def.4\">X. Def. 4</a> (P. 13 above), i.e. as short for <quote>side of a square equal to.</quote>\n The Greek is <foreign lang=\"greek\">ἡ τὸ χωίον δυναμένη</foreign>.</note>"
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": "/books/10/prop.55",
+  "prev": "/books/10/prop.53"
 }

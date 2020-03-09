@@ -2,8 +2,7 @@
   "id": "elem.3.16",
   "kind": "proposition",
   "frag": "prop.16",
-  "title": "Proposition 16.",
-  "link": "",
+  "title": "BOOK III: Proposition 16.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>The straight line drawn at right angles to the diameter of a circle from its extremity will fall outside the circle</var>, <var>and into the space between the straight line and the circumference another straight line cannot be interposed; further the angle of the semicircle is greater</var>, <var>and the remaining angle less</var>, <var>than any acute rectilineal angle</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.3.16.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABC</var> be a circle about <var>D</var> as centre and <var>AB</var> as diameter; I say that the straight line drawn from <var>A</var> at right angles to <var>AB</var> from its extremity will fall outside the circle. ",
         "For suppose it does not, but, if possible, let it fall within as <var>CA</var>, and let <var>DC</var> be joined. ",
@@ -40,21 +36,21 @@
         "For, if there is any rectilineal angle greater than the angle contained by the straight line <var>BA</var> and the circumference <var>CHA</var>, and any rectilineal angle less than the angle contained by the circumference <var>CHA</var> and the straight line <var>AE</var>, then into the space between the circumference and the straight line <var>AE</var> a straight line will be interposed such as will make an angle contained by straight lines which is greater than the angle contained by the straight line <var>BA</var> and the circumference <var>CHA</var>, and another angle contained by straight lines which is less than the angle contained by the circumference <var>CHA</var> and the straight line <var>AE</var>. ",
         "But such a straight line cannot be interposed; "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "therefore there will not be any acute angle contained by straight lines which is greater than the angle contained by the straight line <var>BA</var> and the circumference <var>CHA</var>, nor yet any acute angle contained by straight lines which is less than the angle contained by the circumference <var>CHA</var> and the straight line <var>AE</var>.— "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 3,
+  "next": "/books/3/prop.17",
+  "prev": "/books/3/prop.15"
 }

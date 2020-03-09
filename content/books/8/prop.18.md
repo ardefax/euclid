@@ -2,8 +2,7 @@
   "id": "elem.8.18",
   "kind": "proposition",
   "frag": "prop.18",
-  "title": "Proposition 18.",
-  "link": "",
+  "title": "BOOK VIII: Proposition 18.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       Between two similar plane numbers there is one mean proportional number; and the plane number has to the plane number the ratio duplicate of that which the corresponding side has to the corresponding side.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.8.18.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let A, B be two similar plane numbers, and let the numbers C, D be the sides of A, and E, F of B. \n      ",
         "Now, since similar plane numbers are those which have their sides proportional, [<a href=\"/books/7/#def.21\">VII. Def. 21</a>] therefore, as C is to D, so is E to F. ",
@@ -42,21 +38,21 @@
         "For, since A, G, B are in continued proportion, A has to B the ratio duplicate of that which it has to G. [<a href=\"/books/5/#def.9\">V. Def. 9</a>] ",
         "And, as A is to G, so is C to E, and so is D to F. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore A also has to B the ratio duplicate of that which C has to E or D to F. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 8,
+  "next": "/books/8/prop.19",
+  "prev": "/books/8/prop.17"
 }

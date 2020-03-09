@@ -2,8 +2,7 @@
   "id": "elem.8.19",
   "kind": "proposition",
   "frag": "prop.19",
-  "title": "Proposition 19.",
-  "link": "",
+  "title": "BOOK VIII: Proposition 19.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       Between two similar solid numbers there fall two mean proportional numbers; and the solid number has to the similar solid number the ratio triplicate of that which the corresponding side has to the corresponding side.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.8.19.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let A, B be two similar solid numbers, and let C, D, E be the sides of A, and F, G, H of B. ",
         "Now, since similar solid numbers are those which have their sides proportional, [<a href=\"/books/7/#def.21\">VII. Def. 21</a>] therefore, as C is to D, so is F to G, and, as <hi rend=\"ital\">D</hi> is to <hi rend=\"ital\">E</hi>, so is <hi rend=\"ital\">G</hi> to <hi rend=\"ital\">H</hi>.\n      ",
@@ -54,21 +50,21 @@
         "For, since A, N, O, B are four numbers in continued proportion, therefore A has to B the ratio triplicate of that which A has to N. [<a href=\"/books/5/#def.10\">V. Def. 10</a>] ",
         "But, as A is to N, so it was proved that C is to F, D to G, and also E to H. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore A also has to B the ratio triplicate of that which the corresponding side has to the corresponding side, that is, of the ratio which the number C has to F, D to G, and also E to H. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 8,
+  "next": "/books/8/prop.20",
+  "prev": "/books/8/prop.18"
 }

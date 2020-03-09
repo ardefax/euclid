@@ -2,8 +2,7 @@
   "id": "elem.9.9",
   "kind": "proposition",
   "frag": "prop.9",
-  "title": "Proposition 9.",
-  "link": "",
+  "title": "BOOK IX: Proposition 9.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       If as many numbers as we please beginning from an unit be in continued proportion, and the number after the unit be square, all the rest will also be square. And, if the number after the unit be cube, all the rest will also be cube.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.9.9.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let there be as many numbers as we please, A, B, C, D, E, F, beginning from an unit and in continued proportion, and let A, the number after the unit, be square; I say that all the rest will also be square. \n      ",
         "Now it has been proved that B, the third from the unit, is square, as are also all those which leave out one; [<a href=\"/books/9/#prop.8\">IX. 8</a>] I say that all the rest are also square. ",
@@ -39,21 +35,21 @@
         "Therefore B is also cube. ",
         "And, since the four numbers A, B, C, D are in continued proportion, and A is cube, D also is cube. [<a href=\"/books/8/#prop.23\">VIII. 23</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For the same reason E is also cube, and similarly all the rest are cube. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 9,
+  "next": "/books/9/prop.10",
+  "prev": "/books/9/prop.8"
 }

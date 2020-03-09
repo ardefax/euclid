@@ -2,8 +2,7 @@
   "id": "elem.9.20",
   "kind": "proposition",
   "frag": "prop.20",
-  "title": "Proposition 20.",
-  "link": "",
+  "title": "BOOK IX: Proposition 20.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       Prime numbers are more than any assigned multitude of prime numbers.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.9.20.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let A, B, C be the assigned prime numbers; I say that there are more prime numbers than A, B, C. \n      ",
         "For let the least number measured by A, B, C be taken, and let it be DE; let the unit DF be added to DE. ",
@@ -39,21 +35,21 @@
         "Therefore G is not the same with any one of the numbers A, B, C. ",
         "And by hypothesis it is prime. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore the prime numbers A, B, C, G have been found which are more than the assigned multitude of A, B, C. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 9,
+  "next": "/books/9/prop.21",
+  "prev": "/books/9/prop.19"
 }

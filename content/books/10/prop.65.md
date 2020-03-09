@@ -2,8 +2,7 @@
   "id": "elem.10.65",
   "kind": "proposition",
   "frag": "prop.65",
-  "title": "Proposition 65.",
-  "link": "",
+  "title": "BOOK X: Proposition 65.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "The square on the side of the sum of two medial areas applied to a rational straight line produces as breadth the sixth binomial. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.65.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let AB be the side of the sum of two medial areas, divided at C, let DE be a rational straight line, and let there be applied to DE the parallelogram DF equal to the square on AB, producing DG as its breadth; I say that DG is a sixth binomial straight line. ",
         "For let the same construction be made as before. ",
@@ -35,21 +31,21 @@
         "Similarly again we can prove that the rectangle DK, KM is equal to the square on MN, and that DK is incommensurable in length with KM; and, for the same reason, the square on DM is greater than the square on MG by the square on a straight line incommensurable in length with DM. ",
         "And neither of the straight lines DM, MG is commensurable in length with the rational straight line DE set out. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore DG is a sixth binomial straight line. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": "/books/10/prop.66",
+  "prev": "/books/10/prop.64"
 }

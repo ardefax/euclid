@@ -2,8 +2,7 @@
   "id": "elem.11.2",
   "kind": "proposition",
   "frag": "prop.2",
-  "title": "Proposition 2.",
-  "link": "",
+  "title": "BOOK XI: Proposition 2.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If two straight lines cut one another, they are in one plane, and every triangle is in one plane.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.11.2.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the two straight lines AB, CD cut one another at the point E; I say that AB, CD are in one plane, and every triangle is in one plane. \n      ",
         "For let points F, G be taken at random on EC, EB, let CB, FG be joined, and let FH, GK be drawn across; I say first that the triangle ECB is in one plane. ",
@@ -32,21 +28,21 @@
         "Therefore the triangle ECB is in one plane. ",
         "But, in whatever plane the triangle ECB is, in that plane also is each of the straight lines EC, EB, and, in whatever plane each of the straight lines EC, EB is, in that plane are AB, CD also. [<a href=\"/books/11/#prop.1\">XI. 1</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore the straight lines AB, CD are in one plane, and every triangle is in one plane. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 11,
+  "next": "/books/11/prop.3",
+  "prev": "/books/11/prop.1"
 }

@@ -2,8 +2,7 @@
   "id": "elem.10.93",
   "kind": "proposition",
   "frag": "prop.93",
-  "title": "Proposition 93.",
-  "link": "",
+  "title": "BOOK X: Proposition 93.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If an area be contained by a rational straight line and a third apotome, the <quote>side</quote>\n of the area is a second apotome of a medial straight line. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.93.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the area AB be contained by the rational straight line AC and the third apotome AD; I say that the <quote>side</quote>\n of the area AB is a second apotome of a medial straight line. ",
         "For let DG be the annex to AD; therefore AG, GD are rational straight lines commensurable in square only, and neither of the straight lines AG, GD is commensurable in length with the rational straight line AC set out, while the square on the whole AG is greater than the square on the annex DG by the square on a straight line commensurable with AG. [<a href=\"/books/10/#def.3.3\">X. Deff. III. 3</a>] \n      ",
@@ -54,21 +50,21 @@
         "For, since EK was proved medial, and is equal to the rectangle LP, PN, therefore the rectangle LP, PN is also medial, so that LP, PN are medial straight lines commensurable in square only which contain a medial rectangle. ",
         "Therefore LN is a second apotome of a medial straight line; [<a href=\"/books/10/#prop.75\">X. 75</a>] and it is the <quote>side</quote>\n of the area AB. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore the <quote>side</quote>\n of the area AB is a second apotome of a medial straight line. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": "/books/10/prop.94",
+  "prev": "/books/10/prop.92"
 }

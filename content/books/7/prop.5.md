@@ -2,8 +2,7 @@
   "id": "elem.7.5",
   "kind": "proposition",
   "frag": "prop.5",
-  "title": "Proposition 5.",
-  "link": "",
+  "title": "BOOK VII: Proposition 5.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       If a number be a part of a number, and another be the same part of another, the sum will also be the same part of the sum that the one is of the one.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.7.5.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the number A be a part of BC, and another, D, the same part of another EF that A is of BC; I say that the sum of A, D is also the same part of the sum of BC, EF that A is of BC. ",
         "For since, whatever part A is of BC, D is also the same part of EF, therefore, as many numbers as there are in BC equal to A, so many numbers are there also in EF equal to D. \n      ",
@@ -33,21 +29,21 @@
         "Therefore, as many numbers as there are in BC equal to A, so many are there also in BC, EF equal to A, D. ",
         "Therefore, whatever multiple BC is of A, the same multiple also is the sum of BC, EF of the sum of A, D. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore, whatever part A is of BC, the same part also is the sum of A, D of the sum of BC, EF. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 7,
+  "next": "/books/7/prop.6",
+  "prev": "/books/7/prop.4"
 }

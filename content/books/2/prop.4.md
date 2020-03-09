@@ -2,8 +2,7 @@
   "id": "elem.2.4",
   "kind": "proposition",
   "frag": "prop.4",
-  "title": "Proposition 4.",
-  "link": "",
+  "title": "BOOK II: Proposition 4.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>If a straight line be cut at random</var>, <var>the square on the whole is equal to the squares on the segments and twice the rectangle contained by the segments</var>."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.2.4.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the straight line <var>AB</var> be cut at random at <var>C</var>; I say that the square on <var>AB</var> is equal to the squares on <var>AC</var>, <var>CB</var> and twice the rectangle contained by <var>AC</var>, <var>CB</var>.",
         "For let the square <var>ADEB</var> be described on <var>AB</var>, [<a href=\"/books/1/#prop.46\">I. 46</a>] let <var>BD</var> be joined; through <var>C</var> let <var>CF</var> be drawn parallel to either <var>AD</var> or <var>EB</var>, and through <var>G</var> let <var>HK</var> be drawn parallel to either <var>AB</var> or <var>DE</var>. [<a href=\"/books/1/#prop.31\">I. 31</a>] \n       ",
@@ -42,21 +38,21 @@
         "But <var>HF</var>, <var>CK</var>, <var>AG</var>, <var>GE</var> are the whole <var>ADEB</var>, which is the square on <var>AB</var>.",
         "Therefore the square on <var>AB</var> is equal to the squares on <var>AC</var>, <var>CB</var> and twice the rectangle contained by <var>AC</var>, <var>CB</var>."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D.\n<note n=\"2\" type=\"crit\" place=\"unspecified\" anchored=\"yes\">\n        <p>twice the rectangle contained by the segments. By a curious idiom this is in Greek <quote>the rectangle <var>twice contained</var> by the segments.</quote>\n Similarly <quote>twice the rectangle contained by <var>AC</var>, <var>CB</var></quote>\n is expressed as <quote>the rectangle <var>twice contained</var> by <var>AC</var>, <var>CB</var></quote>\n (<foreign lang=\"greek\">τὸ δὶς ὑπὸ τῶν ΑΓ, ΓΒ περιεχόμενον ὀρθογ&lt;*&gt;ώνιον</foreign>).</p>\n       </note>\n       <note n=\"35, 38\" type=\"crit\" place=\"unspecified\" anchored=\"yes\">\n        <p>described. 39, 45. the squares (before <quote>on</quote>\n). These words are not in the Greek, which simply says that the squares <quote>are on</quote>\n (<foreign lang=\"greek\">εἰσἱν ἀπό</foreign>) their respective sides.</p>\n       </note>\n       <note n=\"46\" type=\"crit\" place=\"unspecified\" anchored=\"yes\">\n        <p>areas. It is necessary to supply some substantive (the Greek leaves it to be understood); and I prefer <quote>areas</quote>\n to <quote>figures.</quote>\n</p>\n       </note>"
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 2,
+  "next": "/books/2/prop.5",
+  "prev": "/books/2/prop.3"
 }

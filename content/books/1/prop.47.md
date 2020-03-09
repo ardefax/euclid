@@ -2,8 +2,7 @@
   "id": "elem.1.47",
   "kind": "proposition",
   "frag": "prop.47",
-  "title": "Proposition 47.",
-  "link": "",
+  "title": "BOOK I: Proposition 47.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "In right-angled triangles the square on the side subtending the right angle is equal to the squares on the sides containing the right angle."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.1.47.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABC</var> be a right-angled triangle having the angle <var>BAC</var> right;",
         "I say that the square on <var>BC</var> is equal to the squares on <var>BA</var>, <var>AC</var>.",
@@ -39,21 +35,21 @@
         "And the square <var>BDEC</var> is described on <var>BC</var>, and the squares <var>GB</var>, <var>HC</var> on <var>BA</var>, <var>AC</var>.",
         "Therefore the square on the side <var>BC</var> is equal to the squares on the sides <var>BA</var>, <var>AC</var>."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 1,
+  "next": "/books/1/prop.48",
+  "prev": "/books/1/prop.46"
 }

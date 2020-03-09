@@ -2,8 +2,7 @@
   "id": "elem.13.9",
   "kind": "proposition",
   "frag": "prop.9",
-  "title": "Proposition 9.",
-  "link": "",
+  "title": "BOOK XIII: Proposition 9.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If the side of the hexagon and that of the decagon inscribed in the same circle be added together, the whole straight line has been cut in extreme and mean ratio, and its greater segment is the side of the hexagon.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.13.9.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let ABC be a circle; of the figures inscribed in the circle ABC let BC be the side of a decagon, CD that of a hexagon, and let them be in a straight line; I say that the whole straight line BD has been cut in extreme and mean ratio, and CD is its greater segment. \n      ",
         "For let the centre of the circle, the point E, be taken, let EB, EC, ED be joined, and let BE be carried through to A. ",
@@ -39,21 +35,21 @@
         "Therefore, as BD is to DC, so is DC to CB. ",
         "And BD is greater than DC; therefore DC is also greater than CB. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore the straight line BD has been cut in extreme and mean ratio, and DC is its greater segment. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 13,
+  "next": "/books/13/prop.10",
+  "prev": "/books/13/prop.8"
 }

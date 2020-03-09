@@ -2,8 +2,7 @@
   "id": "elem.13.7",
   "kind": "proposition",
   "frag": "prop.7",
-  "title": "Proposition 7.",
-  "link": "",
+  "title": "BOOK XIII: Proposition 7.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If three angles of an equilateral pentagon, taken either in order or not in order, be equal, the pentagon will be equiangular.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.13.7.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For in the equilateral pentagon ABCDE let, first, three angles taken in order, those at A, B, C, be equal to one another; I say that the pentagon ABCDE is equiangular. \n      ",
         "For let AC, BE, FD be joined. ",
@@ -42,21 +38,21 @@
         "But the angle CDE is, by hypothesis, equal to the angles at A, C; therefore the angle AED is also equal to the angles at A, C. ",
         "For the same reason the angle ABC is also equal to the angles at A, C, D. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore the pentagon ABCDE is equiangular. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 13,
+  "next": "/books/13/prop.8",
+  "prev": "/books/13/prop.6"
 }

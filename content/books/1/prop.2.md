@@ -2,8 +2,7 @@
   "id": "elem.1.2",
   "kind": "proposition",
   "frag": "prop.2",
-  "title": "Proposition 2.",
-  "link": "",
+  "title": "BOOK I: Proposition 2.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "To place at a given point (as an extremity) a straight line equal to a given straight line."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.1.2.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>A</var> be the given point, and <var>BC</var> the given straight line.",
         "Thus it is required to place at the point <var>A</var> (as an extremity) a straight line equal to the given straight line <var>BC</var>. ",
@@ -36,21 +32,21 @@
         "And things which are equal to the same thing are also equal to one another; [<a href=\"/books/1/#cn.1\">C.N. 1</a>] therefore <var>AL</var> is also equal to <var>BC</var>.",
         "Therefore at the given point <var>A</var> the straight line <var>AL</var> is placed equal to the given straight line <var>BC</var>."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Q. E. F."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 1,
+  "next": "/books/1/prop.3",
+  "prev": "/books/1/prop.1"
 }

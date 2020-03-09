@@ -2,8 +2,7 @@
   "id": "elem.10.34",
   "kind": "proposition",
   "frag": "prop.34",
-  "title": "Proposition 34.",
-  "link": "",
+  "title": "BOOK X: Proposition 34.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       To find two straight lines incommensurable in square which make the sum of the squares on them medial but the rectangle contained by them rational.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.34.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let there be set out two medial straight lines AB, BC, commensurable in square only, such that the rectangle which they contain is rational, and the square on AB is greater than the square on BC by the square on a straight line incommensurable with AB; [<a href=\"/books/10/#prop.31\">X. 31</a>, ad fin.]  let the semicircle ADB be described on AB, let BC be bisected at E, let there be applied to AB a parallelogram equal to the square on BE and deficient by a square figure, namely the rectangle AF, FB; [<a href=\"/books/6/#prop.28\">VI. 28</a>] therefore AF is incommensurable in length with FB. [<a href=\"/books/10/#prop.18\">X. 18</a>] ",
         "Let FD be drawn from F at right angles to AB, and let AD, DB be joined. ",
@@ -34,21 +30,21 @@
         "But the rectangle AB, BC is rational; therefore the rectangle AB, FD is also rational. [<a href=\"/books/10/#prop.6\">X. 6</a>] ",
         "But the rectangle AB, FD is equal to the rectangle AD, DB; [Lemma] so that the rectangle AD, DB is also rational. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore two straight lines AD, DB incommensurable in square have been found which make the sum of the squares on them medial, but the rectangle contained by them rational. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": "/books/10/prop.35",
+  "prev": "/books/10/prop.33"
 }

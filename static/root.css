@@ -65,7 +65,8 @@ nav a {
   color: black;
   font-weight: bold;
 }
-nav a.current-page {
+nav a.current-page,
+nav a.current-book {
   background-color: lightGray; 
 }
 
@@ -118,6 +119,9 @@ main.books-proposition figure figcaption {
   font-weight: bold;
 }
 
+footer.books-proposition nav * { /*TODO: relies on empty spans */
+  width: 50%;
+}
 
 
 

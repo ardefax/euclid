@@ -2,8 +2,7 @@
   "id": "elem.10.103",
   "kind": "proposition",
   "frag": "prop.103",
-  "title": "Proposition 103.",
-  "link": "",
+  "title": "BOOK X: Proposition 103.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "A straight line commensurable in length with an apotome is an apotome and the same in order. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.103.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let AB be an apotome, and let CD be commensurable in length with AB;  I say that CD is also an apotome and the same in order with AB. ",
         "For, since AB is an apotome, let BE be the annex to it; therefore AE, EB are rational straight lines commensurable in square only. [<a href=\"/books/10/#prop.73\">X. 73</a>] ",
@@ -38,21 +34,21 @@
         "But, if the square on AE is greater than the square on EB by the square on a straight line incommensurable with AE, the square on CF will also be greater than the square on FD by the square on a straight line incommensurable with CF. [<a href=\"/books/10/#prop.14\">X. 14</a>] ",
         "And, if AE is commensurable in length with the rational straight line set out, CF is so also, if BE, then DF also, [<a href=\"/books/10/#prop.12\">X. 12</a>] and, if neither of the straight lines AE, EB, then neither of the straight lines CF, FD. [<a href=\"/books/10/#prop.13\">X. 13</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore CD is an apotome and the same in order with AB. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": "/books/10/prop.104",
+  "prev": "/books/10/prop.102"
 }

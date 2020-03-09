@@ -2,8 +2,7 @@
   "id": "elem.10.6",
   "kind": "proposition",
   "frag": "prop.6",
-  "title": "Proposition 6.",
-  "link": "",
+  "title": "BOOK X: Proposition 6.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If two magnitudes have to one another the ratio which a number has to a number, the magnitudes will be commensurable. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.6.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the two magnitudes A, B have to one another the ratio which the number D has to the number E; I say that the magnitudes A, B are commensurable. \n      ",
         "For let A be divided into as many equal parts as there are units in D, and let C be equal to one of them; and let F be made up of as many magnitudes equal to C as there are units in E. ",
@@ -38,21 +34,21 @@
         "Further it measures A also; therefore C measures A, B. ",
         "Therefore A is commensurable with B. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": "/books/10/prop.7",
+  "prev": "/books/10/prop.5"
 }

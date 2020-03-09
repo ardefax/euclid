@@ -2,8 +2,7 @@
   "id": "elem.10.94",
   "kind": "proposition",
   "frag": "prop.94",
-  "title": "Proposition 94.",
-  "link": "",
+  "title": "BOOK X: Proposition 94.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If an area be contained by a rational straight line and a fourth apotome, the <quote>side</quote>\n of the area is minor. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.94.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the area AB be contained by the rational straight line AC and the fourth apotome AD; I say that the <quote>side</quote>\n of the area AB is minor. ",
         "For let DG be the annex to AD; therefore AG, GD are rational straight lines commensurable in square only, AG is commensurable in length with the rational straight line AC set out, and the square on the whole AG is greater than the square on the annex DG by the square on a straight line incommensurable in length with AG, [<a href=\"/books/10/#def.3.4\">X. Deff. III. 4</a>] \n      ",
@@ -48,21 +44,21 @@
         "Therefore LP, PN are straight lines incommensurable in square which make the sum of the squares on them rational, but twice the rectangle contained by them medial. ",
         "Therefore LN is the irrational straight line called minor; [<a href=\"/books/10/#prop.76\">X. 76</a>] and it is the <quote>side</quote>\n of the area AB. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore the <quote>side</quote>\n of the area AB is minor. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": "/books/10/prop.95",
+  "prev": "/books/10/prop.93"
 }

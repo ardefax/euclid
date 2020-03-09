@@ -2,8 +2,7 @@
   "id": "elem.10.72",
   "kind": "proposition",
   "frag": "prop.72",
-  "title": "Proposition 72.",
-  "link": "",
+  "title": "BOOK X: Proposition 72.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If two medial areas incommensurable with one another be added together, the remaining two irrational straight lines arise, namely either a second bimedial or a side of the sum of two medial areas. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.72.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let two medial areas AB, CD incommensurable with one another be added together; I say that the <quote>side</quote>\n of the area AD is either a second bimedial or a side of the sum of two medial areas. \n      ",
         "For AB is either greater or less than CD. ",
@@ -42,21 +38,21 @@
         "Now each of the straight lines EH, HK is incommensurable in length with EF; therefore EK is a sixth binomial. [<a href=\"/books/10/#def.2.6\">X. Deff. II. 6</a>] ",
         "But, if an area be contained by a rational straight line and the sixth binomial, the <quote>side</quote>\n of the area is the side of the sum of two medial areas; [<a href=\"/books/10/#prop.59\">X. 59</a>] so that the <quote>side</quote>\n of the area AD is also the side of the sum of two medial areas. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": "/books/10/prop.73",
+  "prev": "/books/10/prop.71"
 }

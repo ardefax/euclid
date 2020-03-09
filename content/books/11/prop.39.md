@@ -2,8 +2,7 @@
   "id": "elem.11.39",
   "kind": "proposition",
   "frag": "prop.39",
-  "title": "Proposition 39.",
-  "link": "",
+  "title": "BOOK XI: Proposition 39.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If there be two prisms of equal height, and one have a parallelogram as base and the other a triangle, and if the parallelogram be double of the triangle, the prisms will be equal.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.11.39.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let ABCDEF, GHKLMN be two prisms of equal height, let one have the parallelogram AF as base, and the other the triangle GHK, and let the parallelogram AF be double of the triangle GHK; I say that the prism ABCDEF is equal to the prism GHKLMN. \n      ",
         "For let the solids AO, GP be completed. ",
@@ -31,21 +27,20 @@
         "But parallelepipedal solids which are on equal bases and of the same height are equal to one another; [<a href=\"/books/11/#prop.31\">XI. 31</a>] therefore the solid AO is equal to the solid GP. ",
         "And the prism ABCDEF is half of the solid AO, and the prism GHKLMN is half of the solid GP; [<a href=\"/books/11/#prop.28\">XI. 28</a>] therefore the prism ABCDEF is equal to the prism GHKLMN. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 11,
+  "prev": "/books/11/prop.38"
 }

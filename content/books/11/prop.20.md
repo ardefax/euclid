@@ -2,8 +2,7 @@
   "id": "elem.11.20",
   "kind": "proposition",
   "frag": "prop.20",
-  "title": "Proposition 20.",
-  "link": "",
+  "title": "BOOK XI: Proposition 20.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If a solid angle be contained by three plane angles, any two, taken together in any manner, are greater than the remaining one.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.11.20.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the solid angle at A be contained by the three plane angles BAC, CAD, DAB; I say that any two of the angles BAC, CAD, DAB, taken together in any manner, are greater than the remaining one. \n      ",
         "If now the angles BAC, CAD, DAB are equal to one another, it is manifest that any two are greater than the remaining one. ",
@@ -34,21 +30,21 @@
         "But the angle DAB was also proved equal to the angle BAE; therefore the angles DAB, DAC are greater than the angle BAC. ",
         "Similarly we can prove that the remaining angles also, taken together two and two, are greater than the remaining one. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 11,
+  "next": "/books/11/prop.21",
+  "prev": "/books/11/prop.19"
 }

@@ -2,8 +2,7 @@
   "id": "elem.3.33",
   "kind": "proposition",
   "frag": "prop.33",
-  "title": "Proposition 33.",
-  "link": "",
+  "title": "BOOK III: Proposition 33.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>On a given straight line to describe a segment of a circle admitting an angle equal to a given rectilineal angle</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.3.33.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>AB</var> be the given straight line, and the angle at <var>C</var> the given rectilineal angle; thus it is required to describe on the given straight line <var>AB</var> a segment of a circle admitting an angle equal to the angle at <var>C</var>. \n      ",
         "The angle at <var>C</var> is then acute, or right, or obtuse. ",
@@ -51,21 +47,21 @@
         "But the angle <var>BAD</var> is equal to the angle at <var>C</var>. ",
         "Therefore the angle in the segment <var>AHB</var> is also equal to the angle at <var>C</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore on the given straight line <var>AB</var> the segment <var>AHB</var> of a circle has been described admitting an angle equal to the angle at <var>C</var>. Q. E. F."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 3,
+  "next": "/books/3/prop.34",
+  "prev": "/books/3/prop.32"
 }

@@ -2,8 +2,7 @@
   "id": "elem.10.101",
   "kind": "proposition",
   "frag": "prop.101",
-  "title": "Proposition 101.",
-  "link": "",
+  "title": "BOOK X: Proposition 101.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       The square on the straight line which produces with a rational area a medial whole, if applied to a rational straight line, produces as breadth a fifth apotome.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.101.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let AB be the straight line which produces with a rational area a medial whole, and CD a rational straight line, and to CD let CE be applied equal to the square on AB and producing CF as breadth; I say that CF is a fifth apotome. \n      ",
         "For let BG be the annex to AB; therefore AG, GB are straight lines incommensurable in square which make the sum of the squares on them medial but twice the rectangle contained by them rational. [<a href=\"/books/10/#prop.77\">X. 77</a>] ",
@@ -43,21 +39,21 @@
         "But, as CH is to KL, so is CK to KM; [<a href=\"/books/6/#prop.1\">VI. 1</a>] therefore CK is incommensurable in length with KM. [<a href=\"/books/10/#prop.11\">X. 11</a>] ",
         "Since then CM, MF are two unequal straight lines, and a parallelogram equal to the fourth part of the square on FM and deficient by a square figure has been applied to CM, and divides it into incommensurable parts, therefore the square on CM is greater than the square on MF by the square on a straight line incommensurable with CM. [<a href=\"/books/10/#prop.18\">X. 18</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "And the annex FM is commensurable with the rational straight line CD set out; therefore CF is a fifth apotome. [<a href=\"/books/10/#def.3.5\">X. Deff. III. 5</a>] Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": "/books/10/prop.102",
+  "prev": "/books/10/prop.100"
 }

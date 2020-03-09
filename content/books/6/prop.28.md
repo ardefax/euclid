@@ -2,8 +2,7 @@
   "id": "elem.6.28",
   "kind": "proposition",
   "frag": "prop.28",
-  "title": "Proposition 28.",
-  "link": "",
+  "title": "BOOK VI: Proposition 28.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>To a given straight line to apply a parallelogram equal to a given rectilineal figure and deficient by a parallelogrammic figure similar to a given one : thus the given rectilineal figure must not be greater than the parallelogram described on the half of the straight line and similar to the defect</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.6.28.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>AB</var> be the given straight line, <var>C</var> the given rectilineal figure to which the figure to be applied to <var>AB</var> is required to be equal, not being greater than the parallelogram described on the half of <var>AB</var> and similar to the defect, and <var>D</var> the parallelogram to which the defect is required to be similar; thus it is required to apply to the given straight line <var>AB</var> a parallelogram equal to the given rectilineal figure <var>C</var> and deficient by a parallelogrammic figure which is similar to <var>D</var>. ",
         "Let <var>AB</var> be bisected at the point <var>E</var>, and on <var>EB</var> let <var>EBFG</var> be described similar and similarly situated to <var>D</var>; [<a href=\"/books/6/#prop.18\">VI. 18</a>] let the parallelogram <var>AG</var> be completed. ",
@@ -43,21 +39,21 @@
         "Let <var>OS</var> be added to each; therefore the whole <var>TS</var> is equal to the whole, the gnomon <var>VWU</var>.\n      ",
         "But the gnomon <var>VWU</var> was proved equal to <var>C</var>; therefore <var>TS</var> is also equal to <var>C</var>.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore to the given straight line <var>AB</var> there has been applied the parallelogram <var>ST</var> equal to the given rectilineal figure <var>C</var> and deficient by a parallelogrammic figure <var>QB</var> which is similar to <var>D</var>. Q. E. F."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 6,
+  "next": "/books/6/prop.29",
+  "prev": "/books/6/prop.27"
 }

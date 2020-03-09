@@ -2,8 +2,7 @@
   "id": "elem.10.105",
   "kind": "proposition",
   "frag": "prop.105",
-  "title": "Proposition 105.",
-  "link": "",
+  "title": "BOOK X: Proposition 105.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "A straight line commensurable with a minor straight line is minor. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.105.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let AB be a minor straight line, and CD commensurable with AB; I say that CD is also minor. \n      ",
         "Let the same construction be made as before; then, since AE, EB are incommensurable in square, [<a href=\"/books/10/#prop.76\">X. 76</a>] therefore CF, FD are also incommensurable in square. [<a href=\"/books/10/#prop.13\">X. 13</a>] ",
@@ -34,21 +30,21 @@
         "Again, since, as the square on AE is to the rectangle AE, EB, so is the square on CF to the rectangle CF, FD, while the square on AE is commensurable with the square on CF, therefore the rectangle AE, EB is also commensurable with the rectangle CF, FD. ",
         "But the rectangle AE, EB is medial; [<a href=\"/books/10/#prop.76\">X. 76</a>] therefore the rectangle CF, FD is also medial; [<a href=\"/books/10/#23.p.1\">X. 23, Por.</a>] therefore CF, FD are straight lines incommensurable in square which make the sum of the squares on them rational, but the rectangle contained by them medial. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore CD is minor. [<a href=\"/books/10/#prop.76\">X. 76</a>] Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": "/books/10/prop.106",
+  "prev": "/books/10/prop.104"
 }

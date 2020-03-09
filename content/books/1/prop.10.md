@@ -2,8 +2,7 @@
   "id": "elem.1.10",
   "kind": "proposition",
   "frag": "prop.10",
-  "title": "Proposition 10.",
-  "link": "",
+  "title": "BOOK I: Proposition 10.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "To bisect a given finite straight line."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.1.10.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>AB</var> be the given finite straight line.",
         "Thus it is required to bisect the finite straight line <var>AB</var>.",
@@ -32,21 +28,21 @@
         "For, since <var>AC</var> is equal to <var>CB</var>, and <var>CD</var> is common, \n        the two sides <var>AC</var>, <var>CD</var> are equal to the two sides <var>BC</var>, <var>CD</var> respectively; and the angle <var>ACD</var> is equal to the angle <var>BCD</var>; therefore the base <var>AD</var> is equal to the base <var>BD</var>. [<a href=\"/books/1/#prop.4\">I. 4</a>]",
         "Therefore the given finite straight line <var>AB</var> has been bisected at <var>D</var>."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Q. E. F."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 1,
+  "next": "/books/1/prop.11",
+  "prev": "/books/1/prop.9"
 }

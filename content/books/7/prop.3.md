@@ -2,8 +2,7 @@
   "id": "elem.7.3",
   "kind": "proposition",
   "frag": "prop.3",
-  "title": "Proposition 3.",
-  "link": "",
+  "title": "BOOK VII: Proposition 3.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       Given three numbers not prime to one another, to find their greatest common measure.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.7.3.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let A, B, C be the three given numbers not prime to one another; thus it is required to find the greatest common measure of A, B, C. \n      ",
         "For let the greatest common measure, D, of the two numbers A, B be taken; [<a href=\"/books/7/#prop.2\">VII. 2</a>] then D either measures, or does not measure, C. ",
@@ -50,21 +46,21 @@
         "And it measures C also; therefore F measures D, C; therefore it will also measure the greatest common measure of D, C. [<a href=\"/books/7/#2.p.1\">VII. 2, Por.</a>] ",
         "But the greatest common measure of D, C is E; therefore F measures E, the greater the less: which is impossible. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore no number which is greater than E will measure the numbers A, B, C; therefore E is the greatest common measure of A, B, C. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 7,
+  "next": "/books/7/prop.4",
+  "prev": "/books/7/prop.2"
 }

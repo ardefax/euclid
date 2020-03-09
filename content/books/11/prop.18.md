@@ -2,8 +2,7 @@
   "id": "elem.11.18",
   "kind": "proposition",
   "frag": "prop.18",
-  "title": "Proposition 18.",
-  "link": "",
+  "title": "BOOK XI: Proposition 18.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If a straight line be at right angles to any plane, all the planes through it will also be at right angles to the same plane.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.11.18.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let any straight line AB be at right angles to the plane of reference; I say that all the planes through AB are also at right angles to the plane of reference. \n      ",
         "For let the plane DE be drawn through AB, let CE be the common section of the plane DE and the plane of reference, let a point F be taken at random on CE, and from F let FG be drawn in the plane DE at right angles to CE. [<a href=\"/books/1/#prop.11\">I. 11</a>] ",
@@ -34,21 +30,21 @@
         "And FG, drawn in one of the planes DE at right angles to CE, the common section of the planes, was proved to be at right angles to the plane of reference; therefore the plane DE is at right angles to the plane of reference. ",
         "Similarly also it can be proved that all the planes through AB are at right angles to the plane of reference. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 11,
+  "next": "/books/11/prop.19",
+  "prev": "/books/11/prop.17"
 }

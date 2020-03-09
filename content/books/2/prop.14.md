@@ -2,8 +2,7 @@
   "id": "elem.2.14",
   "kind": "proposition",
   "frag": "prop.14",
-  "title": "Proposition 14.",
-  "link": "",
+  "title": "BOOK II: Proposition 14.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>To construct a square equal to a given rectilineal figure</var>."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.2.14.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>A</var> be the given rectilineal figure; thus it is required to construct a square equal to the rectilineal figure <var>A</var>. \n       ",
         "For let there be constructed the rectangular parallelogram <var>BD</var> equal to the rectilineal figure <var>A</var>. [<a href=\"/books/1/#prop.45\">I. 45</a>]",
@@ -39,21 +35,20 @@
         "And <var>BD</var> is equal to the rectilineal figure <var>A</var>.",
         "Therefore the rectilineal figure <var>A</var> is also equal to the square which can be described on <var>EH</var>."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore a square, namely that which can be described on <var>EH</var>, has been constructed equal to the given rectilineal figure <var>A</var>. Q. E. F."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 2,
+  "prev": "/books/2/prop.13"
 }

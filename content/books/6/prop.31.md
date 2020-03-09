@@ -2,8 +2,7 @@
   "id": "elem.6.31",
   "kind": "proposition",
   "frag": "prop.31",
-  "title": "Proposition 31.",
-  "link": "",
+  "title": "BOOK VI: Proposition 31.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>In right</var>-<var>angled triangles the figure on the side subtending the right angle is equal to the similar and similarly described figures on the sides containing the right angle</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.6.31.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABC</var> be a right-angled triangle having the angle <var>BAC</var> right; I say that the figure on <var>BC</var> is equal to the similar and similarly described figures on <var>BA</var>, <var>AC</var>. ",
         "Let <var>AD</var> be drawn perpendicular. ",
@@ -34,21 +30,21 @@
         "For the same reason also, as <var>BC</var> is to <var>CD</var>, so is the figure on <var>BC</var> to that on <var>CA</var>; so that, in addition, as <var>BC</var> is to <var>BD</var>, <var>DC</var>, so is the figure on <var>BC</var> to the similar and similarly described figures on <var>BA</var>, <var>AC</var>. ",
         "But <var>BC</var> is equal to <var>BD</var>, <var>DC</var>; therefore the figure on <var>BC</var> is also equal to the similar and similarly described figures on <var>BA</var>, <var>AC</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 6,
+  "next": "/books/6/prop.32",
+  "prev": "/books/6/prop.30"
 }

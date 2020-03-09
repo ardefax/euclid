@@ -2,8 +2,7 @@
   "id": "elem.1.37",
   "kind": "proposition",
   "frag": "prop.37",
-  "title": "Proposition 37.",
-  "link": "",
+  "title": "BOOK I: Proposition 37.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Triangles which are on the same base and in the same parallels are equal to one another."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.1.37.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABC</var>, <var>DBC</var> be triangles on the same base <var>BC</var> and in the same parallels <var>AD</var>, <var>BC</var>; I say that the triangle <var>ABC</var> is equal to the triangle <var>DBC</var>.",
         "Let <var>AD</var> be produced in both directions to <var>E</var>, <var>F</var>; through <var>B</var> let <var>BE</var> be drawn parallel to <var>CA</var>, [<a href=\"/books/1/#prop.31\">I. 31</a>] and through <var>C</var> let <var>CF</var> be drawn parallel to <var>BD</var>. [<a href=\"/books/1/#prop.31\">I. 31</a>] ",
@@ -34,21 +30,21 @@
         "[But the halves of equal things are equal to one another.]",
         "Therefore the triangle <var>ABC</var> is equal to the triangle <var>DBC</var>."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 1,
+  "next": "/books/1/prop.38",
+  "prev": "/books/1/prop.36"
 }

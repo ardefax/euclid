@@ -2,8 +2,7 @@
   "id": "elem.4.5",
   "kind": "proposition",
   "frag": "prop.5",
-  "title": "Proposition 5.",
-  "link": "",
+  "title": "BOOK IV: Proposition 5.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>About a given triangle to circumscribe a circle</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.4.5.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABC</var> be the given triangle; thus it is required to circumscribe a circle about the given triangle <var>ABC</var>. \n      ",
         "Let the straight lines <var>AB</var>, <var>AC</var> be bisected at the points <var>D</var>, <var>E</var> [<a href=\"/books/1/#prop.10\">I. 10</a>], and from the points <var>D</var>, <var>E</var> let <var>DF</var>, <var>EF</var> be drawn at right angles to <var>AB</var>, <var>AC</var>; they will then meet within the triangle <var>ABC</var>, or on the straight line <var>BC</var>, or outside <var>BC</var>. ",
@@ -39,21 +35,21 @@
         "Similarly we can prove that <var>CF</var> is also equal to <var>AF</var>; so that <var>BF</var> is also equal to <var>FC</var>; therefore the circle described with centre <var>F</var> and distance one of the straight lines <var>FA</var>, <var>FB</var>, <var>FC</var> will pass also through the remaining points, and will have been circumscribed about the triangle <var>ABC</var>. ",
         "Therefore about the given triangle a circle has been circumscribed. Q. E. F. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "And it is manifest that, when the centre of the circle falls within the triangle, the angle <var>BAC</var>, being in a segment greater than the semicircle, is less than a right angle; when the centre falls on the straight line <var>BC</var>, the angle <var>BAC</var>, being in a semicircle, is right; and when the centre of the circle falls outside the triangle, the angle <var>BAC</var>, being in a segment less than the semicircle, is greater than a right angle. [<a href=\"/books/3/#prop.31\">III. 31</a>]"
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 4,
+  "next": "/books/4/prop.6",
+  "prev": "/books/4/prop.4"
 }

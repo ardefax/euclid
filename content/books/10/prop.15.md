@@ -2,8 +2,7 @@
   "id": "elem.10.15",
   "kind": "proposition",
   "frag": "prop.15",
-  "title": "Proposition 15.",
-  "link": "",
+  "title": "BOOK X: Proposition 15.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If two commensurable magnitudes be added together, the whole will also be commensurable with each of them; and, if the whole be commensurable with one of them, the original magnitudes will also be commensurable. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.15.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the two commensurable magnitudes AB, BC be added together; I say that the whole AC is also commensurable with each of the magnitudes AB, BC. \n      ",
         "For, since AB, BC are commensurable, some magnitude will measure them. ",
@@ -36,21 +32,21 @@
         "Since then D measures CA, AB, it will also measure the remainder BC. ",
         "But it measures AB also; therefore D will measure AB, BC; therefore AB, BC are commensurable. [<a href=\"/books/10/#def.1\">X. Def. 1</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": "/books/10/prop.16",
+  "prev": "/books/10/prop.14"
 }

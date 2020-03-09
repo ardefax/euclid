@@ -2,8 +2,7 @@
   "id": "elem.10.33",
   "kind": "proposition",
   "frag": "prop.33",
-  "title": "Proposition 33.",
-  "link": "",
+  "title": "BOOK X: Proposition 33.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "To find two straight lines incommensurable in square which make the sum of the squares on them rational but the rectangle contained by them medial. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.33.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let there be set out two rational straight lines AB, BC commensurable in square only and such that the square on the greater AB is greater than the square on the less BC by the square on a straight line incommensurable with AB, [<a href=\"/books/10/#prop.30\">X. 30</a>] \n       let BC be bisected at D, let there be applied to AB a parallelogram equal to the square on either of the straight lines BD, DC and deficient by a square figure, and let it be the rectangle AE, EB; [<a href=\"/books/6/#prop.28\">VI. 28</a>] let the semicircle AFB be described on AB, let EF be drawn at right angles to AB, and let AF, FB be joined. ",
         "Then, since AB, BC are unequal straight lines, and the square on AB is greater than the square on BC by the square on a straight line incommensurable with AB, while there has been applied to AB a parallelogram equal to the fourth part of the square on BC, that is, to the square on half of it, and deficient by a square figure, making the rectangle AE, EB, therefore AE is incommensurable with EB. [<a href=\"/books/10/#prop.18\">X. 18</a>] ",
@@ -34,21 +30,21 @@
         "But the rectangle AB, EF is equal to the rectangle AF, FB; [Lemma] therefore the rectangle AF, FB is also medial. ",
         "But it was also proved that the sum of the squares on these straight lines is rational. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore two straight lines AF, FB incommensurable in square have been found which make the sum of the squares on them rational, but the rectangle contained by them medial. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": "/books/10/prop.34",
+  "prev": "/books/10/prop.32"
 }

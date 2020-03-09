@@ -2,8 +2,7 @@
   "id": "elem.10.4",
   "kind": "proposition",
   "frag": "prop.4",
-  "title": "Proposition 4.",
-  "link": "",
+  "title": "BOOK X: Proposition 4.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Given three commensurable magnitudes, to find their greatest common measure. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.4.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let A, B, C be the three given commensurable magnitudes; thus it is required to find the greatest common measure of A, B, C. \n      ",
         "Let the greatest common measure of the two magnitudes A, B be taken, and let it be D; [<a href=\"/books/10/#prop.3\">X. 3</a>] then D either measures C, or does not measure it. ",
@@ -45,21 +41,21 @@
         "But that is E; therefore F will measure E, the greater the less: which is impossible. ",
         "Therefore no magnitude greater than the magnitude E will measure A, B, C; therefore E is the greatest common measure of A, B, C if D do not measure C, and, if it measure it, D is itself the greatest common measure. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore the greatest common measure of the three given commensurable magnitudes has been found. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": "/books/10/prop.5",
+  "prev": "/books/10/prop.3"
 }

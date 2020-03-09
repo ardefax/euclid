@@ -2,8 +2,7 @@
   "id": "elem.3.35",
   "kind": "proposition",
   "frag": "prop.35",
-  "title": "Proposition 35.",
-  "link": "",
+  "title": "BOOK III: Proposition 35.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>If in a circle two straight lines cut one another</var>, <var>the rectangle contained by the segments of the one is equal to the rectangle contained by the segments of the other</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.3.35.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For in the circle <var>ABCD</var> let the two straight lines <var>AC</var>, <var>BD</var> cut one another at the point <var>E</var>; I say that the rectangle contained by <var>AE</var>, <var>EC</var> is equal to the rectangle contained by <var>DE</var>, <var>EB</var>. \n      ",
         "If now <var>AC</var>, <var>BD</var> are through the centre, so that <var>E</var> is the centre of the circle <var>ABCD</var>, it is manifest that, <var>AE</var>, <var>EC</var>, <var>DE</var>, <var>EB</var> being equal, the rectangle contained by <var>AE</var>, <var>EC</var> is also equal to the rectangle contained by <var>DE</var>, <var>EB</var>. ",
@@ -37,21 +33,21 @@
         "But the rectangle <var>AE</var>, <var>EC</var> together with the square on <var>FE</var> was also proved equal to the square on <var>FB</var>; therefore the rectangle <var>AE</var>, <var>EC</var> together with the square on <var>FE</var> is equal to the rectangle <var>DE</var>, <var>EB</var> together with the square on <var>FE</var>. ",
         "Let the square on <var>FE</var> be subtracted from each; therefore the rectangle contained by <var>AE</var>, <var>EC</var> which remains is equal to the rectangle contained by <var>DE</var>, <var>EB</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 3,
+  "next": "/books/3/prop.36",
+  "prev": "/books/3/prop.34"
 }

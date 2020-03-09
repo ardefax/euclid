@@ -2,8 +2,7 @@
   "id": "elem.8.11",
   "kind": "proposition",
   "frag": "prop.11",
-  "title": "Proposition 11.",
-  "link": "",
+  "title": "BOOK VIII: Proposition 11.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       Between two square numbers there is one mean proportional number, and the square has to the square the ratio duplicate of that which the side has to the side.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.8.11.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let A, B be square numbers, and let C be the side of A, and D of B; I say that between A, B there is one mean proportional number, and A has to B the ratio duplicate of that which C has to D. ",
         "For let C by multiplying D make E. \n      ",
@@ -37,21 +33,21 @@
         "For, since A, E, B are three numbers in proportion, therefore A has to B the ratio duplicate of that which A has to E. [<a href=\"/books/5/#def.9\">V. Def. 9</a>] ",
         "But, as A is to E, so is C to D. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore A has to B the ratio duplicate of that which the side C has to D. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 8,
+  "next": "/books/8/prop.12",
+  "prev": "/books/8/prop.10"
 }

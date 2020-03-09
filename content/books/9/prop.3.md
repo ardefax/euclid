@@ -2,8 +2,7 @@
   "id": "elem.9.3",
   "kind": "proposition",
   "frag": "prop.3",
-  "title": "Proposition 3.",
-  "link": "",
+  "title": "BOOK IX: Proposition 3.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       If a cube number by multiplying itself make some number, the product will be cube.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.9.3.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the cube number A by multiplying itself make B; I say that B is cube. ",
         "For let C, the side of A, be taken, and let C by multiplying itself make D. ",
@@ -39,21 +35,21 @@
         "But between the unit and A two mean proportional numbers have fallen; therefore two mean proportional numbers will also fall between A, B. [<a href=\"/books/8/#prop.8\">VIII. 8</a>] ",
         "But, if two mean proportional numbers fall between two numbers, and the first be cube, the second will also be cube. [<a href=\"/books/8/#prop.23\">VIII. 23</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "And A is cube; therefore B is also cube. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 9,
+  "next": "/books/9/prop.4",
+  "prev": "/books/9/prop.2"
 }

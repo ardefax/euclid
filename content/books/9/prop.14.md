@@ -2,8 +2,7 @@
   "id": "elem.9.14",
   "kind": "proposition",
   "frag": "prop.14",
-  "title": "Proposition 14.",
-  "link": "",
+  "title": "BOOK IX: Proposition 14.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       If a number be the least that is measured by prime numbers, it will not be measured by any other prime number except those originally measuring it.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.9.14.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the number A be the least that is measured by the prime numbers B, C, D; I say that A will not be measured by any other prime number except B, C, D. ",
         "For, if possible, let it be measured by the prime number E, and let E not be the same with any one of the numbers B, C, D. \n      ",
@@ -33,21 +29,21 @@
         "Now they will not measure E; for E is prime and not the same with any one of the numbers B, C, D. ",
         "Therefore they will measure F, which is less than A: which is impossible, for A is by hypothesis the least number measured by B, C, D. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore no prime number will measure A except B, C, D. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 9,
+  "next": "/books/9/prop.15",
+  "prev": "/books/9/prop.13"
 }

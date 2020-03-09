@@ -2,8 +2,7 @@
   "id": "elem.7.24",
   "kind": "proposition",
   "frag": "prop.24",
-  "title": "Proposition 24.",
-  "link": "",
+  "title": "BOOK VII: Proposition 24.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       If two numbers be prime to any number, their product also will be prime to the same.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.7.24.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the two numbers A, B be prime to any number C, and let A by multiplying B make D; I say that C, D are prime to one another. ",
         "For, if C, D are not prime to one another, some number will measure C, D. ",
@@ -37,21 +33,21 @@
         "But it also measures C; therefore E measures B, C which are prime to one another: which is impossible. [<a href=\"/books/7/#def.12\">VII. Def. 12</a>] ",
         "Therefore no number will measure the numbers C, D. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore C, D are prime to one another. Q. E. D.\n<note n=\"1. their product.\" type=\"crit\" place=\"unspecified\" anchored=\"yes\"><foreign lang=\"greek\">ὁ ἐξ αὐτῶν γενόμενος</foreign>, literally <quote>the (number) produced from them,</quote>\n will henceforth be translated as <quote>their product.</quote>\n</note>"
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 7,
+  "next": "/books/7/prop.25",
+  "prev": "/books/7/prop.23"
 }

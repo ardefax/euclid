@@ -2,8 +2,7 @@
   "id": "elem.8.25",
   "kind": "proposition",
   "frag": "prop.25",
-  "title": "Proposition 25.",
-  "link": "",
+  "title": "BOOK VIII: Proposition 25.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       If two numbers have to one another the ratio which a cube number has to a cube number, and the first be cube, the second will also be cube.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.8.25.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the two numbers A, B have to one another the ratio which the cube number C has to the cube number D, and let A be cube; I say that B is also cube. ",
         "For, since C, D are cube, C, D are similar solid numbers. ",
@@ -31,21 +27,21 @@
         "And, as many numbers as fall between C, D in continued proportion, so many will also fall between those which have the same ratio with them; [<a href=\"/books/8/#prop.8\">VIII. 8</a>] so that two mean proportional numbers fall between A, B also. ",
         "Let E, F so fall. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Since, then, the four numbers A, E, F, B are in continued proportion, and A is cube, therefore B is also cube. [<a href=\"/books/8/#prop.23\">VIII. 23</a>] Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 8,
+  "next": "/books/8/prop.26",
+  "prev": "/books/8/prop.24"
 }

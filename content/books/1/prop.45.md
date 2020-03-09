@@ -2,8 +2,7 @@
   "id": "elem.1.45",
   "kind": "proposition",
   "frag": "prop.45",
-  "title": "Proposition 45.",
-  "link": "",
+  "title": "BOOK I: Proposition 45.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "To construct, in a given rectilineal angle, a parallelogram equal to a given rectilineal figure."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.1.45.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABCD</var> be the given rectilineal figure and <var>E</var> the given rectilineal angle; thus it is required to construct, in the given angle <var>E</var>, a parallelogram equal to the rectilineal figure <var>ABCD</var>. ",
         "Let <var>DB</var> be joined, and let the parallelogram <var>FH</var> be constructed equal to the triangle <var>ABD</var>, in the angle <var>HKF</var> which is equal to <var>E</var>; [<a href=\"/books/1/#prop.42\">I. 42</a>] let the parallelogram <var>GM</var> equal to the triangle <var>DBC</var> be applied to the straight line <var>GH</var>, in the angle <var>GHM</var> which is equal to <var>E</var>. [<a href=\"/books/1/#prop.44\">I. 44</a>]",
@@ -38,21 +34,21 @@
         "And, since the triangle <var>ABD</var> is equal to the parallelogram <var>FH</var>, and <var>DBC</var> to <var>GM</var>,\n        the whole rectilineal figure <var>ABCD</var> is equal to the whole parallelogram <var>KFLM</var>.",
         "Therefore the parallelogram <var>KFLM</var> has been constructed equal to the given rectilineal figure <var>ABCD</var>, in the angle <var>FKM</var> which is equal to the given angle <var>E</var>."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Q. E. F."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 1,
+  "next": "/books/1/prop.46",
+  "prev": "/books/1/prop.44"
 }

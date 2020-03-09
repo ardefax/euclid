@@ -2,8 +2,7 @@
   "id": "elem.13.17",
   "kind": "proposition",
   "frag": "prop.17",
-  "title": "Proposition 17.",
-  "link": "",
+  "title": "BOOK XIII: Proposition 17.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "To construct a dodecahedron and comprehend it in a sphere, like the aforesaid figures, and to prove that the side of the dodecahedron is the irrational straight line called apotome.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.13.17.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let ABCD, CBEF, two planes of the aforesaid cube at right angles to one another, be set out, let the sides AB, BC, CD, DA, EF, EB, FC be bisected at G, H, K, L, M, N, O respectively, let GK, HL, MH, NO be joined, let the straight lines NP, PO, HQ be cut in extreme and mean ratio at the points R, S, T respectively, and let RP, PS, TQ be their greater segments; from the points R, S, T let RU, SV, TW be set up at right angles to the planes of the cube towards the outside of the cube, let them be made equal to RP, PS, TQ, and let UB, BW, WC, CV, VU be joined. \n      ",
         "I say that the pentagon UBWCV is equilateral, and in one plane, and is further equiangular. ",
@@ -72,21 +68,21 @@
         "And, since the diameter of the sphere is rational, and the square on it is triple of the square on the side of the cube, therefore NO, being a side of the cube, is rational. ",
         "[But if a rational line be cut in extreme and mean ratio, each of the segments is an irrational apotome.] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore UV, being a side of the dodecahedron, is an irrational apotome. [<a href=\"/books/13/#prop.6\">XIII. 6</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 13,
+  "next": "/books/13/prop.18",
+  "prev": "/books/13/prop.16"
 }

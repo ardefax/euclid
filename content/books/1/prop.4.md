@@ -2,8 +2,7 @@
   "id": "elem.1.4",
   "kind": "proposition",
   "frag": "prop.4",
-  "title": "Proposition 4.",
-  "link": "",
+  "title": "BOOK I: Proposition 4.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If two triangles have the two sides equal to two sides respectively, and have the angles contained by the equal straight lines equal, they will also have the base equal to the base, the triangle will be equal to the triangle, and the remaining angles will be equal to the remaining angles respectively, namely those which the equal sides subtend."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.1.4.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABC</var>, <var>DEF</var> be two triangles having the two sides <var>AB</var>, <var>AC</var> equal to the two sides <var>DE</var>, <var>DF</var> respectively, namely <var>AB</var> to <var>DE</var> and <var>AC</var> to <var>DF</var>, and the angle <var>BAC</var> equal to the angle <var>EDF</var>.",
         "I say that the base <var>BC</var> is also equal to the base <var>EF</var>, the triangle <var>ABC</var> will be equal to the triangle <var>DEF</var>, and the remaining angles will be equal to the remaining angles respectively, namely those which the equal sides subtend, that is, the angle <var>ABC</var> to the angle <var>DEF</var>, and the angle <var>ACB</var> to the angle <var>DFE</var>.",
@@ -34,21 +30,21 @@
         "Thus the whole triangle <var>ABC</var> will coincide with the whole triangle <var>DEF</var>, and will be equal to it.\n        ",
         "And the remaining angles will also coincide with the remaining angles and will be equal to them, the angle <var>ABC</var> to the angle <var>DEF</var>, and the angle <var>ACB</var> to the angle <var>DFE</var>."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 1,
+  "next": "/books/1/prop.5",
+  "prev": "/books/1/prop.3"
 }

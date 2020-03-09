@@ -2,8 +2,7 @@
   "id": "elem.8.21",
   "kind": "proposition",
   "frag": "prop.21",
-  "title": "Proposition 21.",
-  "link": "",
+  "title": "BOOK VIII: Proposition 21.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       If two mean proportional numbers fall between two numbers, the numbers are similar solid numbers.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.8.21.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let two mean proportional numbers C, D fall between the two numbers A, B; I say that A, B are similar solid numbers. \n      ",
         "For let three numbers E, F, G, the least of those which have the same ratio with A, C, D, be taken; [<a href=\"/books/7/#prop.33\">VII. 33</a> or <a href=\"/books/8/#prop.2\">VIII. 2</a>] therefore the extremes of them E, G are prime to one another. [<a href=\"/books/8/#prop.3\">VIII. 3</a>] ",
@@ -46,21 +42,21 @@
         "But, as E is to F, so is H to L and K to M; therefore also, as H is to L, so is K to M and N to O. ",
         "And H, K, N are the sides of A, and O, L, M the sides of B. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore A, B are similar solid numbers. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 8,
+  "next": "/books/8/prop.22",
+  "prev": "/books/8/prop.20"
 }

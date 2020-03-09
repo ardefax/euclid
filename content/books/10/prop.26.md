@@ -2,8 +2,7 @@
   "id": "elem.10.26",
   "kind": "proposition",
   "frag": "prop.26",
-  "title": "Proposition 26.",
-  "link": "",
+  "title": "BOOK X: Proposition 26.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "4 medial area does not exceed a medial area by a rational area. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.26.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For, if possible, let the medial area AB exceed the medial area AC by the rational area DB,  and let a rational straight line EF be set out; to EF let there be applied the rectangular parallelogram FH equal to AB, producing EH as breadth, and let the rectangle FG equal to AC be subtracted; therefore the remainder BD is equal to the remainder KH. ",
         "But DB is rational; therefore KH is also rational. ",
@@ -37,21 +33,21 @@
         "Therefore EH is irrational. ",
         "But it is also rational: which is impossible. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": "/books/10/prop.27",
+  "prev": "/books/10/prop.25"
 }

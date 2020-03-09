@@ -2,8 +2,7 @@
   "id": "elem.11.31",
   "kind": "proposition",
   "frag": "prop.31",
-  "title": "Proposition 31.",
-  "link": "",
+  "title": "BOOK XI: Proposition 31.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       Parallelepipedal solids which are on equal bases and of the same height are equal to one another.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.11.31.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let the parallelepipedal solids AE, CF, of the same height, be on equal bases AB, CD. ",
         "I say that the solid AE is equal to the solid CF. \n      ",
@@ -48,21 +44,21 @@
         "But the solid KV is equal to the solid AE, and QI to CF; for they are on the same base and of the same height, while the extremities of their sides which stand up are not on the same straight lines. [<a href=\"/books/11/#prop.30\">XI. 30</a>] ",
         "Therefore the solid AE is also equal to the solid CF. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 11,
+  "next": "/books/11/prop.32",
+  "prev": "/books/11/prop.30"
 }

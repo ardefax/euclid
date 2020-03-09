@@ -2,8 +2,7 @@
   "id": "elem.9.18",
   "kind": "proposition",
   "frag": "prop.18",
-  "title": "Proposition 18.",
-  "link": "",
+  "title": "BOOK IX: Proposition 18.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       Given two numbers, to investigate whether it is possible to find a third proportional to them.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.9.18.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let A, B be the given two numbers, and let it be required to investigate whether it is possible to find a third proportional to them. ",
         "Now A, B are either prime to one another or not. ",
@@ -40,21 +36,21 @@
         "Hence A by multiplying D has made C; therefore A measures C according to D. ",
         "But, by hypothesis, it also does not measure it: which is absurd. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore it is not possible to find a third proportional number to A, B when A does not measure C. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 9,
+  "next": "/books/9/prop.19",
+  "prev": "/books/9/prop.17"
 }

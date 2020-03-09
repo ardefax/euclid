@@ -2,8 +2,7 @@
   "id": "elem.10.41",
   "kind": "proposition",
   "frag": "prop.41",
-  "title": "Proposition 41.",
-  "link": "",
+  "title": "BOOK X: Proposition 41.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If two straight lines incommensurable in square which make the sum of the squares on them medial, and the rectangle contained by them medial and also incommensurable with the sum of the squares on them, be added together, the whole straight line is irrational; and let it be called the\n       side of the sum of two medial areas. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.41.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let two straight lines AB, BC incommensurable in square and satisfying the given conditions [<a href=\"/books/10/#prop.35\">X. 35</a>\n] be added together; I say that AC is irrational. \n      ",
         "Let a rational straight line DE be set out, and let there be applied to DE the rectangle DF equal to the squares on AB, BC, and the rectangle GH equal to twice the rectangle AB, BC; therefore the whole DH is equal to the square on AC. [<a href=\"/books/2/#prop.4\">II. 4</a>\n] ",
@@ -35,21 +31,21 @@
         "But DE is rational; therefore DH is irrational, and the side of the square which is equal to it is irrational. [<a href=\"/books/10/#def.4\">X. Def. 4</a>\n] ",
         "But AC is the side of the square equal to HD; therefore AC is irrational. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "And let it be called the side of the sum of two medial areas. Q. E. D.\n "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": "/books/10/prop.42",
+  "prev": "/books/10/prop.40"
 }

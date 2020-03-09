@@ -2,8 +2,7 @@
   "id": "elem.10.25",
   "kind": "proposition",
   "frag": "prop.25",
-  "title": "Proposition 25.",
-  "link": "",
+  "title": "BOOK X: Proposition 25.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "The rectangle contained by medial straight lines commensurable in square only is either rational or medial. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.25.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the rectangle AC be contained by the medial straight lines AB, BC which are commensurable in square only; I say that AC is either rational or medial. \n      ",
         "For on AB, BC let the squares AD, BE be described; therefore each of the squares AD, BE is medial. ",
@@ -42,21 +38,21 @@
         "Therefore HN is either rational or medial. ",
         "But HN is equal to AC; therefore AC is either rational or medial. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": "/books/10/prop.26",
+  "prev": "/books/10/prop.24"
 }

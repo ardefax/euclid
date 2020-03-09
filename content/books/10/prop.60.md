@@ -2,8 +2,7 @@
   "id": "elem.10.60",
   "kind": "proposition",
   "frag": "prop.60",
-  "title": "Proposition 60.",
-  "link": "",
+  "title": "BOOK X: Proposition 60.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "The square on the binomial straight line applied to a rational straight line produces as breadth the first binomial. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.60.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let AB be a binomial straight line divided into its terms at C, so that AC is the greater term; let a rational straight line DE be set out, and let DEFG equal to the square on AB be applied to DE producing DG as its breadth; I say that DG is a first binomial straight line. \n      ",
         "For let there be applied to DE the rectangle DH equal to the square on AC, and KL equal to the square on BC; therefore the remainder, twice the rectangle AC, CB, is equal to MF. ",
@@ -45,21 +41,21 @@
         "But, if there be two unequal straight lines, and to the greater there be applied a parallelogram equal to the fourth part of the square on the less and deficient by a square figure, and if it divide it into commensurable parts, the square on the greater is greater than the square on the less by the square on a straight line commensurable with the greater; [<a href=\"/books/10/#prop.17\">X. 17</a>] therefore the square on DM is greater than the square on MG by the square on a straight line commensurable with DM. ",
         "And DM, MG are rational, and DM, which is the greater term, is commensurable in length with the rational straight line DE set out. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore DG is a first binomial straight line. [<a href=\"/books/10/#def.2.1\">X. Deff. II. 1</a>] Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": "/books/10/prop.61",
+  "prev": "/books/10/prop.59"
 }

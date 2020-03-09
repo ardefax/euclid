@@ -2,8 +2,7 @@
   "id": "elem.10.114",
   "kind": "proposition",
   "frag": "prop.114",
-  "title": "Proposition 114.",
-  "link": "",
+  "title": "BOOK X: Proposition 114.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If an area be contained by an apotome and the binomial straight line the terms of which are commensurable with the terms of the apotome and in the same ratio, the <quote>side</quote>\n of the area is rational. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.114.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let an area, the rectangle AB, CD, be contained by the apotome AB and the binomial straight line CD, and let CE be the greater term of the latter; let the terms CE, ED of the binomial straight line be commensurable with the terms AF, FB of the apotome and in the same ratio; and let the <quote>side</quote>\n of the rectangle AB, CD be G; I say that G is rational. \n      ",
         "For let a rational straight line H be set out, and to CD let there be applied a rectangle equal to the square on H and producing KL as breadth. ",
@@ -38,21 +34,21 @@
         "But the square on H is rational; therefore the square on G is also rational; therefore G is rational. ",
         "And it is the <quote>side</quote>\n of the rectangle CD, AB. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": "/books/10/prop.115",
+  "prev": "/books/10/prop.113"
 }

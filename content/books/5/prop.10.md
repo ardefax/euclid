@@ -2,8 +2,7 @@
   "id": "elem.5.10",
   "kind": "proposition",
   "frag": "prop.10",
-  "title": "Proposition 10.",
-  "link": "",
+  "title": "BOOK V: Proposition 10.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>Of magnitudes which have a ratio to the same</var>, <var>that which has a greater ratio is greater</var>; <var>and that to which the same has a greater ratio is less</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.5.10.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let <var>A</var> have to <var>C</var> a greater ratio than <var>B</var> has to <var>C</var>; I say that <var>A</var> is greater than <var>B</var>. \n      ",
         "For, if not, <var>A</var> is either equal to <var>B</var> or less. ",
@@ -36,21 +32,21 @@
         "Nor again is <var>B</var> greater than <var>A</var>; for in that case <var>C</var> would have had to <var>B</var> a less ratio than it has to <var>A</var>; [<a href=\"/books/5/#prop.8\">V. 8</a>] but it has not; therefore <var>B</var> is not greater than <var>A</var>.\n      ",
         "But it was proved that it is not equal either; therefore <var>B</var> is less than <var>A</var>.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 5,
+  "next": "/books/5/prop.11",
+  "prev": "/books/5/prop.9"
 }

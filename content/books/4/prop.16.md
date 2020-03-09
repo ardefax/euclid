@@ -2,8 +2,7 @@
   "id": "elem.4.16",
   "kind": "proposition",
   "frag": "prop.16",
-  "title": "Proposition 16.",
-  "link": "",
+  "title": "BOOK IV: Proposition 16.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>In a given circle to inscribe a fifteen-angled figure which shall be both equilateral and equiangular</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.4.16.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABCD</var> be the given circle; thus it is required to inscribe in the circle <var>ABCD</var> a fifteenangled figure which shall be both equilateral and equiangular. \n      ",
         "In the circle <var>ABCD</var> let there be inscribed a side <var>AC</var> of the equilateral triangle inscribed in it, and a side <var>AB</var> of an equilateral pentagon; therefore, of the equal segments of which there are fifteen in the circle <var>ABCD</var>, there will be five in the circumference <var>ABC</var> which is one-third of the circle, and there will be three in the circumference <var>AB</var> which is one-fifth of the circle; therefore in the remainder <var>BC</var> there will be two of the equal segments.\n      ",
@@ -31,21 +27,20 @@
         "If therefore we join <var>BE</var>, <var>EC</var> and fit into the circle <var>ABCD</var> straight lines equal to them and in contiguity, a fifteen-angled figure which is both equilateral and equiangular will have been inscribed in it. Q. E. F. ",
         "And, in like manner as in the case of the pentagon, if through the points of division on the circle we draw tangents to the circle, there will be circumscribed about the circle a fifteen-angled figure which is equilateral and equiangular. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "And further, by proofs similar to those in the case of the pentagon, we can both inscribe a circle in the given fifteenangled figure and circumscribe one about it. Q. E. F."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 4,
+  "prev": "/books/4/prop.15"
 }

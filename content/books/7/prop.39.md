@@ -2,8 +2,7 @@
   "id": "elem.7.39",
   "kind": "proposition",
   "frag": "prop.39",
-  "title": "Proposition 39.",
-  "link": "",
+  "title": "BOOK VII: Proposition 39.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       To find the number which is the least that will have given parts.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.7.39.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let A, B, C be the given parts; thus it is required to find the number which is the least that will have the parts A, B, C. \n      ",
         "Let D, E, F be numbers called by the same name as the parts A, B, C, and let G, the least number measured by D, E, F, be taken. [<a href=\"/books/7/#prop.36\">VII. 36</a>] ",
@@ -36,21 +32,20 @@
         "But D, E, F are numbers called by the same name as the parts A, B, C; therefore H is measured by D, E, F. ",
         "And it is less than G : which is impossible. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore there will be no number less than G that will have the parts A, B, C. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 7,
+  "prev": "/books/7/prop.38"
 }

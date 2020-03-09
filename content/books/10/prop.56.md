@@ -2,8 +2,7 @@
   "id": "elem.10.56",
   "kind": "proposition",
   "frag": "prop.56",
-  "title": "Proposition 56.",
-  "link": "",
+  "title": "BOOK X: Proposition 56.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       If an area be contained by a rational straight line and the third binomial, the <quote>side</quote>\n of the area is the irrational straight line called a second bimedial.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.56.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the area ABCD be contained by the rational straight line AB and the third binomial AD divided into its terms at E, of which terms AE is the greater; I say that the <quote>side</quote>\n of the area AC is the irrational straight line called a second bimedial. ",
         "For let the same construction be made as before. \n      ",
@@ -35,21 +31,21 @@
         "Therefore EL, that is, MR, is medial. [<a href=\"/books/10/#prop.21\">X. 21</a>] ",
         "And it is contained by MN, NO; therefore the rectangle MN, NO is medial. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore MO is a second bimedial straight line. [<a href=\"/books/10/#prop.38\">X. 38</a>] Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": "/books/10/prop.57",
+  "prev": "/books/10/prop.55"
 }

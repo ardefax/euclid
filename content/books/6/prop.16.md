@@ -2,8 +2,7 @@
   "id": "elem.6.16",
   "kind": "proposition",
   "frag": "prop.16",
-  "title": "Proposition 16.",
-  "link": "",
+  "title": "BOOK VI: Proposition 16.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>If four straight lines be proportional</var>, <var>the rectangle contained by the extremes is equal to the rectangle contained by the means; and</var>, <var>if the rectangle contained by the extremes be equal to the rectangle contained by the means</var>, <var>the four straight lines will be proportional</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.6.16.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let the four straight lines <var>AB</var>, <var>CD</var>, <var>E</var>, <var>F</var> be proportional, so that, as <var>AB</var> is to <var>CD</var>, so is <var>E</var> to <var>F</var>; I say that the rectangle contained by <var>AB</var>, <var>F</var> is equal to the rectangle contained by <var>CD</var>, <var>E</var>. \n      ",
         "Let <var>AG</var>, <var>CH</var> be drawn from the points <var>A</var>, <var>C</var> at right angles to the straight lines <var>AB</var>, <var>CD</var>, and let <var>AG</var> be made equal to <var>F</var>, and <var>CH</var> equal to <var>E</var>. ",
@@ -39,21 +35,21 @@
         "Therefore, as <var>AB</var> is to <var>CD</var>, so is <var>CH</var> to <var>AG</var>. ",
         "But <var>CH</var> is equal to <var>E</var>, and <var>AG</var> to <var>F</var>; therefore, as <var>AB</var> is to <var>CD</var>, so is <var>E</var> to <var>F</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 6,
+  "next": "/books/6/prop.17",
+  "prev": "/books/6/prop.15"
 }

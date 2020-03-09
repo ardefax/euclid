@@ -2,8 +2,7 @@
   "id": "elem.6.7",
   "kind": "proposition",
   "frag": "prop.7",
-  "title": "Proposition 7.",
-  "link": "",
+  "title": "BOOK VI: Proposition 7.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>If two triangles have one angle equal to one angle</var>, <var>the sides about other angles proportional</var>, <var>and the remaining angles either both less or both not less than a right angle</var>, <var>the triangles will be equiangular and will have those angles equal</var>, <var>the sides about which are proportional</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.6.7.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABC</var>, <var>DEF</var> be two triangles having one angle equal to one angle, the angle <var>BAC</var> to the angle <var>EDF</var>, the sides about other angles <var>ABC</var>, <var>DEF</var> proportional, so that, as <var>AB</var> is to <var>BC</var>, so is <var>DE</var> to <var>EF</var>, and, first, each of the remaining angles at <var>C</var>, <var>F</var> less than a right angle;  I say that the triangle <var>ABC</var> is equiangular with the triangle <var>DEF</var>, the angle <var>ABC</var> will be equal to the angle <var>DEF</var>, and the remaining angle, namely the angle at <var>C</var>, equal to the remaining angle, the angle at <var>F</var>. ",
         "For, if the angle <var>ABC</var> is unequal to the angle <var>DEF</var>, one of them is greater. ",
@@ -46,21 +42,21 @@
         "But the angle at <var>A</var> is also equal to the angle at <var>D</var>; therefore the remaining angle at <var>C</var> is equal to the remaining angle at <var>F</var>. [<a href=\"/books/1/#prop.32\">I. 32</a>] ",
         "Therefore the triangle <var>ABC</var> is equiangular with the triangle <var>DEF</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 6,
+  "next": "/books/6/prop.8",
+  "prev": "/books/6/prop.6"
 }

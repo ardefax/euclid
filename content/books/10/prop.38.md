@@ -2,8 +2,7 @@
   "id": "elem.10.38",
   "kind": "proposition",
   "frag": "prop.38",
-  "title": "Proposition 38.",
-  "link": "",
+  "title": "BOOK X: Proposition 38.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If two medial straight lines commensurable in square only and containing a medial rectangle be added together, the whole is irrational; and let it be called a\n       second bimedial\n       straight line. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.38.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let two medial straight lines AB, BC commensurable in square only and containing a medial rectangle be added together;  I say that AC is irrational. ",
         "For let a rational straight line DE be set out, and let the parallelogram DF equal to the square on AC be applied to DE, producing DG as breadth. [<a href=\"/books/1/#prop.44\">I. 44</a>\n] ",
@@ -41,21 +37,21 @@
         "But DE is rational; and the rectangle contained by an irrational and a rational straight line is irrational; [cf. <a href=\"/books/10/#prop.20\">X. 20</a>\n] therefore the area DF is irrational, and the side of the square equal to it is irrational. [<a href=\"/books/10/#def.4\">X. Def. 4</a>\n] ",
         "But AC is the side of the square equal to DF; therefore AC is irrational. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "And let it be called a second bimedial straight line. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": "/books/10/prop.39",
+  "prev": "/books/10/prop.37"
 }

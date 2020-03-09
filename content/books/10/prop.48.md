@@ -2,8 +2,7 @@
   "id": "elem.10.48",
   "kind": "proposition",
   "frag": "prop.48",
-  "title": "Proposition 48.",
-  "link": "",
+  "title": "BOOK X: Proposition 48.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "To find the first binomial straight line. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.48.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let two numbers AC, CB be set out such that the sum of them AB has to BC the ratio which a square number has to a square number, but has not to CA the ratio which a square number has to a square number; [<a href=\"/books/10/#28.l.1\">Lemma I after X. 28</a>]  let any rational straight line D be set out, and let EF be commensurable in length with D. ",
         "Therefore EF is also rational. ",
@@ -40,21 +36,20 @@
         "Therefore EF is commensurable in length with H; [<a href=\"/books/10/#prop.9\">X. 9</a>] therefore the square on EF is greater than the square on FG by the square on a straight line commensurable with EF. ",
         "And EF, FG are rational, and EF is commensurable in length with D. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore EF is a first binomial straight line. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": "/books/10/prop.49"
 }

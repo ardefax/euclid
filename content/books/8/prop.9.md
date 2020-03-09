@@ -2,8 +2,7 @@
   "id": "elem.8.9",
   "kind": "proposition",
   "frag": "prop.9",
-  "title": "Proposition 9.",
-  "link": "",
+  "title": "BOOK VIII: Proposition 9.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       If two numbers be prime to one another, and numbers fall between them in continued proportion, then, however many numbers fall between them in continued proportion, so many will also fall between each of them and an unit in continued proportion.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.8.9.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let A, B be two numbers prime to one another, and let C, D fall between them in continued proportion, and let the unit E be set out; I say that, as many numbers as fall between A, B in continued proportion, so many will also fall between either of the numbers A, B and the unit in continued proportion. ",
         "For let two numbers F, G, the least that are in the ratio of A, C, D, B, be taken, three numbers H, K, L with the same property, and others more by one continually, until their multitude is equal to the multitude of A, C, D, B. [<a href=\"/books/8/#prop.2\">VIII. 2</a>] \n      ",
@@ -40,21 +36,21 @@
         "But M is equal to A; therefore, as the unit E is to the number F, so is F to H, and H to A. ",
         "For the same reason also, as the unit E is to the number G, so is G to L and L to B. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore, as many numbers as have fallen between A, B in continued proportion, so many numbers also have fallen between each of the numbers A, B and the unit E in continued proportion. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 8,
+  "next": "/books/8/prop.10",
+  "prev": "/books/8/prop.8"
 }

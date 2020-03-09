@@ -2,8 +2,7 @@
   "id": "elem.12.9",
   "kind": "proposition",
   "frag": "prop.9",
-  "title": "Proposition 9.",
-  "link": "",
+  "title": "BOOK XII: Proposition 9.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       In equal pyramids which have triangular bases the bases are reciprocally proportional to the heights; and those pyramids in which the bases are reciprocally proportional to the heights are equal.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.12.9.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let there be equal pyramids which have the triangular bases ABC, DEF and vertices the points G, H; I say that in the pyramids ABCG, DEFH the bases are reciprocally proportional to the heights, that is, as the base ABC is to the base DEF, so is the height of the pyramid DEFH to the height of the pyramid ABCG. \n      ",
         "For let the parallelepipedal solids BGML, EHQP be completed. ",
@@ -39,21 +35,21 @@
         "But those parallelepipedal solids in which the bases are reciprocally proportional to the heights are equal; [<a href=\"/books/11/#prop.34\">XI. 34</a>] therefore the parallelepipedal solid BGML is equal to the parallelepipedal solid EHQP. ",
         "And the pyramid ABCG is a sixth part of BGML, and the pyramid DEFH a sixth part of the parallelepiped EHQP; therefore the pyramid ABCG is equal to the pyramid DEFH. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 12,
+  "next": "/books/12/prop.10",
+  "prev": "/books/12/prop.8"
 }

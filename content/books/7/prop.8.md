@@ -2,8 +2,7 @@
   "id": "elem.7.8",
   "kind": "proposition",
   "frag": "prop.8",
-  "title": "Proposition 8.",
-  "link": "",
+  "title": "BOOK VII: Proposition 8.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       If a number be the same parts of a number that a number subtracted is of a number subtracted, the remainder will also be the same parts of the remainder that the whole is of the whole.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.7.8.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the number AB be the same parts of the number CD that AE subtracted is of CF subtracted; I say that the remainder EB is also the same parts of the remainder FD that the whole AB is of the whole CD. \n      ",
         "For let GH be made equal to AB. ",
@@ -37,21 +33,21 @@
         "Therefore, whatever part KH is of CD, the same part also is KN of CF; therefore also the remainder NH is the same part of the remainder FD that the whole KH is of the whole CD. [<a href=\"/books/7/#prop.7\">VII. 7</a>] ",
         "But the remainder MK was also proved to be the same part of the remainder FD that the whole GK is of the whole CD; therefore also the sum of MK, NH is the same parts of DF that the whole HG is of the whole CD. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "But the sum of MK, NH is equal to EB, and HG is equal to BA; therefore the remainder EB is the same parts of the remainder FD that the whole AB is of the whole CD. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 7,
+  "next": "/books/7/prop.9",
+  "prev": "/books/7/prop.7"
 }

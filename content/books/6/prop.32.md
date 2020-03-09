@@ -2,8 +2,7 @@
   "id": "elem.6.32",
   "kind": "proposition",
   "frag": "prop.32",
-  "title": "Proposition 32.",
-  "link": "",
+  "title": "BOOK VI: Proposition 32.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>If two triangles having two sides proportional to two sides be placed together at one angle so that their corresponding sides are also parallel, the remaining sides of the triangles will be in a straight line</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.6.32.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABC</var>, <var>DCE</var> be two triangles having the two sides <var>BA</var>, <var>AC</var> proportional to the two sides <var>DC</var>, <var>DE</var>, so that, as <var>AB</var> is to <var>AC</var>, so is <var>DC</var> to <var>DE</var>, and <var>AB</var> parallel to <var>DC</var>, and <var>AC</var> to <var>DE</var>; I say that <var>BC</var> is in a straight line with <var>CE</var>. ",
         "For, since <var>AB</var> is parallel to <var>DC</var>, and the straight line <var>AC</var> has fallen upon them, the alternate angles <var>BAC</var>, <var>ACD</var> are equal to one another. [<a href=\"/books/1/#prop.29\">I. 29</a>] ",
@@ -34,21 +30,21 @@
         "But the angles <var>BAC</var>, <var>ABC</var>, <var>ACB</var> are equal to two right angles; [<a href=\"/books/1/#prop.32\">I. 32</a>] therefore the angles <var>ACE</var>, <var>ACB</var> are also equal to two right angles.\n      ",
         "Therefore with a straight line <var>AC</var>, and at the point <var>C</var> on it, the two straight lines <var>BC</var>, <var>CE</var> not lying on the same side make the adjacent angles <var>ACE</var>, <var>ACB</var> equal to two right angles; therefore <var>BC</var> is in a straight line with <var>CE</var>. [<a href=\"/books/1/#prop.14\">I. 14</a>]\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 6,
+  "next": "/books/6/prop.33",
+  "prev": "/books/6/prop.31"
 }

@@ -2,8 +2,7 @@
   "id": "elem.10.2",
   "kind": "proposition",
   "frag": "prop.2",
-  "title": "Proposition 2.",
-  "link": "",
+  "title": "BOOK X: Proposition 2.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       If, when the less of two unequal magnitudes is continually subtracted in turn from the greater, that which is left never measures the one before it, the magnitudes will be incommensurable.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.2.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For, there being two unequal magnitudes AB, CD, and AB being the less, when the less is continually subtracted in turn from the greater, let that which is left over never measure the one before it; I say that the magnitudes AB, CD are incommensurable. \n      ",
         "For, if they are commensurable, some magnitude will measure them. ",
@@ -35,21 +31,21 @@
         "But it measures the whole AB also; therefore it will also measure the remainder AG, the greater the less: which is impossible. ",
         "Therefore no magnitude will measure the magnitudes AB, CD; therefore the magnitudes AB, CD are incommensurable. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. [<a href=\"/books/10/#def.1\">X. Def. 1</a>]"
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": "/books/10/prop.3",
+  "prev": "/books/10/prop.1"
 }

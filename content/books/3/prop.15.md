@@ -2,8 +2,7 @@
   "id": "elem.3.15",
   "kind": "proposition",
   "frag": "prop.15",
-  "title": "Proposition 15.",
-  "link": "",
+  "title": "BOOK III: Proposition 15.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>Of straight lines in a circle the diameter is greatest</var>, <var>and of the rest the nearer to the centre is always greater than the more remote</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.3.15.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABCD</var> be a circle, let <var>AD</var> be its diameter and <var>E</var> the centre; and let <var>BC</var> be nearer to the diameter <var>AD</var>, and <var>FG</var> more remote; I say that <var>AD</var> is greatest and <var>BC</var> greater than <var>FG</var>. ",
         "For from the centre <var>E</var> let <var>EH</var>, <var>EK</var>\n        be drawn perpendicular to <var>BC</var>, <var>FG</var>. ",
@@ -36,21 +32,21 @@
         "But <var>MN</var> was proved equal to <var>BC</var>. ",
         "Therefore the diameter <var>AD</var> is greatest and <var>BC</var> greater than <var>FG</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D.\n<note n=\"1\" type=\"crit\" place=\"unspecified\" anchored=\"yes\">\n        <p>Of straight lines. The Greek leaves these words to be understood.</p>\n       </note>\n       <note n=\"5\" type=\"crit\" place=\"unspecified\" anchored=\"yes\">\n        <p>Nearer to the diameter AD. As <var>BC</var>, <var>FG</var> are not in general parallel to <var>AD</var>, Euclid should have said <quote>nearer to the centre.</quote>\n</p>\n       </note>"
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 3,
+  "next": "/books/3/prop.16",
+  "prev": "/books/3/prop.14"
 }

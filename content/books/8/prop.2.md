@@ -2,8 +2,7 @@
   "id": "elem.8.2",
   "kind": "proposition",
   "frag": "prop.2",
-  "title": "Proposition 2.",
-  "link": "",
+  "title": "BOOK VIII: Proposition 2.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       To find numbers in continued proportion, as many as may be prescribed, and the least that are in a given ratio.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.8.2.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let the ratio of A to B be the given ratio in least numbers; thus it is required to find numbers in continued proportion, as many as may be prescribed, and the least that are in the ratio of A to B. \n      ",
         "Let four be prescribed; let A by multiplying itself make C, and by multiplying B let it make D; let B by multiplying itself make E; further, let A by multiplying C, D, E make F, G, H, and let B by multiplying E make K. ",
@@ -44,21 +40,21 @@
         "And the numbers A, B by multiplying themselves respectively have made the numbers C, E, and by multiplying the numbers C, E respectively have made the numbers F, K; therefore C, E and F, K are prime to one another respectively. [<a href=\"/books/7/#prop.27\">VII. 27</a>] ",
         "But, if there be as many numbers as we please in continued proportion, and the extremes of them be prime to one another, they are the least of those which have the same ratio with them. [<a href=\"/books/8/#prop.1\">VIII. 1</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore C, D, E and F, G, H, K are the least of those which have the same ratio with A, B. Q. E. D. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 8,
+  "next": "/books/8/prop.3",
+  "prev": "/books/8/prop.1"
 }

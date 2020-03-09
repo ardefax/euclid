@@ -2,8 +2,7 @@
   "id": "elem.12.10",
   "kind": "proposition",
   "frag": "prop.10",
-  "title": "Proposition 10.",
-  "link": "",
+  "title": "BOOK XII: Proposition 10.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       Any cone is a third part of the cylinder which has the same base with it and equal height.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.12.10.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let a cone have the same base, namely the circle ABCD, with a cylinder and equal height; I say that the cone is a third part of the cylinder, that is, that the cylinder is triple of the cone. ",
         "For if the cylinder is not triple of the cone, the cylinder will be either greater than triple or less than triple of the cone. \n      ",
@@ -53,21 +49,21 @@
         "Therefore the cylinder is not less than triple of the cone. ",
         "But it was proved that neither is it greater than triple; therefore the cylinder is triple of the cone; hence the cone is a third part of the cylinder. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 12,
+  "next": "/books/12/prop.11",
+  "prev": "/books/12/prop.9"
 }

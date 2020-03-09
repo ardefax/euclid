@@ -2,8 +2,7 @@
   "id": "elem.12.11",
   "kind": "proposition",
   "frag": "prop.11",
-  "title": "Proposition 11.",
-  "link": "",
+  "title": "BOOK XII: Proposition 11.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       Cones and cylinders which are of the same height are to one another as their bases.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.12.11.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let there be cones and cylinders of the same height, let the circles ABCD, EFGH be their bases, KL, MN their axes and AC, EG the diameters of their bases; I say that, as the circle ABCD is to the circle EFGH, so is the cone AL to the cone EN. \n      ",
         "For, if not, then, as the circle ABCD is to the circle EFGH, so will the cone AL be either to some solid less than the cone EN or to a greater. ",
@@ -51,21 +47,21 @@
         "But, as the cone is to the cone, so is the cylinder to the cylinder, for each is triple of each; [<a href=\"/books/12/#prop.10\">XII. 10</a>] ",
         "Therefore also, as the circle ABCD is to the circle EFGH, so are the cylinders on them which are of equal height. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 12,
+  "next": "/books/12/prop.12",
+  "prev": "/books/12/prop.10"
 }

@@ -2,8 +2,7 @@
   "id": "elem.13.10",
   "kind": "proposition",
   "frag": "prop.10",
-  "title": "Proposition 10.",
-  "link": "",
+  "title": "BOOK XIII: Proposition 10.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If an equilateral pentagon be inscribed in a circle, the square on the side of the pentagon is equal to the squares on the side of the hexagon and on that of the decagon inscribed in the same circle.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.13.10.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let ABCDE be a circle, and let the equilateral pentagon ABCDE be inscribed in the circle ABCDE. ",
         "I say that the square on the side of the pentagon ABCDE is equal to the squares on the side of the hexagon and on that of the decagon inscribed in the circle ABCDE. ",
@@ -50,21 +46,21 @@
         "But the rectangle AB, BN was also proved equal to the square on BF; therefore the rectangle AB, BN together with the rectangle BA, AN, that is, the square on BA [<a href=\"/books/2/#prop.2\">II. 2</a>], is equal to the square on BF together with the square on AK. ",
         "And BA is a side of the pentagon, BF of the hexagon [<a href=\"/books/4/#15.p.1\">IV. 15, Por.</a>], and AK of the decagon. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 13,
+  "next": "/books/13/prop.11",
+  "prev": "/books/13/prop.9"
 }

@@ -2,8 +2,7 @@
   "id": "elem.11.14",
   "kind": "proposition",
   "frag": "prop.14",
-  "title": "Proposition 14.",
-  "link": "",
+  "title": "BOOK XI: Proposition 14.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       Planes to which the same straight line is at right angles will be parallel.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.11.14.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let any straight line AB be at right angles to each of the planes CD, EF; I say that the planes are parallel. \n      ",
         "For, if not, they will meet when produced. ",
@@ -34,21 +30,21 @@
         "Thus, in the triangle ABK, the two angles ABK, BAK are equal to two right angles: which is impossible. [<a href=\"/books/1/#prop.17\">I. 17</a>] ",
         "Therefore the planes CD, EF will not meet when produced; therefore the planes CD, EF are parallel. [<a href=\"/books/11/#def.8\">XI. Def. 8</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore planes to which the same straight line is at right angles are parallel. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 11,
+  "next": "/books/11/prop.15",
+  "prev": "/books/11/prop.13"
 }

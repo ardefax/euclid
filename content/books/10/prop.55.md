@@ -2,8 +2,7 @@
   "id": "elem.10.55",
   "kind": "proposition",
   "frag": "prop.55",
-  "title": "Proposition 55.",
-  "link": "",
+  "title": "BOOK X: Proposition 55.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       If an area be contained by a rational straight line and the second binomial, the <quote>side</quote>\n of the area is the irrational straight line which is called a first bimedial.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.55.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the area ABCD be contained by the rational straight line AB and the second binomial AD; I say that the <quote>side</quote>\n of the area AC is a first bimedial straight line. ",
         "For, since AD is a second binomial straight line, let it be divided into its terms at E, so that AE is the greater term; therefore AE, ED are rational straight lines commensurable in square only, the square on AE is greater than the square on ED by the square on a straight line commensurable with AE, and the lesser term ED is commensurable in length with AB. [<a href=\"/books/10/#def.2.2\">X. Deff. II. 2</a>] ",
@@ -46,21 +42,21 @@
         "And each of them is rational; therefore EL, that is, MR is rational, [<a href=\"/books/10/#prop.19\">X. 19</a>] and MR is the rectangle MN, NO. ",
         "But, if two medial straight lines commensurable in square only and containing a rational rectangle be added together, the whole is irrational and is called a first bimedial straight line. [<a href=\"/books/10/#prop.37\">X. 37</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore MO is a first bimedial straight line. Q. E. D.\n<note n=\"39\" type=\"crit\" place=\"unspecified\" anchored=\"yes\">39. <lemma from=\"ROOT\" to=\"DITTO\" targOrder=\"U\">Therefore BA, AG and BA, GE are pairs of rational straight lines commensurable in square only.</lemma> The text has <quote>Therefore BA, AG, GE are rational straight lines commensurable in square only,</quote>\n which I have altered because it would naturally convey the impression that any two of the three straight lines are commensurable in square only, whereas AG, GE are commensurable in length (<a href=\"/books/1/#prop.18\">I. 18</a>), and it is only the other two pairs which are commensurable in square only.</note>"
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": "/books/10/prop.56",
+  "prev": "/books/10/prop.54"
 }

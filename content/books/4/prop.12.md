@@ -2,8 +2,7 @@
   "id": "elem.4.12",
   "kind": "proposition",
   "frag": "prop.12",
-  "title": "Proposition 12.",
-  "link": "",
+  "title": "BOOK IV: Proposition 12.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>About a given circle to circumscribe an equilateral and equiangular pentagon</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.4.12.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABCDE</var> be the given circle; thus it is required to circumscribe an equilateral and equiangular pentagon about the circle <var>ABCDE</var>. ",
         "Let <var>A</var>, <var>B</var>, <var>C</var>, <var>D</var>, <var>E</var> be conceived to be the angular points of the inscribed pentagon, so that the circumferences <var>AB</var>, <var>BC</var>, <var>CD</var>, <var>DE</var>, <var>EA</var> are equal; [<a href=\"/books/4/#prop.11\">IV. 11</a>]  through <var>A</var>, <var>B</var>, <var>C</var>, <var>D</var>, <var>E</var> let <var>GH</var>, <var>HK</var>, <var>KL</var>, <var>LM</var>, <var>MG</var> be drawn touching the circle; [<a href=\"/books/3/#16.p.1\">III. 16, Por.</a>] let the centre <var>F</var> of the circle <var>ABCDE</var> be taken [<a href=\"/books/3/#prop.1\">III. 1</a>], and let <var>FB</var>, <var>FK</var>, <var>FC</var>, <var>FL</var>, <var>FD</var> be joined. ",
@@ -46,21 +42,21 @@
         "Similarly each of the angles <var>KHG</var>, <var>HGM</var>, <var>GML</var> can also be proved equal to each of the angles <var>HKL</var>, <var>KLM</var>; therefore the five angles <var>GHK</var>, <var>HKL</var>, <var>KLM</var>, <var>LMG</var>, <var>MGH</var> are equal to one another. ",
         "Therefore the pentagon <var>GHKLM</var> is equiangular. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "And it was also proved equilateral; and it has been circumscribed about the circle <var>ABCDE</var>. Q. E. F."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 4,
+  "next": "/books/4/prop.13",
+  "prev": "/books/4/prop.11"
 }

@@ -2,8 +2,7 @@
   "id": "elem.6.2",
   "kind": "proposition",
   "frag": "prop.2",
-  "title": "Proposition 2.",
-  "link": "",
+  "title": "BOOK VI: Proposition 2.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>If a straight line be drawn parallel to one of the sides of a triangle</var>, <var>it will cut the sides of the triangle proportionally; and</var>, <var>if the sides of the triangle be cut proportionally</var>, <var>the line joining the points of section will be parallel to the remaining side of the triangle</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.6.2.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let <var>DE</var> be drawn parallel to <var>BC</var>, one of the sides of the triangle <var>ABC</var>; I say that, as <var>BD</var> is to <var>DA</var>, so is <var>CE</var> to <var>EA</var>. ",
         "For let <var>BE</var>, <var>CD</var> be joined. ",
@@ -41,21 +37,21 @@
         "But equal triangles which are on the same base are also in the same parallels. [<a href=\"/books/1/#prop.39\">I. 39</a>] ",
         "Therefore <var>DE</var> is parallel to <var>BC</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 6,
+  "next": "/books/6/prop.3",
+  "prev": "/books/6/prop.1"
 }

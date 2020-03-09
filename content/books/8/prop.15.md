@@ -2,8 +2,7 @@
   "id": "elem.8.15",
   "kind": "proposition",
   "frag": "prop.15",
-  "title": "Proposition 15.",
-  "link": "",
+  "title": "BOOK VIII: Proposition 15.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       If a cube number measure a cube number, the side will also measure the side; and, if the side measure the side, the cube will also measure the cube.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.8.15.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the cube number A measure the cube B, and let C be the side of A and D of B; I say that C measures D. ",
         "For let C by multiplying itself make E, and let D by multiplying itself make G; further, let C by multiplying D make F, and let C, D by multiplying F make H, K respectively. \n      ",
@@ -33,21 +29,21 @@
         "Next, let C measure D; I say that A will also measure B. ",
         "For, with the same construction, we can prove in a similar manner that A, H, K, B are continuously proportional in the ratio of C to D. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "And, since C measures D, and, as C is to D, so is A to H, therefore A also measures H, [<a href=\"/books/7/#def.20\">VII. Def. 20</a>] so that A measures B also. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 8,
+  "next": "/books/8/prop.16",
+  "prev": "/books/8/prop.14"
 }

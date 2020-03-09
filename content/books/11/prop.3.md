@@ -2,8 +2,7 @@
   "id": "elem.11.3",
   "kind": "proposition",
   "frag": "prop.3",
-  "title": "Proposition 3.",
-  "link": "",
+  "title": "BOOK XI: Proposition 3.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If two planes cut one another, their common section is a straight line.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.11.3.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the two planes AB, BC cut one another, and let the line DB be their common section; I say that the line DB is a straight line. \n      ",
         "For, if not, from D to B let the straight line DEB be joined in the plane AB, and in the plane BC the straight line DFB. ",
@@ -31,21 +27,21 @@
         "Therefore DEB, DFB are not straight lines. ",
         "Similarly we can prove that neither will there be any other straight line joined from D to B except DB the common section of the planes AB, BC. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 11,
+  "next": "/books/11/prop.4",
+  "prev": "/books/11/prop.2"
 }

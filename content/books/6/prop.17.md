@@ -2,8 +2,7 @@
   "id": "elem.6.17",
   "kind": "proposition",
   "frag": "prop.17",
-  "title": "Proposition 17.",
-  "link": "",
+  "title": "BOOK VI: Proposition 17.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>If three straight lines be proportional</var>, <var>the rectangle contained by the extremes is equal to the square on the mean</var>; <var>and</var>, <var>if the rectangle contained by the extremes be equal to the square on the mean</var>, <var>the three straight lines will be proportional</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.6.17.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let the three straight lines <var>A</var>, <var>B</var>, <var>C</var> be proportional, so that, as <var>A</var> is to <var>B</var>, so is <var>B</var> to <var>C</var>; I say that the rectangle contained by <var>A</var>, <var>C</var> is equal to the square on <var>B</var>. \n      ",
         "Let <var>D</var> be made equal to <var>B</var>. ",
@@ -37,21 +33,21 @@
         "Therefore, as <var>A</var> is to <var>B</var>, so is <var>D</var> to <var>C</var>. ",
         "But <var>B</var> is equal to <var>D</var>; therefore, as <var>A</var> is to <var>B</var>, so is <var>B</var> to <var>C</var>.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 6,
+  "next": "/books/6/prop.18",
+  "prev": "/books/6/prop.16"
 }

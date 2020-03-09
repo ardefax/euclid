@@ -2,8 +2,7 @@
   "id": "elem.6.26",
   "kind": "proposition",
   "frag": "prop.26",
-  "title": "Proposition 26.",
-  "link": "",
+  "title": "BOOK VI: Proposition 26.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>If from a parallelogram there be taken away a parallelogram similar and similarly situated to the whole and having a common angle with it</var>, <var>it is about the same diameter with the whole</var>\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.6.26.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For from the parallelogram <var>ABCD</var> let there be taken away the parallelogram <var>AF</var> similar and similarly situated to <var>ABCD</var>, and having the angle <var>DAB</var> common with it;  I say that <var>ABCD</var> is about the same diameter with <var>AF</var>. ",
         "For suppose it is not, but, if possible, let <var>AHC</var> be the diameter &lt; of <var>ABCD</var> &gt;, let <var>GF</var> be produced and carried through to <var>H</var>, and let <var>HK</var> be drawn through <var>H</var> parallel to either of the straight lines <var>AD</var>, <var>BC</var>. [<a href=\"/books/1/#prop.31\">I. 31</a>] ",
@@ -33,21 +29,21 @@
         "Therefore <var>AE</var> is equal to <var>AK</var> [<a href=\"/books/5/#prop.9\">V. 9</a>], the less to the greater : which is impossible. ",
         "Therefore <var>ABCD</var> cannot but be about the same diameter with <var>AF</var>; therefore the parallelogram <var>ABCD</var> is about the same diameter with the parallelogram <var>AF</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 6,
+  "next": "/books/6/prop.27",
+  "prev": "/books/6/prop.25"
 }

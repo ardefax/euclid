@@ -2,8 +2,7 @@
   "id": "elem.10.53",
   "kind": "proposition",
   "frag": "prop.53",
-  "title": "Proposition 53.",
-  "link": "",
+  "title": "BOOK X: Proposition 53.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       To find the sixth binomial straight line.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.53.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let two numbers AC, CB be set out such that AB has not to either of them the ratio which a square number has to a square number; and let there also be another number D which is not square and which has not to either of the numbers BA, AC the ratio which a square number has to a square number. \n      ",
         "Let any rational straight line E be set out, and let it be contrived that, as D is to AB, so is the square on E to the square on FG; [<a href=\"/books/10/#6.p.1\">X. 6, Por.</a>] therefore the square on E is commensurable with the square on FG. [<a href=\"/books/10/#prop.6\">X. 6</a>] ",
@@ -44,21 +40,21 @@
         "Therefore FG is incommensurable in length with K; [<a href=\"/books/10/#prop.9\">X. 9</a>] therefore the square on FG is greater than the square on GH by the square on a straight line incommensurable with FG. ",
         "And FG, GH are rational straight lines commensurable in square only, and neither of them is commensurable in length with the rational straight line E set out. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore FH is a sixth binomial straight line. Q. E. D.\n "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": "/books/10/prop.54",
+  "prev": "/books/10/prop.52"
 }

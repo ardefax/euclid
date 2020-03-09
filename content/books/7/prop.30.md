@@ -2,8 +2,7 @@
   "id": "elem.7.30",
   "kind": "proposition",
   "frag": "prop.30",
-  "title": "Proposition 30.",
-  "link": "",
+  "title": "BOOK VII: Proposition 30.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       If two numbers by multiplying one another make some number, and any prime number measure the product, it will also measure one of the original numbers.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.7.30.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the two numbers A, B by multiplying one another make C, and let any prime number D measure C; I say that D measures one of the numbers A, B. \n      ",
         "For let it not measure A. ",
@@ -35,21 +31,21 @@
         "But D, A are prime to one another, primes are also least, [<a href=\"/books/7/#prop.21\">VII. 21</a>] and the least measure the numbers which have the same ratio the same number of times, the greater the greater and the less the less, that is, the antecedent the antecedent and the consequent the consequent; [<a href=\"/books/7/#prop.20\">VII. 20</a>] therefore D measures B. ",
         "Similarly we can also show that, if D do not measure B, it will measure A. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore D measures one of the numbers A, B. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 7,
+  "next": "/books/7/prop.31",
+  "prev": "/books/7/prop.29"
 }

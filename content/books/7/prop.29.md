@@ -2,8 +2,7 @@
   "id": "elem.7.29",
   "kind": "proposition",
   "frag": "prop.29",
-  "title": "Proposition 29.",
-  "link": "",
+  "title": "BOOK VII: Proposition 29.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       Any prime number is prime to any number which it does not measure.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.7.29.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let A be a prime number, and let it not measure B; I say that B, A are prime to one another. ",
         "For, if B, A are not prime to one another, some number will measure them. \n      ",
@@ -32,21 +28,21 @@
         "Now, since C measures B, A, therefore it also measures A which is prime, though it is not the same with it: which is impossible. ",
         "Therefore no number will measure B, A. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore A, B are prime to one another. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 7,
+  "next": "/books/7/prop.30",
+  "prev": "/books/7/prop.28"
 }

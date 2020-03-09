@@ -2,8 +2,7 @@
   "id": "elem.3.36",
   "kind": "proposition",
   "frag": "prop.36",
-  "title": "Proposition 36.",
-  "link": "",
+  "title": "BOOK III: Proposition 36.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>If a point be taken outside a circle and from it there fall on the circle two straight lines</var>, <var>and if one of them cut the circle and the other touch it</var>, <var>the rectangle contained by the whole of the straight line which cuts the circle and the straight line intercepted on it outside between the point and the convex circumference will be equal to the square on the tangent</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.3.36.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let a point <var>D</var> be taken outside the circle <var>ABC</var>, and from <var>D</var> let the two straight lines <var>DCA</var>, <var>DB</var> fall on the circle <var>ABC</var>; let <var>DCA</var> cut the circle <var>ABC</var> and let <var>BD</var> touch it; I say that the rectangle contained by <var>AD</var>, <var>DC</var> is equal to the square on <var>DB</var>. \n      ",
         "Then <var>DCA</var> is either through the centre or not through the centre. ",
@@ -42,21 +38,21 @@
         "But the squares on <var>EB</var>, <var>BD</var> are equal to the square on <var>ED</var>, for the angle <var>EBD</var> is right; [<a href=\"/books/1/#prop.47\">I. 47</a>] therefore the rectangle <var>AD</var>, <var>DC</var> together with the square on <var>EB</var> is equal to the squares on <var>EB</var>, <var>BD</var>. ",
         "Let the square on <var>EB</var> be subtracted from each; therefore the rectangle <var>AD</var>, <var>DC</var> which remains is equal to the square on <var>DB</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 3,
+  "next": "/books/3/prop.37",
+  "prev": "/books/3/prop.35"
 }

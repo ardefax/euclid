@@ -2,8 +2,7 @@
   "id": "elem.10.32",
   "kind": "proposition",
   "frag": "prop.32",
-  "title": "Proposition 32.",
-  "link": "",
+  "title": "BOOK X: Proposition 32.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       To find two medial straight lines commensurable in square only, containing a medial rectangle, and such that the square on the greater is greater than the square on the less by the square on a straight line commensurable with the greater.\n       \n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.32.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let there be set out three rational straight lines A, B, C commensurable in square only, and such that the square on A is greater than the square on C by the square on a straight line commensurable with A, [<a href=\"/books/10/#prop.29\">X. 29</a>] and let the square on D be equal to the rectangle A, B. \n      ",
         "Therefore the square on D is medial; therefore D is also medial. [<a href=\"/books/10/#prop.21\">X. 21</a>] ",
@@ -36,21 +32,21 @@
         "I say next that the rectangle D, E is also medial. ",
         "For, since the rectangle B, C is equal to the rectangle D, E, while the rectangle B, C is medial, [<a href=\"/books/10/#prop.21\">X. 21</a>] therefore the rectangle D, E is also medial. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore two medial straight lines D, E, commensurable in square only, and containing a medial rectangle, have been found such that the square on the greater is greater than the square on the less by the square on a straight line commensurable with the greater. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": "/books/10/prop.33",
+  "prev": "/books/10/prop.31"
 }

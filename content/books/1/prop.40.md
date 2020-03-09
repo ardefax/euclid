@@ -2,8 +2,7 @@
   "id": "elem.1.40",
   "kind": "proposition",
   "frag": "prop.40",
-  "title": "Proposition 40.",
-  "link": "",
+  "title": "BOOK I: Proposition 40.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Equal triangles which are on equal bases and on the same side are also in the same parallels"
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.1.40.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABC</var>, <var>CDE</var> be equal triangles on equal bases <var>BC</var>, <var>CE</var> and on the same side.",
         "I say that they are also in the same parallels.",
@@ -33,21 +29,21 @@
         "But the triangle <var>ABC</var> is equal to the triangle <var>DCE</var>; therefore the triangle <var>DCE</var> is also equal to the triangle <var>FCE</var>, [<a href=\"/books/1/#cn.1\">C.N. 1</a>] the greater to the less: which is impossible. Therefore <var>AF</var> is not parallel to <var>BE</var>.\n       ",
         "Similarly we can prove that neither is any other straight line except <var>AD</var>; therefore <var>AD</var> is parallel to <var>BE</var>."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 1,
+  "next": "/books/1/prop.41",
+  "prev": "/books/1/prop.39"
 }

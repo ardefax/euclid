@@ -2,8 +2,7 @@
   "id": "elem.13.16",
   "kind": "proposition",
   "frag": "prop.16",
-  "title": "Proposition 16.",
-  "link": "",
+  "title": "BOOK XIII: Proposition 16.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "To construct an icosahedron and comprehend it in a sphere, like the aforesaid figures; and to prove that the side of the icosahedron is the irrational straight line called minor.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.13.16.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let the diameter AB of the given sphere be set out, and let it be cut at C so that AC is quadruple of CB, let the semicircle ADB be described on AB, let the straight line CD be drawn from C at right angles to AB, and let DB be joined;  let the circle EFGHK be set out and let its radius be equal to DB, let the equilateral and equiangular pentagon EFGHK be inscribed in the circle EFGHK, let the circumferences EF, FG, GH, HK, KE be bisected at the points L, M, N, O, P, and let LM, MN, NO, OP, PL, EP be joined. ",
         "Therefore the pentagon LMNOP is also equilateral, and the straight line EP belongs to a decagon. ",
@@ -75,21 +71,21 @@
         "But, if an equilateral pentagon be inscribed in a circle which has its diameter rational, the side of the pentagon is the irrational straight line called minor. [<a href=\"/books/13/#prop.11\">XIII. 11</a>] ",
         "And the side of the pentagon EFGHK is the side of the icosahedron. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore the side of the icosahedron is the irrational straight line called minor. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 13,
+  "next": "/books/13/prop.17",
+  "prev": "/books/13/prop.15"
 }

@@ -2,8 +2,7 @@
   "id": "elem.10.99",
   "kind": "proposition",
   "frag": "prop.99",
-  "title": "Proposition 99.",
-  "link": "",
+  "title": "BOOK X: Proposition 99.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "The square on a second apotome of a medial straight line applied to a rational straight line produces as breadth a third apotome. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.99.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let AB be a second apotome of a medial straight line, and CD rational, and to CD let there be applied CE equal to the square on AB, producing CF as breadth; I say that CF is a third apotome. \n      ",
         "For let BG be the annex to AB; therefore AG, GB are medial straight lines commensurable in square only which contain a medial rectangle. [<a href=\"/books/10/#prop.75\">X. 75</a>] ",
@@ -45,21 +41,21 @@
         "Since then CM, MF are two unequal straight lines, and a parallelogram equal to the fourth part of the square on FM and deficient by a square figure has been applied to CM, and divides it into commensurable parts, therefore the square on CM is greater than the square on MF by the square on a straight line commensurable with CM. [<a href=\"/books/10/#prop.17\">X. 17</a>] ",
         "And neither of the straight lines CM, MF is commensurable in length with the rational straight line CD set out; therefore CF is a third apotome. [<a href=\"/books/10/#def.3.3\">X. Deff. III. 3</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": "/books/10/prop.100",
+  "prev": "/books/10/prop.98"
 }

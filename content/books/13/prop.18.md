@@ -2,8 +2,7 @@
   "id": "elem.13.18",
   "kind": "proposition",
   "frag": "prop.18",
-  "title": "Proposition 18.",
-  "link": "",
+  "title": "BOOK XIII: Proposition 18.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       To set out the sides of the five figures and to compare them with one another.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.13.18.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let AB, the diameter of the given sphere, be set out, and let it be cut at C so that AC is equal to CB, and at D so that AD is double of DB; let the semicircle AEB be described on AB, from C, D let CE, DF be drawn at right angles to AB, and let AF, FB, EB be joined. ",
         "Then, since AD is double of DB, therefore AB is triple of BD. \n      ",
@@ -74,21 +70,20 @@
         "By three equilateral and equiangular pentagons the angle of the dodecahedron is contained; but by four such it is impossible for any solid angle to be contained, for, the angle of the equilateral pentagon being a right angle and a fifth, the four angles will be greater than four right angles: which is impossible. ",
         "Neither again will a solid angle be contained by other polygonal figures by reason of the same absurdity. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 13,
+  "prev": "/books/13/prop.17"
 }

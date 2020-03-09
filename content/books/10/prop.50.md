@@ -2,8 +2,7 @@
   "id": "elem.10.50",
   "kind": "proposition",
   "frag": "prop.50",
-  "title": "Proposition 50.",
-  "link": "",
+  "title": "BOOK X: Proposition 50.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "To find the third binomial straight line. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.50.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let two numbers AC, CB be set out such that the sum of them AB has to BC the ratio which a square number has to a square number, but has not to AC the ratio which a square number has to a square number. \n      ",
         "Let any other number D, not square, be set out also, and let it not have to either of the numbers BA. AC the ratio which a square number has to a square number. ",
@@ -43,21 +39,21 @@
         "Therefore the square on FG is greater than the square on GH by the square on a straight line commensurable with FG. ",
         "And FG, GH are rational straight lines commensurable in square only, and neither of them is commensurable in length with E. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore FH is a third binomial straight line. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": "/books/10/prop.51",
+  "prev": "/books/10/prop.49"
 }

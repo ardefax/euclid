@@ -2,8 +2,7 @@
   "id": "elem.10.102",
   "kind": "proposition",
   "frag": "prop.102",
-  "title": "Proposition 102.",
-  "link": "",
+  "title": "BOOK X: Proposition 102.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       The square on the straight line which produces with a medial area a medial whole, if applied to a rational straight line, produces as breadth a sixth apotome.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.102.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let AB be the straight line which produces with a medial area a medial whole, and CD a rational straight line, and to CD let CE be applied equal to the square on AB and producing CF as breadth; I say that CF is a sixth apotome. \n      ",
         "For let BG be the annex to AB; therefore AG, GB are straight lines incommensurable in square which make the sum of the squares on them medial, twice the rectangle AG, GB medial, and the squares on AG, GB incommensurable with twice the rectangle AG, GB. [<a href=\"/books/10/#prop.78\">X. 78</a>] ",
@@ -44,21 +40,21 @@
         "And, since the rectangle AG, GB is a mean proportional between the squares on AG, GB, and CH is equal to the square on AG, KL equal to the square on GB, and NL equal to the rectangle AG, GB, therefore NL is also a mean proportional between CH, KL; therefore, as CH is to NL, so is NL to KL. ",
         "And for the same reason as before the square on CM is greater than the square on MF by the square on a straight line incommensurable with CM. [<a href=\"/books/10/#prop.18\">X. 18</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "And neither of them is commensurable with the rational straight line CD set out; therefore CF is a sixth apotome. [<a href=\"/books/10/#def.3.6\">X. Deff. III. 6</a>] Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": "/books/10/prop.103",
+  "prev": "/books/10/prop.101"
 }

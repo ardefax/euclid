@@ -2,8 +2,7 @@
   "id": "elem.5.19",
   "kind": "proposition",
   "frag": "prop.19",
-  "title": "Proposition 19.",
-  "link": "",
+  "title": "BOOK V: Proposition 19.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>If, as a whole is to a whole, so is a part subtracted to a part subtracted</var>, <var>the remainder will also be to the remainder as whole to whole</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.5.19.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For, as the whole <var>AB</var> is to the whole <var>CD</var>, so let the part <var>AE</var> subtracted be to the part <var>CF</var> subtracted; I say that the remainder <var>EB</var> will also be to the remainder <var>FD</var> as the whole <var>AB</var> to the whole <var>CD</var>. \n      ",
         "For since, as <var>AB</var> is to <var>CD</var>, so is <var>AE</var> to <var>CF</var>, alternately also, as <var>BA</var> is to <var>AE</var>, so is <var>DC</var> to <var>CF</var>. [<a href=\"/books/5/#prop.16\">V. 16</a>] ",
@@ -31,21 +27,21 @@
         "But, as <var>AE</var> is to <var>CF</var>, so by hypothesis is the whole <var>AB</var> to the whole <var>CD</var>. ",
         "Therefore also the remainder <var>EB</var> will be to the remainder <var>FD</var> as the whole <var>AB</var> is to the whole <var>CD</var>. [<a href=\"/books/5/#prop.11\">V. 11</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. \n["
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 5,
+  "next": "/books/5/prop.20",
+  "prev": "/books/5/prop.18"
 }

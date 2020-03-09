@@ -2,8 +2,7 @@
   "id": "elem.10.23",
   "kind": "proposition",
   "frag": "prop.23",
-  "title": "Proposition 23.",
-  "link": "",
+  "title": "BOOK X: Proposition 23.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "A straight line commensurable with a medial straight line is medial. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.23.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let A be medial, and let B be commensurable with A; I say that B is also medial. ",
         "For let a rational straight line CD be set out,  and to CD let the rectangular area CE equal to the square on A be applied, producing ED as breadth; therefore ED is rational and incommensurable in length with CD. [<a href=\"/books/10/#prop.22\">X. 22</a>] ",
@@ -35,21 +31,21 @@
         "Therefore CD, DF are rational and commensurable in square only. ",
         "But the straight line the square on which is equal to the rectangle contained by rational straight lines commensurable in square only is medial; [<a href=\"/books/10/#prop.21\">X. 21</a>] therefore the side of the square equal to the rectangle CD, DF is medial. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "And B is the side of the square equal to the rectangle CD, DF; therefore B is medial. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": "/books/10/prop.24",
+  "prev": "/books/10/prop.22"
 }

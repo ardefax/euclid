@@ -2,8 +2,7 @@
   "id": "elem.10.86",
   "kind": "proposition",
   "frag": "prop.86",
-  "title": "Proposition 86.",
-  "link": "",
+  "title": "BOOK X: Proposition 86.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "To find the second apotome. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.86.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let a rational straight line A be set out, and GC commensurable in length with A; therefore GC is rational. \n      ",
         "Let two square numbers DE, EF be set out, and let their difference DF not be square. ",
@@ -40,21 +36,21 @@
         "And CG, the annex, is commensurable with the rational straight line A set out. ",
         "Therefore BC is a second apotome. [<a href=\"/books/10/#def.3.2\">X. Deff. III. 2</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore the second apotome BC has been found. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": "/books/10/prop.87",
+  "prev": "/books/10/prop.85"
 }

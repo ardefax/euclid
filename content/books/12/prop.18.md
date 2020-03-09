@@ -2,8 +2,7 @@
   "id": "elem.12.18",
   "kind": "proposition",
   "frag": "prop.18",
-  "title": "Proposition 18.",
-  "link": "",
+  "title": "BOOK XII: Proposition 18.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       Spheres are to one another in the triplicate ratio of their respective diameters.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.12.18.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let the spheres ABC, DEF be conceived, and let BC, EF be their diameters; I say that the sphere ABC has to the sphere DEF the ratio triplicate of that which BC has to EF. ",
         "For, if the sphere ABC has not to the sphere DEF the ratio triplicate of that which BC has to EF, then the sphere ABC will have either to some less sphere than the sphere DEF, or to a greater, the ratio triplicate of that which BC has to EF. ",
@@ -40,21 +36,20 @@
         "Therefore the sphere ABC has not to any sphere greater than the sphere DEF the ratio triplicate of that which BC has to EF. ",
         "But it was proved that neither has it that ratio to a less sphere. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore the sphere ABC has to the sphere DEF the ratio triplicate of that which BC has to EF. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 12,
+  "prev": "/books/12/prop.17"
 }

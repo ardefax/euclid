@@ -2,8 +2,7 @@
   "id": "elem.5.8",
   "kind": "proposition",
   "frag": "prop.8",
-  "title": "Proposition 8.",
-  "link": "",
+  "title": "BOOK V: Proposition 8.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>Of unequal magnitudes</var>, <var>the greater has to the same a greater ratio than the less has</var>; <var>and the same has to the less a greater ratio than it has to the greater</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.5.8.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>AB</var>, <var>C</var> be unequal magnitudes, and let <var>AB</var> be greater; let <var>D</var> be another, chance, magnitude; I say that <var>AB</var> has to <var>D</var> a greater ratio than <var>C</var> has to <var>D</var>, and <var>D</var> has to <var>C</var> a greater ratio than it has to <var>AB</var>. \n      ",
         "For, since <var>AB</var> is greater than <var>C</var>, let <var>BE</var> be made equal to <var>C</var>; then the less of the magnitudes <var>AE</var>, <var>EB</var>, if multiplied, will sometime be greater than <var>D</var>. [<a href=\"/books/5/#def.4\">V. Def. 4</a>] ",
@@ -50,21 +46,21 @@
         "Now <var>K</var> is not in excess of <var>N</var>, inasmuch as <var>FG</var> also, which is greater than <var>GH</var>, that is, than <var>K</var>, is not in excess of <var>N</var>. ",
         "And in the same manner, by following the above argument, we complete the demonstration. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 5,
+  "next": "/books/5/prop.9",
+  "prev": "/books/5/prop.7"
 }

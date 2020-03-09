@@ -2,8 +2,7 @@
   "id": "elem.13.11",
   "kind": "proposition",
   "frag": "prop.11",
-  "title": "Proposition 11.",
-  "link": "",
+  "title": "BOOK XIII: Proposition 11.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If in a circle which has its diameter rational an equilateral pentagon be inscribed, the side of the pentagon is the irrational straight line called minor.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.13.11.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For in the circle ABCDE which has its diameter rational let the equilateral pentagon ABCDE be inscribed; I say that the side of the pentagon is the irrational straight line called minor. ",
         "For let the centre of the circle, the point F, be taken, let AF, FB be joined and carried through to the points, G, H, let AC be joined, and let FK be made a fourth part of AF. ",
@@ -56,21 +52,21 @@
         "But the rectangle contained by a rational straight line and a fourth apotome is irrational, and its square root is irrational, and is called minor. [<a href=\"/books/10/#prop.94\">X. 94</a>] ",
         "But the square on AB is equal to the rectangle HB, BM, because, when AH is joined, the triangle ABH is equiangular with the triangle ABM, and, as HB is to BA, so is AB to BM. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore the side AB of the pentagon is the irrational straight line called minor. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 13,
+  "next": "/books/13/prop.12",
+  "prev": "/books/13/prop.10"
 }

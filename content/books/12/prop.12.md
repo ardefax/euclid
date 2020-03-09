@@ -2,8 +2,7 @@
   "id": "elem.12.12",
   "kind": "proposition",
   "frag": "prop.12",
-  "title": "Proposition 12.",
-  "link": "",
+  "title": "BOOK XII: Proposition 12.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       Similar cones and cylinders are to one another in the triplicate ratio of the diameters in their bases.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.12.12.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let there be similar cones and cylinders, let the circles ABCD, EFGH be their bases, BD, FH the diameters of the bases, and KL, MN the axes of the cones and cylinders; I say that the cone of which the circle ABCD is the base and the point L the vertex has to the cone of which the circle EFGH is the base and the point N the vertex the ratio triplicate of that which BD has to FH. \n      ",
         "For, if the cone ABCDL has not to the cone EFGHN the ratio triplicate of that which BD has to FH, the cone ABCDL will have that triplicate ratio either to some solid less than the cone EFGHN or to a greater. ",
@@ -68,21 +64,21 @@
         "Therefore the cone ABCDL has to the cone EFGHN the ratio triplicate of that which BD has to FH. ",
         "But, as the cone is to the cone, so is the cylinder to the cylinder, for the cylinder which is on the same base as the cone and of equal height with it is triple of the cone; [<a href=\"/books/12/#prop.10\">XII. 10</a>] therefore the cylinder also has to the cylinder the ratio triplicate of that which BD has to FH. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 12,
+  "next": "/books/12/prop.13",
+  "prev": "/books/12/prop.11"
 }

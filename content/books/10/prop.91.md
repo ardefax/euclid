@@ -2,8 +2,7 @@
   "id": "elem.10.91",
   "kind": "proposition",
   "frag": "prop.91",
-  "title": "Proposition 91.",
-  "link": "",
+  "title": "BOOK X: Proposition 91.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If an area be contained by a rational straight line and a first apotome, the <quote>side</quote>\n of the area is an apotome. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.91.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the area AB be contained by the rational straight line AC and the first apotome AD; ",
         "I say that the <quote>side</quote>\n of the area AB is an apotome. ",
@@ -52,21 +48,21 @@
         "And both are rational; therefore LP, PN are rational straight lines commensurable in square only; therefore LN is an apotome. [<a href=\"/books/10/#prop.73\">X. 73</a>] ",
         "And it is the <quote>side</quote>\n of the area AB; therefore the <quote>side</quote>\n of the area AB is an apotome. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": "/books/10/prop.92",
+  "prev": "/books/10/prop.90"
 }

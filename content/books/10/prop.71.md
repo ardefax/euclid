@@ -2,8 +2,7 @@
   "id": "elem.10.71",
   "kind": "proposition",
   "frag": "prop.71",
-  "title": "Proposition 71.",
-  "link": "",
+  "title": "BOOK X: Proposition 71.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If a rational and a medial area be added together, four irrational straight lines arise, namely a binomial or a first bimedial or a major or a side of a rational plus a medial area. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.71.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let. AB be rational, and CD medial; I say that the <quote>side</quote>\n of the area AD is a binomial or a first bimedial or a major or a side of a rational plus a medial area. ",
         "For AB is either greater or less than CD. ",
@@ -55,21 +51,21 @@
         "But EF is rational; and, if an area be contained by a rational straight line and the fifth binomial, the side of the square equal to the area is a side of a rational plus a medial area. [<a href=\"/books/10/#prop.58\">X. 58</a>] ",
         "Therefore the <quote>side</quote>\n of the area EI is a side of a rational plus a medial area, so that the <quote>side</quote>\n of the area AD is also a side of a rational plus a medial area. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": "/books/10/prop.72",
+  "prev": "/books/10/prop.70"
 }

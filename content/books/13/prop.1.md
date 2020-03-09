@@ -2,8 +2,7 @@
   "id": "elem.13.1",
   "kind": "proposition",
   "frag": "prop.1",
-  "title": "Proposition 1.",
-  "link": "",
+  "title": "BOOK XIII: Proposition 1.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If a straight line be cut in extreme and mean ratio, the square on the greater segment added to the half of the whole is five times the square on the half.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.13.1.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the straight line AB be cut in extreme and mean ratio at the point C, and let AC be the greater segment; let the straight line AD be produced in a straight line with CA, and let AD be made half of AB; I say that the square on CD is five times the square on AD. \n      ",
         "For let the squares AE, DF be described on AB, DC, and let the figure in DF be drawn; let FC be carried through to G. ",
@@ -38,21 +34,20 @@
         "But AE is equal to the gnomon MNO; therefore the gnomon MNO is also quadruple of AP; therefore the whole DF is five times AP. ",
         "And DF is the square on DC, and AP the square on DA; therefore the square on CD is five times the square on DA. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 13,
+  "next": "/books/13/prop.2"
 }

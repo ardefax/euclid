@@ -2,8 +2,7 @@
   "id": "elem.11.33",
   "kind": "proposition",
   "frag": "prop.33",
-  "title": "Proposition 33.",
-  "link": "",
+  "title": "BOOK XI: Proposition 33.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       Similar parallelepipedal solids are to one another in the triplicate ratio of their corresponding sides.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.11.33.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let AB, CD be similar parallelepipedal solids, and let AE be the side corresponding to CF; I say that the solid AB has to the solid CD the ratio triplicate of that which AE has to CF. \n      ",
         "For let EK, EL, EM be produced in a straight line with AE, GE, HE, let EK be made equal to CF, EL equal to FN, and further EM equal to FR, and let the parallelogram KL and the solid KP be completed. ",
@@ -38,21 +34,21 @@
         "But, as AB is to EO, so is the parallelogram AG to GK, and the straight line AE to EK [<a href=\"/books/6/#prop.1\">VI. 1</a>]; hence the solid AB has also to KP the ratio triplicate of that which AE has to EK. ",
         "But the solid KP is equal to the solid CD, and the straight line EK to CF; therefore the solid AB has also to the solid CD the ratio triplicate of that which the corresponding side of it, AE, has to the corresponding side CF. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 11,
+  "next": "/books/11/prop.34",
+  "prev": "/books/11/prop.32"
 }

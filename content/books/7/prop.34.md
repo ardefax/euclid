@@ -2,8 +2,7 @@
   "id": "elem.7.34",
   "kind": "proposition",
   "frag": "prop.34",
-  "title": "Proposition 34.",
-  "link": "",
+  "title": "BOOK VII: Proposition 34.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       Given two numbers, to find the least number which they measure.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.7.34.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let A, B be the two given numbers; thus it is required to find the least number which they measure. ",
         "Now A, B are either prime to one another or not. \n      ",
@@ -53,21 +49,21 @@
         "But E measures G; therefore C also measures D, the greater the less: which is impossible. ",
         "Therefore A, B will not measure any number which is less than C. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore C is the least that is measured by A, B. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 7,
+  "next": "/books/7/prop.35",
+  "prev": "/books/7/prop.33"
 }

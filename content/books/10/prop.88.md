@@ -2,8 +2,7 @@
   "id": "elem.10.88",
   "kind": "proposition",
   "frag": "prop.88",
-  "title": "Proposition 88.",
-  "link": "",
+  "title": "BOOK X: Proposition 88.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "To find the fourth apotome. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.88.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let a rational straight line A be set out, and BG commensurable in length with it; therefore BG is also rational. \n      ",
         "Let two numbers DF, FE be set out such that the whole DE has not to either of the numbers DF, EF the ratio which a square number has to a square number. ",
@@ -38,21 +34,21 @@
         "And the whole BG is commensurable in length with the rational straight line A set out. ",
         "Therefore BC is a fourth apotome. [<a href=\"/books/10/#def.3.4\">X. Deff. III. 4</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore the fourth apotome has been found. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": "/books/10/prop.89",
+  "prev": "/books/10/prop.87"
 }

@@ -2,8 +2,7 @@
   "id": "elem.3.2",
   "kind": "proposition",
   "frag": "prop.2",
-  "title": "Proposition 2.",
-  "link": "",
+  "title": "BOOK III: Proposition 2.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>If on the circumference of a circle two points be taken at random</var>, <var>the straight line joining the points will fall within the circle</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.3.2.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABC</var> be a circle, and let two points <var>A</var>, <var>B</var> be taken at random on its circumference; I say that the straight line joined from <var>A</var> to <var>B</var> will fall within the circle. \n      ",
         "For suppose it does not, but, if possible, let it fall outside, as <var>AEB</var>; let the centre of the circle <var>ABC</var> be taken [<a href=\"/books/3/#prop.1\">III. 1</a>], and let it be <var>D</var>; let <var>DA</var>, <var>DB</var> be joined, and let <var>DFE</var> be drawn through. ",
@@ -32,21 +28,21 @@
         "Therefore the straight line joined from <var>A</var> to <var>B</var> will not fall outside the circle. ",
         "Similarly we can prove that neither will it fall on the circumference itself; therefore it will fall within.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 3,
+  "next": "/books/3/prop.3",
+  "prev": "/books/3/prop.1"
 }

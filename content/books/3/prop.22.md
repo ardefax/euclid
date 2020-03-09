@@ -2,8 +2,7 @@
   "id": "elem.3.22",
   "kind": "proposition",
   "frag": "prop.22",
-  "title": "Proposition 22.",
-  "link": "",
+  "title": "BOOK III: Proposition 22.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>The opposite angles of quadrilaterals in circles are equal to two right angles</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.3.22.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABCD</var> be a circle, and let <var>ABCD</var> be a quadrilateral in it; I say that the opposite angles are equal to two right angles. ",
         "Let <var>AC</var>, <var>BD</var> be joined. ",
@@ -32,21 +28,21 @@
         "Let the angle <var>ABC</var> be added to each; therefore the angles <var>ABC</var>, <var>BAC</var>, <var>ACB</var> are equal to the angles <var>ABC</var>, <var>ADC</var>. But the angles <var>ABC</var>, <var>BAC</var>, <var>ACB</var> are equal to two right angles; therefore the angles <var>ABC</var>, <var>ADC</var> are also equal to two right angles. ",
         "Similarly we can prove that the angles <var>BAD</var>, <var>DCB</var> are also equal to two right angles. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 3,
+  "next": "/books/3/prop.23",
+  "prev": "/books/3/prop.21"
 }

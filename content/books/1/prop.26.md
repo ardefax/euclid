@@ -2,8 +2,7 @@
   "id": "elem.1.26",
   "kind": "proposition",
   "frag": "prop.26",
-  "title": "Proposition 26.",
-  "link": "",
+  "title": "BOOK I: Proposition 26.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If two triangles have the two angles equal to two angles respectively, and one side equal to one side, namely, either the side adjoining the equal angles, or that subtending one of the equal angles, they will also have the remaining sides equal to the remaining sides and the remaining angle to the remaining angle. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.1.26.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABC</var>, <var>DEF</var> be two triangles having the two angles <var>ABC</var>, <var>BCA</var> equal to the two angles <var>DEF</var>, <var>EFD</var> respectively, namely the angle <var>ABC</var> to the angle <var>DEF</var>, and the angle <var>BCA</var> to the angle <var>EFD</var>; and let them also have one side equal to one side, first that adjoining the equal angles, namely <var>BC</var> to <var>EF</var>;",
         "I say that they will also have the remaining sides equal to the remaining sides respectively, namely <var>AB</var> to <var>DE</var> and <var>AC</var> to <var>DF</var>, and the remaining angle to the remaining angle, namely the angle <var>BAC</var> to the angle <var>EDF</var>. ",
@@ -40,21 +36,21 @@
         "Therefore <var>BC</var> is not unequal to <var>EF</var>, and is therefore equal to it.",
         "But <var>AB</var> is also equal to <var>DE</var>; therefore the two sides <var>AB</var>, <var>BC</var> are equal to the two sides <var>DE</var>, <var>EF</var> respectively, and they contain equal angles; therefore the base <var>AC</var> is equal to the base <var>DF</var>, the triangle <var>ABC</var> equal to the triangle <var>DEF</var>, and the remaining angle <var>BAC</var> equal to the remaining angle <var>EDF</var>. [<a href=\"/books/1/#prop.4\">I. 4</a>]"
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 1,
+  "next": "/books/1/prop.27",
+  "prev": "/books/1/prop.25"
 }

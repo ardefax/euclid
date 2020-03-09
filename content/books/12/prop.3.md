@@ -2,8 +2,7 @@
   "id": "elem.12.3",
   "kind": "proposition",
   "frag": "prop.3",
-  "title": "Proposition 3.",
-  "link": "",
+  "title": "BOOK XII: Proposition 3.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Any pyramid which has a triangular base is divided into two pyramids equal and similar to one another, similar to the whole and having triangular bases, and into two equal prisms; and the two prisms are greater than the half of the whole pyramid.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.12.3.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let there be a pyramid of which the triangle ABC is the base and the point D the vertex; I say that the pyramid ABCD is divided into two pyramids equal to one another, having triangular bases and similar to the whole pyramid, and into two equal prisms; and the two prisms are greater than the half of the whole pyramid. \n      ",
         "For let AB, BC, CA, AD, DB, DC be bisected at the points E, F, G, H, K, L, and let HE, EG, GH, HK, KL, LH, KF, FG be joined. ",
@@ -55,21 +51,21 @@
         "But the prism in which the parallelogram EBFG is the base and the straight line HK its opposite is equal to the prism in which the triangle GFC is the base and the triangle HKL its opposite, and the pyramid of which the triangle AEG is the base and the point H the vertex is equal to the pyramid of which the triangle HKL is the base and the point D the vertex. ",
         "Therefore the said two prisms are greater than the said two pyramids of which the triangles AEG, HKL are the bases and the points H, D the vertices. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore the whole pyramid, of which the triangle ABC is the base and the point D the vertex, has been divided into two pyramids equal to one another and into two equal prisms, and the two prisms are greater than the half of the whole pyramid. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 12,
+  "next": "/books/12/prop.4",
+  "prev": "/books/12/prop.2"
 }

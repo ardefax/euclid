@@ -2,8 +2,7 @@
   "id": "elem.6.5",
   "kind": "proposition",
   "frag": "prop.5",
-  "title": "Proposition 5.",
-  "link": "",
+  "title": "BOOK VI: Proposition 5.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>If two triangles have their sides proportional</var>, <var>the triangles will be equiangular and will have those angles equal which the corresponding sides subtend</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.6.5.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABC</var>, <var>DEF</var> be two triangles having their sides proportional, so that, as <var>AB</var> is to <var>BC</var>, so is <var>DE</var> to <var>EF</var>, as <var>BC</var> is to <var>CA</var>, so is <var>EF</var> to <var>FD</var>, and further, as <var>BA</var> is to <var>AC</var>, so is <var>ED</var> to <var>DF</var>; I say that the triangle <var>ABC</var> is equiangular with the triangle <var>DEF</var>, and they will have those angles equal which the corresponding sides subtend, namely the angle <var>ABC</var> to the angle <var>DEF</var>, the angle <var>BCA</var> to the angle <var>EFD</var>, and further the angle <var>BAC</var> to the angle <var>EDF</var>. ",
         "For on the straight line <var>EF</var>, and at the points <var>E</var>, <var>F</var> on it, let there be constructed the angle <var>FEG</var> equal to the angle <var>ABC</var>, and the angle <var>EFG</var> equal to the angle <var>ACB</var>; [<a href=\"/books/1/#prop.23\">I. 23</a>] therefore the remaining angle at <var>A</var> is equal to the remaining angle at <var>G</var>. [<a href=\"/books/1/#prop.32\">I. 32</a>]\n      ",
@@ -37,21 +33,21 @@
         "And, since the angle <var>FED</var> is equal to the angle <var>GEF</var>, while the angle <var>GEF</var> is equal to the angle <var>ABC</var>, therefore the angle <var>ABC</var> is also equal to the angle <var>DEF</var>. ",
         "For the same reason the angle <var>ACB</var> is also equal to the angle <var>DFE</var>, and further, the angle at <var>A</var> to the angle at <var>D</var>; therefore the triangle <var>ABC</var> is equiangular with the triangle <var>DEF</var>.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 6,
+  "next": "/books/6/prop.6",
+  "prev": "/books/6/prop.4"
 }

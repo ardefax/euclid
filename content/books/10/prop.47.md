@@ -2,8 +2,7 @@
   "id": "elem.10.47",
   "kind": "proposition",
   "frag": "prop.47",
-  "title": "Proposition 47.",
-  "link": "",
+  "title": "BOOK X: Proposition 47.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "The side of the sum of two medial areas is divided at one point only. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.47.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let AB be divided at C, so that AC, CB are incommensurable in square and make the sum of the squares on AC, CB medial, and the rectangle AC, CB medial and also incommensurable with the sum of the squares on them; I say that AB is not divided at another point so as to fulfil the given conditions. \n      ",
         "For, if possible, let it be divided at D, so that again AC is of course not the same as BD, but AC is supposed greater; let a rational straight line EF be set out, and let there be applied to EF the rectangle EG equal to the squares on AC, CB, and the rectangle HK equal to twice the rectangle AC, CB; therefore the whole EK is equal to the square on AB. [<a href=\"/books/2/#prop.4\">II. 4</a>\n] ",
@@ -36,21 +32,20 @@
         "Similarly we can prove that it is also divided at M.\n      ",
         "And EH is not the same with MN; therefore a binomial has been divided at different points: which is absurd. [<a href=\"/books/10/#prop.42\">X. 42</a>\n] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore a side of the sum of two medial areas is not divided at different points; therefore it is divided at one point only."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "prev": "/books/10/prop.46"
 }

@@ -2,8 +2,7 @@
   "id": "elem.7.20",
   "kind": "proposition",
   "frag": "prop.20",
-  "title": "Proposition 20.",
-  "link": "",
+  "title": "BOOK VII: Proposition 20.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       The least numbers of those which have the same ratio with them measure those which have the same ratio the same number of times, the greater the greater and the less the less.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.7.20.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let CD, EF be the least numbers of those which have the same ratio with A, B; I say that CD measures A the same number of times that EF measures B. ",
         "Now CD is not parts of A. ",
@@ -36,21 +32,21 @@
         "Therefore CG, EH are in the same ratio with CD, EF, being less than they: which is impossible, for by hypothesis CD, EF are the least numbers of those which have the same ratio with them. ",
         "Therefore CD is not parts of A; therefore it is a part of it. [<a href=\"/books/7/#prop.4\">VII. 4</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "And EF is the same part of B that CD is of A; [<a href=\"/books/7/#prop.13\">VII. 13</a> and <a href=\"/books/7/#def.20\">Def. 20</a>] therefore CD measures A the same number of times that EF measures B. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 7,
+  "next": "/books/7/prop.21",
+  "prev": "/books/7/prop.19"
 }

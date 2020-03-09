@@ -2,8 +2,7 @@
   "id": "elem.11.23",
   "kind": "proposition",
   "frag": "prop.23",
-  "title": "Proposition 23.",
-  "link": "",
+  "title": "BOOK XI: Proposition 23.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "To construct a solid angle out of three plane angles two of which, taken together in any manner, are greater than the remaining one: thus the three angles must be less than four right angles.\n       "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.11.23.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let the angles ABC, DEF, GHK be the three given plane angles, and let two of these, taken together in any manner, be greater than the remaining one, while, further, the three are less than four right angles; thus it is required to construct a solid angle out of angles equal to the angles ABC, DEF, GHK. \n      ",
         "Let AB, BC, DE, EF, GH, HK be cut off equal to one another, and let AC, DF, GK be joined; it is therefore possible to construct a triangle out of straight lines equal to AC, DF, GK. [<a href=\"/books/11/#prop.22\">XI. 22</a>] \n      ",
@@ -58,21 +54,21 @@
         "And, since the two sides LR, RM are equal to the two sides AB, BC, and the base LM is by hypothesis equal to the base AC, therefore the angle LRM is equal to the angle ABC. [<a href=\"/books/1/#prop.8\">I. 8</a>] ",
         "For the same reason the angle MRN is also equal to the angle DEF, and the angle LRN to the angle GHK. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore, out of the three plane angles LRM, MRN, LRN, which are equal to the three given angles ABC, DEF, GHK, the solid angle at R has been constructed, which is contained by the angles LRM, MRN, LRN. Q. E. F.  "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 11,
+  "next": "/books/11/prop.24",
+  "prev": "/books/11/prop.22"
 }

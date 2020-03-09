@@ -2,8 +2,7 @@
   "id": "elem.4.14",
   "kind": "proposition",
   "frag": "prop.14",
-  "title": "Proposition 14.",
-  "link": "",
+  "title": "BOOK IV: Proposition 14.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>About a given pentagon</var>, <var>which is equilateral and equiangular</var>, <var>to circumscribe a circle</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.4.14.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABCDE</var> be the given pentagon, which is equilateral and equiangular; thus it is required to circumscribe a circle about the pentagon <var>ABCDE</var>. ",
         "Let the angles <var>BCD</var>, <var>CDE</var> be bisected by the straight lines <var>CF</var>, <var>DF</var> respectively, and from the point <var>F</var>, at which the straight lines meet, let the straight lines <var>FB</var>, <var>FA</var>, <var>FE</var> be joined to the points <var>B</var>, <var>A</var>, <var>E</var>. \n      ",
@@ -33,21 +29,21 @@
         "Therefore the circle described with centre <var>F</var> and distance one of the straight lines <var>FA</var>, <var>FB</var>, <var>FC</var>, <var>FD</var>, <var>FE</var> will pass also through the remaining points, and will have been circumscribed. ",
         "Let it be circumscribed, and let it be <var>ABCDE</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore about the given pentagon, which is equilateral and equiangular, a circle has been circumscribed. Q. E. F."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 4,
+  "next": "/books/4/prop.15",
+  "prev": "/books/4/prop.13"
 }

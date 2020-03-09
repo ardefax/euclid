@@ -2,8 +2,7 @@
   "id": "elem.8.4",
   "kind": "proposition",
   "frag": "prop.4",
-  "title": "Proposition 4.",
-  "link": "",
+  "title": "BOOK VIII: Proposition 4.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       Given as many ratios as we please in least numbers, to find numbers in continued proportion which are the least in the given ratios.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.8.4.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let the given ratios in least numbers be that of A to B, that of C to D, and that of E to F; thus it is required to find numbers in continued proportion which are the least that are in the ratio of A to B, in the ratio of C to D, and in the ratio of E to F. \n      ",
         "Let G, the least number measured by B, C, be taken. [<a href=\"/books/7/#prop.34\">VII. 34</a>] ",
@@ -58,21 +54,21 @@
         "Therefore the least number measured by E, K will also measure S. [<a href=\"/books/7/#prop.35\">VII. 35</a>] ",
         "But M is the least number measured by E, K; therefore M measures S, the greater the less: which is impossible. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore there will not be any numbers less than N, O, M, P continuously proportional in the ratios of A to B, of C to D, and of E to F; therefore N, O, M, P are the least numbers continuously proportional in the ratios A : B, C : D, E : F. Q. E. D.\n<note n=\"69, 71, 99\" type=\"crit\" place=\"unspecified\" anchored=\"yes\">69, 71, 99. <lemma from=\"ROOT\" to=\"DITTO\" targOrder=\"U\">the ratios A : B, C : D, E : F.</lemma> This abbreviated expression is in the Greek <foreign lang=\"greek\">ὀ ΑΒ, ΓΔ, ΕΖ λόγοι</foreign>.</note>"
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 8,
+  "next": "/books/8/prop.5",
+  "prev": "/books/8/prop.3"
 }

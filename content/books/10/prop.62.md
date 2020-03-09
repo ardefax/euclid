@@ -2,8 +2,7 @@
   "id": "elem.10.62",
   "kind": "proposition",
   "frag": "prop.62",
-  "title": "Proposition 62.",
-  "link": "",
+  "title": "BOOK X: Proposition 62.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "The square on the second bimedial straight line applied to a rational straight line produces as breadth the third binomial. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.62.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let AB be a second bimedial straight line divided into its medials at C, so that AC is the greater segment; let DE be any rational straight line, and to DE let there be applied the parallelogram DF equal to the square on AB and producing DG as its breadth;  I say that DG is a third binomial straight line. ",
         "Let the same construction be made as before shown. ",
@@ -39,21 +35,21 @@
         "And the rectangle DK, KM is equal to the square on MN; therefore the square on DM is greater than the square on MG by the square on a straight line commensurable with DM. ",
         "And neither of the straight lines DM, MG is commensurable in length with DE. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore DG is a third binomial straight line. [<a href=\"/books/10/#def.2.3\">X. Deff. II. 3</a>] Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": "/books/10/prop.63",
+  "prev": "/books/10/prop.61"
 }

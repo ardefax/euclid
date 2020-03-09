@@ -2,8 +2,7 @@
   "id": "elem.2.10",
   "kind": "proposition",
   "frag": "prop.10",
-  "title": "Proposition 10.",
-  "link": "",
+  "title": "BOOK II: Proposition 10.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>If a straight line be bisected</var>, <var>and a straight line be added to it in a straight line</var>, <var>the square on the whole with the added straight line and the square on the added straight line both together are double of the square on the half and of the square described on the straight line made up of the half and the added straight line as on one straight line</var>."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.2.10.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let a straight line <var>AB</var> be bisected at <var>C</var>, and let a straight line <var>BD</var> be added to it in a straight line;",
         "I say that the squares on <var>AD</var>, <var>DB</var> are double of the squares on <var>AC</var>, <var>CD</var>. ",
@@ -43,21 +39,21 @@
         "And the square on <var>AG</var> is equal to the squares on <var>AE</var>, <var>EG</var>; [<a href=\"/books/1/#prop.47\">I. 47</a>] therefore the square on <var>AG</var> is double of the squares on <var>AC</var>, <var>CD</var>. But the squares on <var>AD</var>, <var>DG</var> are equal to the square on <var>AG</var>; [<a href=\"/books/1/#prop.47\">I. 47</a>] therefore the squares on <var>AD</var>, <var>DG</var> are double of the squares on <var>AC</var>, <var>CD</var>.",
         "And <var>DG</var> is equal to <var>DB</var>; therefore the squares on <var>AD</var>, <var>DB</var> are double of the squares on <var>AC</var>, <var>CD</var>."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 2,
+  "next": "/books/2/prop.11",
+  "prev": "/books/2/prop.9"
 }

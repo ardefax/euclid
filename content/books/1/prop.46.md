@@ -2,8 +2,7 @@
   "id": "elem.1.46",
   "kind": "proposition",
   "frag": "prop.46",
-  "title": "Proposition 46.",
-  "link": "",
+  "title": "BOOK I: Proposition 46.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "On a given straight line to describe a square."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.1.46.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>AB</var> be the given straight line; thus it is required to describe a square on the straight line <var>AB</var>. \n        ",
         "Let <var>AC</var> be drawn at right angles to the straight line <var>AB</var> from the point <var>A</var> on it [<a href=\"/books/1/#prop.11\">I. 11</a>], and let <var>AD</var> be made equal to <var>AB</var>; through the point <var>D</var> let <var>DE</var> be drawn parallel to <var>AB</var>, and through the point <var>B</var> let <var>BE</var> be drawn parallel to <var>AD</var>. [<a href=\"/books/1/#prop.31\">I. 31</a>] ",
@@ -36,21 +32,21 @@
         "And it was also proved equilateral. ",
         "Therefore it is a square; and it is described on the straight line <var>AB</var>."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Q. E. F."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 1,
+  "next": "/books/1/prop.47",
+  "prev": "/books/1/prop.45"
 }

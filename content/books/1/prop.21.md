@@ -2,8 +2,7 @@
   "id": "elem.1.21",
   "kind": "proposition",
   "frag": "prop.21",
-  "title": "Proposition 21.",
-  "link": "",
+  "title": "BOOK I: Proposition 21.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If on one of the sides of a triangle, from its extremities, there be constructed two straight lines meeting within the triangle, the straight lines so constructed will be less than the remaining two sides of the triangle, but will contain a greater angle."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.1.21.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "On <var>BC</var>, one of the sides of the triangle <var>ABC</var>, from its extremities <var>B</var>, <var>C</var>, let the two straight lines <var>BD</var>, <var>DC</var> be constructed meeting within the triangle;",
         "I say that <var>BD</var>, <var>DC</var> are less than the remaining two sides of the triangle <var>BA</var>, <var>AC</var>, but contain an angle <var>BDC</var> greater than the angle <var>BAC</var>. ",
@@ -35,21 +31,21 @@
         "Again, since in any triangle the exterior angle is greater than the interior and opposite angle, [<a href=\"/books/1/#prop.16\">I. 16</a>] therefore, in the triangle <var>CDE</var>, the exterior angle <var>BDC</var> is greater than the angle <var>CED</var>.\n        ",
         "For the same reason, moreover, in the triangle <var>ABE</var> also, the exterior angle <var>CEB</var> is greater than the angle <var>BAC</var>. But the angle <var>BDC</var> was proved greater than the angle <var>CEB</var>; therefore the angle <var>BDC</var> is much greater than the angle <var>BAC</var>.\n        "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 1,
+  "next": "/books/1/prop.22",
+  "prev": "/books/1/prop.20"
 }

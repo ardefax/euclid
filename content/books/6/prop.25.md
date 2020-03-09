@@ -2,8 +2,7 @@
   "id": "elem.6.25",
   "kind": "proposition",
   "frag": "prop.25",
-  "title": "Proposition 25.",
-  "link": "",
+  "title": "BOOK VI: Proposition 25.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>To construct one and the same figure similar to a given rectilineal figure and equal to another given rectilineal figure</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.6.25.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABC</var> be the given rectilineal figure to which the figure to be constructed must be similar, and <var>D</var> that to which it must be equal; thus it is required to construct one and the same figure similar to <var>ABC</var> and equal to <var>D</var>. \n      ",
         "Let there be applied to <var>BC</var> the parallelogram <var>BE</var> equal to the triangle <var>ABC</var> [<a href=\"/books/1/#prop.44\">I. 44</a>], and to <var>CE</var> the parallelogram <var>CM</var> equal to <var>D</var> in the angle <var>FCE</var> which is equal to the angle <var>CBL</var>. [<a href=\"/books/1/#prop.45\">I. 45</a>] ",
@@ -36,21 +32,21 @@
         "But the parallelogram <var>EF</var> is equal to <var>D</var>; therefore <var>KGH</var> is also equal to <var>D</var>. ",
         "And <var>KGH</var> is also similar to <var>ABC</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore one and the same figure <var>KGH</var> has been constructed similar to the given rectilineal figure <var>ABC</var> and equal to the other given figure <var>D</var>. Q. E. D.\n<note n=\"3\" type=\"crit\" place=\"unspecified\" anchored=\"yes\">\n        <p>to which the figure to be constructed must be similar, literally <quote>to which it is required to construct (one) similar,</quote>\n <foreign lang=\"greek\">ᾧ δεῖ ὅμοιον συστήσασθαι</foreign>.</p>\n       </note>"
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 6,
+  "next": "/books/6/prop.26",
+  "prev": "/books/6/prop.24"
 }

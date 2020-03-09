@@ -2,8 +2,7 @@
   "id": "elem.9.34",
   "kind": "proposition",
   "frag": "prop.34",
-  "title": "Proposition 34.",
-  "link": "",
+  "title": "BOOK IX: Proposition 34.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If a number neither be one of those which are continually doubled from a dyad, nor have its half odd, it is both eventimes even and even-times odd. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.9.34.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the number A neither be one of those doubled from a dyad, nor have its half odd; I say that A is both even-times even and even-times odd. \n      ",
         "Now that A is even-times even is manifest; for it has not its half odd. [<a href=\"/books/7/#def.8\">VII. Def. 8</a>] ",
@@ -33,21 +29,21 @@
         "Thus A is even-times odd. ",
         "But it was also proved even-times even. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore A is both even-times even and even-times odd. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 9,
+  "next": "/books/9/prop.35",
+  "prev": "/books/9/prop.33"
 }

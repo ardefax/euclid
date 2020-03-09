@@ -2,8 +2,7 @@
   "id": "elem.10.112",
   "kind": "proposition",
   "frag": "prop.112",
-  "title": "Proposition 112.",
-  "link": "",
+  "title": "BOOK X: Proposition 112.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "The square on a rational straight line applied to the binomial straight line produces as breadth an apotome the terms of which are commensurable with the terms of the binomial and moreover in the same ratio; and further the apotome so arising will have the same order as the binomial straight line. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.112.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let A be a rational straight line, let BC be a binomial, and let DC be its greater term; let the rectangle BC, EF be equal to the square on A;  I say that EF is an apotome the terms of which are commensurable with CD, DB, and in the same ratio, and further EF will have the same order as BC. ",
         "For again let the rectangle BD, G be equal to the square on A. ",
@@ -45,21 +41,21 @@
         "And, if CD is commensurable in length with the rational straight line set out, so also is FK; [<a href=\"#elem.10.11 elem.10.12\">X. 11, 12</a>] if BD is so commensurable, so also is KE; [<a href=\"/books/10/#prop.12\">X. 12</a>] but, if neither of the straight lines CD, DB is so commensurable, neither of the straight lines FK, KE is so. ",
         "But, if the square on CD is greater than the square on DB by the square on a straight line incommensurable with CD, the square on FK is also greater than the square on KE by the square on a straight line incommensurable with FK. [<a href=\"/books/10/#prop.14\">X. 14</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "And, if CD is commensurable with the rational straight line set out, so also is FK; if BD is so commensurable, so also is KE; but, if neither of the straight lines CD, DB is so commensurable, neither of the straight lines FK, KE is so; so that FE is an apotome, the terms of which FK, KE are commensurable with the terms CD, DB of the binomial straight line and in the same ratio, and it has the same order as BC. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": "/books/10/prop.113",
+  "prev": "/books/10/prop.111"
 }

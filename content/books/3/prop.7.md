@@ -2,8 +2,7 @@
   "id": "elem.3.7",
   "kind": "proposition",
   "frag": "prop.7",
-  "title": "Proposition 7.",
-  "link": "",
+  "title": "BOOK III: Proposition 7.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>If on the diameter of a circle a point be taken which is not the centre of the circle</var>, <var>and from the point straight lines fall upon the circle</var>, <var>that will be greatest on which the centre is</var>, <var>the remainder of the same diameter will be least</var>, <var>and of the rest</var>\n       <var>the nearer to the straight line through the centre is always greater than the more remote</var>, <var>and only two equal straight lines will fall from the point on the circle</var>, <var>one on each side of the least straight line</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.3.7.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABCD</var> be a circle, and let <var>AD</var> be a diameter of it; on <var>AD</var> let a point <var>F</var> be taken which is not the centre of the circle, let <var>E</var> be the centre of the circle, and from <var>F</var> let straight lines <var>FB</var>, <var>FC</var>, <var>FG</var> fall upon the circle <var>ABCD</var>; I say that <var>FA</var> is greatest, <var>FD</var> is least, and of the rest <var>FB</var> is greater than <var>FC</var>, and <var>FC</var> than <var>FG</var>. ",
         "For let <var>BE</var>, <var>CE</var>, <var>GE</var> be joined. \n      ",
@@ -43,21 +39,21 @@
         "Then, since <var>FK</var> is equal to <var>FG</var>, and <var>FH</var> to <var>FG</var>, <var>FK</var> is also equal to <var>FH</var>, the nearer to the straight line through the centre being <lb n=\"55\"/>thus equal to the more remote: which is impossible.\n      ",
         "Therefore another straight line equal to <var>GF</var> will not fall from the point <var>F</var> upon the circle; therefore only one straight line will so fall.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D.\n<note n=\"4\" type=\"crit\" place=\"unspecified\" anchored=\"yes\">\n        <p>of the same diameter. I have inserted these words for clearness' sake. The text has simply <foreign lang=\"greek\">ἐλαχίστη δὲ ἡ λοιπή</foreign>, <quote>and the remaining (straight line) least.</quote>\n</p>\n       </note>\n       <note n=\"7, 39\" type=\"crit\" place=\"unspecified\" anchored=\"yes\">\n        <p>one on each side. The word <quote>one</quote>\n is not in the Greek, but is necessary to give the force of <foreign lang=\"greek\">ἐφ̓ ἑκάτερα τῆς ἐλαχίστης</foreign>, literally <quote>on both sides,</quote>\n or <quote>on each of the two sides, of the least.</quote>\n</p>\n       </note>"
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 3,
+  "next": "/books/3/prop.8",
+  "prev": "/books/3/prop.6"
 }

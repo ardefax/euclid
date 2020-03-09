@@ -2,8 +2,7 @@
   "id": "elem.11.24",
   "kind": "proposition",
   "frag": "prop.24",
-  "title": "Proposition 24.",
-  "link": "",
+  "title": "BOOK XI: Proposition 24.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If a solid be contained by parallel planes, the opposite planes in it are equal and parallelogrammic.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.11.24.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the solid CDHG be contained by the parallel planes AC, GF, AH, DF, BF, AE; I say that the opposite planes in it are equal and parallelogrammic. \n      ",
         "For, since the two parallel planes BG, CE are cut by the plane AC, their common sections are parallel. [<a href=\"/books/11/#prop.16\">XI. 16</a>] ",
@@ -38,21 +34,21 @@
         "And the parallelogram BG is double of the triangle ABH, and the parallelogram CE double of the triangle DCF; [<a href=\"/books/1/#prop.34\">I. 34</a>] therefore the parallelogram BG is equal to the parallelogram CE. ",
         "Similarly we can prove that AC is also equal to GF, and AE to BF. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 11,
+  "next": "/books/11/prop.25",
+  "prev": "/books/11/prop.23"
 }

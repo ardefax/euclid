@@ -2,8 +2,7 @@
   "id": "elem.1.24",
   "kind": "proposition",
   "frag": "prop.24",
-  "title": "Proposition 24.",
-  "link": "",
+  "title": "BOOK I: Proposition 24.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "If two triangles have the two sides equal to two sides respectively, but have the one of the angles contained by the equal straight lines greater than the other, they will also have the base greater than the base. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.1.24.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABC</var>, <var>DEF</var> be two triangles having the two sides <var>AB</var>, <var>AC</var> equal to the two sides <var>DE</var>, <var>DF</var> respectively, namely <var>AB</var> to <var>DE</var>, and <var>AC</var> to <var>DF</var>, and let the angle at <var>A</var> be greater than the angle at <var>D</var>;",
         "I say that the base <var>BC</var> is also greater than the base <var>EF</var>. ",
@@ -34,21 +30,21 @@
         "And, since <var>EFG</var> is a triangle having the angle <var>EFG</var>\n        greater than the angle <var>EGF</var>, and the greater angle is subtended by the greater side, [<a href=\"/books/1/#prop.19\">I. 19</a>] the side <var>EG</var> is also greater than <var>EF</var>.",
         "But <var>EG</var> is equal to <var>BC</var>. Therefore <var>BC</var> is also greater than <var>EF</var>.\n        "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 1,
+  "next": "/books/1/prop.25",
+  "prev": "/books/1/prop.23"
 }

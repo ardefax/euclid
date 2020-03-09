@@ -2,8 +2,7 @@
   "id": "elem.9.6",
   "kind": "proposition",
   "frag": "prop.6",
-  "title": "Proposition 6.",
-  "link": "",
+  "title": "BOOK IX: Proposition 6.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       If a number by multiplying itself make a cube number, it will itself also be cube.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.9.6.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the number A by multiplying itself make the cube number B; I say that A is also cube. \n      ",
         "For let A by multiplying B make C. ",
@@ -40,21 +36,21 @@
         "And, as B is to C, so is A to B. ",
         "Therefore there are two mean proportional numbers between A, B also. [<a href=\"/books/8/#prop.8\">VIII. 8</a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "And B is cube; therefore A is also cube. [cf. <a href=\"/books/8/#prop.23\">VIII. 23</a>] Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 9,
+  "next": "/books/9/prop.7",
+  "prev": "/books/9/prop.5"
 }

@@ -2,8 +2,7 @@
   "id": "elem.3.25",
   "kind": "proposition",
   "frag": "prop.25",
-  "title": "Proposition 25.",
-  "link": "",
+  "title": "BOOK III: Proposition 25.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>Given a segment of a circle</var>, <var>to describe the complete circle of which it is a segment</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.3.25.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABC</var> be the given segment of a circle; thus it is required to describe the complete circle belonging to the segment <var>ABC</var>, that is, of which it is a segment. ",
         "For let <var>AC</var> be bisected at <var>D</var>, let <var>DB</var> be drawn from the point <var>D</var> at right angles to <var>AC</var>, and let <var>AB</var>. be joined; the angle <var>ABD</var> is then greater than, equal to, or less than the angle <var>BAD</var>.\n      ",
@@ -37,21 +33,21 @@
         "Similarly, even if the angle <var>ABD</var> be equal to the angle <var>BAD</var>, <var>AD</var> being equal to each of the two <var>BD</var>, <var>DC</var>, the three straight lines <var>DA</var>, <var>DB</var>, <var>DC</var> will be equal to one another, <figure/>\n        <var>D</var> will be the centre of the completed circle, and <var>ABC</var> will clearly be a semicircle.\n       ",
         "But, if the angle <var>ABD</var> be less than the angle <var>BAD</var>, and if we construct, on the straight line <var>BA</var> and at the point <var>A</var> on it, an angle equal to the angle <var>ABD</var>, the centre will fall on <var>DB</var> within the segment <var>ABC</var>, and the segment \n       <var>ABC</var> will clearly be greater than a semicircle. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore, given a segment of a circle, the complete circle has been described. Q. E. F.\n<note n=\"1\" type=\"crit\" place=\"unspecified\" anchored=\"yes\">\n        <p>to describe the complete circle, <foreign lang=\"greek\">προσαναγράψαι τὸν κύκλον</foreign>, literally “to describe the circle <var>on to it</var>.’</p>\n       </note>"
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 3,
+  "next": "/books/3/prop.26",
+  "prev": "/books/3/prop.24"
 }

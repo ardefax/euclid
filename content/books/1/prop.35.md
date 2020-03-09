@@ -2,8 +2,7 @@
   "id": "elem.1.35",
   "kind": "proposition",
   "frag": "prop.35",
-  "title": "Proposition 35.",
-  "link": "",
+  "title": "BOOK I: Proposition 35.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Parallelograms which are on the same base and in the same parallels are equal to one another."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.1.35.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>ABCD</var>, <var>EBCF</var> be parallelograms on the same base <var>BC</var> and in the same parallels <var>AF</var>, <var>BC</var>; I say that <var>ABCD</var> is equal to the parallelogram <var>EBCF</var>.",
         "For, since <var>ABCD</var> is a parallelogram, <var>AD</var> is equal to <var>BC</var>. [<a href=\"/books/1/#prop.34\">I. 34</a>]\n        ",
@@ -32,21 +28,21 @@
         "Let <var>DGE</var> be subtracted from each; therefore the trapezium <var>ABGD</var> which remains is equal to the trapezium <var>EGCF</var> which remains. [<a href=\"/books/1/#cn.3\">C.N. 3</a>] ",
         "Let the triangle <var>GBC</var> be added to each; therefore the whole parallelogram <var>ABCD</var> is equal to the whole parallelogram <var>EBCF</var>. [<a href=\"/books/1/#cn.2\">C.N. 2</a>]"
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 1,
+  "next": "/books/1/prop.36",
+  "prev": "/books/1/prop.34"
 }

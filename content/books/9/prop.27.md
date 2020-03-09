@@ -2,8 +2,7 @@
   "id": "elem.9.27",
   "kind": "proposition",
   "frag": "prop.27",
-  "title": "Proposition 27.",
-  "link": "",
+  "title": "BOOK IX: Proposition 27.",
   "text": null,
   "sections": [
     {
@@ -11,39 +10,36 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       If from an odd number an even number be subtracted, the remainder will be odd.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.9.27.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For from the odd number AB let the even number BC be subtracted; I say that the remainder CA is odd. \n      ",
         "Let the unit AD be subtracted; therefore DB is even. [<a href=\"/books/7/#def.7\">VII. Def. 7</a>] ",
         "But BC is also even; therefore the remainder CD is even. [<a href=\"/books/9/#prop.24\">\n        \n       </a>] "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore CA is odd. [<a href=\"/books/7/#def.7\">VII. Def. 7</a>] Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 9,
+  "next": "/books/9/prop.28",
+  "prev": "/books/9/prop.26"
 }

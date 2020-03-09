@@ -8,7 +8,6 @@
       "kind": "list:proposition",
       "frag": "props",
       "title": "PROPOSITIONS.",
-      "link": "",
       "text": null,
       "sections": [
         {
@@ -24,15 +23,15 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       Similar polygons inscribed in circles are to one another as the squares on the diameters.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 12,
+          "next": "/books/12/prop.2"
         },
         {
           "id": "elem.12.2",
@@ -47,15 +46,16 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       Circles are to one another as the squares on the diameters.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 12,
+          "next": "/books/12/prop.3",
+          "prev": "/books/12/prop.1"
         },
         {
           "id": "elem.12.3",
@@ -70,15 +70,16 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "Any pyramid which has a triangular base is divided into two pyramids equal and similar to one another, similar to the whole and having triangular bases, and into two equal prisms; and the two prisms are greater than the half of the whole pyramid.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 12,
+          "next": "/books/12/prop.4",
+          "prev": "/books/12/prop.2"
         },
         {
           "id": "elem.12.4",
@@ -93,15 +94,16 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "If there be two pyramids of the same height which have triangular bases, and cach of them be divided into two pyramids equal to one another and similar to the whole, and into two equal prisms, then, as the base of the one pyramid is to the base of the other pyramid, so will all the prisms in the one pyramid be to all the prisms, being equal in multitude, in the other pyramid.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 12,
+          "next": "/books/12/prop.5",
+          "prev": "/books/12/prop.3"
         },
         {
           "id": "elem.12.5",
@@ -116,15 +118,16 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       Pyramids which are of the same height and have triangular bases are to one another as the bases.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 12,
+          "next": "/books/12/prop.6",
+          "prev": "/books/12/prop.4"
         },
         {
           "id": "elem.12.6",
@@ -139,15 +142,16 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       Pyramids which are of the same height and have polygonal bases are to one another as the bases.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 12,
+          "next": "/books/12/prop.7",
+          "prev": "/books/12/prop.5"
         },
         {
           "id": "elem.12.7",
@@ -162,15 +166,16 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       Any prism which has a triangular base is divided into three pyramids equal to one another which have triangular bases.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 12,
+          "next": "/books/12/prop.8",
+          "prev": "/books/12/prop.6"
         },
         {
           "id": "elem.12.8",
@@ -185,15 +190,16 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       Similar pyramids which have triangular bases are in the triplicate ratio of their corresponding sides.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 12,
+          "next": "/books/12/prop.9",
+          "prev": "/books/12/prop.7"
         },
         {
           "id": "elem.12.9",
@@ -208,15 +214,16 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       In equal pyramids which have triangular bases the bases are reciprocally proportional to the heights; and those pyramids in which the bases are reciprocally proportional to the heights are equal.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 12,
+          "next": "/books/12/prop.10",
+          "prev": "/books/12/prop.8"
         },
         {
           "id": "elem.12.10",
@@ -231,15 +238,16 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       Any cone is a third part of the cylinder which has the same base with it and equal height.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 12,
+          "next": "/books/12/prop.11",
+          "prev": "/books/12/prop.9"
         },
         {
           "id": "elem.12.11",
@@ -254,15 +262,16 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       Cones and cylinders which are of the same height are to one another as their bases.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 12,
+          "next": "/books/12/prop.12",
+          "prev": "/books/12/prop.10"
         },
         {
           "id": "elem.12.12",
@@ -277,15 +286,16 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       Similar cones and cylinders are to one another in the triplicate ratio of the diameters in their bases.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 12,
+          "next": "/books/12/prop.13",
+          "prev": "/books/12/prop.11"
         },
         {
           "id": "elem.12.13",
@@ -300,15 +310,16 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       If a cylinder be cut by a plane which is parallel to its opposite planes, then, as the cylinder is to the cylinder, so will the axis be to the axis.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 12,
+          "next": "/books/12/prop.14",
+          "prev": "/books/12/prop.12"
         },
         {
           "id": "elem.12.14",
@@ -323,15 +334,16 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       Cones and cylinders which are on equal bases are to one another as their heights.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 12,
+          "next": "/books/12/prop.15",
+          "prev": "/books/12/prop.13"
         },
         {
           "id": "elem.12.15",
@@ -346,15 +358,16 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       In equal cones and cylinders the bases are reciprocally proportional to the heights; and those cones and cylinders in which the bases are reciprocally proportional to the heights are equal.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 12,
+          "next": "/books/12/prop.16",
+          "prev": "/books/12/prop.14"
         },
         {
           "id": "elem.12.16",
@@ -369,15 +382,16 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "Given two circles about the same centre, to inscribe in the greater circle an equilateral polygon with an even number of sides which does not touch the lesser circle.\n       "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 12,
+          "next": "/books/12/prop.17",
+          "prev": "/books/12/prop.15"
         },
         {
           "id": "elem.12.17",
@@ -392,15 +406,16 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "Given two spheres about the same centre, to inscribe in the greater sphere a polyhedral solid which does not touch the lesser sphere at its surface.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 12,
+          "next": "/books/12/prop.18",
+          "prev": "/books/12/prop.16"
         },
         {
           "id": "elem.12.18",
@@ -415,21 +430,22 @@
               "kind": "theorem",
               "frag": "",
               "title": "",
-              "link": "",
               "text": [
                 "\n       Spheres are to one another in the triplicate ratio of their respective diameters.\n      "
               ],
-              "sections": null,
-              "Layout": ""
+              "sections": null
             }
           ],
-          "Layout": "proposition"
+          "layout": "proposition",
+          "book": 12,
+          "prev": "/books/12/prop.17"
         }
-      ],
-      "Layout": ""
+      ]
     }
   ],
   "weight": 12,
   "type": "book",
-  "Layout": "book"
+  "layout": "book",
+  "next": "/books/13",
+  "prev": "/books/11"
 }

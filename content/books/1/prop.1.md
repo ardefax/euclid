@@ -2,8 +2,7 @@
   "id": "elem.1.1",
   "kind": "proposition",
   "frag": "prop.1",
-  "title": "Proposition 1.",
-  "link": "",
+  "title": "BOOK I: Proposition 1.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "On a given finite straight line to construct an equilateral triangle."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.1.1.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let <var>AB</var> be the given finite straight line.",
         "Thus it is required to construct an equilateral triangle on the straight line <var>AB</var>. ",
@@ -35,21 +31,20 @@
         "Therefore the three straight lines <var>CA</var>, <var>AB</var>, <var>BC</var> are equal to one another. ",
         "Therefore the triangle <var>ABC</var> is equilateral; and it has been constructed on the given finite straight line <var>AB</var>."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Q. E. F."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 1,
+  "next": "/books/1/prop.2"
 }

@@ -2,8 +2,7 @@
   "id": "elem.10.49",
   "kind": "proposition",
   "frag": "prop.49",
-  "title": "Proposition 49.",
-  "link": "",
+  "title": "BOOK X: Proposition 49.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "To find the second binomial straight line. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.49.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Let two numbers AC, CB be set out such that the sum of them AB has to BC the ratio which a square number has to a square number, but has not to AC the ratio which a square number has to a square number; let a rational straight line D be set out, and let EF be commensurable in length with D; therefore EF is rational. \n      ",
         "Let it be contrived then that, as the number CA is to AB, so also is the square on EF to the square on FG; [<a href=\"/books/10/#6.p.1\">X. 6, Por.</a>] therefore the square on EF is commensurable with the square on FG. [<a href=\"/books/10/#prop.6\">X. 6</a>] ",
@@ -37,21 +33,21 @@
         "Therefore FG is commensurable in length with H; [<a href=\"/books/10/#prop.9\">X. 9</a>] so that the square on FG is greater than the square on FE by the square on a straight line commensurable with FG. ",
         "And FG, FE are rational straight lines commensurable in square only, and EF, the lesser term, is commensurable in length with the rational straight line D set out. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore EG is a second binomial straight line. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": "/books/10/prop.50",
+  "prev": "/books/10/prop.48"
 }

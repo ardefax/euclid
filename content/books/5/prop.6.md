@@ -2,8 +2,7 @@
   "id": "elem.5.6",
   "kind": "proposition",
   "frag": "prop.6",
-  "title": "Proposition 6.",
-  "link": "",
+  "title": "BOOK V: Proposition 6.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "<var>If two magnitudes be equimultiples of two magnitudes</var>, <var>and any magnitudes subtracted from them be equimultiples of the same</var>, <var>the remainders also are either equal to the same or equimultiples of them</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.5.6.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let two magnitudes <var>AB</var>, <var>CD</var> be equimultiples of two magnitudes <var>E</var>, <var>F</var>, and let <var>AG</var>, <var>CH</var> subtracted from them be equimultiples of the same two <var>E</var>, <var>F</var>;  I say that the remainders also, <var>GB</var>, <var>HD</var>, are either equal to <var>E</var>, <var>F</var> or equimultiples of them. ",
         "For, first, let <var>GB</var> be equal to <var>E</var>; I say that <var>HD</var> is also equal to <var>F</var>. ",
@@ -36,21 +32,21 @@
         "Hence, if <var>GB</var> is equal to <var>E</var>, <var>HD</var> is also equal to <var>F</var>. ",
         "Similarly we can prove that, even if <var>GB</var> be a multiple of <var>E</var>, <var>HD</var> is also the same multiple of <var>F</var>. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore etc. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 5,
+  "next": "/books/5/prop.7",
+  "prev": "/books/5/prop.5"
 }

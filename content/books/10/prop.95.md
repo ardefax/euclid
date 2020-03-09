@@ -2,8 +2,7 @@
   "id": "elem.10.95",
   "kind": "proposition",
   "frag": "prop.95",
-  "title": "Proposition 95.",
-  "link": "",
+  "title": "BOOK X: Proposition 95.",
   "text": null,
   "sections": [
     {
@@ -11,19 +10,16 @@
       "kind": "theorem",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "\n       If an area be contained by a rational straight line and a fifth apotome, the <quote>side</quote>\n of the area is a straight line which produces with a rational area a medial whole.\n      "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "elem.10.95.proof",
       "kind": "proof",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "For let the area AB be contained by the rational straight line AC and the fifth apotome AD; I say that the <quote>side</quote>\n of the area AB is a straight line which produces with a rational area a medial whole. ",
         "For let DG be the annex to AD; therefore AG, GD are rational straight lines commensurable in square only,  the annex GD is commensurable in length with the rational straight line AC set out, and the square on the whole AG is greater than the square on the annex DG by the square on a straight line incommensurable with AG. [<a href=\"/books/10/#def.3.5\">X. Deff. III. 5</a>] ",
@@ -40,21 +36,21 @@
         "And, since AI is incommensurable with FK, therefore the square on LP is also incommensurable with the square on PN; therefore LP, PN are straight lines incommensurable in square which make the sum of the squares on them medial but twice the rectangle contained by them rational. ",
         "Therefore the remainder LN is the irrational straight line called that which produces with a rational area a medial whole; [<a href=\"/books/10/#prop.77\">X. 77</a>] and it is the <quote>side</quote>\n of the area AB. "
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     },
     {
       "id": "",
       "kind": "qed",
       "frag": "",
       "title": "",
-      "link": "",
       "text": [
         "Therefore the <quote>side</quote>\n of the area AB is a straight line which produces with a rational area a medial whole. Q. E. D."
       ],
-      "sections": null,
-      "Layout": ""
+      "sections": null
     }
   ],
-  "Layout": "proposition"
+  "layout": "proposition",
+  "book": 10,
+  "next": "/books/10/prop.96",
+  "prev": "/books/10/prop.94"
 }
